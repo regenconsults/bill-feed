@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T11:15:37+00:00",
+ "generated_at": "2026-09-30T23:14:33+00:00",
  "states": "all",
  "keywords": [
   "renewable energy",
@@ -52,8 +52,8 @@
     "environmental justice"
    ],
    "first_seen": "2026-09-30",
-   "change": "moved",
    "changed_on": "2026-09-30",
+   "change": "moved",
    "previous_status_label": "Enrolled"
   },
   {
@@ -552,9 +552,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "e4d1f886-a9ee-4a69-ab2b-0019f44251a8",
@@ -612,9 +612,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "6920a7bc-21c8-496b-a7cc-d9bbef2037a7",
@@ -632,9 +632,9 @@
    "topics": [
     "clean energy"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "1aa21550-c36e-4fc0-be21-f5e46a39dd54",
@@ -652,9 +652,9 @@
    "topics": [
     "stormwater"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "7056961f-4ed1-4c68-94dd-cff46909c7f1",
@@ -672,9 +672,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "88132300-4d07-41cd-9182-6913e8e96656",
@@ -692,9 +692,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "4e4c9aa3-a4f8-4764-aaf6-889ce66d3694",
@@ -712,9 +712,9 @@
    "topics": [
     "emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "a7bd91aa-b30d-496c-8a45-650c19d12b78",
@@ -732,9 +732,9 @@
    "topics": [
     "energy efficiency"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "6addfdaa-880d-4b9d-a119-ab569dfe530a",
@@ -752,9 +752,9 @@
    "topics": [
     "energy efficiency"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "161208a6-4a4d-49a0-a0cd-06c25d4b4973",
@@ -772,9 +772,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "23b32f2f-17f5-4f66-938f-4c6fdbf325a6",
@@ -792,9 +792,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   },
   {
    "id": "319eafe7-ef9a-4a24-8e3e-9a523f0dc54e",
@@ -812,9 +812,9 @@
    "topics": [
     "stormwater"
    ],
-   "change": "new",
+   "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
-   "first_seen": "2026-09-30"
+   "change": "new"
   }
  ]
 }
