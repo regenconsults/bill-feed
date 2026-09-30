@@ -1,0 +1,147 @@
+<!--
+  ReGen Consulting — Environmental Bill Tracker
+  Paste this whole file into a Squarespace Code Block (Display Source off).
+  Replace FEED_URL below with your GitHub Pages address for bills.json.
+  Swap the --bf-* colors for your Daytime palette values.
+-->
+<div id="bill-feed" class="bf">
+  <div class="bf-head">
+    <p class="bf-updated" aria-live="polite">Loading legislation…</p>
+    <label class="bf-filter" hidden>
+      <span>State</span>
+      <select></select>
+    </label>
+  </div>
+  <ul class="bf-list"></ul>
+  <p class="bf-credit"></p>
+</div>
+
+<style>
+  .bf {
+    --bf-ink: #1f2a24;
+    --bf-muted: #5c6b62;
+    --bf-line: #dfe6e1;
+    --bf-card: #ffffff;
+    --bf-accent: #2f6b4f;
+    --bf-new: #2f6b4f;
+    --bf-moved: #b5651d;
+    font-family: inherit;
+    color: var(--bf-ink);
+  }
+  .bf-head { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .bf-updated, .bf-credit { font-size: 0.85rem; color: var(--bf-muted); margin: 0; }
+  .bf-credit { margin-top: 20px; }
+  .bf-filter { display: flex; gap: 8px; align-items: center; font-size: 0.9rem; }
+  .bf-filter select { font: inherit; padding: 4px 8px; border: 1px solid var(--bf-line); border-radius: 6px; background: var(--bf-card); }
+  .bf-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .bf-item { background: var(--bf-card); border: 1px solid var(--bf-line); border-radius: 10px; padding: 16px 18px; }
+  .bf-top { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 0.8rem; letter-spacing: 0.02em; color: var(--bf-muted); margin-bottom: 6px; }
+  .bf-num { font-weight: 700; color: var(--bf-ink); }
+  .bf-title { font-size: 1.05rem; line-height: 1.35; margin: 0 0 10px; }
+  .bf-title a { color: inherit; text-decoration: none; }
+  .bf-title a:hover { text-decoration: underline; color: var(--bf-accent); }
+  .bf-status { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; font-size: 0.9rem; }
+  .bf-pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 0.78rem; font-weight: 600; border: 1px solid var(--bf-accent); color: var(--bf-accent); }
+  .bf-pill.done { background: var(--bf-accent); color: #fff; }
+  .bf-pill.dead { border-color: var(--bf-muted); color: var(--bf-muted); }
+  .bf-badge { padding: 1px 8px; border-radius: 4px; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: #fff; }
+  .bf-badge.new { background: var(--bf-new); }
+  .bf-badge.moved { background: var(--bf-moved); }
+  .bf-action { color: var(--bf-muted); }
+  .bf-empty { color: var(--bf-muted); }
+</style>
+
+<script>
+(function () {
+  var FEED_URL = "https://YOUR-GITHUB-USERNAME.github.io/bill-feed/bills.json";
+
+  var root = document.getElementById("bill-feed");
+  if (!root) return;
+  var list = root.querySelector(".bf-list");
+  var updated = root.querySelector(".bf-updated");
+  var credit = root.querySelector(".bf-credit");
+  var filterLabel = root.querySelector(".bf-filter");
+  var select = filterLabel.querySelector("select");
+
+  // Build elements with textContent only: bill titles come from state
+  // legislatures unsanitized, so they must never be inserted as HTML.
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return "";
+    var d = new Date(iso + "T12:00:00");
+    return d.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+  }
+
+  var DONE = { enacted: 1 };
+  var DEAD = { killed: 1, vetoed: 1, died_on_adjournment: 1 };
+
+  function card(b) {
+    var li = el("li", "bf-item");
+
+    var top = el("div", "bf-top");
+    top.appendChild(el("span", "bf-num", (b.state || "") + " " + (b.bill || "")));
+    if (b.session) top.appendChild(el("span", null, b.session));
+    if (b.change === "new") top.appendChild(el("span", "bf-badge new", "New"));
+    if (b.change === "moved") top.appendChild(el("span", "bf-badge moved", "Moved"));
+    li.appendChild(top);
+
+    var h = el("h3", "bf-title");
+    if (b.url && /^https?:\/\//.test(b.url)) {
+      var a = el("a", null, b.title);
+      a.href = b.url; a.target = "_blank"; a.rel = "noopener";
+      h.appendChild(a);
+    } else {
+      h.textContent = b.title;
+    }
+    li.appendChild(h);
+
+    var st = el("div", "bf-status");
+    var pill = el("span", "bf-pill" + (DONE[b.status] ? " done" : DEAD[b.status] ? " dead" : ""), b.status_label);
+    st.appendChild(pill);
+    if (b.change === "moved" && b.previous_status_label && b.previous_status_label !== b.status_label) {
+      st.appendChild(el("span", "bf-action", "was " + b.previous_status_label));
+    }
+    if (b.latest_action) {
+      var when = b.latest_action_date ? (b.upcoming ? " · scheduled " : " · ") + fmtDate(b.latest_action_date) : "";
+      st.appendChild(el("span", "bf-action", b.latest_action + when));
+    }
+    li.appendChild(st);
+    return li;
+  }
+
+  function render(bills, state) {
+    list.textContent = "";
+    var shown = bills.filter(function (b) { return !state || b.state === state; });
+    if (!shown.length) { list.appendChild(el("li", "bf-empty", "No recent activity to show.")); return; }
+    shown.forEach(function (b) { list.appendChild(card(b)); });
+  }
+
+  fetch(FEED_URL, { cache: "no-cache" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (feed) {
+      var bills = feed.bills || [];
+      updated.textContent = "Updated " + new Date(feed.generated_at).toLocaleString(undefined, {
+        month: "short", day: "numeric", hour: "numeric", minute: "2-digit"
+      });
+      credit.textContent = feed.attribution || "";
+
+      var states = Array.from(new Set(bills.map(function (b) { return b.state; }).filter(Boolean))).sort();
+      if (states.length > 1) {
+        select.appendChild(new Option("All", ""));
+        states.forEach(function (s) { select.appendChild(new Option(s, s)); });
+        select.addEventListener("change", function () { render(bills, select.value); });
+        filterLabel.hidden = false;
+      }
+      render(bills, "");
+    })
+    .catch(function () {
+      updated.textContent = "Legislation feed is temporarily unavailable.";
+    });
+})();
+</script>

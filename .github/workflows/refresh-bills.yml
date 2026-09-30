@@ -1,0 +1,43 @@
+name: Refresh environmental bill feed
+
+on:
+  schedule:
+    # Twice a day: 11:00 and 23:00 UTC = 7am / 7pm Eastern (6am / 6pm in winter).
+    # GitHub may start scheduled runs a few minutes late.
+    - cron: "0 11,23 * * *"
+  workflow_dispatch: {}   # adds a "Run workflow" button for manual refreshes
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bill-feed
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Fetch bills
+        env:
+          # Comma-separated state codes, or leave empty for all states.
+          # Set it under Settings -> Secrets and variables -> Actions -> Variables.
+          BILL_STATES: ${{ vars.BILL_STATES }}
+        run: python fetch_bills.py
+
+      - name: Commit updated feed
+        run: |
+          git config user.name  "bill-feed-bot"
+          git config user.email "bill-feed-bot@users.noreply.github.com"
+          git add docs/bills.json
+          git diff --cached --quiet || git commit -m "Refresh bill feed"
+          git push
