@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T23:14:33+00:00",
+ "generated_at": "2026-10-01T11:15:58+00:00",
  "states": "all",
  "keywords": [
   "renewable energy",
@@ -15,6 +15,67 @@
  ],
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
+  {
+   "id": "ff9a1765-f5c0-4b42-bd96-557667ee7da5",
+   "state": "CA",
+   "bill": "SB 868",
+   "title": "Electricity: portable solar generation devices.",
+   "session": "2025-2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Approved by the Governor.",
+   "latest_action_date": "2026-09-30",
+   "upcoming": false,
+   "introduced": "2026-01-05",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB868",
+   "topics": [
+    "solar"
+   ],
+   "first_seen": "2026-09-30",
+   "change": "moved",
+   "changed_on": "2026-10-01",
+   "previous_status_label": "Withdrawn"
+  },
+  {
+   "id": "297789c7-03be-45f5-8803-5c5b46cd68e0",
+   "state": "NJ",
+   "bill": "S 4593",
+   "title": "Permits developer to qualify for low-interest loan from NJEDA when building a high performance green building.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+   "latest_action_date": "2026-09-28",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4593",
+   "topics": [
+    "green building"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-01",
+   "first_seen": "2026-10-01"
+  },
+  {
+   "id": "1b1f9141-96aa-4b20-98bd-be6ede590b67",
+   "state": "NJ",
+   "bill": "S 4556",
+   "title": "\"Green Building Tax Credit Act.\"",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
+   "latest_action_date": "2026-09-28",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4556",
+   "topics": [
+    "green building"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-01",
+   "first_seen": "2026-10-01"
+  },
   {
    "id": "0dc75680-dd6b-4a23-9642-896bf4894ce8",
    "state": "NJ",
@@ -34,6 +95,27 @@
    "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
    "change": null
+  },
+  {
+   "id": "ece81eae-460c-41c5-8616-2f6856840d87",
+   "state": "CA",
+   "bill": "AB 2163",
+   "title": "Energy: Strategic Clean Energy and Critical Mineral Development Zones.",
+   "session": "2025-2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Chaptered by Secretary of State - Chapter 583, Statutes of 2026.",
+   "latest_action_date": "2026-09-27",
+   "upcoming": false,
+   "introduced": "2026-03-19",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2163",
+   "topics": [
+    "clean energy"
+   ],
+   "first_seen": "2026-09-30",
+   "change": "moved",
+   "changed_on": "2026-10-01",
+   "previous_status_label": "Enrolled"
   },
   {
    "id": "fa39861b-c6ae-46ca-9358-81e537acd1d6",
@@ -71,26 +153,6 @@
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2674",
    "topics": [
     "emissions"
-   ],
-   "first_seen": "2026-09-30",
-   "changed_on": "2026-09-30",
-   "change": null
-  },
-  {
-   "id": "ece81eae-460c-41c5-8616-2f6856840d87",
-   "state": "CA",
-   "bill": "AB 2163",
-   "title": "Energy: Strategic Clean Energy and Critical Mineral Development Zones.",
-   "session": "2025-2026 Regular Session",
-   "status": "enrolled",
-   "status_label": "Enrolled",
-   "latest_action": "Enrolled and presented to the Governor at 3 p.m.",
-   "latest_action_date": "2026-09-15",
-   "upcoming": false,
-   "introduced": "2026-03-19",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2163",
-   "topics": [
-    "clean energy"
    ],
    "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
@@ -229,26 +291,6 @@
    "upcoming": false,
    "introduced": "2026-01-13",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S2368",
-   "topics": [
-    "solar"
-   ],
-   "first_seen": "2026-09-30",
-   "changed_on": "2026-09-30",
-   "change": null
-  },
-  {
-   "id": "ff9a1765-f5c0-4b42-bd96-557667ee7da5",
-   "state": "CA",
-   "bill": "SB 868",
-   "title": "Electricity: portable solar generation devices.",
-   "session": "2025-2026 Regular Session",
-   "status": "withdrawn",
-   "status_label": "Withdrawn",
-   "latest_action": "Enrolled and presented to the Governor at 6 p.m.",
-   "latest_action_date": "2026-08-31",
-   "upcoming": false,
-   "introduced": "2026-01-05",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB868",
    "topics": [
     "solar"
    ],
@@ -771,46 +813,6 @@
    "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S4571?summary=&detail=",
    "topics": [
     "solar"
-   ],
-   "first_seen": "2026-09-30",
-   "changed_on": "2026-09-30",
-   "change": "new"
-  },
-  {
-   "id": "23b32f2f-17f5-4f66-938f-4c6fdbf325a6",
-   "state": "NY",
-   "bill": "A 6577",
-   "title": "Establishes a floating solar incentive and education program",
-   "session": "2025-2026 Regular Session",
-   "status": "substituted",
-   "status_label": "Substituted",
-   "latest_action": "SUBSTITUTED BY S4571B",
-   "latest_action_date": "2026-06-03",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A6577?summary=&detail=",
-   "topics": [
-    "solar"
-   ],
-   "first_seen": "2026-09-30",
-   "changed_on": "2026-09-30",
-   "change": "new"
-  },
-  {
-   "id": "319eafe7-ef9a-4a24-8e3e-9a523f0dc54e",
-   "state": "NJ",
-   "bill": "A 3079",
-   "title": "Establishes \"Smart Stormwater Sensor Pilot Program\" in DEP; appropriates $1 million.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Reported and Referred to Assembly Environment and Solid Waste Committee",
-   "latest_action_date": "2026-06-01",
-   "upcoming": false,
-   "introduced": "2026-01-13",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A3079",
-   "topics": [
-    "stormwater"
    ],
    "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
