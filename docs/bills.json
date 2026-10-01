@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T11:15:58+00:00",
+ "generated_at": "2026-10-01T23:13:50+00:00",
  "states": "all",
  "keywords": [
   "renewable energy",
@@ -32,9 +32,30 @@
     "solar"
    ],
    "first_seen": "2026-09-30",
+   "changed_on": "2026-10-01",
+   "change": "moved",
+   "previous_status_label": "Withdrawn"
+  },
+  {
+   "id": "b85f66b5-957b-4414-b538-26ebcac32ccc",
+   "state": "CA",
+   "bill": "AB 1156",
+   "title": "Williamson Act contracts: cancellation fees: photovoltaic solar facilities.",
+   "session": "2025-2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Chaptered by Secretary of State - Chapter 875, Statutes of 2026.",
+   "latest_action_date": "2026-09-30",
+   "upcoming": false,
+   "introduced": "2025-03-20",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1156",
+   "topics": [
+    "solar"
+   ],
+   "first_seen": "2026-09-30",
    "change": "moved",
    "changed_on": "2026-10-01",
-   "previous_status_label": "Withdrawn"
+   "previous_status_label": "Enrolled"
   },
   {
    "id": "297789c7-03be-45f5-8803-5c5b46cd68e0",
@@ -52,9 +73,9 @@
    "topics": [
     "green building"
    ],
-   "change": "new",
+   "first_seen": "2026-10-01",
    "changed_on": "2026-10-01",
-   "first_seen": "2026-10-01"
+   "change": "new"
   },
   {
    "id": "1b1f9141-96aa-4b20-98bd-be6ede590b67",
@@ -72,9 +93,9 @@
    "topics": [
     "green building"
    ],
-   "change": "new",
+   "first_seen": "2026-10-01",
    "changed_on": "2026-10-01",
-   "first_seen": "2026-10-01"
+   "change": "new"
   },
   {
    "id": "0dc75680-dd6b-4a23-9642-896bf4894ce8",
@@ -113,8 +134,8 @@
     "clean energy"
    ],
    "first_seen": "2026-09-30",
-   "change": "moved",
    "changed_on": "2026-10-01",
+   "change": "moved",
    "previous_status_label": "Enrolled"
   },
   {
@@ -153,26 +174,6 @@
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2674",
    "topics": [
     "emissions"
-   ],
-   "first_seen": "2026-09-30",
-   "changed_on": "2026-09-30",
-   "change": null
-  },
-  {
-   "id": "b85f66b5-957b-4414-b538-26ebcac32ccc",
-   "state": "CA",
-   "bill": "AB 1156",
-   "title": "Williamson Act contracts: cancellation fees: photovoltaic solar facilities.",
-   "session": "2025-2026 Regular Session",
-   "status": "enrolled",
-   "status_label": "Enrolled",
-   "latest_action": "Enrolled and presented to the Governor at 1:30 p.m.",
-   "latest_action_date": "2026-09-14",
-   "upcoming": false,
-   "introduced": "2025-03-20",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1156",
-   "topics": [
-    "solar"
    ],
    "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
