@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T23:13:50+00:00",
+ "generated_at": "2026-10-02T11:15:21+00:00",
  "states": "all",
  "keywords": [
   "renewable energy",
@@ -23,7 +23,7 @@
    "session": "2025-2026 Regular Session",
    "status": "enacted",
    "status_label": "Enacted",
-   "latest_action": "Approved by the Governor.",
+   "latest_action": "Chaptered by Secretary of State. Chapter 985, Statutes of 2026.",
    "latest_action_date": "2026-09-30",
    "upcoming": false,
    "introduced": "2026-01-05",
@@ -32,9 +32,9 @@
     "solar"
    ],
    "first_seen": "2026-09-30",
-   "changed_on": "2026-10-01",
    "change": "moved",
-   "previous_status_label": "Withdrawn"
+   "changed_on": "2026-10-02",
+   "previous_status_label": "Enacted"
   },
   {
    "id": "b85f66b5-957b-4414-b538-26ebcac32ccc",
@@ -53,8 +53,29 @@
     "solar"
    ],
    "first_seen": "2026-09-30",
-   "change": "moved",
    "changed_on": "2026-10-01",
+   "change": "moved",
+   "previous_status_label": "Enrolled"
+  },
+  {
+   "id": "caabe915-ef98-47e8-bde1-ebaa421cd271",
+   "state": "CA",
+   "bill": "AB 864",
+   "title": "Hazardous waste: solar photovoltaic modules.",
+   "session": "2025-2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Chaptered by Secretary of State - Chapter 872, Statutes of 2026.",
+   "latest_action_date": "2026-09-30",
+   "upcoming": false,
+   "introduced": "2025-04-21",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB864",
+   "topics": [
+    "solar"
+   ],
+   "first_seen": "2026-09-30",
+   "change": "moved",
+   "changed_on": "2026-10-02",
    "previous_status_label": "Enrolled"
   },
   {
@@ -232,26 +253,6 @@
    "upcoming": false,
    "introduced": "2026-03-12",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S3939",
-   "topics": [
-    "solar"
-   ],
-   "first_seen": "2026-09-30",
-   "changed_on": "2026-09-30",
-   "change": null
-  },
-  {
-   "id": "caabe915-ef98-47e8-bde1-ebaa421cd271",
-   "state": "CA",
-   "bill": "AB 864",
-   "title": "Hazardous waste: solar photovoltaic modules.",
-   "session": "2025-2026 Regular Session",
-   "status": "enrolled",
-   "status_label": "Enrolled",
-   "latest_action": "Enrolled and presented to the Governor at 4 p.m.",
-   "latest_action_date": "2026-09-03",
-   "upcoming": false,
-   "introduced": "2025-04-21",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB864",
    "topics": [
     "solar"
    ],
