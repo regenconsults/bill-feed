@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T17:53:21+00:00",
+ "generated_at": "2026-10-04T23:13:30+00:00",
  "states": "all",
  "keywords": [
   "renewable energy",
@@ -31,9 +31,9 @@
    "topics": [
     "conservation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "20775cea-1bc7-4ec4-9b52-764ab2611acd",
@@ -50,6 +50,26 @@
    "url": "https://malegislature.gov/Bills/194/H5524",
    "topics": [
     "conservation"
+   ],
+   "first_seen": "2026-10-04",
+   "changed_on": "2026-10-04",
+   "change": "new"
+  },
+  {
+   "id": "deaaf48e-f348-4654-96d0-06c9c11bd108",
+   "state": "CA",
+   "bill": "AB 1813",
+   "title": "Electricity: customer renewable energy subscription program.",
+   "session": "2025-2026 Regular Session",
+   "status": "vetoed",
+   "status_label": "Vetoed",
+   "latest_action": "Vetoed by Governor.",
+   "latest_action_date": "2026-09-30",
+   "upcoming": false,
+   "introduced": "2026-03-19",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1813",
+   "topics": [
+    "renewable energy"
    ],
    "change": "new",
    "changed_on": "2026-10-04",
@@ -71,9 +91,9 @@
    "topics": [
     "climate"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "d2570dc6-c39e-4148-9e5c-869c07c92ef5",
@@ -91,9 +111,9 @@
    "topics": [
     "conservation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "ff9a1765-f5c0-4b42-bd96-557667ee7da5",
@@ -173,9 +193,9 @@
    "topics": [
     "climate"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "0dc75680-dd6b-4a23-9642-896bf4894ce8",
@@ -253,9 +273,9 @@
    "topics": [
     "climate"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "ece81eae-460c-41c5-8616-2f6856840d87",
@@ -313,9 +333,9 @@
    "topics": [
     "climate"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "f83db52a-4a04-4423-9d5d-de475be73f8f",
@@ -333,9 +353,9 @@
    "topics": [
     "emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "7ec6f61b-6ce5-4148-8f16-a3007ba14c66",
@@ -438,6 +458,26 @@
    "change": null
   },
   {
+   "id": "1b7e44f7-df38-4c2b-bd07-6c535c486c9f",
+   "state": "CA",
+   "bill": "SB 952",
+   "title": "State Water Project: renewable energy resources and zero-carbon resources.",
+   "session": "2025-2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Chaptered by Secretary of State. Chapter 175, Statutes of 2026.",
+   "latest_action_date": "2026-08-31",
+   "upcoming": false,
+   "introduced": "2026-02-02",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB952",
+   "topics": [
+    "renewable energy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-04",
+   "first_seen": "2026-10-04"
+  },
+  {
    "id": "97e77e78-0a63-4e58-bfed-5f08cc5f3e80",
    "state": "CA",
    "bill": "AB 196",
@@ -473,9 +513,9 @@
    "topics": [
     "conservation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "490776ce-8187-444d-96cc-1d9f6c4315f8",
@@ -533,9 +573,9 @@
    "topics": [
     "conservation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "268d923e-be40-4057-be2a-544b51212fbe",
@@ -553,9 +593,9 @@
    "topics": [
     "conservation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "27264314-837f-46ed-8d1d-a6c9264d525d",
@@ -573,9 +613,9 @@
    "topics": [
     "conservation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "2c9e6b13-7e15-4d16-9f9b-1dd996e8b3c4",
@@ -593,9 +633,9 @@
    "topics": [
     "conservation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "4089a5a6-d790-4881-8102-96eee1a56164",
@@ -613,9 +653,9 @@
    "topics": [
     "conservation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "e91e967c-780f-4b64-9319-95863810c157",
@@ -633,9 +673,9 @@
    "topics": [
     "climate"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "3917ea5e-3f23-4815-abf9-8a949dcf0a52",
@@ -653,9 +693,9 @@
    "topics": [
     "climate"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "d008b9f4-2483-469e-b98d-269e63f6ac24",
@@ -673,9 +713,9 @@
    "topics": [
     "climate"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "d67f4288-6590-4429-9488-2cbeaa69850c",
@@ -693,9 +733,9 @@
    "topics": [
     "climate"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "890563c5-b3e0-48e8-b910-e81f904c2984",
@@ -713,9 +753,9 @@
    "topics": [
     "emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "57e0fc45-42f8-4178-9bb7-776a58bb0870",
@@ -733,9 +773,9 @@
    "topics": [
     "conservation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "218fe876-12e0-43f9-9ac9-7e948c5cc178",
@@ -753,9 +793,9 @@
    "topics": [
     "conservation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-04",
    "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
+   "change": "new"
   },
   {
    "id": "c8e7feb9-d5d1-49ae-bca0-09f1b25f6111",
@@ -776,46 +816,6 @@
    "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
    "change": null
-  },
-  {
-   "id": "852ed605-8730-4543-a74e-7e13353c869c",
-   "state": "MA",
-   "bill": "H 5639",
-   "title": "An Act authorizing the town of Nantucket conservation commission to convey a certain parcel of land situated in the town for purposes of conveyance to the town of Nantucket under the care, custody, management and control of the select board and the town of Nantucket to convey certain land in the town of Nantucket held for open space, passive recreation or conservation purposes to the Nantucket Islands Land Bank for the purposes pursuant to its enabling legislation for open space, conservation and passive recreation purposes",
-   "session": "2025-2026 Regular Session (194th General Court)",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Signed by the Governor, Chapter 181 of the Acts of 2026",
-   "latest_action_date": "2026-08-07",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://malegislature.gov/Bills/194/H5639",
-   "topics": [
-    "conservation"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-04",
-   "first_seen": "2026-10-04"
-  },
-  {
-   "id": "51729dff-c694-4a9d-a14b-28a444cecb41",
-   "state": "IL",
-   "bill": "SB 3772",
-   "title": "EPA-ENVIRONMENTAL JUSTICE",
-   "session": "104th General Assembly, 2026 Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Public Act . . . . . . . . . 104-0827",
-   "latest_action_date": "2026-08-07",
-   "upcoming": false,
-   "introduced": "2026-04-14",
-   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3772&GAID=18&DocTypeID=SB&LegId=167086&SessionID=114",
-   "topics": [
-    "environmental justice"
-   ],
-   "first_seen": "2026-10-03",
-   "changed_on": "2026-10-03",
-   "change": "new"
   }
  ]
 }
