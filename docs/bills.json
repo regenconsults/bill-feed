@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T11:15:50+00:00",
+ "generated_at": "2026-10-06T23:14:25+00:00",
  "states": "all",
  "keywords": [
   "renewable energy",
@@ -15,6 +15,26 @@
  ],
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
+  {
+   "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
+   "state": "NJ",
+   "bill": "S 4729",
+   "title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
+   "latest_action_date": "2026-10-05",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4729",
+   "topics": [
+    "solar"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
   {
    "id": "ff9a1765-f5c0-4b42-bd96-557667ee7da5",
    "state": "CA",
@@ -591,9 +611,9 @@
    "topics": [
     "clean energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "42a534f4-9089-4866-b1f1-5aabbe4ccb29",
@@ -611,9 +631,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "cc5d8476-5afd-4a77-b97a-07e8879b7e5d",
@@ -631,9 +651,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "3c99ca2a-dc0f-4cc0-a42a-a836ad037886",
@@ -651,9 +671,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "6920a7bc-21c8-496b-a7cc-d9bbef2037a7",
@@ -671,9 +691,9 @@
    "topics": [
     "clean energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "1aa21550-c36e-4fc0-be21-f5e46a39dd54",
@@ -691,9 +711,9 @@
    "topics": [
     "stormwater"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "7056961f-4ed1-4c68-94dd-cff46909c7f1",
@@ -711,9 +731,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "88132300-4d07-41cd-9182-6913e8e96656",
@@ -731,9 +751,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "4e4c9aa3-a4f8-4764-aaf6-889ce66d3694",
@@ -751,9 +771,9 @@
    "topics": [
     "emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "a7bd91aa-b30d-496c-8a45-650c19d12b78",
@@ -771,9 +791,9 @@
    "topics": [
     "energy efficiency"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "6addfdaa-880d-4b9d-a119-ab569dfe530a",
@@ -791,29 +811,9 @@
    "topics": [
     "energy efficiency"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
-  },
-  {
-   "id": "161208a6-4a4d-49a0-a0cd-06c25d4b4973",
-   "state": "NY",
-   "bill": "S 4571",
-   "title": "Establishes a floating solar incentive and education program",
-   "session": "2025-2026 Regular Session",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "ORDERED TO THIRD READING RULES CAL.395",
-   "latest_action_date": "2026-06-03",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S4571?summary=&detail=",
-   "topics": [
-    "solar"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   }
  ]
 }
