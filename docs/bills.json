@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T23:13:52+00:00",
+ "generated_at": "2026-10-06T11:15:50+00:00",
  "states": "all",
  "keywords": [
   "renewable energy",
@@ -15,26 +15,6 @@
  ],
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
-  {
-   "id": "6069618a-6b1d-443d-a23f-6dd833bef749",
-   "state": "CA",
-   "bill": "AB 1486",
-   "title": "Climate resiliency: research farms: grant program.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State - Chapter 879, Statutes of 2026.",
-   "latest_action_date": "2026-09-30",
-   "upcoming": false,
-   "introduced": "2025-02-21",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1486",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
-  },
   {
    "id": "ff9a1765-f5c0-4b42-bd96-557667ee7da5",
    "state": "CA",
@@ -94,26 +74,6 @@
    "first_seen": "2026-09-30",
    "changed_on": "2026-10-02",
    "change": null
-  },
-  {
-   "id": "f91a4b2b-70ad-41a0-82a6-ccb3412de557",
-   "state": "CA",
-   "bill": "SB 1048",
-   "title": "State Seal of Climate Literacy.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State. Chapter 819, Statutes of 2026.",
-   "latest_action_date": "2026-09-29",
-   "upcoming": false,
-   "introduced": "2026-02-12",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1048",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
   },
   {
    "id": "0dc75680-dd6b-4a23-9642-896bf4894ce8",
@@ -176,26 +136,6 @@
    "change": null
   },
   {
-   "id": "b425f577-36d9-4fa5-82ab-2af6bbfe53cb",
-   "state": "CA",
-   "bill": "SB 700",
-   "title": "Capital Programs and Climate Financing Authority Act: California Investment and Innovation Program.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State. Chapter 651, Statutes of 2026.",
-   "latest_action_date": "2026-09-27",
-   "upcoming": false,
-   "introduced": "2025-02-21",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB700",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
-  },
-  {
    "id": "ece81eae-460c-41c5-8616-2f6856840d87",
    "state": "CA",
    "bill": "AB 2163",
@@ -236,26 +176,6 @@
    "change": null
   },
   {
-   "id": "293cefd9-7b55-48fd-9aa6-384d11ded52d",
-   "state": "CA",
-   "bill": "AB 643",
-   "title": "Climate change: short-lived climate pollutants: organic waste reduction.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State - Chapter 358, Statutes of 2026.",
-   "latest_action_date": "2026-09-20",
-   "upcoming": false,
-   "introduced": "2025-03-24",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB643",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
-  },
-  {
    "id": "f83db52a-4a04-4423-9d5d-de475be73f8f",
    "state": "CA",
    "bill": "AB 2674",
@@ -271,9 +191,9 @@
    "topics": [
     "emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-05",
    "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
+   "change": "new"
   },
   {
    "id": "7ec6f61b-6ce5-4148-8f16-a3007ba14c66",
@@ -436,86 +356,6 @@
    "change": null
   },
   {
-   "id": "e91e967c-780f-4b64-9319-95863810c157",
-   "state": "CA",
-   "bill": "SB 10",
-   "title": "Climate change: plans: gender impacts.",
-   "session": "2025-2026 Regular Session",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "August 13 hearing: Held in committee and under submission.",
-   "latest_action_date": "2026-08-13",
-   "upcoming": false,
-   "introduced": "2024-12-02",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB10",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "id": "3917ea5e-3f23-4815-abf9-8a949dcf0a52",
-   "state": "CA",
-   "bill": "SB 1300",
-   "title": "Natural Resources Agency: Secretariat for International Climate Coordination and Cooperation.",
-   "session": "2025-2026 Regular Session",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "August 13 hearing: Held in committee and under submission.",
-   "latest_action_date": "2026-08-13",
-   "upcoming": false,
-   "introduced": "2026-02-20",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1300",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "id": "d008b9f4-2483-469e-b98d-269e63f6ac24",
-   "state": "CA",
-   "bill": "AB 467",
-   "title": "Los Angeles Community College District: California Center for Climate Change Education.",
-   "session": "2025-2026 Regular Session",
-   "status": "withdrawn",
-   "status_label": "Withdrawn",
-   "latest_action": "In committee: Held under submission.",
-   "latest_action_date": "2026-08-13",
-   "upcoming": false,
-   "introduced": "2025-04-10",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB467",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "id": "d67f4288-6590-4429-9488-2cbeaa69850c",
-   "state": "CA",
-   "bill": "AB 2560",
-   "title": "Climate Action Plan for Transportation Infrastructure: goals.",
-   "session": "2025-2026 Regular Session",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "In committee: Held under submission.",
-   "latest_action_date": "2026-08-13",
-   "upcoming": false,
-   "introduced": "2026-04-15",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2560",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
-  },
-  {
    "id": "890563c5-b3e0-48e8-b910-e81f904c2984",
    "state": "CA",
    "bill": "SB 1075",
@@ -531,9 +371,9 @@
    "topics": [
     "emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-05",
    "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
+   "change": "new"
   },
   {
    "id": "c8e7feb9-d5d1-49ae-bca0-09f1b25f6111",
@@ -616,26 +456,6 @@
    "change": "new"
   },
   {
-   "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
-   "state": "MA",
-   "bill": "S 3137",
-   "title": "An Act providing for improved public access and climate resiliency on the Mystic River and increasing the utilization of the designated port area",
-   "session": "2025-2026 Regular Session (194th General Court)",
-   "status": "introduced",
-   "status_label": "Introduced",
-   "latest_action": "Read, rules suspended, read second and ordered to a third reading",
-   "latest_action_date": "2026-07-13",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://malegislature.gov/Bills/194/S3137",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
-  },
-  {
    "id": "ff537571-5076-4d11-966e-ad5304cbe9e8",
    "state": "MO",
    "bill": "SB 1033",
@@ -651,9 +471,9 @@
    "topics": [
     "emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-05",
    "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
+   "change": "new"
   },
   {
    "id": "6873eb9a-d160-46e3-8df3-b1bf14ef84a8",
@@ -694,46 +514,6 @@
    "first_seen": "2026-10-05",
    "changed_on": "2026-10-05",
    "change": "new"
-  },
-  {
-   "id": "06606e10-5dcc-42fa-8561-0383462b20f5",
-   "state": "MA",
-   "bill": "S 1922",
-   "title": "An Act relative to the Massachusetts fund for vulnerable countries most affected by climate change",
-   "session": "2025-2026 Regular Session (194th General Court)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
-   "latest_action_date": "2026-07-06",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://malegislature.gov/Bills/194/S1922",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
-  },
-  {
-   "id": "22f00bd3-01d0-46e9-9ca7-896aeeb42d39",
-   "state": "MA",
-   "bill": "S 3156",
-   "title": "Order relative to authorizing the joint committee on Environment, Natural Resources to make an investigation and study of a certain current Senate document relative to facilitate climate resiliency.",
-   "session": "2025-2026 Regular Session (194th General Court)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Discharged to the committee on Senate Rules",
-   "latest_action_date": "2026-07-02",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://malegislature.gov/Bills/194/S3156",
-   "topics": [
-    "climate"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
   },
   {
    "id": "0d784495-cd0d-484c-ba67-31679ab0fec5",
@@ -796,10 +576,10 @@
    "change": "new"
   },
   {
-   "id": "70e982e1-1f95-43e7-8cbc-372d9b3f57f3",
+   "id": "e4d1f886-a9ee-4a69-ab2b-0019f44251a8",
    "state": "MA",
-   "bill": "S 2281",
-   "title": "An Act bringing Mass Save in line with climate mandates",
+   "bill": "S 2282",
+   "title": "An Act advancing the clean energy transition",
    "session": "2025-2026 Regular Session (194th General Court)",
    "status": "in_committee",
    "status_label": "In committee",
@@ -807,13 +587,233 @@
    "latest_action_date": "2026-06-25",
    "upcoming": false,
    "introduced": null,
-   "url": "https://malegislature.gov/Bills/194/S2281",
+   "url": "https://malegislature.gov/Bills/194/S2282",
    "topics": [
-    "climate"
+    "clean energy"
    ],
    "change": "new",
-   "changed_on": "2026-10-05",
-   "first_seen": "2026-10-05"
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "42a534f4-9089-4866-b1f1-5aabbe4ccb29",
+   "state": "MA",
+   "bill": "S 2262",
+   "title": "An Act relative to solar permitting",
+   "session": "2025-2026 Regular Session (194th General Court)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Accompanied H5175",
+   "latest_action_date": "2026-06-25",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://malegislature.gov/Bills/194/S2262",
+   "topics": [
+    "solar"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "cc5d8476-5afd-4a77-b97a-07e8879b7e5d",
+   "state": "MA",
+   "bill": "S 2232",
+   "title": "An Act to exempt solar installations on federal military lands from renewable energy production caps",
+   "session": "2025-2026 Regular Session (194th General Court)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Accompanied H5175",
+   "latest_action_date": "2026-06-25",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://malegislature.gov/Bills/194/S2232",
+   "topics": [
+    "solar"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "3c99ca2a-dc0f-4cc0-a42a-a836ad037886",
+   "state": "DE",
+   "bill": "SR 21",
+   "title": "REQUESTING THE DELAWARE SUSTAINABLE ENERGY UTILITY TO ENGAGE IN A STUDY AND ISSUE A REPORT ASSESSING THE SAFETY AND UTILITY OF PORTABLE SOLAR GENERATION DEVICES.",
+   "session": "2025-2026 Regular Session (153rd General Assembly)",
+   "status": null,
+   "status_label": "In progress",
+   "latest_action": "Passed By Senate. Votes: 21 YES",
+   "latest_action_date": "2026-06-24",
+   "upcoming": false,
+   "introduced": "2026-06-04",
+   "url": "https://legis.delaware.gov/BillDetail?LegislationId=143437",
+   "topics": [
+    "solar"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "6920a7bc-21c8-496b-a7cc-d9bbef2037a7",
+   "state": "MA",
+   "bill": "S 1925",
+   "title": "An Act imposing an in-state mileage-based road usage charge on the use of clean energy vehicles",
+   "session": "2025-2026 Regular Session (194th General Court)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Accompanied a study order, see S3130",
+   "latest_action_date": "2026-06-18",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://malegislature.gov/Bills/194/S1925",
+   "topics": [
+    "clean energy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "1aa21550-c36e-4fc0-be21-f5e46a39dd54",
+   "state": "NC",
+   "bill": "HB 369",
+   "title": "Parking Lot Reform/Stormwater Control.",
+   "session": "2025-2026 Regular Session",
+   "status": null,
+   "status_label": "In progress",
+   "latest_action": "Reptd Fav Com Substitute",
+   "latest_action_date": "2026-06-10",
+   "upcoming": false,
+   "introduced": "2025-03-11",
+   "url": "https://www.ncleg.gov/BillLookUp/2025/H369",
+   "topics": [
+    "stormwater"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "7056961f-4ed1-4c68-94dd-cff46909c7f1",
+   "state": "RI",
+   "bill": "HB 7269",
+   "title": "AN ACT RELATING TO PUBLIC UTILITIES AND CARRIERS -- NET METERING -- PORTABLE SOLAR GENERATION DEVICES",
+   "session": "2026 Regular Session",
+   "status": "died_on_adjournment",
+   "status_label": "Died on adjournment",
+   "latest_action": "06/09/2026 Referred to Senate Environment and Agriculture",
+   "latest_action_date": "2026-06-09",
+   "upcoming": false,
+   "introduced": "2026-01-23",
+   "url": "https://status.rilegislature.gov/",
+   "topics": [
+    "solar"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "88132300-4d07-41cd-9182-6913e8e96656",
+   "state": "MA",
+   "bill": "H 5294",
+   "title": "An Act establishing a temporary moratorium on large scale ground-mounted solar photovoltaic installations and battery energy storage systems in the town of Worthington",
+   "session": "2025-2026 Regular Session (194th General Court)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Accompanied a study order, see  H5480 (under House Rule 27)",
+   "latest_action_date": "2026-06-08",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://malegislature.gov/Bills/194/H5294",
+   "topics": [
+    "solar"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "4e4c9aa3-a4f8-4764-aaf6-889ce66d3694",
+   "state": "CO",
+   "bill": "HB 1226",
+   "title": "Manage Emissions from Electric Generating Units",
+   "session": "2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Governor Signed",
+   "latest_action_date": "2026-06-04",
+   "upcoming": false,
+   "introduced": "2026-02-18",
+   "url": "https://leg.colorado.gov/bills/HB26-1226",
+   "topics": [
+    "emissions"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "a7bd91aa-b30d-496c-8a45-650c19d12b78",
+   "state": "NY",
+   "bill": "S 10200",
+   "title": "Relates to energy efficiency improvements and certain alterations to multiple dwellings",
+   "session": "2025-2026 Regular Session",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "REFERRED TO HOUSING",
+   "latest_action_date": "2026-06-04",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10200?summary=&detail=",
+   "topics": [
+    "energy efficiency"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "6addfdaa-880d-4b9d-a119-ab569dfe530a",
+   "state": "NY",
+   "bill": "A 11556",
+   "title": "Relates to energy efficiency and weatherization",
+   "session": "2025-2026 Regular Session",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "REFERRED TO RULES",
+   "latest_action_date": "2026-06-04",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11556?summary=&detail=",
+   "topics": [
+    "energy efficiency"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "id": "161208a6-4a4d-49a0-a0cd-06c25d4b4973",
+   "state": "NY",
+   "bill": "S 4571",
+   "title": "Establishes a floating solar incentive and education program",
+   "session": "2025-2026 Regular Session",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "ORDERED TO THIRD READING RULES CAL.395",
+   "latest_action_date": "2026-06-03",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S4571?summary=&detail=",
+   "topics": [
+    "solar"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-06",
+   "first_seen": "2026-10-06"
   }
  ]
 }
