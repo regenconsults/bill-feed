@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T23:14:25+00:00",
+ "generated_at": "2026-10-07T11:16:11+00:00",
  "states": "all",
  "keywords": [
   "renewable energy",
@@ -31,9 +31,9 @@
    "topics": [
     "solar"
    ],
-   "change": "new",
+   "first_seen": "2026-10-06",
    "changed_on": "2026-10-06",
-   "first_seen": "2026-10-06"
+   "change": "new"
   },
   {
    "id": "ff9a1765-f5c0-4b42-bd96-557667ee7da5",
