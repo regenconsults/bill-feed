@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-08T03:22:12+00:00",
+ "generated_at": "2026-10-08T11:17:15+00:00",
  "states": "all",
  "categories": [
   {
@@ -548,9 +548,9 @@
    "topics": [
     "Clean Transportation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "1b8c7d19-ae06-4be2-ac29-e980cf20bf5b",
@@ -570,9 +570,9 @@
    "topics": [
     "Clean Transportation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "b5098593-3a82-43a2-ac9f-1add0ec2bf09",
