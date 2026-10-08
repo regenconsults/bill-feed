@@ -164,6 +164,8 @@ GLOBAL_EXCLUDE = [
     r"emissions? reduction statement",
     r"sick leave bank",
     r"^\s*(annual |quarterly )?report (of|on|from)\b",
+    r"reimbursable agreement",            # e.g. DC WMATA station/funding agreements
+    r"funding grant agreement",
 ]
 
 STATUS_LABELS = {
