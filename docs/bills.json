@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-08T03:04:16+00:00",
+ "generated_at": "2026-10-08T03:22:12+00:00",
  "states": "all",
  "categories": [
   {
@@ -64,9 +64,9 @@
    "topics": [
     "Clean Energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
@@ -152,9 +152,9 @@
    "topics": [
     "Clean Energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "2990af44-268b-4b45-92ea-55fba648fdec",
@@ -174,9 +174,9 @@
    "topics": [
     "Clean Energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "4797821b-56c6-4b37-9ebc-40918f2fdbc5",
@@ -196,9 +196,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "defac229-52d1-4298-b344-7df78dcc648a",
@@ -218,9 +218,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "b183d34a-54c1-4660-8b67-f99314b6e0de",
@@ -240,9 +240,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "cd88b4cd-4027-4c6e-933e-495de3a4573d",
@@ -262,9 +262,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "9695e0fa-5fe4-414a-b2d6-7988af5c3116",
@@ -284,9 +284,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "25a77df1-33d1-40af-9087-dbbe48510b2a",
@@ -306,9 +306,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "1b1f9141-96aa-4b20-98bd-be6ede590b67",
@@ -372,9 +372,9 @@
    "topics": [
     "Green & Healthy Buildings"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "8604aa76-1a4e-45f1-8e54-31c6716bbb45",
@@ -438,53 +438,9 @@
    "topics": [
     "Green & Healthy Buildings"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
-  },
-  {
-   "id": "2eb0ddbb-2acf-4b91-a95f-23d02d2f5676",
-   "state": "DC",
-   "bill": "B 26-0840",
-   "title": "Washington Metropolitan Area Transit Authority Stadium-Armory Station Improvements Fiscal Year 2026 to Fiscal Year 2030 Reimbursable Agreement Emergency Act of 2026",
-   "session": "Council Period 26 (2025-2026)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Retained by the Council with comments from the Committee on Transportation and the Environment",
-   "latest_action_date": "2026-10-06",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://lims.dccouncil.gov/api/v2/PublicData/BulkData/1/26",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
-  },
-  {
-   "id": "419f5710-c10a-4b49-a298-58157cea79c2",
-   "state": "DC",
-   "bill": "PR 26-0814",
-   "title": "Washington Metropolitan Area Transit Authority Fiscal Year 2027 to 2032 Dedicated Funding Grant Agreement Emergency Declaration Resolution of 2026",
-   "session": "Council Period 26 (2025-2026)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Retained by the Council with comments from the Committee on Transportation and the Environment",
-   "latest_action_date": "2026-10-06",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://lims.dccouncil.gov/api/v2/PublicData/BulkData/6/26",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
-   ],
-   "change": "new",
-   "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "2dea501c-2dbe-470a-9989-8a8857263280",
@@ -504,9 +460,9 @@
    "topics": [
     "Clean Transportation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "b46b0ea1-e0c0-4f32-b986-eb594796cde0",
@@ -526,9 +482,9 @@
    "topics": [
     "Clean Transportation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "b7d265e7-d254-4a68-a7b2-e457ef19ab2d",
@@ -548,9 +504,9 @@
    "topics": [
     "Clean Transportation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "d28c757e-7fdc-47e9-98cd-6f8c02e0b98a",
@@ -565,6 +521,50 @@
    "upcoming": false,
    "introduced": null,
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1944",
+   "category": "transportation",
+   "category_name": "Clean Transportation",
+   "topics": [
+    "Clean Transportation"
+   ],
+   "first_seen": "2026-10-08",
+   "changed_on": "2026-10-08",
+   "change": "new"
+  },
+  {
+   "id": "77b66a89-9da9-4fda-b68a-021347de306c",
+   "state": "NJ",
+   "bill": "S 3739",
+   "title": "Establishes certain electric vehicle supply equipment development processes and standards concerning public health and safety; removes certain existing approval requirements while preserving applicable safety and inspection standards.",
+   "session": "222",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Approved P.L.2026, c.94.",
+   "latest_action_date": "2026-09-28",
+   "upcoming": false,
+   "introduced": "2026-03-05",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S3739",
+   "category": "transportation",
+   "category_name": "Clean Transportation",
+   "topics": [
+    "Clean Transportation"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-08",
+   "first_seen": "2026-10-08"
+  },
+  {
+   "id": "1b8c7d19-ae06-4be2-ac29-e980cf20bf5b",
+   "state": "MI",
+   "bill": "HB 6340",
+   "title": "Vehicles: electric vehicles; electric moped and electric motorcycle; regulate. Amends secs. 31, 32b & 662a of 1949 PA 300 (MCL 257.31 et seq.).",
+   "session": "2025-2026 Regular Session (103rd Legislature)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "bill electronically reproduced 09/23/2026",
+   "latest_action_date": "2026-09-24",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6340",
    "category": "transportation",
    "category_name": "Clean Transportation",
    "topics": [
@@ -592,9 +592,9 @@
    "topics": [
     "Climate & Emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "6069618a-6b1d-443d-a23f-6dd833bef749",
@@ -658,9 +658,9 @@
    "topics": [
     "Climate & Emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "2d64362d-adb7-4060-b0c0-bc2bc06fa0e8",
@@ -680,9 +680,9 @@
    "topics": [
     "Climate & Emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "68cf68da-a17e-4bbc-bc26-7f66d52c8dd4",
@@ -702,9 +702,9 @@
    "topics": [
     "Climate & Emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
@@ -724,9 +724,9 @@
    "topics": [
     "Waste & Circular Economy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "e37a42a8-1a24-4778-abd5-34bc9c6f4c8e",
@@ -746,9 +746,9 @@
    "topics": [
     "Waste & Circular Economy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "7147e8c1-f68d-42b0-bc92-f5208cddb13c",
@@ -768,9 +768,9 @@
    "topics": [
     "Waste & Circular Economy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "18871da3-242f-478b-9335-99970abc324a",
@@ -790,9 +790,9 @@
    "topics": [
     "Waste & Circular Economy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "a4f1e8ac-44cf-4352-aeed-927be4bfd5dc",
@@ -812,9 +812,9 @@
    "topics": [
     "Waste & Circular Economy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "a12b2e9d-01d4-4ee5-9164-9d880f9a9116",
@@ -834,9 +834,9 @@
    "topics": [
     "Waste & Circular Economy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "fc915a83-2930-4b7e-ba22-4623bbb9354e",
@@ -856,9 +856,9 @@
    "topics": [
     "Water & Land"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "64ec52e5-f251-4337-bc25-f1030227211e",
@@ -878,9 +878,9 @@
    "topics": [
     "Water & Land"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "d704ebad-14d1-4854-a169-c3d21472f5eb",
@@ -900,9 +900,9 @@
    "topics": [
     "Water & Land"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "f92d4446-f26b-471f-897f-02ff2d2a644f",
@@ -922,9 +922,9 @@
    "topics": [
     "Water & Land"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "e456079f-6cd1-4dbb-b03c-79d4483578bc",
@@ -944,9 +944,9 @@
    "topics": [
     "Water & Land"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "7ec6f61b-6ce5-4148-8f16-a3007ba14c66",
@@ -988,9 +988,9 @@
    "topics": [
     "Environmental Equity"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "fa39861b-c6ae-46ca-9358-81e537acd1d6",
@@ -1032,9 +1032,9 @@
    "topics": [
     "Environmental Equity"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "040d00b8-a558-4706-a71c-38576605f08b",
@@ -1054,9 +1054,9 @@
    "topics": [
     "Environmental Equity"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   },
   {
    "id": "80c6cff3-bdf6-43e4-b7b3-353e93531410",
@@ -1076,9 +1076,9 @@
    "topics": [
     "Environmental Equity"
    ],
-   "change": "new",
+   "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "first_seen": "2026-10-08"
+   "change": "new"
   }
  ]
 }
