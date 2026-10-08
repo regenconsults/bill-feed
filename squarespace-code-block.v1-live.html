@@ -1,0 +1,150 @@
+<div class="rg"><section class="rg rg-phero"><div class="rg-wrap">
+<span class="rg-kicker">Legislation Tracker</span>
+<h1 class="rg-display">Environmental Legislation Tracker</h1>
+<p class="rg-lead">Environment-related bills moving through state legislatures across all 50 states, refreshed twice daily.</p>
+</div></section></div>
+<div class="rg"><section class="rg-wrap rgt" id="rgt">
+<div class="rgt-meta"><span class="rgt-upd" aria-live="polite"><i class="rgt-dot"></i><span>Loading legislation…</span></span><span class="rgt-count"></span></div>
+<div class="rgt-panel">
+<div class="rgt-row1"><input class="rgt-q" type="search" aria-label="Search bills" placeholder="Search bill number, title or action"><label class="rgt-st">State<select aria-label="State"><option value="">All states</option></select></label></div>
+<div class="rgt-chiprow"><span class="rgt-lbl">Status</span><div class="rgt-chips" data-k="status"></div></div>
+<div class="rgt-chiprow"><span class="rgt-lbl">Topic</span><div class="rgt-chips" data-k="topic"></div></div>
+</div>
+<div class="rgt-thead"><span>Bill</span><span>Summary</span><span>Status</span><span>Last action</span><span></span></div>
+<div class="rgt-list"></div>
+<div class="rgt-empty" hidden>No recent activity matches these filters. <button type="button" class="rgt-clear">Clear filters</button></div>
+<button type="button" class="rgt-more" hidden></button>
+<p class="rgt-credit"></p>
+</section></div>
+<style>
+.rgt{padding-top:clamp(36px,5vw,64px);padding-bottom:clamp(64px,8vw,112px);display:flex;flex-direction:column;gap:22px}
+.rgt button{font:inherit;cursor:pointer}
+.rgt-meta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;font-size:15px;color:#5e5754}
+.rgt-upd{display:flex;align-items:center;gap:10px}
+.rgt-dot{width:8px;height:8px;border-radius:50%;background:#c5cbe6;display:block}
+.rgt-panel{background:#f4f5e3;border-radius:28px;padding:clamp(18px,3vw,28px);display:flex;flex-direction:column;gap:18px}
+.rgt-row1{display:flex;flex-wrap:wrap;gap:12px}
+.rgt-q{flex:1 1 280px;font:inherit;font-size:16px;padding:14px 22px;border-radius:999px;border:1px solid #d6d9bf;background:#fff;color:#1f3510;outline:none}
+.rgt-q:focus{border-color:#1f3510}
+.rgt-st{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #d6d9bf;border-radius:999px;padding:0 8px 0 20px;font-size:14px;font-weight:600}
+.rgt-st select{font:inherit;font-weight:400;font-size:16px;border:none;background:transparent;color:#1f3510;padding:13px 8px;outline:none;cursor:pointer}
+.rgt-chiprow{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px}
+.rgt-lbl{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#5e5754;min-width:56px}
+.rgt-chips{display:flex;flex-wrap:wrap;gap:6px}
+.rgt-chip{font-size:14px!important;padding:9px 16px;border-radius:999px;border:1px solid #d6d9bf;background:#fff;color:#1f3510;transition:background .2s}
+.rgt-chip.on{background:#1f3510;border-color:#1f3510;color:#fdfdf2}
+.rgt-thead,.rgt-rowbtn{display:grid;grid-template-columns:100px minmax(0,1fr) 130px 110px 24px;gap:24px;align-items:center}
+.rgt-thead{padding:14px 20px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#5e5754}
+.rgt-list{display:flex;flex-direction:column;gap:8px}
+.rgt-card{background:#fff;border:1px solid #e6e8d2;border-radius:20px;overflow:hidden;transition:border-color .2s}
+.rgt-card.open{border-color:#89cec2}
+.rgt-rowbtn{all:unset;box-sizing:border-box;cursor:pointer;width:100%;display:grid;grid-template-columns:100px minmax(0,1fr) 130px 110px 24px;gap:24px;align-items:center;padding:18px 20px;font-size:16px;color:#1f3510}
+.rgt-rowbtn:hover{background:#fafbef}
+.rgt-b{display:flex;flex-direction:column;gap:2px}.rgt-b b{font-weight:600}.rgt-b span,.rgt-date,.rgt-topic,.rgt-ic{font-size:14px;color:#5e5754}
+.rgt-s{display:flex;flex-direction:column;gap:4px;line-height:1.4}.rgt-topic{font-size:13px;text-transform:capitalize}
+.rgt-pill{display:inline-block;font-size:13px;font-weight:600;padding:5px 12px;border-radius:999px}
+.rgt-pill.enacted{background:#1f3510;color:#fdfdf2}.rgt-pill.active{background:#e3f2ee;color:#1f3510}.rgt-pill.inactive{background:#efede6;color:#5e5754}
+.rgt-ic{font-size:18px;text-align:right}
+.rgt-detail{padding:4px 20px 22px;display:flex;flex-direction:column;gap:14px;border-top:1px solid #eeeedd}
+.rgt-long{font-size:15px;line-height:1.65;margin:14px 0 0;max-width:60em;white-space:pre-line;color:#3f4a36}
+.rgt-dgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px 32px;padding-top:12px}
+.rgt-dgrid div{display:flex;flex-direction:column;gap:4px}.rgt-dgrid div:first-child{grid-column:span 2}
+.rgt-dgrid small{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#5e5754}
+.rgt-dgrid span{font-size:15px;line-height:1.5}
+.rgt-link{align-self:flex-start;font-size:15px;font-weight:600;padding:11px 20px;border-radius:999px;background:#1f3510;color:#fdfdf2!important;text-decoration:none}
+.rgt-link:hover{background:#738211}
+.rgt-empty{padding:40px 20px;font-size:16px;color:#5e5754;display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:#f4f5e3;border-radius:20px}
+.rgt-empty[hidden],.rgt-more[hidden]{display:none}
+.rgt-clear{all:unset;cursor:pointer;font-weight:600;color:#1f3510;border-bottom:1.5px solid #1f3510}
+.rgt-more{align-self:center;margin-top:20px;font-size:15px!important;font-weight:600;padding:14px 28px;border-radius:999px;border:1px solid #cfd3b8;background:transparent;color:#1f3510}
+.rgt-more:hover{border-color:#1f3510}
+.rgt-credit{font-size:13px;line-height:1.6;color:#5e5754;margin:12px 0 0;max-width:60em}
+@media (max-width:819px){.rgt-thead{display:none}.rgt-rowbtn{display:flex;flex-direction:column;align-items:flex-start;gap:10px;padding:18px}.rgt-ic{display:none}}
+</style>
+<script>
+(function () {
+  var FEED_URL = "https://regenconsults.github.io/bill-feed/bills.json";
+  var root = document.getElementById("rgt");
+  if (!root) return;
+  var $ = function (s) { return root.querySelector(s); };
+  var list = $(".rgt-list"), upd = $(".rgt-upd span"), dot = $(".rgt-dot"), count = $(".rgt-count"),
+      q = $(".rgt-q"), sel = $(".rgt-st select"), empty = $(".rgt-empty"), more = $(".rgt-more"), credit = $(".rgt-credit");
+  var S = { q: "", st: "", status: "all", topic: "all", open: null, limit: 15 }, bills = [];
+  var INACTIVE = ["withdrawn", "died_on_adjournment", "killed", "vetoed", "substituted"];
+  function group(b) { return b.status === "enacted" ? "enacted" : INACTIVE.indexOf(b.status) >= 0 ? "inactive" : "active"; }
+  function fmt(iso) { return iso ? new Date(iso + "T12:00:00").toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "—"; }
+  // Bill text comes from state legislatures unsanitized: build nodes with textContent only.
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+
+  function chips(k, opts) {
+    var box = root.querySelector('.rgt-chips[data-k="' + k + '"]'); box.textContent = "";
+    opts.forEach(function (o) {
+      var b = el("button", "rgt-chip" + (S[k] === o[0] ? " on" : ""), o[1]); b.type = "button";
+      b.onclick = function () { S[k] = o[0]; S.limit = 15; S.open = null; render(); };
+      box.appendChild(b);
+    });
+  }
+
+  function row(b) {
+    var open = S.open === b.id, g = group(b), t = (b.title || "").trim(), first = t.split(/\r?\n/)[0];
+    var short = first.length > 180 ? first.slice(0, 177) + "…" : first;
+    var card = el("div", "rgt-card" + (open ? " open" : ""));
+    var btn = el("button", "rgt-rowbtn"); btn.type = "button"; btn.setAttribute("aria-expanded", open);
+    var c1 = el("span", "rgt-b"); c1.appendChild(el("b", null, b.state)); c1.appendChild(el("span", null, b.bill));
+    var c2 = el("span", "rgt-s"); c2.appendChild(el("span", null, short)); c2.appendChild(el("span", "rgt-topic", (b.topics || []).join(", ")));
+    var c3 = el("span"); c3.appendChild(el("span", "rgt-pill " + g, b.status_label || "In progress"));
+    btn.appendChild(c1); btn.appendChild(c2); btn.appendChild(c3);
+    btn.appendChild(el("span", "rgt-date", fmt(b.latest_action_date)));
+    btn.appendChild(el("span", "rgt-ic", open ? "−" : "+"));
+    btn.onclick = function () { S.open = open ? null : b.id; render(); };
+    card.appendChild(btn);
+    if (open) {
+      var d = el("div", "rgt-detail");
+      if (t.length > 180 || t.indexOf("\n") >= 0) d.appendChild(el("p", "rgt-long", t));
+      var gr = el("div", "rgt-dgrid");
+      var a = el("div"); a.appendChild(el("small", null, "Latest action")); a.appendChild(el("span", null, (b.latest_action || "—") + (b.latest_action_date ? " · " + fmt(b.latest_action_date) : "")));
+      var s = el("div"); s.appendChild(el("small", null, "Session")); s.appendChild(el("span", null, b.session || "—"));
+      gr.appendChild(a); gr.appendChild(s); d.appendChild(gr);
+      if (/^https?:\/\//.test(b.url || "")) { var l = el("a", "rgt-link", "View on legislature site ↗"); l.href = b.url; l.target = "_blank"; l.rel = "noopener"; d.appendChild(l); }
+      card.appendChild(d);
+    }
+    return card;
+  }
+
+  function render() {
+    var qq = S.q.trim().toLowerCase();
+    var f = bills.filter(function (b) {
+      return (!S.st || b.state === S.st) && (S.status === "all" || group(b) === S.status) &&
+        (S.topic === "all" || (b.topics || []).indexOf(S.topic) >= 0) &&
+        (!qq || [b.state, b.bill, b.title, b.latest_action].join(" ").toLowerCase().indexOf(qq) >= 0);
+    });
+    chips("status", [["all", "All"], ["active", "Active"], ["enacted", "Enacted"], ["inactive", "Inactive"]]);
+    var topics = []; bills.forEach(function (b) { (b.topics || []).forEach(function (t) { if (topics.indexOf(t) < 0) topics.push(t); }); }); topics.sort();
+    chips("topic", [["all", "All topics"]].concat(topics.map(function (t) { return [t, t.charAt(0).toUpperCase() + t.slice(1)]; })));
+    list.textContent = "";
+    f.slice(0, S.limit).forEach(function (b) { list.appendChild(row(b)); });
+    count.textContent = f.length + " of " + bills.length + " bills";
+    empty.hidden = f.length !== 0;
+    more.hidden = f.length <= S.limit;
+    more.textContent = "Show more (" + (f.length - Math.min(S.limit, f.length)) + " remaining)";
+  }
+
+  q.addEventListener("input", function () { S.q = q.value; S.limit = 15; S.open = null; render(); });
+  sel.addEventListener("change", function () { S.st = sel.value; S.limit = 15; S.open = null; render(); });
+  more.onclick = function () { S.limit += 15; render(); };
+  $(".rgt-clear").onclick = function () { S.q = ""; S.st = ""; S.status = "all"; S.topic = "all"; S.limit = 15; q.value = ""; sel.value = ""; render(); };
+
+  fetch(FEED_URL, { cache: "no-cache" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (feed) {
+      bills = feed.bills || [];
+      upd.textContent = "Updated " + new Date(feed.generated_at).toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+      dot.style.background = "#738211";
+      credit.textContent = (feed.attribution ? feed.attribution + " " : "") + "Not legal advice.";
+      var states = []; bills.forEach(function (b) { if (b.state && states.indexOf(b.state) < 0) states.push(b.state); }); states.sort();
+      states.forEach(function (s) { sel.appendChild(new Option(s, s)); });
+      render();
+    })
+    .catch(function () { upd.textContent = "Legislation feed is temporarily unavailable."; dot.style.background = "#f48c36"; });
+})();
+</script>
