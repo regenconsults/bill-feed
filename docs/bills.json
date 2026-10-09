@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-09T11:17:06+00:00",
+ "generated_at": "2026-10-09T23:16:00+00:00",
  "states": "all",
  "categories": [
   {
@@ -65,8 +65,8 @@
     "Clean Energy"
    ],
    "first_seen": "2026-10-06",
-   "change": "moved",
    "changed_on": "2026-10-09",
+   "change": "moved",
    "previous_status_label": "In committee"
   },
   {
@@ -197,9 +197,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "first_seen": "2026-10-09"
+   "change": "new"
   },
   {
    "id": "4797821b-56c6-4b37-9ebc-40918f2fdbc5",
@@ -505,9 +505,9 @@
    "topics": [
     "Clean Transportation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "first_seen": "2026-10-09"
+   "change": "new"
   },
   {
    "id": "b7d265e7-d254-4a68-a7b2-e457ef19ab2d",
@@ -593,9 +593,9 @@
    "topics": [
     "Climate & Emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "first_seen": "2026-10-09"
+   "change": "new"
   },
   {
    "id": "b5098593-3a82-43a2-ac9f-1add0ec2bf09",
@@ -725,9 +725,9 @@
    "topics": [
     "Waste & Circular Economy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "first_seen": "2026-10-09"
+   "change": "new"
   },
   {
    "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
@@ -857,9 +857,9 @@
    "topics": [
     "Water & Land"
    ],
-   "change": "new",
+   "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "first_seen": "2026-10-09"
+   "change": "new"
   },
   {
    "id": "fc915a83-2930-4b7e-ba22-4623bbb9354e",
