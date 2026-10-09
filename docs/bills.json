@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-08T23:16:10+00:00",
+ "generated_at": "2026-10-09T11:17:06+00:00",
  "states": "all",
  "categories": [
   {
@@ -47,6 +47,29 @@
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
   {
+   "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
+   "state": "NJ",
+   "bill": "S 4729",
+   "title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
+   "session": "222",
+   "status": "introduced",
+   "status_label": "Introduced",
+   "latest_action": "Reported from Senate Committee, 2nd Reading",
+   "latest_action_date": "2026-10-08",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4729",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "first_seen": "2026-10-06",
+   "change": "moved",
+   "changed_on": "2026-10-09",
+   "previous_status_label": "In committee"
+  },
+  {
    "id": "c98eba33-6faf-4400-b5d4-3dfd18f85d94",
    "state": "NJ",
    "bill": "S 4766",
@@ -66,28 +89,6 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
-  },
-  {
-   "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
-   "state": "NJ",
-   "bill": "S 4729",
-   "title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
-   "latest_action_date": "2026-10-05",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4729",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-06",
-   "changed_on": "2026-10-06",
    "change": "new"
   },
   {
@@ -177,6 +178,28 @@
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
    "change": "new"
+  },
+  {
+   "id": "606c6a89-757d-4f61-a965-1bf0c2d101f2",
+   "state": "NJ",
+   "bill": "S 4052",
+   "title": "\"Public Utility Rate Stabilization Act\"; permits gas and electric public utilities to employ alternative ratemaking mechanisms.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Senate Budget and Appropriations Committee",
+   "latest_action_date": "2026-10-08",
+   "upcoming": false,
+   "introduced": "2026-03-23",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4052",
+   "category": "grid",
+   "category_name": "Grid & Energy Affordability",
+   "topics": [
+    "Grid & Energy Affordability"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-09",
+   "first_seen": "2026-10-09"
   },
   {
    "id": "4797821b-56c6-4b37-9ebc-40918f2fdbc5",
@@ -279,28 +302,6 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1175",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": "new"
-  },
-  {
-   "id": "25a77df1-33d1-40af-9087-dbbe48510b2a",
-   "state": "MI",
-   "bill": "HB 5940",
-   "title": "Public utilities: electric utilities; electronic transmission infrastructure; allow to use existing rights-of-way. Amends sec. 13 of 1925 PA 368 (MCL 247.183) & adds sec. 13a.",
-   "session": "2025-2026 Regular Session (103rd Legislature)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "REFERRED TO COMMITTEE ON ENERGY AND ENVIRONMENT",
-   "latest_action_date": "2026-09-09",
-   "upcoming": false,
-   "introduced": "2026-05-12",
-   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-5940",
    "category": "grid",
    "category_name": "Grid & Energy Affordability",
    "topics": [
@@ -487,6 +488,28 @@
    "change": "new"
   },
   {
+   "id": "373bd02d-ec30-4491-bd50-cc9060923a41",
+   "state": "MA",
+   "bill": "SD 4278",
+   "title": "Pioneer Valley Transit Authority FY26 Annual Report",
+   "session": "2025-2026 Regular Session (194th General Court)",
+   "status": null,
+   "status_label": "In progress",
+   "latest_action": "Placed on file",
+   "latest_action_date": "2026-10-01",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://malegislature.gov/Bills/194/SD4278",
+   "category": "transportation",
+   "category_name": "Clean Transportation",
+   "topics": [
+    "Clean Transportation"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-09",
+   "first_seen": "2026-10-09"
+  },
+  {
    "id": "b7d265e7-d254-4a68-a7b2-e457ef19ab2d",
    "state": "CA",
    "bill": "SB 1361",
@@ -553,26 +576,26 @@
    "change": "new"
   },
   {
-   "id": "1b8c7d19-ae06-4be2-ac29-e980cf20bf5b",
-   "state": "MI",
-   "bill": "HB 6340",
-   "title": "Vehicles: electric vehicles; electric moped and electric motorcycle; regulate. Amends secs. 31, 32b & 662a of 1949 PA 300 (MCL 257.31 et seq.).",
-   "session": "2025-2026 Regular Session (103rd Legislature)",
+   "id": "5d79b6c6-6616-410f-8d22-8fa7baac74f3",
+   "state": "NJ",
+   "bill": "S 4214",
+   "title": "Codifies finding that greenhouse gas emissions contribute to climate change and endanger public health, safety, welfare, and environment; amends \"Air Pollution Control Act (1954)\" to define greenhouse gases as air pollutants subject to regulation.",
+   "session": "222",
    "status": "in_committee",
    "status_label": "In committee",
-   "latest_action": "bill electronically reproduced 09/23/2026",
-   "latest_action_date": "2026-09-24",
+   "latest_action": "Referred to Senate Budget and Appropriations Committee",
+   "latest_action_date": "2026-10-08",
    "upcoming": false,
-   "introduced": null,
-   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6340",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
+   "introduced": "2026-05-11",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4214",
+   "category": "climate",
+   "category_name": "Climate & Emissions",
    "topics": [
-    "Clean Transportation"
+    "Climate & Emissions"
    ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": "new"
+   "change": "new",
+   "changed_on": "2026-10-09",
+   "first_seen": "2026-10-09"
   },
   {
    "id": "b5098593-3a82-43a2-ac9f-1add0ec2bf09",
@@ -641,28 +664,6 @@
    "change": "new"
   },
   {
-   "id": "46d55035-a500-4af6-8688-b072e1d5b3aa",
-   "state": "NJ",
-   "bill": "S 687",
-   "title": "Creates Joint Blue Ribbon Task Force on Impacts of Climate Change on Property Insurance.",
-   "session": "222",
-   "status": "introduced",
-   "status_label": "Introduced",
-   "latest_action": "Reported out of Assembly Comm. with Amendments, 2nd Reading",
-   "latest_action_date": "2026-09-17",
-   "upcoming": false,
-   "introduced": "2026-01-13",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S687",
-   "category": "climate",
-   "category_name": "Climate & Emissions",
-   "topics": [
-    "Climate & Emissions"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": "new"
-  },
-  {
    "id": "2d64362d-adb7-4060-b0c0-bc2bc06fa0e8",
    "state": "IL",
    "bill": "SB 2981",
@@ -705,6 +706,28 @@
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
    "change": "new"
+  },
+  {
+   "id": "6d355509-dcef-414c-aee0-6d0de37a258f",
+   "state": "NJ",
+   "bill": "S 681",
+   "title": "\"Electronic Cigarette Extended Producer Responsibility Act.\"",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Senate Budget and Appropriations Committee",
+   "latest_action_date": "2026-10-08",
+   "upcoming": false,
+   "introduced": "2026-01-13",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S681",
+   "category": "waste",
+   "category_name": "Waste & Circular Economy",
+   "topics": [
+    "Waste & Circular Economy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-09",
+   "first_seen": "2026-10-09"
   },
   {
    "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
@@ -817,26 +840,26 @@
    "change": "new"
   },
   {
-   "id": "a12b2e9d-01d4-4ee5-9164-9d880f9a9116",
-   "state": "DE",
-   "bill": "SB 287",
-   "title": "AN ACT TO AMEND TITLE 7 OF THE DELAWARE CODE RELATING TO SOLID WASTE RECYCLING.",
-   "session": "2025-2026 Regular Session (153rd General Assembly)",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Signed by Governor",
-   "latest_action_date": "2026-08-26",
+   "id": "140fe026-0552-4657-872d-3a189390ff11",
+   "state": "NJ",
+   "bill": "S 4468",
+   "title": "Requires DEP to establish maximum contaminant level for certain perfluoroalkyl and polyfluoroalkyl substances in drinking water and establish private well testing program.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Senate Budget and Appropriations Committee",
+   "latest_action_date": "2026-10-08",
    "upcoming": false,
-   "introduced": "2026-04-21",
-   "url": "https://legis.delaware.gov/BillDetail?LegislationId=143137",
-   "category": "waste",
-   "category_name": "Waste & Circular Economy",
+   "introduced": "2026-06-15",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4468",
+   "category": "water-land",
+   "category_name": "Water & Land",
    "topics": [
-    "Waste & Circular Economy"
+    "Water & Land"
    ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": "new"
+   "change": "new",
+   "changed_on": "2026-10-09",
+   "first_seen": "2026-10-09"
   },
   {
    "id": "fc915a83-2930-4b7e-ba22-4623bbb9354e",
@@ -947,28 +970,6 @@
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
    "change": "new"
-  },
-  {
-   "id": "7ec6f61b-6ce5-4148-8f16-a3007ba14c66",
-   "state": "NJ",
-   "bill": "A 5499",
-   "title": "Reduces allowed diversion of funds from stormwater, water, and sewer purposes to municipal and county budgets; requires municipalities and counties to notify Division of Local Government Services of diversions.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced, Referred to Assembly State and Local Government Committee",
-   "latest_action_date": "2026-09-14",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5499",
-   "category": "water-land",
-   "category_name": "Water & Land",
-   "topics": [
-    "Water & Land"
-   ],
-   "first_seen": "2026-09-30",
-   "changed_on": "2026-09-30",
-   "change": null
   },
   {
    "id": "afa343bb-626c-4a17-866b-d7c9267654d4",
