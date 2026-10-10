@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-10T11:15:02+00:00",
+ "generated_at": "2026-10-10T23:14:46+00:00",
  "states": "all",
  "categories": [
   {
@@ -857,9 +857,9 @@
    "topics": [
     "Water & Land"
    ],
-   "change": "new",
+   "first_seen": "2026-10-10",
    "changed_on": "2026-10-10",
-   "first_seen": "2026-10-10"
+   "change": "new"
   },
   {
    "id": "140fe026-0552-4657-872d-3a189390ff11",
