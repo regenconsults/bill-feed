@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-09T23:16:00+00:00",
+ "generated_at": "2026-10-10T11:15:02+00:00",
  "states": "all",
  "categories": [
   {
@@ -133,7 +133,7 @@
    ],
    "first_seen": "2026-10-07",
    "changed_on": "2026-10-07",
-   "change": "new"
+   "change": null
   },
   {
    "id": "19d8d16f-b836-448f-b3bd-b733c0015b83",
@@ -639,7 +639,7 @@
    ],
    "first_seen": "2026-10-07",
    "changed_on": "2026-10-07",
-   "change": "new"
+   "change": null
   },
   {
    "id": "f91a4b2b-70ad-41a0-82a6-ccb3412de557",
@@ -661,7 +661,7 @@
    ],
    "first_seen": "2026-10-07",
    "changed_on": "2026-10-07",
-   "change": "new"
+   "change": null
   },
   {
    "id": "2d64362d-adb7-4060-b0c0-bc2bc06fa0e8",
@@ -840,6 +840,28 @@
    "change": "new"
   },
   {
+   "id": "454dc1da-3f39-41f5-ad9f-291e0b41ce8b",
+   "state": "PA",
+   "bill": "HR 652",
+   "title": "A Resolution directing the Legislative Budget and Finance Committee to conduct a study and issue a report on the compensation, benefits and classification of Pennsylvania Game Commission game wardens and Pennsylvania Fish and Boat Commission waterways conservation officers.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Game & Fisheries",
+   "latest_action_date": "2026-10-09",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/legislation/bills/2025/hr652",
+   "category": "water-land",
+   "category_name": "Water & Land",
+   "topics": [
+    "Water & Land"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-10",
+   "first_seen": "2026-10-10"
+  },
+  {
    "id": "140fe026-0552-4657-872d-3a189390ff11",
    "state": "NJ",
    "bill": "S 4468",
@@ -940,28 +962,6 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6343",
-   "category": "water-land",
-   "category_name": "Water & Land",
-   "topics": [
-    "Water & Land"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": "new"
-  },
-  {
-   "id": "e456079f-6cd1-4dbb-b03c-79d4483578bc",
-   "state": "NJ",
-   "bill": "A 5497",
-   "title": "Requires forest stewardship plan for certain lands acquired for recreation and conservation purposes.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced, Referred to Assembly Agriculture and Natural Resources Committee",
-   "latest_action_date": "2026-09-14",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5497",
    "category": "water-land",
    "category_name": "Water & Land",
    "topics": [
