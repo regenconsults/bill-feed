@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-10T23:14:46+00:00",
+ "generated_at": "2026-10-11T11:15:27+00:00",
  "states": "all",
  "categories": [
   {
@@ -41,7 +41,7 @@
   {
    "slug": "equity",
    "name": "Environmental Equity",
-   "count": 5
+   "count": 4
   }
  ],
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
@@ -89,7 +89,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "b85f66b5-957b-4414-b538-26ebcac32ccc",
@@ -155,7 +155,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "2990af44-268b-4b45-92ea-55fba648fdec",
@@ -177,7 +177,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "606c6a89-757d-4f61-a965-1bf0c2d101f2",
@@ -221,7 +221,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "defac229-52d1-4298-b344-7df78dcc648a",
@@ -243,7 +243,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "b183d34a-54c1-4660-8b67-f99314b6e0de",
@@ -265,7 +265,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "cd88b4cd-4027-4c6e-933e-495de3a4573d",
@@ -287,7 +287,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "9695e0fa-5fe4-414a-b2d6-7988af5c3116",
@@ -309,7 +309,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "1b1f9141-96aa-4b20-98bd-be6ede590b67",
@@ -375,7 +375,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "8604aa76-1a4e-45f1-8e54-31c6716bbb45",
@@ -441,7 +441,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "2dea501c-2dbe-470a-9989-8a8857263280",
@@ -463,7 +463,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "b46b0ea1-e0c0-4f32-b986-eb594796cde0",
@@ -485,7 +485,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "373bd02d-ec30-4491-bd50-cc9060923a41",
@@ -529,7 +529,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "d28c757e-7fdc-47e9-98cd-6f8c02e0b98a",
@@ -551,7 +551,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "77b66a89-9da9-4fda-b68a-021347de306c",
@@ -573,7 +573,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "5d79b6c6-6616-410f-8d22-8fa7baac74f3",
@@ -617,7 +617,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "6069618a-6b1d-443d-a23f-6dd833bef749",
@@ -683,7 +683,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "68cf68da-a17e-4bbc-bc26-7f66d52c8dd4",
@@ -705,7 +705,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "6d355509-dcef-414c-aee0-6d0de37a258f",
@@ -749,7 +749,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "e37a42a8-1a24-4778-abd5-34bc9c6f4c8e",
@@ -771,7 +771,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "7147e8c1-f68d-42b0-bc92-f5208cddb13c",
@@ -793,7 +793,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "18871da3-242f-478b-9335-99970abc324a",
@@ -815,7 +815,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "a4f1e8ac-44cf-4352-aeed-927be4bfd5dc",
@@ -837,7 +837,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "454dc1da-3f39-41f5-ad9f-291e0b41ce8b",
@@ -903,7 +903,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "64ec52e5-f251-4337-bc25-f1030227211e",
@@ -925,7 +925,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "d704ebad-14d1-4854-a169-c3d21472f5eb",
@@ -947,7 +947,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "f92d4446-f26b-471f-897f-02ff2d2a644f",
@@ -969,7 +969,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "afa343bb-626c-4a17-866b-d7c9267654d4",
@@ -991,7 +991,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "fa39861b-c6ae-46ca-9358-81e537acd1d6",
@@ -1035,7 +1035,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   },
   {
    "id": "040d00b8-a558-4706-a71c-38576605f08b",
@@ -1057,29 +1057,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
-   "change": "new"
-  },
-  {
-   "id": "80c6cff3-bdf6-43e4-b7b3-353e93531410",
-   "state": "VA",
-   "bill": "SB 425",
-   "title": "Comprehensive plan; environmental justice strategy.",
-   "session": "2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Acts of Assembly Chapter text (CHAP0582)",
-   "latest_action_date": "2026-04-13",
-   "upcoming": false,
-   "introduced": "2026-01-13",
-   "url": "https://lis.virginia.gov/bill-details/20261/SB425",
-   "category": "equity",
-   "category_name": "Environmental Equity",
-   "topics": [
-    "Environmental Equity"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": "new"
+   "change": null
   }
  ]
 }
