@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-11T11:15:27+00:00",
+ "generated_at": "2026-10-11T23:15:19+00:00",
  "states": "all",
  "categories": [
   {
@@ -92,6 +92,29 @@
    "change": null
   },
   {
+   "id": "19d8d16f-b836-448f-b3bd-b733c0015b83",
+   "state": "PA",
+   "bill": "HB 2380",
+   "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in restructuring of electric utility industry, providing for energy storage procurement.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "passed_one_chamber",
+   "status_label": "Passed one chamber",
+   "latest_action": "Third consideration and final passage",
+   "latest_action_date": "2026-10-05",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2468&sessYr=2025&sessInd=0",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "first_seen": "2026-10-08",
+   "change": "moved",
+   "changed_on": "2026-10-11",
+   "previous_status_label": "In committee"
+  },
+  {
    "id": "b85f66b5-957b-4414-b538-26ebcac32ccc",
    "state": "CA",
    "bill": "AB 1156",
@@ -133,28 +156,6 @@
    ],
    "first_seen": "2026-10-07",
    "changed_on": "2026-10-07",
-   "change": null
-  },
-  {
-   "id": "19d8d16f-b836-448f-b3bd-b733c0015b83",
-   "state": "PA",
-   "bill": "HB 2380",
-   "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in restructuring of electric utility industry, providing for energy storage procurement.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Re-committed to Appropriations",
-   "latest_action_date": "2026-09-30",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2468&sessYr=2025&sessInd=0",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
    "change": null
   },
   {
