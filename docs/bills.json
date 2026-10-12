@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-11T23:15:19+00:00",
+ "generated_at": "2026-10-12T11:19:28+00:00",
  "states": "all",
  "categories": [
   {
@@ -66,8 +66,7 @@
    ],
    "first_seen": "2026-10-06",
    "changed_on": "2026-10-09",
-   "change": "moved",
-   "previous_status_label": "In committee"
+   "change": null
   },
   {
    "id": "c98eba33-6faf-4400-b5d4-3dfd18f85d94",
@@ -110,8 +109,8 @@
     "Clean Energy"
    ],
    "first_seen": "2026-10-08",
-   "change": "moved",
    "changed_on": "2026-10-11",
+   "change": "moved",
    "previous_status_label": "In committee"
   },
   {
@@ -200,7 +199,7 @@
    ],
    "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "change": "new"
+   "change": null
   },
   {
    "id": "4797821b-56c6-4b37-9ebc-40918f2fdbc5",
@@ -508,7 +507,7 @@
    ],
    "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "change": "new"
+   "change": null
   },
   {
    "id": "b7d265e7-d254-4a68-a7b2-e457ef19ab2d",
@@ -596,7 +595,7 @@
    ],
    "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "change": "new"
+   "change": null
   },
   {
    "id": "b5098593-3a82-43a2-ac9f-1add0ec2bf09",
@@ -728,7 +727,7 @@
    ],
    "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "change": "new"
+   "change": null
   },
   {
    "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
@@ -882,7 +881,7 @@
    ],
    "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "change": "new"
+   "change": null
   },
   {
    "id": "fc915a83-2930-4b7e-ba22-4623bbb9354e",
