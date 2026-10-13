@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-12T23:17:06+00:00",
+ "generated_at": "2026-10-13T11:19:26+00:00",
  "states": "all",
  "categories": [
   {
@@ -859,7 +859,7 @@
    ],
    "first_seen": "2026-10-10",
    "changed_on": "2026-10-10",
-   "change": "new"
+   "change": null
   },
   {
    "id": "140fe026-0552-4657-872d-3a189390ff11",
