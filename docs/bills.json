@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-13T23:23:21+00:00",
+ "generated_at": "2026-10-14T11:29:36+00:00",
  "states": "all",
  "categories": [
   {
@@ -47,6 +47,29 @@
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
   {
+   "id": "19d8d16f-b836-448f-b3bd-b733c0015b83",
+   "state": "PA",
+   "bill": "HB 2380",
+   "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in restructuring of electric utility industry, providing for energy storage procurement.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Consumer Protection & Professional Licensure",
+   "latest_action_date": "2026-10-13",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2468&sessYr=2025&sessInd=0",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "first_seen": "2026-10-08",
+   "change": "moved",
+   "changed_on": "2026-10-14",
+   "previous_status_label": "Passed one chamber"
+  },
+  {
    "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
    "state": "NJ",
    "bill": "S 4729",
@@ -89,29 +112,6 @@
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
    "change": null
-  },
-  {
-   "id": "19d8d16f-b836-448f-b3bd-b733c0015b83",
-   "state": "PA",
-   "bill": "HB 2380",
-   "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in restructuring of electric utility industry, providing for energy storage procurement.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "passed_one_chamber",
-   "status_label": "Passed one chamber",
-   "latest_action": "Third consideration and final passage",
-   "latest_action_date": "2026-10-05",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2468&sessYr=2025&sessInd=0",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-11",
-   "change": "moved",
-   "previous_status_label": "In committee"
   },
   {
    "id": "b85f66b5-957b-4414-b538-26ebcac32ccc",
@@ -180,6 +180,50 @@
    "change": null
   },
   {
+   "id": "90479a64-fb4d-4845-9e4b-de4b5f231f57",
+   "state": "PA",
+   "bill": "SB 1491",
+   "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in service and facilities, providing for high-voltage transmission lines.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Consumer Protection & Professional Licensure",
+   "latest_action_date": "2026-10-13",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/legislation/bills/2025/sb1491",
+   "category": "grid",
+   "category_name": "Grid & Energy Affordability",
+   "topics": [
+    "Grid & Energy Affordability"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-14",
+   "first_seen": "2026-10-14"
+  },
+  {
+   "id": "c10c7d26-ab89-4583-ab2b-9ab71d29d3ef",
+   "state": "PA",
+   "bill": "HB 2595",
+   "title": "An Act amending the act of November 30, 2004 (P.L.1672, No.213), known as the Alternative Energy Portfolio Standards Act, providing for interconnection reviews.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Consumer Protection & Professional Licensure",
+   "latest_action_date": "2026-10-13",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2469&sessYr=2025&sessInd=0",
+   "category": "grid",
+   "category_name": "Grid & Energy Affordability",
+   "topics": [
+    "Grid & Energy Affordability"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-14",
+   "first_seen": "2026-10-14"
+  },
+  {
    "id": "606c6a89-757d-4f61-a965-1bf0c2d101f2",
    "state": "NJ",
    "bill": "S 4052",
@@ -246,28 +290,6 @@
    "change": null
   },
   {
-   "id": "b183d34a-54c1-4660-8b67-f99314b6e0de",
-   "state": "PA",
-   "bill": "HB 2791",
-   "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in service and facilities, providing for high-voltage transmission lines.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Energy",
-   "latest_action_date": "2026-09-23",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/legislation/bills/2025/hb2791",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
    "id": "cd88b4cd-4027-4c6e-933e-495de3a4573d",
    "state": "NJ",
    "bill": "AR 154",
@@ -280,28 +302,6 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/AR154",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
-   "id": "9695e0fa-5fe4-414a-b2d6-7988af5c3116",
-   "state": "MI",
-   "bill": "SB 1175",
-   "title": "Public utilities: electric utilities; distribution grid plans created by electric utilities; require. Amends sec. 6a of 1939 PA 3 (MCL 460.6a).",
-   "session": "2025-2026 Regular Session (103rd Legislature)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "REFERRED TO COMMITTEE ON ENERGY AND ENVIRONMENT",
-   "latest_action_date": "2026-09-10",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1175",
    "category": "grid",
    "category_name": "Grid & Energy Affordability",
    "topics": [
@@ -708,6 +708,29 @@
    "change": null
   },
   {
+   "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
+   "state": "PA",
+   "bill": "HB 2229",
+   "title": "An Act amending the act of July 7, 1980 (P.L.380, No.97), known as the Solid Waste Management Act, in general provisions, further providing for powers and duties of the department.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Environmental Resources & Energy",
+   "latest_action_date": "2026-10-13",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=70&rollcallid=1759&sessYr=2025&sessInd=0",
+   "category": "waste",
+   "category_name": "Waste & Circular Economy",
+   "topics": [
+    "Waste & Circular Economy"
+   ],
+   "first_seen": "2026-10-08",
+   "change": "moved",
+   "changed_on": "2026-10-14",
+   "previous_status_label": "Passed one chamber"
+  },
+  {
    "id": "6d355509-dcef-414c-aee0-6d0de37a258f",
    "state": "NJ",
    "bill": "S 681",
@@ -727,28 +750,6 @@
    ],
    "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "change": null
-  },
-  {
-   "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
-   "state": "PA",
-   "bill": "HB 2229",
-   "title": "An Act amending the act of July 7, 1980 (P.L.380, No.97), known as the Solid Waste Management Act, in general provisions, further providing for powers and duties of the department.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "passed_one_chamber",
-   "status_label": "Passed one chamber",
-   "latest_action": "Third consideration and final passage",
-   "latest_action_date": "2026-09-30",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=70&rollcallid=1759&sessYr=2025&sessInd=0",
-   "category": "waste",
-   "category_name": "Waste & Circular Economy",
-   "topics": [
-    "Waste & Circular Economy"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
    "change": null
   },
   {
