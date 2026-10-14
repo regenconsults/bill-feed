@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-14T11:29:36+00:00",
+ "generated_at": "2026-10-14T23:25:55+00:00",
  "states": "all",
  "categories": [
   {
@@ -65,9 +65,31 @@
     "Clean Energy"
    ],
    "first_seen": "2026-10-08",
-   "change": "moved",
    "changed_on": "2026-10-14",
+   "change": "moved",
    "previous_status_label": "Passed one chamber"
+  },
+  {
+   "id": "957af0d4-7c15-452e-8a7a-bd4ab7471380",
+   "state": "IL",
+   "bill": "SB 3078",
+   "title": "LOC GOV-ENERGY STORAGE SYSTEMS",
+   "session": "104th General Assembly, 2026 Session",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Added as Co-Sponsor Sen. Sally J. Turner",
+   "latest_action_date": "2026-10-13",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3078&GAID=18&DocTypeID=SB&LegId=165658&SessionID=114",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-14",
+   "first_seen": "2026-10-14"
   },
   {
    "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
@@ -158,28 +180,6 @@
    "change": null
   },
   {
-   "id": "2990af44-268b-4b45-92ea-55fba648fdec",
-   "state": "MI",
-   "bill": "HB 6408",
-   "title": "Energy: alternative sources; distributed generation, storage, and aggregation; create program for in rate cases. Amends 2008 PA 295 (MCL 460.1001 - 460.1232) by adding pt. 9.   TIE BAR WITH: HB 6410'26",
-   "session": "2025-2026 Regular Session (103rd Legislature)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "bill electronically reproduced 09/24/2026",
-   "latest_action_date": "2026-09-29",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6408",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
    "id": "90479a64-fb4d-4845-9e4b-de4b5f231f57",
    "state": "PA",
    "bill": "SB 1491",
@@ -197,9 +197,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-10-14",
    "changed_on": "2026-10-14",
-   "first_seen": "2026-10-14"
+   "change": "new"
   },
   {
    "id": "c10c7d26-ab89-4583-ab2b-9ab71d29d3ef",
@@ -219,9 +219,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-10-14",
    "changed_on": "2026-10-14",
-   "first_seen": "2026-10-14"
+   "change": "new"
   },
   {
    "id": "606c6a89-757d-4f61-a965-1bf0c2d101f2",
@@ -726,8 +726,8 @@
     "Waste & Circular Economy"
    ],
    "first_seen": "2026-10-08",
-   "change": "moved",
    "changed_on": "2026-10-14",
+   "change": "moved",
    "previous_status_label": "Passed one chamber"
   },
   {
