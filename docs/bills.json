@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-15T11:28:20+00:00",
+ "generated_at": "2026-10-15T23:22:19+00:00",
  "states": "all",
  "categories": [
   {
@@ -708,6 +708,28 @@
    "change": null
   },
   {
+   "id": "8840ec5a-9aa3-438c-906e-c6f3487015a6",
+   "state": "MI",
+   "bill": "HB 6429",
+   "title": "Environmental protection: solid waste; definition of coal combustion residuals; provide for. Amends, adds & repeals (See bill).",
+   "session": "2025-2026 Regular Session (103rd Legislature)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "bill electronically reproduced 10/14/2026",
+   "latest_action_date": "2026-10-21",
+   "upcoming": true,
+   "introduced": null,
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6429",
+   "category": "waste",
+   "category_name": "Waste & Circular Economy",
+   "topics": [
+    "Waste & Circular Economy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-15",
+   "first_seen": "2026-10-15"
+  },
+  {
    "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
    "state": "PA",
    "bill": "HB 2229",
@@ -819,26 +841,26 @@
    "change": null
   },
   {
-   "id": "a4f1e8ac-44cf-4352-aeed-927be4bfd5dc",
-   "state": "PA",
-   "bill": "HB 84",
-   "title": "An Act amending the act of July 7, 1980 (P.L.380, No.97), known as the Solid Waste Management Act, in general provisions, further providing for definitions; and, in residual waste, providing for prohibition on road spreading and land application of oil and gas wastewater.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "id": "790698fd-bf2d-4c66-9118-418303f1c54b",
+   "state": "MI",
+   "bill": "SB 1211",
+   "title": "Water supply: quality and standards; drinking water compliance information; require to be available to the public. Amends sec. 19 of 1976 PA 399 (MCL 325.1019) by adding sec. 19b.",
+   "session": "2025-2026 Regular Session (103rd Legislature)",
    "status": "in_committee",
    "status_label": "In committee",
-   "latest_action": "Laid on the table",
-   "latest_action_date": "2026-09-08",
+   "latest_action": "REFERRED TO COMMITTEE ON ENERGY AND ENVIRONMENT",
+   "latest_action_date": "2026-10-14",
    "upcoming": false,
    "introduced": null,
-   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=70&rollcallid=2279&sessYr=2025&sessInd=0",
-   "category": "waste",
-   "category_name": "Waste & Circular Economy",
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1211",
+   "category": "water-land",
+   "category_name": "Water & Land",
    "topics": [
-    "Waste & Circular Economy"
+    "Water & Land"
    ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
+   "change": "new",
+   "changed_on": "2026-10-15",
+   "first_seen": "2026-10-15"
   },
   {
    "id": "454dc1da-3f39-41f5-ad9f-291e0b41ce8b",
@@ -941,28 +963,6 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://www.palegis.us/legislation/bills/2025/sb1470",
-   "category": "water-land",
-   "category_name": "Water & Land",
-   "topics": [
-    "Water & Land"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
-   "id": "f92d4446-f26b-471f-897f-02ff2d2a644f",
-   "state": "MI",
-   "bill": "HB 6343",
-   "title": "Natural resources: wetlands; notification to landowners and local units of government before approval of a new wetland bank; require. Amends sec. 30311d of 1994 PA 451 (MCL 324.30311d).",
-   "session": "2025-2026 Regular Session (103rd Legislature)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "bill electronically reproduced 09/23/2026",
-   "latest_action_date": "2026-09-24",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6343",
    "category": "water-land",
    "category_name": "Water & Land",
    "topics": [
