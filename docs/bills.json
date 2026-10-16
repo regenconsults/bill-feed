@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-16T11:28:13+00:00",
+ "generated_at": "2026-10-16T23:23:54+00:00",
  "states": "all",
  "categories": [
   {
@@ -59,6 +59,28 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4828",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "first_seen": "2026-10-16",
+   "changed_on": "2026-10-16",
+   "change": "new"
+  },
+  {
+   "id": "7949669a-bf51-4548-84bc-f01d35851dcb",
+   "state": "IL",
+   "bill": "SB 3488",
+   "title": "WIND & SOLAR AFFECT WATER FLOW",
+   "session": "104th General Assembly, 2026 Session",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Added as Co-Sponsor Sen. Chris Balkema",
+   "latest_action_date": "2026-10-15",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3488&GAID=18&DocTypeID=SB&LegId=166489&SessionID=114",
    "category": "clean-energy",
    "category_name": "Clean Energy",
    "topics": [
@@ -155,28 +177,6 @@
    ],
    "first_seen": "2026-09-30",
    "changed_on": "2026-10-01",
-   "change": null
-  },
-  {
-   "id": "deaaf48e-f348-4654-96d0-06c9c11bd108",
-   "state": "CA",
-   "bill": "AB 1813",
-   "title": "Electricity: customer renewable energy subscription program.",
-   "session": "2025-2026 Regular Session",
-   "status": "vetoed",
-   "status_label": "Vetoed",
-   "latest_action": "Vetoed by Governor.",
-   "latest_action_date": "2026-09-30",
-   "upcoming": false,
-   "introduced": "2026-03-19",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1813",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-07",
-   "changed_on": "2026-10-07",
    "change": null
   },
   {
@@ -444,6 +444,28 @@
    "change": null
   },
   {
+   "id": "df47a010-f4ba-42cf-ac6d-e8c705fd7b89",
+   "state": "NH",
+   "bill": "HB 1410",
+   "title": "creating a new classification for electric vehicles.",
+   "session": "2026 Regular Session",
+   "status": "died_on_adjournment",
+   "status_label": "Died on adjournment",
+   "latest_action": "Executive Session: 10/20/2026 10:00 am GP 234",
+   "latest_action_date": "2026-10-07",
+   "upcoming": false,
+   "introduced": "2025-12-04",
+   "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2296&inflect=2",
+   "category": "transportation",
+   "category_name": "Clean Transportation",
+   "topics": [
+    "Clean Transportation"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-16",
+   "first_seen": "2026-10-16"
+  },
+  {
    "id": "2dea501c-2dbe-470a-9989-8a8857263280",
    "state": "PA",
    "bill": "HB 1592",
@@ -544,28 +566,6 @@
    "upcoming": false,
    "introduced": null,
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1944",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
-   "id": "77b66a89-9da9-4fda-b68a-021347de306c",
-   "state": "NJ",
-   "bill": "S 3739",
-   "title": "Establishes certain electric vehicle supply equipment development processes and standards concerning public health and safety; removes certain existing approval requirements while preserving applicable safety and inspection standards.",
-   "session": "222",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Approved P.L.2026, c.94.",
-   "latest_action_date": "2026-09-28",
-   "upcoming": false,
-   "introduced": "2026-03-05",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S3739",
    "category": "transportation",
    "category_name": "Clean Transportation",
    "topics": [
