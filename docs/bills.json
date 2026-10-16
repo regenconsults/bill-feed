@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-15T23:22:19+00:00",
+ "generated_at": "2026-10-16T11:28:13+00:00",
  "states": "all",
  "categories": [
   {
@@ -46,6 +46,28 @@
  ],
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
+  {
+   "id": "f2c0b388-e522-480f-91c1-3d9596490ee2",
+   "state": "NJ",
+   "bill": "S 4828",
+   "title": "Extends eligibility for sales and use tax exemption certificate program administered by EDA to include certain projects undertaken by clean energy product manufacturers.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+   "latest_action_date": "2026-10-15",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4828",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-16",
+   "first_seen": "2026-10-16"
+  },
   {
    "id": "19d8d16f-b836-448f-b3bd-b733c0015b83",
    "state": "PA",
@@ -111,28 +133,6 @@
    ],
    "first_seen": "2026-10-06",
    "changed_on": "2026-10-09",
-   "change": null
-  },
-  {
-   "id": "c98eba33-6faf-4400-b5d4-3dfd18f85d94",
-   "state": "NJ",
-   "bill": "S 4766",
-   "title": "Establishes GREEN Loan Program in BPU to finance certain renewable energy and energy efficiency projects; appropriates $5 million.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
-   "latest_action_date": "2026-10-05",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4766",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
    "change": null
   },
   {
@@ -725,9 +725,9 @@
    "topics": [
     "Waste & Circular Economy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-15",
    "changed_on": "2026-10-15",
-   "first_seen": "2026-10-15"
+   "change": "new"
   },
   {
    "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
@@ -844,7 +844,7 @@
    "id": "790698fd-bf2d-4c66-9118-418303f1c54b",
    "state": "MI",
    "bill": "SB 1211",
-   "title": "Water supply: quality and standards; drinking water compliance information; require to be available to the public. Amends sec. 19 of 1976 PA 399 (MCL 325.1019) by adding sec. 19b.",
+   "title": "Water supply: quality and standards; drinking water compliance information; require to be available to the public. Amends sec. 19 of 1976 PA 399 (MCL 325.1019) & adds sec. 19b.",
    "session": "2025-2026 Regular Session (103rd Legislature)",
    "status": "in_committee",
    "status_label": "In committee",
@@ -858,9 +858,9 @@
    "topics": [
     "Water & Land"
    ],
-   "change": "new",
+   "first_seen": "2026-10-15",
    "changed_on": "2026-10-15",
-   "first_seen": "2026-10-15"
+   "change": "new"
   },
   {
    "id": "454dc1da-3f39-41f5-ad9f-291e0b41ce8b",
