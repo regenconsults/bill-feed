@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-16T23:23:54+00:00",
+ "generated_at": "2026-10-17T11:22:52+00:00",
  "states": "all",
  "categories": [
   {
@@ -86,9 +86,31 @@
    "topics": [
     "Clean Energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-16",
    "changed_on": "2026-10-16",
-   "first_seen": "2026-10-16"
+   "change": "new"
+  },
+  {
+   "id": "7c071a00-5d05-476b-83f2-48926e50e3e4",
+   "state": "NJ",
+   "bill": "A 5636",
+   "title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
+   "latest_action_date": "2026-10-15",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5636",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-17",
+   "first_seen": "2026-10-17"
   },
   {
    "id": "19d8d16f-b836-448f-b3bd-b733c0015b83",
@@ -110,8 +132,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-14",
-   "change": "moved",
-   "previous_status_label": "Passed one chamber"
+   "change": null
   },
   {
    "id": "957af0d4-7c15-452e-8a7a-bd4ab7471380",
@@ -133,28 +154,6 @@
    ],
    "first_seen": "2026-10-14",
    "changed_on": "2026-10-14",
-   "change": "new"
-  },
-  {
-   "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
-   "state": "NJ",
-   "bill": "S 4729",
-   "title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
-   "session": "222",
-   "status": "introduced",
-   "status_label": "Introduced",
-   "latest_action": "Reported from Senate Committee, 2nd Reading",
-   "latest_action_date": "2026-10-08",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4729",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-06",
-   "changed_on": "2026-10-09",
    "change": null
   },
   {
@@ -199,7 +198,7 @@
    ],
    "first_seen": "2026-10-14",
    "changed_on": "2026-10-14",
-   "change": "new"
+   "change": null
   },
   {
    "id": "c10c7d26-ab89-4583-ab2b-9ab71d29d3ef",
@@ -221,7 +220,7 @@
    ],
    "first_seen": "2026-10-14",
    "changed_on": "2026-10-14",
-   "change": "new"
+   "change": null
   },
   {
    "id": "606c6a89-757d-4f61-a965-1bf0c2d101f2",
@@ -461,9 +460,9 @@
    "topics": [
     "Clean Transportation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-16",
    "changed_on": "2026-10-16",
-   "first_seen": "2026-10-16"
+   "change": "new"
   },
   {
    "id": "2dea501c-2dbe-470a-9989-8a8857263280",
@@ -749,8 +748,7 @@
    ],
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-14",
-   "change": "moved",
-   "previous_status_label": "Passed one chamber"
+   "change": null
   },
   {
    "id": "6d355509-dcef-414c-aee0-6d0de37a258f",
