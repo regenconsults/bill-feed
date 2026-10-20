@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-20T11:29:19+00:00",
+ "generated_at": "2026-10-20T23:24:55+00:00",
  "states": "all",
  "categories": [
   {
@@ -64,9 +64,9 @@
    "topics": [
     "Clean Energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-20",
    "changed_on": "2026-10-20",
-   "first_seen": "2026-10-20"
+   "change": "new"
   },
   {
    "id": "7949669a-bf51-4548-84bc-f01d35851dcb",
@@ -450,7 +450,7 @@
    "session": "2025-2026 Regular Session (209th General Assembly)",
    "status": "introduced",
    "status_label": "Introduced",
-   "latest_action": "Laid on the table",
+   "latest_action": "Removed from table",
    "latest_action_date": "2026-10-19",
    "upcoming": false,
    "introduced": null,
@@ -460,9 +460,10 @@
    "topics": [
     "Clean Transportation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-20",
+   "change": "moved",
    "changed_on": "2026-10-20",
-   "first_seen": "2026-10-20"
+   "previous_status_label": "Introduced"
   },
   {
    "id": "90a77c9d-8f14-4ad0-9755-0f4ca92527d4",
@@ -482,9 +483,9 @@
    "topics": [
     "Clean Transportation"
    ],
-   "change": "new",
+   "first_seen": "2026-10-20",
    "changed_on": "2026-10-20",
-   "first_seen": "2026-10-20"
+   "change": "new"
   },
   {
    "id": "df47a010-f4ba-42cf-ac6d-e8c705fd7b89",
