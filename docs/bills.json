@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-19T23:27:28+00:00",
+ "generated_at": "2026-10-20T11:29:19+00:00",
  "states": "all",
  "categories": [
   {
@@ -47,26 +47,26 @@
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
   {
-   "id": "f2c0b388-e522-480f-91c1-3d9596490ee2",
+   "id": "bfbb3075-38d3-4742-8003-52560c332951",
    "state": "NJ",
-   "bill": "S 4828",
+   "bill": "A 5694",
    "title": "Extends eligibility for sales and use tax exemption certificate program administered by EDA to include certain projects undertaken by clean energy product manufacturers.",
    "session": "222",
    "status": "in_committee",
    "status_label": "In committee",
-   "latest_action": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
-   "latest_action_date": "2026-10-15",
+   "latest_action": "Introduced, Referred to Assembly Commerce and Economic Development Committee",
+   "latest_action_date": "2026-10-19",
    "upcoming": false,
    "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4828",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5694",
    "category": "clean-energy",
    "category_name": "Clean Energy",
    "topics": [
     "Clean Energy"
    ],
-   "first_seen": "2026-10-16",
-   "changed_on": "2026-10-16",
-   "change": null
+   "change": "new",
+   "changed_on": "2026-10-20",
+   "first_seen": "2026-10-20"
   },
   {
    "id": "7949669a-bf51-4548-84bc-f01d35851dcb",
@@ -110,7 +110,7 @@
    ],
    "first_seen": "2026-10-17",
    "changed_on": "2026-10-17",
-   "change": "new"
+   "change": null
   },
   {
    "id": "19d8d16f-b836-448f-b3bd-b733c0015b83",
@@ -443,6 +443,50 @@
    "change": null
   },
   {
+   "id": "764133ad-d9e0-4849-9a2a-49ea40ac522f",
+   "state": "PA",
+   "bill": "SB 210",
+   "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in miscellaneous provisions relating to operation of vehicles, providing for the offense of interference with operation or movement of a public transit vehicle.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "introduced",
+   "status_label": "Introduced",
+   "latest_action": "Laid on the table",
+   "latest_action_date": "2026-10-19",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=19&rollcallid=42&sessYr=2025&sessInd=0",
+   "category": "transportation",
+   "category_name": "Clean Transportation",
+   "topics": [
+    "Clean Transportation"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-20",
+   "first_seen": "2026-10-20"
+  },
+  {
+   "id": "90a77c9d-8f14-4ad0-9755-0f4ca92527d4",
+   "state": "PA",
+   "bill": "HR 661",
+   "title": "A Resolution directing the Joint State Government Commission to conduct a study on the feasibility of implementing automated transit systems in this Commonwealth and issue a report.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Transportation",
+   "latest_action_date": "2026-10-19",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/legislation/bills/2025/hr661",
+   "category": "transportation",
+   "category_name": "Clean Transportation",
+   "topics": [
+    "Clean Transportation"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-20",
+   "first_seen": "2026-10-20"
+  },
+  {
    "id": "df47a010-f4ba-42cf-ac6d-e8c705fd7b89",
    "state": "NH",
    "bill": "HB 1410",
@@ -462,28 +506,6 @@
    ],
    "first_seen": "2026-10-16",
    "changed_on": "2026-10-16",
-   "change": null
-  },
-  {
-   "id": "2dea501c-2dbe-470a-9989-8a8857263280",
-   "state": "PA",
-   "bill": "HB 1592",
-   "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in rules of the road in general relating to stopping, standing and parking, providing for handicapped parking spaces at electric vehicle charging stations.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "introduced",
-   "status_label": "Introduced",
-   "latest_action": "Laid on the table",
-   "latest_action_date": "2026-10-05",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/legislation/bills/2025/hb1592",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
    "change": null
   },
   {
@@ -543,28 +565,6 @@
    "upcoming": false,
    "introduced": "2026-02-20",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1361",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
-   "id": "d28c757e-7fdc-47e9-98cd-6f8c02e0b98a",
-   "state": "CA",
-   "bill": "AB 1944",
-   "title": "Zero-emission transit buses: axle weight.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State - Chapter 909, Statutes of 2026.",
-   "latest_action_date": "2026-09-30",
-   "upcoming": false,
-   "introduced": null,
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1944",
    "category": "transportation",
    "category_name": "Clean Transportation",
    "topics": [
