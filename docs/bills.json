@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-21T11:29:49+00:00",
+ "generated_at": "2026-10-21T23:24:51+00:00",
  "states": "all",
  "categories": [
   {
@@ -64,9 +64,9 @@
    "topics": [
     "Clean Energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-21",
    "changed_on": "2026-10-21",
-   "first_seen": "2026-10-21"
+   "change": "new"
   },
   {
    "id": "bfbb3075-38d3-4742-8003-52560c332951",
@@ -179,6 +179,28 @@
    "change": null
   },
   {
+   "id": "f7a338be-90b7-423d-9d59-9c9149dc4041",
+   "state": "PA",
+   "bill": "HB 2866",
+   "title": "An Act imposing a fee on energy consumption taxpayers; providing for an energy ratepayer rebate; imposing duties on the Pennsylvania Public Utility Commission; and establishing the Energy Ratepayer Protection Fund.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Energy",
+   "latest_action_date": "2026-10-20",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/legislation/bills/2025/hb2866",
+   "category": "grid",
+   "category_name": "Grid & Energy Affordability",
+   "topics": [
+    "Grid & Energy Affordability"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-21",
+   "first_seen": "2026-10-21"
+  },
+  {
    "id": "90479a64-fb4d-4845-9e4b-de4b5f231f57",
    "state": "PA",
    "bill": "SB 1491",
@@ -191,28 +213,6 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://www.palegis.us/legislation/bills/2025/sb1491",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-10-14",
-   "changed_on": "2026-10-14",
-   "change": null
-  },
-  {
-   "id": "c10c7d26-ab89-4583-ab2b-9ab71d29d3ef",
-   "state": "PA",
-   "bill": "HB 2595",
-   "title": "An Act amending the act of November 30, 2004 (P.L.1672, No.213), known as the Alternative Energy Portfolio Standards Act, providing for interconnection reviews.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Consumer Protection & Professional Licensure",
-   "latest_action_date": "2026-10-13",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2469&sessYr=2025&sessInd=0",
    "category": "grid",
    "category_name": "Grid & Energy Affordability",
    "topics": [
