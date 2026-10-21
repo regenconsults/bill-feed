@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-20T23:24:55+00:00",
+ "generated_at": "2026-10-21T11:29:49+00:00",
  "states": "all",
  "categories": [
   {
@@ -46,6 +46,28 @@
  ],
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
+  {
+   "id": "b0bd9697-1ac0-4c26-888a-9db24345a902",
+   "state": "PA",
+   "bill": "HB 1667",
+   "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, providing for residential clean energy tax credit; repealing provisions relating to Pennsylvania Economic Development for a Growing Economy (PA EDGE) Tax Credits; providing for Pennsylvania Economic Development for a Growing Economy (PA EDGE) Tax Credits and for energy ratepayer protection; establishing the Energy Ratepayer Protection Fund; in manufacturing and investment tax credit, further providing for tax credit certificates and providing for limitations; and making a repeal.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Rules & Executive Nominations",
+   "latest_action_date": "2026-10-19",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=16&rollcallid=990&sessYr=2025&sessInd=0",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-21",
+   "first_seen": "2026-10-21"
+  },
   {
    "id": "bfbb3075-38d3-4742-8003-52560c332951",
    "state": "NJ",
@@ -154,28 +176,6 @@
    ],
    "first_seen": "2026-10-14",
    "changed_on": "2026-10-14",
-   "change": null
-  },
-  {
-   "id": "b85f66b5-957b-4414-b538-26ebcac32ccc",
-   "state": "CA",
-   "bill": "AB 1156",
-   "title": "Williamson Act contracts: cancellation fees: photovoltaic solar facilities.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State - Chapter 875, Statutes of 2026.",
-   "latest_action_date": "2026-09-30",
-   "upcoming": false,
-   "introduced": "2025-03-20",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1156",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-09-30",
-   "changed_on": "2026-10-01",
    "change": null
   },
   {
@@ -461,8 +461,8 @@
     "Clean Transportation"
    ],
    "first_seen": "2026-10-20",
-   "change": "moved",
    "changed_on": "2026-10-20",
+   "change": "moved",
    "previous_status_label": "Introduced"
   },
   {
@@ -717,7 +717,7 @@
    "status_label": "In committee",
    "latest_action": "bill electronically reproduced 10/14/2026",
    "latest_action_date": "2026-10-21",
-   "upcoming": true,
+   "upcoming": false,
    "introduced": null,
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6429",
    "category": "waste",
