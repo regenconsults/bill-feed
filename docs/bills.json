@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-22T11:30:30+00:00",
+ "generated_at": "2026-10-22T23:27:00+00:00",
  "states": "all",
  "categories": [
   {
@@ -448,10 +448,10 @@
    "bill": "SB 210",
    "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in miscellaneous provisions relating to operation of vehicles, providing for the offense of interference with operation or movement of a public transit vehicle.",
    "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "introduced",
-   "status_label": "Introduced",
-   "latest_action": "Removed from table",
-   "latest_action_date": "2026-10-19",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Re-referred to Appropriations",
+   "latest_action_date": "2026-10-20",
    "upcoming": false,
    "introduced": null,
    "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=19&rollcallid=42&sessYr=2025&sessInd=0",
@@ -461,8 +461,8 @@
     "Clean Transportation"
    ],
    "first_seen": "2026-10-20",
-   "changed_on": "2026-10-20",
    "change": "moved",
+   "changed_on": "2026-10-22",
    "previous_status_label": "Introduced"
   },
   {
