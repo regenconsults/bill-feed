@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-21T23:24:51+00:00",
+ "generated_at": "2026-10-22T11:30:30+00:00",
  "states": "all",
  "categories": [
   {
@@ -196,9 +196,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-10-21",
    "changed_on": "2026-10-21",
-   "first_seen": "2026-10-21"
+   "change": "new"
   },
   {
    "id": "90479a64-fb4d-4845-9e4b-de4b5f231f57",
