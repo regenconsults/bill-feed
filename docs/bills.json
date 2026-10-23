@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-22T23:27:00+00:00",
+ "generated_at": "2026-10-23T11:30:00+00:00",
  "states": "all",
  "categories": [
   {
@@ -88,7 +88,7 @@
    ],
    "first_seen": "2026-10-20",
    "changed_on": "2026-10-20",
-   "change": "new"
+   "change": null
   },
   {
    "id": "7949669a-bf51-4548-84bc-f01d35851dcb",
@@ -461,8 +461,8 @@
     "Clean Transportation"
    ],
    "first_seen": "2026-10-20",
-   "change": "moved",
    "changed_on": "2026-10-22",
+   "change": "moved",
    "previous_status_label": "Introduced"
   },
   {
@@ -485,7 +485,7 @@
    ],
    "first_seen": "2026-10-20",
    "changed_on": "2026-10-20",
-   "change": "new"
+   "change": null
   },
   {
    "id": "df47a010-f4ba-42cf-ac6d-e8c705fd7b89",
