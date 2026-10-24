@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-24T11:24:35+00:00",
+ "generated_at": "2026-10-24T23:21:30+00:00",
  "states": "all",
  "categories": [
   {
@@ -577,6 +577,28 @@
    "change": null
   },
   {
+   "id": "f25e35ce-3c7f-49c3-955d-6de7b4e45a05",
+   "state": "IL",
+   "bill": "HB 4773",
+   "title": "CLIMATE CHANGE SUPERFUND",
+   "session": "104th General Assembly, 2026 Session",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Added Co-Sponsor Rep. Maura Hirschauer",
+   "latest_action_date": "2026-10-23",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=4773&GAID=18&DocTypeID=HB&LegId=165917&SessionID=114",
+   "category": "climate",
+   "category_name": "Climate & Emissions",
+   "topics": [
+    "Climate & Emissions"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-24",
+   "first_seen": "2026-10-24"
+  },
+  {
    "id": "5d79b6c6-6616-410f-8d22-8fa7baac74f3",
    "state": "NJ",
    "bill": "S 4214",
@@ -662,28 +684,6 @@
    ],
    "first_seen": "2026-10-07",
    "changed_on": "2026-10-07",
-   "change": null
-  },
-  {
-   "id": "2d64362d-adb7-4060-b0c0-bc2bc06fa0e8",
-   "state": "IL",
-   "bill": "SB 2981",
-   "title": "CLIMATE CHANGE SUPERFUND",
-   "session": "104th General Assembly, 2026 Session",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Added as Co-Sponsor Sen. Robert Peters",
-   "latest_action_date": "2026-09-09",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=2981&GAID=18&DocTypeID=SB&LegId=165475&SessionID=114",
-   "category": "climate",
-   "category_name": "Climate & Emissions",
-   "topics": [
-    "Climate & Emissions"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
    "change": null
   },
   {
