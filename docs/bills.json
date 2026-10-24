@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-23T23:24:36+00:00",
+ "generated_at": "2026-10-24T11:24:35+00:00",
  "states": "all",
  "categories": [
   {
@@ -64,9 +64,9 @@
    "topics": [
     "Clean Energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-23",
    "changed_on": "2026-10-23",
-   "first_seen": "2026-10-23"
+   "change": "new"
   },
   {
    "id": "b0bd9697-1ac0-4c26-888a-9db24345a902",
@@ -88,7 +88,7 @@
    ],
    "first_seen": "2026-10-21",
    "changed_on": "2026-10-21",
-   "change": "new"
+   "change": null
   },
   {
    "id": "bfbb3075-38d3-4742-8003-52560c332951",
@@ -198,7 +198,7 @@
    ],
    "first_seen": "2026-10-21",
    "changed_on": "2026-10-21",
-   "change": "new"
+   "change": null
   },
   {
    "id": "90479a64-fb4d-4845-9e4b-de4b5f231f57",
@@ -461,8 +461,8 @@
     "Clean Transportation"
    ],
    "first_seen": "2026-10-16",
-   "change": "moved",
    "changed_on": "2026-10-23",
+   "change": "moved",
    "previous_status_label": "Died on adjournment"
   },
   {
