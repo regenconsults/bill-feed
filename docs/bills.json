@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-24T23:21:30+00:00",
+ "generated_at": "2026-10-25T11:24:39+00:00",
  "states": "all",
  "categories": [
   {
@@ -47,6 +47,50 @@
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
   {
+   "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
+   "state": "NJ",
+   "bill": "S 4729",
+   "title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
+   "session": "222",
+   "status": "passed_one_chamber",
+   "status_label": "Passed one chamber",
+   "latest_action": "Passed by the Senate (39-0)",
+   "latest_action_date": "2026-10-22",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4729",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-25",
+   "first_seen": "2026-10-25"
+  },
+  {
+   "id": "9755ce35-af7a-40d3-94cd-80f875c9309c",
+   "state": "NJ",
+   "bill": "A 5706",
+   "title": "Requires NJT and BPU to establish railroad right-of-way solar energy pilot program.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
+   "latest_action_date": "2026-10-22",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5706",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-25",
+   "first_seen": "2026-10-25"
+  },
+  {
    "id": "77e4412f-0842-4ddc-8872-66de371e36b2",
    "state": "VA",
    "bill": "SB 4001",
@@ -91,28 +135,6 @@
    "change": null
   },
   {
-   "id": "bfbb3075-38d3-4742-8003-52560c332951",
-   "state": "NJ",
-   "bill": "A 5694",
-   "title": "Extends eligibility for sales and use tax exemption certificate program administered by EDA to include certain projects undertaken by clean energy product manufacturers.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced, Referred to Assembly Commerce and Economic Development Committee",
-   "latest_action_date": "2026-10-19",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5694",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-20",
-   "changed_on": "2026-10-20",
-   "change": null
-  },
-  {
    "id": "7949669a-bf51-4548-84bc-f01d35851dcb",
    "state": "IL",
    "bill": "SB 3488",
@@ -132,28 +154,6 @@
    ],
    "first_seen": "2026-10-16",
    "changed_on": "2026-10-16",
-   "change": null
-  },
-  {
-   "id": "7c071a00-5d05-476b-83f2-48926e50e3e4",
-   "state": "NJ",
-   "bill": "A 5636",
-   "title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
-   "latest_action_date": "2026-10-15",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5636",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-17",
-   "changed_on": "2026-10-17",
    "change": null
   },
   {
@@ -485,8 +485,7 @@
    ],
    "first_seen": "2026-10-20",
    "changed_on": "2026-10-22",
-   "change": "moved",
-   "previous_status_label": "Introduced"
+   "change": null
   },
   {
    "id": "90a77c9d-8f14-4ad0-9755-0f4ca92527d4",
@@ -594,9 +593,9 @@
    "topics": [
     "Climate & Emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-24",
    "changed_on": "2026-10-24",
-   "first_seen": "2026-10-24"
+   "change": "new"
   },
   {
    "id": "5d79b6c6-6616-410f-8d22-8fa7baac74f3",
