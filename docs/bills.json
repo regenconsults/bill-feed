@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-25T11:24:39+00:00",
+ "generated_at": "2026-10-25T23:21:54+00:00",
  "states": "all",
  "categories": [
   {
@@ -64,9 +64,9 @@
    "topics": [
     "Clean Energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-25",
    "changed_on": "2026-10-25",
-   "first_seen": "2026-10-25"
+   "change": "new"
   },
   {
    "id": "9755ce35-af7a-40d3-94cd-80f875c9309c",
@@ -86,9 +86,9 @@
    "topics": [
     "Clean Energy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-25",
    "changed_on": "2026-10-25",
-   "first_seen": "2026-10-25"
+   "change": "new"
   },
   {
    "id": "77e4412f-0842-4ddc-8872-66de371e36b2",
