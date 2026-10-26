@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-25T23:21:54+00:00",
+ "generated_at": "2026-10-26T11:37:34+00:00",
  "states": "all",
  "categories": [
   {
@@ -110,7 +110,7 @@
    ],
    "first_seen": "2026-10-23",
    "changed_on": "2026-10-23",
-   "change": "new"
+   "change": null
   },
   {
    "id": "b0bd9697-1ac0-4c26-888a-9db24345a902",
@@ -462,8 +462,7 @@
    ],
    "first_seen": "2026-10-16",
    "changed_on": "2026-10-23",
-   "change": "moved",
-   "previous_status_label": "Died on adjournment"
+   "change": null
   },
   {
    "id": "764133ad-d9e0-4849-9a2a-49ea40ac522f",
