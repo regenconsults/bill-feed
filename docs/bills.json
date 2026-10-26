@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-26T11:37:34+00:00",
+ "generated_at": "2026-10-26T23:26:49+00:00",
  "states": "all",
  "categories": [
   {
@@ -707,6 +707,28 @@
    "change": null
   },
   {
+   "id": "999ee4e5-eb9d-4dba-8a88-532db1ac4f7c",
+   "state": "IL",
+   "bill": "HJR 69",
+   "title": "RECYCLING MASCOT-LOOP THE CART",
+   "session": "104th General Assembly, 2026 Session",
+   "status": "introduced",
+   "status_label": "Introduced",
+   "latest_action": "Filed with the Clerk by Rep. Joyce Mason",
+   "latest_action_date": "2026-10-26",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=69&GAID=18&DocTypeID=HJR&LegId=168985&SessionID=114",
+   "category": "waste",
+   "category_name": "Waste & Circular Economy",
+   "topics": [
+    "Waste & Circular Economy"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-26",
+   "first_seen": "2026-10-26"
+  },
+  {
    "id": "8840ec5a-9aa3-438c-906e-c6f3487015a6",
    "state": "MI",
    "bill": "HB 6429",
@@ -807,28 +829,6 @@
    "upcoming": false,
    "introduced": "2026-06-10",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2667",
-   "category": "waste",
-   "category_name": "Waste & Circular Economy",
-   "topics": [
-    "Waste & Circular Economy"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
-   "id": "18871da3-242f-478b-9335-99970abc324a",
-   "state": "CA",
-   "bill": "AB 904",
-   "title": "Carpet recycling.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State - Chapter 508, Statutes of 2026.",
-   "latest_action_date": "2026-09-27",
-   "upcoming": false,
-   "introduced": "2025-03-24",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB904",
    "category": "waste",
    "category_name": "Waste & Circular Economy",
    "topics": [
