@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-26T23:26:49+00:00",
+ "generated_at": "2026-10-27T11:34:05+00:00",
  "states": "all",
  "categories": [
   {
@@ -594,7 +594,7 @@
    ],
    "first_seen": "2026-10-24",
    "changed_on": "2026-10-24",
-   "change": "new"
+   "change": null
   },
   {
    "id": "5d79b6c6-6616-410f-8d22-8fa7baac74f3",
@@ -724,9 +724,9 @@
    "topics": [
     "Waste & Circular Economy"
    ],
-   "change": "new",
+   "first_seen": "2026-10-26",
    "changed_on": "2026-10-26",
-   "first_seen": "2026-10-26"
+   "change": "new"
   },
   {
    "id": "8840ec5a-9aa3-438c-906e-c6f3487015a6",
