@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-29T23:32:32+00:00",
+ "generated_at": "2026-10-30T11:33:40+00:00",
  "states": "all",
  "categories": [
   {
@@ -52,10 +52,10 @@
    "bill": "S 4729",
    "title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
    "session": "222",
-   "status": "passed_one_chamber",
-   "status_label": "Passed one chamber",
-   "latest_action": "Passed by the Senate (39-0)",
-   "latest_action_date": "2026-10-22",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Received in the Assembly, Referred to Assembly Telecommunications and Utilities Committee",
+   "latest_action_date": "2026-10-29",
    "upcoming": false,
    "introduced": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4729",
@@ -65,8 +65,9 @@
     "Clean Energy"
    ],
    "first_seen": "2026-10-25",
-   "changed_on": "2026-10-25",
-   "change": null
+   "change": "moved",
+   "changed_on": "2026-10-30",
+   "previous_status_label": "Passed one chamber"
   },
   {
    "id": "9755ce35-af7a-40d3-94cd-80f875c9309c",
@@ -575,6 +576,28 @@
    "change": null
   },
   {
+   "id": "46d55035-a500-4af6-8688-b072e1d5b3aa",
+   "state": "NJ",
+   "bill": "S 687",
+   "title": "Creates Joint Blue Ribbon Task Force on Impacts of Climate Change on Property Insurance.",
+   "session": "222",
+   "status": "passed_one_chamber",
+   "status_label": "Passed one chamber",
+   "latest_action": "Passed by the Assembly (55-21-3)",
+   "latest_action_date": "2026-10-29",
+   "upcoming": false,
+   "introduced": "2026-01-13",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S687",
+   "category": "climate",
+   "category_name": "Climate & Emissions",
+   "topics": [
+    "Climate & Emissions"
+   ],
+   "change": "new",
+   "changed_on": "2026-10-30",
+   "first_seen": "2026-10-30"
+  },
+  {
    "id": "f25e35ce-3c7f-49c3-955d-6de7b4e45a05",
    "state": "IL",
    "bill": "HB 4773",
@@ -616,28 +639,6 @@
    ],
    "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "change": null
-  },
-  {
-   "id": "b5098593-3a82-43a2-ac9f-1add0ec2bf09",
-   "state": "NJ",
-   "bill": "S 4684",
-   "title": "Requires youth serving organization to adopt and implement \"Air Quality Participation Policy\" established by Commissioner of Health.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced in the Senate, Referred to Senate Health, Human Services and Senior Citizens Committee",
-   "latest_action_date": "2026-10-01",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4684",
-   "category": "climate",
-   "category_name": "Climate & Emissions",
-   "topics": [
-    "Climate & Emissions"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
    "change": null
   },
   {
