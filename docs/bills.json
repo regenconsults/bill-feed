@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-30T11:33:40+00:00",
+ "generated_at": "2026-10-31T02:09:13+00:00",
  "states": "all",
  "categories": [
   {
@@ -65,8 +65,8 @@
     "Clean Energy"
    ],
    "first_seen": "2026-10-25",
-   "change": "moved",
    "changed_on": "2026-10-30",
+   "change": "moved",
    "previous_status_label": "Passed one chamber"
   },
   {
@@ -593,9 +593,9 @@
    "topics": [
     "Climate & Emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-10-30",
    "changed_on": "2026-10-30",
-   "first_seen": "2026-10-30"
+   "change": "new"
   },
   {
    "id": "f25e35ce-3c7f-49c3-955d-6de7b4e45a05",
