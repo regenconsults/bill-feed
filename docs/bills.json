@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-02T02:13:29+00:00",
+ "generated_at": "2026-11-02T20:42:42+00:00",
  "states": "all",
  "categories": [
   {
@@ -179,6 +179,28 @@
    "change": null
   },
   {
+   "id": "4eef0162-b6f4-473f-bb48-79f453bb404a",
+   "state": "DC",
+   "bill": "B 26-0602",
+   "title": "Guiding Renewable Interconnection and Distribution (GRID) Amendment Act of 2026",
+   "session": "Council Period 26 (2025-2026)",
+   "status": "introduced",
+   "status_label": "Introduced",
+   "latest_action": "Committee Mark-up of B26-0602 by the Transportation and the Environment Committee",
+   "latest_action_date": "2026-11-04",
+   "upcoming": true,
+   "introduced": "2026-02-24",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0602",
+   "category": "grid",
+   "category_name": "Grid & Energy Affordability",
+   "topics": [
+    "Grid & Energy Affordability"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-02",
+   "first_seen": "2026-11-02"
+  },
+  {
    "id": "f7a338be-90b7-423d-9d59-9c9149dc4041",
    "state": "PA",
    "bill": "HB 2866",
@@ -279,28 +301,6 @@
    "upcoming": false,
    "introduced": "2026-02-20",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1359",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
-   "id": "cd88b4cd-4027-4c6e-933e-495de3a4573d",
-   "state": "NJ",
-   "bill": "AR 154",
-   "title": "Authorizes Assembly Telecommunications and Utilities Committee to enter upon investigation or inquiry into BPU's and DEP's efforts to comply with certain provisions of P.L.2007, c.340 requiring development of plan for ratepayer relief; grants committee subpoena power.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
-   "latest_action_date": "2026-09-17",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/AR154",
    "category": "grid",
    "category_name": "Grid & Energy Affordability",
    "topics": [
