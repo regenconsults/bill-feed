@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-01T17:05:21+00:00",
+ "generated_at": "2026-11-02T02:13:29+00:00",
  "states": "all",
  "categories": [
   {
@@ -66,8 +66,7 @@
    ],
    "first_seen": "2026-10-25",
    "changed_on": "2026-10-30",
-   "change": "moved",
-   "previous_status_label": "Passed one chamber"
+   "change": null
   },
   {
    "id": "9755ce35-af7a-40d3-94cd-80f875c9309c",
@@ -595,7 +594,7 @@
    ],
    "first_seen": "2026-10-30",
    "changed_on": "2026-10-30",
-   "change": "new"
+   "change": null
   },
   {
    "id": "f25e35ce-3c7f-49c3-955d-6de7b4e45a05",
