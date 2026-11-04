@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-04T02:59:56+00:00",
+ "generated_at": "2026-11-04T18:33:16+00:00",
  "states": "all",
  "categories": [
   {
@@ -592,9 +592,9 @@
    "topics": [
     "Climate & Emissions"
    ],
-   "change": "new",
+   "first_seen": "2026-11-04",
    "changed_on": "2026-11-04",
-   "first_seen": "2026-11-04"
+   "change": "new"
   },
   {
    "id": "46d55035-a500-4af6-8688-b072e1d5b3aa",
