@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-03T18:19:13+00:00",
+ "generated_at": "2026-11-04T02:59:56+00:00",
  "states": "all",
  "categories": [
   {
@@ -188,7 +188,7 @@
    "status_label": "Introduced",
    "latest_action": "Committee Mark-up of B26-0602 by the Transportation and the Environment Committee",
    "latest_action_date": "2026-11-04",
-   "upcoming": true,
+   "upcoming": false,
    "introduced": "2026-02-24",
    "url": "https://lims.dccouncil.gov/Legislation/B26-0602",
    "category": "grid",
@@ -575,6 +575,28 @@
    "change": null
   },
   {
+   "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
+   "state": "MA",
+   "bill": "S 3137",
+   "title": "An Act providing for improved public access and climate resiliency on the Mystic River and increasing the utilization of the designated port area",
+   "session": "2025-2026 Regular Session (194th General Court)",
+   "status": "passed_one_chamber",
+   "status_label": "Passed one chamber",
+   "latest_action": "Read third (title changed) and passed to be engrossed",
+   "latest_action_date": "2026-11-02",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://malegislature.gov/Bills/194/S3137",
+   "category": "climate",
+   "category_name": "Climate & Emissions",
+   "topics": [
+    "Climate & Emissions"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-04",
+   "first_seen": "2026-11-04"
+  },
+  {
    "id": "46d55035-a500-4af6-8688-b072e1d5b3aa",
    "state": "NJ",
    "bill": "S 687",
@@ -682,28 +704,6 @@
    ],
    "first_seen": "2026-10-07",
    "changed_on": "2026-10-07",
-   "change": null
-  },
-  {
-   "id": "68cf68da-a17e-4bbc-bc26-7f66d52c8dd4",
-   "state": "IL",
-   "bill": "SB 2980",
-   "title": "CLIMATE DISPLACEMENT-REPORT",
-   "session": "104th General Assembly, 2026 Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Public Act . . . . . . . . . 104-0652",
-   "latest_action_date": "2026-07-24",
-   "upcoming": false,
-   "introduced": "2026-04-15",
-   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=2980&GAID=18&DocTypeID=SB&LegId=165474&SessionID=114",
-   "category": "climate",
-   "category_name": "Climate & Emissions",
-   "topics": [
-    "Climate & Emissions"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
    "change": null
   },
   {
