@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-06T03:19:43+00:00",
+ "generated_at": "2026-11-06T17:53:12+00:00",
  "states": "all",
  "categories": [
   {
@@ -179,6 +179,28 @@
    "change": null
   },
   {
+   "id": "92b0698b-a2f5-4b50-9b7c-0f7fb12eb8ab",
+   "state": "PA",
+   "bill": "HB 2888",
+   "title": "An Act establishing reporting and information submission requirements for hyperscale computer data centers operating in this Commonwealth; providing for alternative compliance payments, for energy plans, for water plans, for regional benefits plans, for ratepayer protections, for community benefit plans and agreements, for municipal comments, for confidentiality, for records, for lists of tenants, for enforcement, for regulations and guidelines and for municipal zoning; imposing duties on the Department of Environmental Protection, the Department of Community and Economic Development and the Pennsylvania Public Utility Commission; and imposing penalties.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Energy",
+   "latest_action_date": "2026-11-04",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/legislation/bills/2025/hb2888",
+   "category": "grid",
+   "category_name": "Grid & Energy Affordability",
+   "topics": [
+    "Grid & Energy Affordability"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-06",
+   "first_seen": "2026-11-06"
+  },
+  {
    "id": "4eef0162-b6f4-473f-bb48-79f453bb404a",
    "state": "DC",
    "bill": "B 26-0602",
@@ -220,28 +242,6 @@
    ],
    "first_seen": "2026-10-21",
    "changed_on": "2026-10-21",
-   "change": null
-  },
-  {
-   "id": "90479a64-fb4d-4845-9e4b-de4b5f231f57",
-   "state": "PA",
-   "bill": "SB 1491",
-   "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in service and facilities, providing for high-voltage transmission lines.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Consumer Protection & Professional Licensure",
-   "latest_action_date": "2026-10-13",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/legislation/bills/2025/sb1491",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-10-14",
-   "changed_on": "2026-10-14",
    "change": null
   },
   {
