@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-10T18:33:41+00:00",
+ "generated_at": "2026-11-11T02:38:21+00:00",
  "states": "all",
  "categories": [
   {
@@ -41,7 +41,7 @@
   {
    "slug": "equity",
    "name": "Environmental Equity",
-   "count": 4
+   "count": 3
   }
  ],
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
@@ -1027,28 +1027,6 @@
    "upcoming": false,
    "introduced": "2026-04-14",
    "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3772&GAID=18&DocTypeID=SB&LegId=167086&SessionID=114",
-   "category": "equity",
-   "category_name": "Environmental Equity",
-   "topics": [
-    "Environmental Equity"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
-   "id": "040d00b8-a558-4706-a71c-38576605f08b",
-   "state": "CA",
-   "bill": "AB 2170",
-   "title": "California Environmental Quality Act: overburdened communities: notices and hearings: translations.",
-   "session": "2025-2026 Regular Session",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "In committee: Held under submission.",
-   "latest_action_date": "2026-05-14",
-   "upcoming": false,
-   "introduced": "2026-03-19",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2170",
    "category": "equity",
    "category_name": "Environmental Equity",
    "topics": [
