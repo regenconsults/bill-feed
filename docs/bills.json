@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-11T18:29:10+00:00",
+ "generated_at": "2026-11-12T03:43:04+00:00",
  "states": "all",
  "categories": [
   {
@@ -196,9 +196,9 @@
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "change": "new",
+   "first_seen": "2026-11-11",
    "changed_on": "2026-11-11",
-   "first_seen": "2026-11-11"
+   "change": "new"
   },
   {
    "id": "4eef0162-b6f4-473f-bb48-79f453bb404a",
@@ -219,8 +219,8 @@
     "Grid & Energy Affordability"
    ],
    "first_seen": "2026-11-02",
-   "change": "moved",
    "changed_on": "2026-11-11",
+   "change": "moved",
    "previous_status_label": "Introduced"
   },
   {
@@ -444,6 +444,28 @@
    "change": null
   },
   {
+   "id": "5d19e5f1-b135-4229-afb6-90c750d2c658",
+   "state": "OH",
+   "bill": "HB 995",
+   "title": "Prohibit state agency providing free electric vehicle charging",
+   "session": "2025-2026 Regular Session (136th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to committee",
+   "latest_action_date": "2026-11-10",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb995",
+   "category": "transportation",
+   "category_name": "Clean Transportation",
+   "topics": [
+    "Clean Transportation"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-12",
+   "first_seen": "2026-11-12"
+  },
+  {
    "id": "df47a010-f4ba-42cf-ac6d-e8c705fd7b89",
    "state": "NH",
    "bill": "HB 1410",
@@ -551,28 +573,6 @@
    ],
    "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
-   "change": null
-  },
-  {
-   "id": "b7d265e7-d254-4a68-a7b2-e457ef19ab2d",
-   "state": "CA",
-   "bill": "SB 1361",
-   "title": "Transit-oriented housing developments: local governments: transit agencies and projects.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State. Chapter 1027, Statutes of 2026.",
-   "latest_action_date": "2026-09-30",
-   "upcoming": false,
-   "introduced": "2026-02-20",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1361",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
    "change": null
   },
   {
