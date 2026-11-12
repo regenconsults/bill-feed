@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-12T03:43:04+00:00",
+ "generated_at": "2026-11-12T18:47:35+00:00",
  "states": "all",
  "categories": [
   {
@@ -461,9 +461,9 @@
    "topics": [
     "Clean Transportation"
    ],
-   "change": "new",
+   "first_seen": "2026-11-12",
    "changed_on": "2026-11-12",
-   "first_seen": "2026-11-12"
+   "change": "new"
   },
   {
    "id": "df47a010-f4ba-42cf-ac6d-e8c705fd7b89",
