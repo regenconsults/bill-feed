@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-12T18:47:35+00:00",
+ "generated_at": "2026-11-13T03:17:32+00:00",
  "states": "all",
  "categories": [
   {
@@ -46,6 +46,28 @@
  ],
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
+  {
+   "id": "3b580269-dd96-4016-8f39-9b20622d6c73",
+   "state": "MI",
+   "bill": "HB 6486",
+   "title": "Land use: farmland and open space; withdrawal of farmland from the farmland and open space preservation program; require for commercial solar use.",
+   "session": "2025-2026 Regular Session (103rd Legislature)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "bill electronically reproduced 11/12/2026",
+   "latest_action_date": "2026-11-17",
+   "upcoming": true,
+   "introduced": null,
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6486",
+   "category": "clean-energy",
+   "category_name": "Clean Energy",
+   "topics": [
+    "Clean Energy"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-13",
+   "first_seen": "2026-11-13"
+  },
   {
    "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
    "state": "NJ",
@@ -154,28 +176,6 @@
    ],
    "first_seen": "2026-10-16",
    "changed_on": "2026-10-16",
-   "change": null
-  },
-  {
-   "id": "19d8d16f-b836-448f-b3bd-b733c0015b83",
-   "state": "PA",
-   "bill": "HB 2380",
-   "title": "An Act amending Title 66 (Public Utilities) of the Pennsylvania Consolidated Statutes, in restructuring of electric utility industry, providing for energy storage procurement.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Consumer Protection & Professional Licensure",
-   "latest_action_date": "2026-10-13",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2468&sessYr=2025&sessInd=0",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-14",
    "change": null
   },
   {
