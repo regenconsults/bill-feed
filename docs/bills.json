@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-13T03:17:32+00:00",
+ "generated_at": "2026-11-13T18:28:46+00:00",
  "states": "all",
  "categories": [
   {
@@ -64,9 +64,9 @@
    "topics": [
     "Clean Energy"
    ],
-   "change": "new",
+   "first_seen": "2026-11-13",
    "changed_on": "2026-11-13",
-   "first_seen": "2026-11-13"
+   "change": "new"
   },
   {
    "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
@@ -208,7 +208,7 @@
    "session": "Council Period 26 (2025-2026)",
    "status": "introduced",
    "status_label": "Introduced",
-   "latest_action": "Amendment (White)",
+   "latest_action": "First Reading",
    "latest_action_date": "2026-11-10",
    "upcoming": false,
    "introduced": "2026-02-24",
@@ -219,8 +219,8 @@
     "Grid & Energy Affordability"
    ],
    "first_seen": "2026-11-02",
-   "changed_on": "2026-11-11",
    "change": "moved",
+   "changed_on": "2026-11-13",
    "previous_status_label": "Introduced"
   },
   {
@@ -290,26 +290,26 @@
    "change": null
   },
   {
-   "id": "4797821b-56c6-4b37-9ebc-40918f2fdbc5",
+   "id": "defac229-52d1-4298-b344-7df78dcc648a",
    "state": "CA",
-   "bill": "AB 2493",
-   "title": "Electrical corporations: interconnection: Public Utilities Commission: transmission development monitor.",
+   "bill": "SB 1359",
+   "title": "Natural Gas Ratepayer Protection Act.",
    "session": "2025-2026 Regular Session",
    "status": "enacted",
    "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State - Chapter 944, Statutes of 2026.",
+   "latest_action": "Chaptered by Secretary of State. Chapter 1026, Statutes of 2026.",
    "latest_action_date": "2026-09-30",
    "upcoming": false,
-   "introduced": "2026-03-26",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2493",
+   "introduced": "2026-02-20",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1359",
    "category": "grid",
    "category_name": "Grid & Energy Affordability",
    "topics": [
     "Grid & Energy Affordability"
    ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
+   "change": "new",
+   "changed_on": "2026-11-13",
+   "first_seen": "2026-11-13"
   },
   {
    "id": "1b1f9141-96aa-4b20-98bd-be6ede590b67",
