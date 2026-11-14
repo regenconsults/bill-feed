@@ -1,0 +1,25 @@
+{
+ "committees": [
+  {
+   "activities": [
+    {
+     "date": "2025-11-04T16:12:20Z",
+     "name": "Reported By"
+    },
+    {
+     "date": "2025-03-05T19:30:04Z",
+     "name": "Markup By"
+    },
+    {
+     "date": "2025-01-24T15:30:23Z",
+     "name": "Referred To"
+    }
+   ],
+   "chamber": "Senate",
+   "name": "Indian Affairs Committee",
+   "systemCode": "slia00",
+   "type": "Other",
+   "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+    "committees": [
+        {
+            "activities": [
+                {
+                    "date": "2026-09-30T19:39:13Z",
+                    "name": "Referred To"
+                }
+            ],
+            "chamber": "Senate",
+            "name": "Energy and Natural Resources Committee",
+            "systemCode": "sseg00",
+            "type": "Standing",
+            "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 1
+    },
+    "request": {
+        "billNumber": "5653",
+        "billType": "s",
+        "billUrl": "https://api.congress.gov/v3/bill/119/s/5653?format=json",
+        "congress": "119",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

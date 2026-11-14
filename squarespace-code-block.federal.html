@@ -1,0 +1,265 @@
+<div class="rg"><section class="rg rg-phero"><div class="rg-wrap">
+<span class="rg-kicker">Legislation Tracker</span>
+<h1 class="rg-display">Environmental Legislation Tracker</h1>
+<p class="rg-lead">Environment-related bills moving through the U.S. Congress and state legislatures across all 50 states.</p>
+</div></section></div>
+<div class="rg"><section class="rg-wrap rgt" id="rgt" data-state-feed="https://regenconsults.github.io/bill-feed/bills.json" data-federal-feed="https://regenconsults.github.io/bill-feed/federal.json">
+<div class="rgt-meta"><span class="rgt-feeds" aria-live="polite"><span class="rgt-upd" data-f="state"><i class="rgt-dot"></i><span>Loading state legislation…</span></span><span class="rgt-upd" data-f="federal"><i class="rgt-dot"></i><span>Loading federal legislation…</span></span></span><span class="rgt-count" aria-live="polite"></span></div>
+<div class="rgt-panel">
+<div class="rgt-row1"><input class="rgt-q" type="search" aria-label="Search bills by number, title, summary, sponsor or action" placeholder="Search bill number, title, sponsor or action"><label class="rgt-st">State<select aria-label="State"><option value="">All states</option></select></label></div>
+<div class="rgt-chiprow"><span class="rgt-lbl" id="rgt-l-j">Jurisdiction</span><div class="rgt-chips" data-k="jur" role="group" aria-labelledby="rgt-l-j"></div></div>
+<div class="rgt-chiprow"><span class="rgt-lbl" id="rgt-l-s">Status</span><div class="rgt-chips" data-k="status" role="group" aria-labelledby="rgt-l-s"></div></div>
+<div class="rgt-chiprow"><span class="rgt-lbl" id="rgt-l-c">Category</span><div class="rgt-chips" data-k="topic" role="group" aria-labelledby="rgt-l-c"></div></div>
+</div>
+<div class="rgt-thead" aria-hidden="true"><span>Bill</span><span>Summary</span><span>Status</span><span>Last action</span><span></span></div>
+<div class="rgt-list"></div>
+<p class="rgt-warn" role="status" hidden></p>
+<div class="rgt-empty" hidden><span class="rgt-empty-msg">No recent activity matches these filters.</span> <button type="button" class="rgt-clear">Clear filters</button></div>
+<button type="button" class="rgt-more" hidden></button>
+<p class="rgt-credit"></p>
+</section></div>
+<style>
+.rgt{padding-top:clamp(36px,5vw,64px);padding-bottom:clamp(64px,8vw,112px);display:flex;flex-direction:column;gap:22px}
+.rgt button{font:inherit;cursor:pointer}
+.rgt-meta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;font-size:15px;color:#5e5754}
+.rgt-feeds{display:flex;flex-wrap:wrap;gap:6px 24px}.rgt-upd{display:flex;align-items:center;gap:10px}
+.rgt-dot{width:8px;height:8px;border-radius:50%;background:#c5cbe6;display:block}
+.rgt-panel{background:#f4f5e3;border-radius:28px;padding:clamp(18px,3vw,28px);display:flex;flex-direction:column;gap:18px}
+.rgt-row1{display:flex;flex-wrap:wrap;gap:12px}
+.rgt-q{flex:1 1 280px;font:inherit;font-size:16px;padding:14px 22px;border-radius:999px;border:1px solid #d6d9bf;background:#fff;color:#1f3510;outline:none}
+.rgt-q:focus{border-color:#1f3510}
+.rgt button:focus-visible,.rgt-st select:focus-visible,.rgt-link:focus-visible{outline:2px solid #1f3510;outline-offset:2px}
+.rgt-rowbtn:focus-visible{outline:2px solid #1f3510;outline-offset:-2px}
+.rgt-st{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #d6d9bf;border-radius:999px;padding:0 8px 0 20px;font-size:14px;font-weight:600}
+.rgt-st[hidden]{display:none}.rgt-st select{font:inherit;font-weight:400;font-size:16px;border:none;background:transparent;color:#1f3510;padding:13px 8px;outline:none;cursor:pointer}
+.rgt-chiprow{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px}
+.rgt-lbl{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#5e5754;min-width:112px}
+.rgt-chips{display:flex;flex-wrap:wrap;gap:6px}
+.rgt-chip{font-size:14px!important;padding:9px 16px;border-radius:999px;border:1px solid #d6d9bf;background:#fff;color:#1f3510;transition:background .2s}
+.rgt-chip.on{background:#1f3510;border-color:#1f3510;color:#fdfdf2}
+.rgt-thead,.rgt-rowbtn{display:grid;grid-template-columns:100px minmax(0,1fr) 130px 110px 24px;gap:24px;align-items:center}
+.rgt-thead{padding:14px 20px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#5e5754}
+.rgt-list{display:flex;flex-direction:column;gap:8px}
+.rgt-card{background:#fff;border:1px solid #e6e8d2;border-radius:20px;overflow:hidden;transition:border-color .2s}
+.rgt-card.open{border-color:#89cec2}
+.rgt-rowbtn{all:unset;box-sizing:border-box;cursor:pointer;width:100%;display:grid;grid-template-columns:100px minmax(0,1fr) 130px 110px 24px;gap:24px;align-items:center;padding:18px 20px;font-size:16px;color:#1f3510}
+.rgt-rowbtn:hover{background:#fafbef}
+.rgt-b{display:flex;flex-direction:column;gap:2px}.rgt-b b{font-weight:600}.rgt-b span,.rgt-date,.rgt-topic,.rgt-ic{font-size:14px;color:#5e5754}
+.rgt-s{display:flex;flex-direction:column;gap:4px;line-height:1.4}.rgt-topic{font-size:13px;text-transform:capitalize}
+.rgt-pill{display:inline-block;font-size:13px;font-weight:600;padding:5px 12px;border-radius:999px}
+.rgt-pill.enacted{background:#1f3510;color:#fdfdf2}.rgt-pill.active{background:#e3f2ee;color:#1f3510}.rgt-pill.inactive{background:#efede6;color:#5e5754}
+.rgt-ic{font-size:18px;text-align:right}
+.rgt-detail{padding:4px 20px 22px;display:flex;flex-direction:column;gap:14px;border-top:1px solid #eeeedd}
+.rgt-long{font-size:15px;line-height:1.65;margin:14px 0 0;max-width:60em;white-space:pre-line;color:#3f4a36}
+.rgt-dgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px 32px;padding-top:12px}
+.rgt-dgrid div{display:flex;flex-direction:column;gap:4px}.rgt-dgrid div:first-child{grid-column:1/-1}
+.rgt-dgrid small{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#5e5754}
+.rgt-dgrid span{font-size:15px;line-height:1.5}
+.rgt-link{align-self:flex-start;font-size:15px;font-weight:600;padding:11px 20px;border-radius:999px;background:#1f3510;color:#fdfdf2!important;text-decoration:none}
+.rgt-link:hover{background:#738211}
+.rgt-empty{padding:40px 20px;font-size:16px;color:#5e5754;display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:#f4f5e3;border-radius:20px}
+.rgt-empty[hidden],.rgt-more[hidden],.rgt-warn[hidden]{display:none}
+.rgt-warn{margin:0;padding:14px 20px;border-radius:20px;background:#fdf1e6;color:#6b3a12;font-size:15px}
+.rgt-sum{font-size:15px;line-height:1.65;margin:0;max-width:60em;white-space:pre-line;color:#3f4a36}
+.rgt-sumh{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#5e5754;margin:14px 0 -8px}
+.rgt-clear{all:unset;cursor:pointer;font-weight:600;color:#1f3510;border-bottom:1.5px solid #1f3510}
+.rgt-more{align-self:center;margin-top:20px;font-size:15px!important;font-weight:600;padding:14px 28px;border-radius:999px;border:1px solid #cfd3b8;background:transparent;color:#1f3510}
+.rgt-more:hover{border-color:#1f3510}
+.rgt-credit{font-size:13px;line-height:1.6;color:#5e5754;margin:12px 0 0;max-width:60em}
+@media (max-width:819px){.rgt-thead{display:none}.rgt-rowbtn{display:flex;flex-direction:column;align-items:flex-start;gap:10px;padding:18px}.rgt-ic{display:none}}
+</style>
+<script>
+(function () {
+  var root = document.getElementById("rgt");
+  if (!root) return;
+  var FEEDS = { state: root.getAttribute("data-state-feed"), federal: root.getAttribute("data-federal-feed") };
+  var $ = function (s) { return root.querySelector(s); };
+  var list = $(".rgt-list"), count = $(".rgt-count"), q = $(".rgt-q"), stWrap = $(".rgt-st"), sel = $(".rgt-st select"),
+      empty = $(".rgt-empty"), emptyMsg = $(".rgt-empty-msg"), warn = $(".rgt-warn"), more = $(".rgt-more"), credit = $(".rgt-credit");
+  var S = { q: "", st: "", jur: "all", status: "all", topic: "all", open: null, limit: 15 };
+  var bills = [], cats = [], catsBy = {}, load = { state: "loading", federal: "loading" }, attrib = {};
+  var INACTIVE = ["withdrawn", "died_on_adjournment", "killed", "vetoed", "substituted"];
+  var LABEL = { state: "State", federal: "Federal" };
+  function jur(b) { return b.jurisdiction === "federal" ? "federal" : "state"; }   // state records may predate the field
+  function group(b) { return b.status === "enacted" ? "enacted" : INACTIVE.indexOf(b.status) >= 0 ? "inactive" : "active"; }
+  function fmt(iso) { return iso ? new Date(iso.slice(0, 10) + "T12:00:00").toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" }) : "—"; }
+  function stamp(iso) { return new Date(iso).toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }); }
+  function compact(s) { return (s || "").toLowerCase().replace(/[^a-z0-9]/g, ""); }
+  // Bill text comes from legislatures unsanitized: build nodes with textContent only.
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function officialUrl(b) {
+    var u = b.url || "";
+    if (jur(b) === "federal") return /^https:\/\/www\.congress\.gov\//.test(u) ? u : null;
+    return /^https?:\/\//.test(u) ? u : null;
+  }
+
+  function refocus(selector, v) {
+    var all = root.querySelectorAll(selector);
+    for (var i = 0; i < all.length; i++) if (all[i].getAttribute("data-v") === v) { all[i].focus(); return; }
+  }
+
+  function chips(k, opts) {
+    var box = root.querySelector('.rgt-chips[data-k="' + k + '"]'); box.textContent = "";
+    opts.forEach(function (o) {
+      var on = S[k] === o[0], b = el("button", "rgt-chip" + (on ? " on" : ""), o[1]);
+      b.type = "button"; b.setAttribute("aria-pressed", on); b.setAttribute("data-v", o[0]);
+      b.onclick = function () {
+        S[k] = o[0]; S.limit = 15; S.open = null;
+        if (k === "jur" && o[0] === "federal") { S.st = ""; sel.value = ""; }
+        render();
+        refocus('.rgt-chips[data-k="' + k + '"] .rgt-chip', o[0]);   // keep keyboard focus after re-render
+      };
+      box.appendChild(b);
+    });
+  }
+
+  function detailItem(grid, label, value) {
+    if (!value) return;
+    var d = el("div"); d.appendChild(el("small", null, label)); d.appendChild(el("span", null, value)); grid.appendChild(d);
+  }
+
+  function summaryText(b) {
+    var s = (b.summary || "").trim(); if (!s) return "";
+    var lines = s.split(/\n+/).map(function (l) { return l.trim(); }).filter(Boolean);
+    if (lines.length > 1 && !/[.:;]$/.test(lines[0]) && lines[0].length < 200) lines.shift();   // first line repeats the short title
+    // CRS list items arrive as separate lines; rejoin a line that ends mid-sentence.
+    s = lines.reduce(function (acc, l) {
+      if (acc.length && !/[.:;!?)]$/.test(acc[acc.length - 1])) acc[acc.length - 1] += " " + l; else acc.push(l);
+      return acc;
+    }, []).join("\n");
+    return s.length > 900 ? s.slice(0, 897).replace(/\s+\S*$/, "") + "…" : s;
+  }
+
+  function row(b) {
+    var open = S.open === b.id, g = group(b), fed = jur(b) === "federal", t = (b.title || "").trim(), first = t.split(/\r?\n/)[0];
+    var short = first.length > 180 ? first.slice(0, 177) + "…" : first;
+    var card = el("div", "rgt-card" + (open ? " open" : ""));
+    var btn = el("button", "rgt-rowbtn"); btn.type = "button"; btn.setAttribute("aria-expanded", open); btn.setAttribute("data-v", b.id);
+    var c1 = el("span", "rgt-b"); c1.appendChild(el("b", null, fed ? "Federal" : b.state)); c1.appendChild(el("span", null, b.bill));
+    var c2 = el("span", "rgt-s"); c2.appendChild(el("span", null, short)); c2.appendChild(el("span", "rgt-topic", (b.topics || []).join(", ")));
+    var c3 = el("span"); c3.appendChild(el("span", "rgt-pill " + g, b.status_label || "In progress"));
+    btn.appendChild(c1); btn.appendChild(c2); btn.appendChild(c3);
+    var dt = el("span", "rgt-date", fmt(b.latest_action_date)); dt.setAttribute("aria-label", "Last action " + fmt(b.latest_action_date)); btn.appendChild(dt);
+    var ic = el("span", "rgt-ic", open ? "−" : "+"); ic.setAttribute("aria-hidden", "true"); btn.appendChild(ic);
+    btn.onclick = function () { S.open = open ? null : b.id; render(); refocus(".rgt-rowbtn", b.id); };
+    card.appendChild(btn);
+    if (open) {
+      var d = el("div", "rgt-detail");
+      if (t.length > 180 || t.indexOf("\n") >= 0) d.appendChild(el("p", "rgt-long", t));
+      var sum = summaryText(b);
+      if (sum) {
+        d.appendChild(el("p", "rgt-sumh", "Official summary" + (b.summary_version ? " · " + b.summary_version : "")));
+        d.appendChild(el("p", "rgt-sum", sum));
+      }
+      var gr = el("div", "rgt-dgrid");
+      detailItem(gr, "Latest official action", (b.latest_action || "—") + (b.latest_action_date ? " · " + fmt(b.latest_action_date) : ""));
+      detailItem(gr, "Jurisdiction", fed ? "Federal · U.S. Congress" : "State · " + (b.state || "—"));
+      detailItem(gr, "Session", b.session || "—");
+      detailItem(gr, "Sponsor", b.sponsor);
+      detailItem(gr, "Committee", (b.committees || []).join("; "));
+      detailItem(gr, "Introduced", b.introduced && fmt(b.introduced));
+      detailItem(gr, "Passed House", b.passed_house_date && fmt(b.passed_house_date));
+      detailItem(gr, "Passed Senate", b.passed_senate_date && fmt(b.passed_senate_date));
+      detailItem(gr, "Signed into law", b.enacted_date && (fmt(b.enacted_date) + (b.law_number ? " · " + b.law_number : "")));
+      detailItem(gr, "Effective", b.effective_date && fmt(b.effective_date));
+      d.appendChild(gr);
+      var u = officialUrl(b);
+      if (u) { var l = el("a", "rgt-link", fed ? "View on Congress.gov ↗" : "View on legislature site ↗"); l.href = u; l.target = "_blank"; l.rel = "noopener"; d.appendChild(l); }
+      card.appendChild(d);
+    }
+    return card;
+  }
+
+  function matches(b, qq, qc) {
+    if (!qq) return true;
+    var hay = [b.state, b.bill, b.title, b.latest_action, b.summary, b.sponsor, jur(b) === "federal" ? "federal congress" : ""].join(" ").toLowerCase();
+    return hay.indexOf(qq) >= 0 || (qc.length > 1 && compact(b.bill) === qc) || (qc.length > 2 && compact(b.bill).indexOf(qc) === 0 && /\d/.test(qc));
+  }
+
+  function render() {
+    var qq = S.q.trim().toLowerCase(), qc = compact(qq);
+    var scope = bills.filter(function (b) { return S.jur === "all" || jur(b) === S.jur; });
+    var f = scope.filter(function (b) {
+      return (!S.st || b.state === S.st) && (S.status === "all" || group(b) === S.status) &&
+        (S.topic === "all" || (b.topics || []).indexOf(S.topic) >= 0) && matches(b, qq, qc);
+    });
+    stWrap.hidden = S.jur === "federal";
+    chips("jur", [["all", "All"], ["federal", "Federal"], ["state", "State"]]);
+    chips("status", [["all", "All"], ["active", "Active"], ["enacted", "Enacted"], ["inactive", "Inactive"]]);
+    var topics = [], n = {}; scope.forEach(function (b) { (b.topics || []).forEach(function (t) { if (topics.indexOf(t) < 0) topics.push(t); n[t] = (n[t] || 0) + 1; }); });
+    if (cats.length) topics = cats.filter(function (t) { return n[t] || t === S.topic; }); else topics.sort();
+    chips("topic", [["all", "All categories (" + scope.length + ")"]].concat(topics.map(function (t) { return [t, t.charAt(0).toUpperCase() + t.slice(1) + " (" + (n[t] || 0) + ")"]; })));
+    list.textContent = "";
+    f.slice(0, S.limit).forEach(function (b) { list.appendChild(row(b)); });
+    count.textContent = bills.length ? f.length + " of " + bills.length + " bills" : "";
+    // Empty state names a feed outage when that's why nothing shows.
+    var down = ["state", "federal"].filter(function (k) { return load[k] === "error" && (S.jur === "all" || S.jur === k); });
+    var loading = ["state", "federal"].some(function (k) { return load[k] === "loading" && (S.jur === "all" || S.jur === k); });
+    var outage = down.length && !f.length && scope.length === 0;
+    emptyMsg.textContent = outage
+      ? (down.length === 2 ? "Legislation data is temporarily unavailable." : LABEL[down[0]] + " legislation is temporarily unavailable.")
+      : "No recent activity matches these filters.";
+    empty.hidden = f.length !== 0 || loading;
+    var downAll = ["state", "federal"].filter(function (k) { return load[k] === "error"; });
+    warn.hidden = !downAll.length || outage;   // the empty message already explains an outage
+    warn.textContent = downAll.length === 1 ? LABEL[downAll[0]] + " legislation is temporarily unavailable; showing " + (downAll[0] === "state" ? "federal" : "state") + " bills only." : "";
+    more.hidden = f.length <= S.limit;
+    more.textContent = "Show more (" + (f.length - Math.min(S.limit, f.length)) + " remaining)";
+    credit.textContent = [attrib.state, attrib.federal].filter(Boolean).join(" ") + (bills.length ? " Not legal advice." : "");
+  }
+
+  function setUpd(k, text, ok) {
+    var u = root.querySelector('.rgt-upd[data-f="' + k + '"]');
+    u.querySelector("span").textContent = text;
+    u.querySelector(".rgt-dot").style.background = ok ? "#738211" : "#f48c36";
+  }
+
+  function merge() {
+    // Category blocks in feed order, newest first inside each block (same as the state feed alone).
+    var order = {}; cats.forEach(function (c, i) { order[c] = i; });
+    bills.forEach(function (b, i) { b._i = i; });
+    bills.sort(function (a, b) {
+      var ca = order[a.category_name], cb = order[b.category_name];
+      ca = ca == null ? 99 : ca; cb = cb == null ? 99 : cb;
+      if (ca !== cb) return ca - cb;
+      var da = a.latest_action_date || "", db = b.latest_action_date || "";
+      return da === db ? a._i - b._i : (da < db ? 1 : -1);
+    });
+  }
+
+  function refreshStates() {
+    var states = []; bills.forEach(function (b) { if (jur(b) === "state" && b.state && states.indexOf(b.state) < 0) states.push(b.state); }); states.sort();
+    while (sel.options.length > 1) sel.remove(1);
+    states.forEach(function (s) { sel.appendChild(new Option(s, s)); });
+    sel.value = states.indexOf(S.st) >= 0 ? S.st : "";
+  }
+
+  q.addEventListener("input", function () { S.q = q.value; S.limit = 15; S.open = null; render(); });
+  sel.addEventListener("change", function () { S.st = sel.value; if (S.st && S.jur === "federal") S.jur = "state"; S.limit = 15; S.open = null; render(); });
+  more.onclick = function () { S.limit += 15; render(); };
+  $(".rgt-clear").onclick = function () { S.q = ""; S.st = ""; S.jur = "all"; S.status = "all"; S.topic = "all"; S.limit = 15; q.value = ""; sel.value = ""; render(); };
+
+  // The two feeds load and fail independently.
+  ["state", "federal"].forEach(function (k) {
+    if (!FEEDS[k]) { load[k] = "error"; setUpd(k, LABEL[k] + " legislation is temporarily unavailable.", false); render(); return; }
+    fetch(FEEDS[k], { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (feed) {
+        if (!Array.isArray(feed.bills)) throw new Error("bad feed");
+        var mine = feed.bills.filter(function (b) { return k === "federal" ? b.jurisdiction === "federal" : b.jurisdiction !== "federal"; });
+        bills = bills.filter(function (b) { return jur(b) !== k; }).concat(mine);
+        var names = (feed.categories || []).map(function (c) { return c.name; });
+        // Chip order: state categories, then any federal-only names, so a taxonomy mismatch never hides records.
+        catsBy[k] = names;
+        cats = (catsBy.state || []).concat((catsBy.federal || []).filter(function (c) { return (catsBy.state || []).indexOf(c) < 0; }));
+        attrib[k] = feed.attribution || "";
+        var when = (k === "federal" && feed.sync && feed.sync.last_success_at) || feed.generated_at;
+        load[k] = "ok";
+        setUpd(k, LABEL[k] + " data updated " + (when ? stamp(when) : "—"), true);
+        merge(); refreshStates(); render();
+      })
+      .catch(function () { load[k] = "error"; setUpd(k, LABEL[k] + " legislation is temporarily unavailable.", false); render(); });
+  });
+  render();
+})();
+</script>

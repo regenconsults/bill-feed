@@ -1,0 +1,370 @@
+{
+ "_note": "Reviewed 2026-11-13: expected tags (primary first) for each baseline bill under the eight-category taxonomy. [] = intentionally dropped. Old category kept for the mapping record.",
+ "bills": [
+  {
+   "state": "MI",
+   "bill": "HB 6486",
+   "old": "clean-energy",
+   "new": [
+    "land-use",
+    "nature-biodiversity",
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "NJ",
+   "bill": "S 4729",
+   "old": "clean-energy",
+   "new": [
+    "building-energy",
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "NJ",
+   "bill": "A 5706",
+   "old": "clean-energy",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "VA",
+   "bill": "SB 4001",
+   "old": "clean-energy",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "PA",
+   "bill": "HB 1667",
+   "old": "clean-energy",
+   "new": [
+    "infrastructure-resilience",
+    "building-energy"
+   ]
+  },
+  {
+   "state": "IL",
+   "bill": "SB 3488",
+   "old": "clean-energy",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "OH",
+   "bill": "HB 970",
+   "old": "grid",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "DC",
+   "bill": "B 26-0602",
+   "old": "grid",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "PA",
+   "bill": "HB 2888",
+   "old": "grid",
+   "new": [
+    "land-use",
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "PA",
+   "bill": "HB 2866",
+   "old": "grid",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "NJ",
+   "bill": "S 4052",
+   "old": "grid",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "CA",
+   "bill": "SB 1359",
+   "old": "grid",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "NJ",
+   "bill": "S 4556",
+   "old": "buildings",
+   "new": [
+    "building-energy"
+   ]
+  },
+  {
+   "state": "NJ",
+   "bill": "S 4593",
+   "old": "buildings",
+   "new": [
+    "building-energy"
+   ]
+  },
+  {
+   "state": "CA",
+   "bill": "SB 222",
+   "old": "buildings",
+   "new": [
+    "building-energy"
+   ]
+  },
+  {
+   "state": "NH",
+   "bill": "HB 1748",
+   "old": "buildings",
+   "new": [
+    "building-energy"
+   ]
+  },
+  {
+   "state": "CA",
+   "bill": "AB 196",
+   "old": "buildings",
+   "new": [
+    "building-energy"
+   ]
+  },
+  {
+   "state": "NY",
+   "bill": "A 11556",
+   "old": "buildings",
+   "new": [
+    "building-energy"
+   ]
+  },
+  {
+   "state": "OH",
+   "bill": "HB 995",
+   "old": "transportation",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "NH",
+   "bill": "HB 1410",
+   "old": "transportation",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "PA",
+   "bill": "SB 210",
+   "old": "transportation",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "PA",
+   "bill": "HR 661",
+   "old": "transportation",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "NJ",
+   "bill": "S 4750",
+   "old": "transportation",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "MA",
+   "bill": "SD 4278",
+   "old": "transportation",
+   "new": [
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "MA",
+   "bill": "S 3137",
+   "old": "climate",
+   "new": [
+    "climate-emissions",
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "NJ",
+   "bill": "S 687",
+   "old": "climate",
+   "new": [
+    "climate-emissions"
+   ]
+  },
+  {
+   "state": "IL",
+   "bill": "HB 4773",
+   "old": "climate",
+   "new": [
+    "climate-emissions"
+   ]
+  },
+  {
+   "state": "NJ",
+   "bill": "S 4214",
+   "old": "climate",
+   "new": [
+    "climate-emissions"
+   ]
+  },
+  {
+   "state": "CA",
+   "bill": "AB 1486",
+   "old": "climate",
+   "new": [
+    "climate-emissions",
+    "infrastructure-resilience"
+   ]
+  },
+  {
+   "state": "CA",
+   "bill": "SB 1048",
+   "old": "climate",
+   "new": [
+    "climate-emissions"
+   ]
+  },
+  {
+   "state": "IL",
+   "bill": "HJR 69",
+   "old": "waste",
+   "new": [
+    "materials-circularity"
+   ]
+  },
+  {
+   "state": "MI",
+   "bill": "HB 6429",
+   "old": "waste",
+   "new": [
+    "materials-circularity"
+   ]
+  },
+  {
+   "state": "PA",
+   "bill": "HB 2229",
+   "old": "waste",
+   "new": [
+    "materials-circularity"
+   ]
+  },
+  {
+   "state": "NJ",
+   "bill": "S 681",
+   "old": "waste",
+   "new": [
+    "materials-circularity"
+   ]
+  },
+  {
+   "state": "NJ",
+   "bill": "S 4599",
+   "old": "waste",
+   "new": [
+    "materials-circularity"
+   ]
+  },
+  {
+   "state": "CA",
+   "bill": "AB 2667",
+   "old": "waste",
+   "new": [
+    "materials-circularity"
+   ]
+  },
+  {
+   "state": "MI",
+   "bill": "SB 1211",
+   "old": "water-land",
+   "new": [
+    "water-resources"
+   ]
+  },
+  {
+   "state": "PA",
+   "bill": "HR 652",
+   "old": "water-land",
+   "new": []
+  },
+  {
+   "state": "NJ",
+   "bill": "S 4468",
+   "old": "water-land",
+   "new": [
+    "water-resources"
+   ]
+  },
+  {
+   "state": "CA",
+   "bill": "AB 1666",
+   "old": "water-land",
+   "new": [
+    "nature-biodiversity"
+   ]
+  },
+  {
+   "state": "CA",
+   "bill": "AB 1663",
+   "old": "water-land",
+   "new": [
+    "nature-biodiversity"
+   ]
+  },
+  {
+   "state": "PA",
+   "bill": "SB 1470",
+   "old": "water-land",
+   "new": [
+    "water-resources"
+   ]
+  },
+  {
+   "state": "CA",
+   "bill": "AB 1600",
+   "old": "equity",
+   "new": [
+    "environmental-justice"
+   ]
+  },
+  {
+   "state": "CA",
+   "bill": "AB 1457",
+   "old": "equity",
+   "new": [
+    "environmental-justice"
+   ]
+  },
+  {
+   "state": "IL",
+   "bill": "SB 3772",
+   "old": "equity",
+   "new": [
+    "environmental-justice"
+   ]
+  }
+ ]
+}

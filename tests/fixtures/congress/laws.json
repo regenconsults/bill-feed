@@ -1,0 +1,76 @@
+{
+    "bills": [
+        {
+            "congress": 119,
+            "latestAction": {
+                "actionDate": "2026-11-10",
+                "text": "Became Public Law No: 119-142."
+            },
+            "laws": [
+                {
+                    "number": "119-142",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "7730",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Bankruptcy Threshold Adjustment Act",
+            "type": "HR",
+            "updateDate": "2026-11-13",
+            "updateDateIncludingText": "2026-11-13",
+            "url": "https://api.congress.gov/v3/bill/119/hr/7730?format=json"
+        },
+        {
+            "congress": 119,
+            "latestAction": {
+                "actionDate": "2026-11-10",
+                "text": "Became Public Law No: 119-141."
+            },
+            "laws": [
+                {
+                    "number": "119-141",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "1945",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "America's National Churchill Museum National Historic Landmark Act",
+            "type": "HR",
+            "updateDate": "2026-11-13",
+            "updateDateIncludingText": "2026-11-13",
+            "url": "https://api.congress.gov/v3/bill/119/hr/1945?format=json"
+        },
+        {
+            "congress": 119,
+            "latestAction": {
+                "actionDate": "2026-11-10",
+                "text": "Became Public Law No: 119-140."
+            },
+            "laws": [
+                {
+                    "number": "119-140",
+                    "type": "Public Law"
+                }
+            ],
+            "number": "1703",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Choices for Increased Mobility Act of 2026",
+            "type": "HR",
+            "updateDate": "2026-11-13",
+            "updateDateIncludingText": "2026-11-13",
+            "url": "https://api.congress.gov/v3/bill/119/hr/1703?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 144,
+        "next": "https://api.congress.gov/v3/law/119?offset=3&limit=3&format=json"
+    },
+    "request": {
+        "congress": "119",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

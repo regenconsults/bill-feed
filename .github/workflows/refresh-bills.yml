@@ -15,6 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # State feed: unchanged from before the federal work, except the push retry.
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -39,5 +40,86 @@ jobs:
           git config user.name  "bill-feed-bot"
           git config user.email "bill-feed-bot@users.noreply.github.com"
           git add docs/bills.json
-          git diff --cached --quiet || git commit -m "Refresh bill feed"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh bill feed"
+          # Retry with a rebase if someone pushed during the run (added 2026-11-14).
+          for i in 1 2 3; do git pull --rebase --quiet && git push && exit 0; sleep 5; done
+          exit 1
+
+  # Federal feed (Congress.gov). Runs after the state job whether or not it
+  # succeeded, and writes only docs/federal.json, so a federal failure can't
+  # block or change the state feed.
+  federal:
+    needs: refresh
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      # Detail cache so unchanged bills aren't re-fetched (not committed).
+      - uses: actions/cache/restore@v4
+        with:
+          path: data/federal-cache.json
+          key: federal-cache-${{ github.run_id }}
+          restore-keys: federal-cache-
+
+      - name: Fetch federal bills
+        id: fetch
+        continue-on-error: true
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: |
+          git pull --ff-only --quiet || true   # pick up the previous federal.json
+          python fetch_federal.py
+
+      - uses: actions/cache/save@v4
+        if: ${{ always() && hashFiles('data/federal-cache.json') != '' }}
+        with:
+          path: data/federal-cache.json
+          key: federal-cache-${{ github.run_id }}
+
+      # Short-lived copy of the cache (public Congress.gov responses only; the key
+      # is sent as a header and never stored) for checking records by hand.
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() && hashFiles('data/federal-cache.json') != '' }}
+        with:
+          name: federal-cache
+          path: data/federal-cache.json
+          retention-days: 3
+
+      # Committed on success or failure: on failure federal.json keeps the last
+      # good bills and records sync.status = "error".
+      - name: Commit federal feed
+        run: |
+          git config user.name  "bill-feed-bot"
+          git config user.email "bill-feed-bot@users.noreply.github.com"
+          git add docs/federal.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh federal bill feed"
+          for i in 1 2 3; do git pull --rebase --quiet && git push && exit 0; sleep 5; done
+          exit 1
+
+      - name: Report federal sync failure
+        if: ${{ steps.fetch.outcome == 'failure' }}
+        run: |
+          echo "::error::Federal sync failed; see the Fetch federal bills step. State feed unaffected."
+          exit 1
+
+  # Tests run alongside and gate nothing, so a test failure never stops a refresh.
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python -m unittest discover -s tests -v

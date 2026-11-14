@@ -1,0 +1,78 @@
+{
+ "bill": {
+  "actions": {
+   "count": 27,
+   "url": "https://api.congress.gov/v3/bill/119/s/240/actions?format=json"
+  },
+  "committeeReports": [
+   {
+    "citation": "S. Rept. 119-93",
+    "url": "https://api.congress.gov/v3/committee-report/119/SRPT/93?format=json"
+   }
+  ],
+  "committees": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/240/committees?format=json"
+  },
+  "congress": 119,
+  "cosponsors": {
+   "count": 1,
+   "countIncludingWithdrawnCosponsors": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/240/cosponsors?format=json"
+  },
+  "introducedDate": "2025-01-24",
+  "latestAction": {
+   "actionDate": "2026-10-15",
+   "text": "Became Public Law No: 119-122."
+  },
+  "laws": [
+   {
+    "number": "119-122",
+    "type": "Public Law"
+   }
+  ],
+  "legislationUrl": "https://www.congress.gov/bill/119th-congress/senate-bill/240",
+  "number": "240",
+  "originChamber": "Senate",
+  "originChamberCode": "S",
+  "policyArea": {
+   "name": "Native Americans"
+  },
+  "relatedBills": {
+   "count": 5,
+   "url": "https://api.congress.gov/v3/bill/119/s/240/relatedbills?format=json"
+  },
+  "sponsors": [
+   {
+    "bioguideId": "D000618",
+    "firstName": "Steve",
+    "fullName": "Sen. Daines, Steve [R-MT]",
+    "isByRequest": "N",
+    "lastName": "Daines",
+    "party": "R",
+    "state": "MT",
+    "url": "https://api.congress.gov/v3/member/D000618?format=json"
+   }
+  ],
+  "subjects": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/119/s/240/subjects?format=json"
+  },
+  "summaries": {
+   "count": 1,
+   "url": "https://api.congress.gov/v3/bill/119/s/240/summaries?format=json"
+  },
+  "textVersions": {
+   "count": 6,
+   "url": "https://api.congress.gov/v3/bill/119/s/240/text?format=json"
+  },
+  "title": "Crow Tribe Water Rights Settlement Amendments Act of 2025",
+  "titles": {
+   "count": 7,
+   "url": "https://api.congress.gov/v3/bill/119/s/240/titles?format=json"
+  },
+  "type": "S",
+  "updateDate": "2026-10-22T13:49:19Z",
+  "updateDateIncludingText": "2026-10-22T13:49:19Z"
+ }
+}

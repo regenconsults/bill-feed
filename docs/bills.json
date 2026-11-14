@@ -1,75 +1,54 @@
 {
  "version": 2,
- "generated_at": "2026-11-14T03:11:22+00:00",
+ "generated_at": "2026-11-14T13:27:42+00:00",
  "states": "all",
  "categories": [
   {
-   "slug": "clean-energy",
-   "name": "Clean Energy",
-   "count": 6
+   "slug": "building-energy",
+   "name": "Building & Energy",
+   "count": 7
   },
   {
-   "slug": "grid",
-   "name": "Grid & Energy Affordability",
-   "count": 6
-  },
-  {
-   "slug": "buildings",
-   "name": "Green & Healthy Buildings",
-   "count": 6
-  },
-  {
-   "slug": "transportation",
-   "name": "Clean Transportation",
-   "count": 6
-  },
-  {
-   "slug": "climate",
+   "slug": "climate-emissions",
    "name": "Climate & Emissions",
    "count": 6
   },
   {
-   "slug": "waste",
-   "name": "Waste & Circular Economy",
+   "slug": "water-resources",
+   "name": "Water Resources",
    "count": 6
   },
   {
-   "slug": "water-land",
-   "name": "Water & Land",
+   "slug": "land-use",
+   "name": "Land Use & Development",
+   "count": 7
+  },
+  {
+   "slug": "materials-circularity",
+   "name": "Materials & Circularity",
    "count": 6
   },
   {
-   "slug": "equity",
-   "name": "Environmental Equity",
-   "count": 3
+   "slug": "nature-biodiversity",
+   "name": "Nature & Biodiversity",
+   "count": 7
+  },
+  {
+   "slug": "environmental-justice",
+   "name": "Environmental Justice",
+   "count": 4
+  },
+  {
+   "slug": "infrastructure-resilience",
+   "name": "Infrastructure & Resilience",
+   "count": 20
   }
  ],
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
  "bills": [
   {
-   "id": "3b580269-dd96-4016-8f39-9b20622d6c73",
-   "state": "MI",
-   "bill": "HB 6486",
-   "title": "Land use: farmland and open space; withdrawal of farmland from the farmland and open space preservation program; require for commercial solar use.",
-   "session": "2025-2026 Regular Session (103rd Legislature)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "bill electronically reproduced 11/12/2026",
-   "latest_action_date": "2026-11-17",
-   "upcoming": true,
-   "introduced": null,
-   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6486",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-11-13",
-   "changed_on": "2026-11-13",
-   "change": "new"
-  },
-  {
    "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 4729",
    "title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
@@ -81,502 +60,163 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4729",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
+   "category": "building-energy",
+   "category_name": "Building & Energy",
+   "categories": [
+    "building-energy",
+    "infrastructure-resilience"
    ],
+   "topics": [
+    "Building & Energy",
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
    "first_seen": "2026-10-25",
    "changed_on": "2026-10-30",
    "change": null
   },
   {
-   "id": "9755ce35-af7a-40d3-94cd-80f875c9309c",
+   "id": "c98eba33-6faf-4400-b5d4-3dfd18f85d94",
+   "jurisdiction": "state",
    "state": "NJ",
-   "bill": "A 5706",
-   "title": "Requires NJT and BPU to establish railroad right-of-way solar energy pilot program.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
-   "latest_action_date": "2026-10-22",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5706",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-25",
-   "changed_on": "2026-10-25",
-   "change": null
-  },
-  {
-   "id": "77e4412f-0842-4ddc-8872-66de371e36b2",
-   "state": "VA",
-   "bill": "SB 4001",
-   "title": "Virginia Clean Energy & Community Flood Preparedness Act; repeal; electric utility customer credit.",
-   "session": "2026S1",
-   "status": "died_on_adjournment",
-   "status_label": "Died on adjournment",
-   "latest_action": "Referred to Committee on Agriculture, Conservation and Natural Resources",
-   "latest_action_date": "2026-10-21",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://lis.virginia.gov/bill-details/20262/SB4001",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-23",
-   "changed_on": "2026-10-23",
-   "change": null
-  },
-  {
-   "id": "b0bd9697-1ac0-4c26-888a-9db24345a902",
-   "state": "PA",
-   "bill": "HB 1667",
-   "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, providing for residential clean energy tax credit; repealing provisions relating to Pennsylvania Economic Development for a Growing Economy (PA EDGE) Tax Credits; providing for Pennsylvania Economic Development for a Growing Economy (PA EDGE) Tax Credits and for energy ratepayer protection; establishing the Energy Ratepayer Protection Fund; in manufacturing and investment tax credit, further providing for tax credit certificates and providing for limitations; and making a repeal.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Rules & Executive Nominations",
-   "latest_action_date": "2026-10-19",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=16&rollcallid=990&sessYr=2025&sessInd=0",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-21",
-   "changed_on": "2026-10-21",
-   "change": null
-  },
-  {
-   "id": "7949669a-bf51-4548-84bc-f01d35851dcb",
-   "state": "IL",
-   "bill": "SB 3488",
-   "title": "WIND & SOLAR AFFECT WATER FLOW",
-   "session": "104th General Assembly, 2026 Session",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Added as Co-Sponsor Sen. Chris Balkema",
-   "latest_action_date": "2026-10-15",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3488&GAID=18&DocTypeID=SB&LegId=166489&SessionID=114",
-   "category": "clean-energy",
-   "category_name": "Clean Energy",
-   "topics": [
-    "Clean Energy"
-   ],
-   "first_seen": "2026-10-16",
-   "changed_on": "2026-10-16",
-   "change": null
-  },
-  {
-   "id": "74a95197-5c20-460c-8654-3a9d71c93159",
-   "state": "OH",
-   "bill": "HB 970",
-   "title": "Prevent PUCO from approving utility rate increases for 12 months",
-   "session": "2025-2026 Regular Session (136th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to committee",
-   "latest_action_date": "2026-11-10",
-   "upcoming": false,
-   "introduced": "2026-07-01",
-   "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb970/",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-11-11",
-   "changed_on": "2026-11-11",
-   "change": null
-  },
-  {
-   "id": "4eef0162-b6f4-473f-bb48-79f453bb404a",
-   "state": "DC",
-   "bill": "B 26-0602",
-   "title": "Guiding Renewable Interconnection and Distribution (GRID) Amendment Act of 2026",
-   "session": "Council Period 26 (2025-2026)",
-   "status": "introduced",
-   "status_label": "Introduced",
-   "latest_action": "First Reading",
-   "latest_action_date": "2026-11-10",
-   "upcoming": false,
-   "introduced": "2026-02-24",
-   "url": "https://lims.dccouncil.gov/Legislation/B26-0602",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-11-02",
-   "changed_on": "2026-11-13",
-   "change": "moved",
-   "previous_status_label": "Introduced"
-  },
-  {
-   "id": "92b0698b-a2f5-4b50-9b7c-0f7fb12eb8ab",
-   "state": "PA",
-   "bill": "HB 2888",
-   "title": "An Act establishing reporting and information submission requirements for hyperscale computer data centers operating in this Commonwealth; providing for alternative compliance payments, for energy plans, for water plans, for regional benefits plans, for ratepayer protections, for community benefit plans and agreements, for municipal comments, for confidentiality, for records, for lists of tenants, for enforcement, for regulations and guidelines and for municipal zoning; imposing duties on the Department of Environmental Protection, the Department of Community and Economic Development and the Pennsylvania Public Utility Commission; and imposing penalties.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Energy",
-   "latest_action_date": "2026-11-04",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/legislation/bills/2025/hb2888",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-11-06",
-   "changed_on": "2026-11-06",
-   "change": null
-  },
-  {
-   "id": "f7a338be-90b7-423d-9d59-9c9149dc4041",
-   "state": "PA",
-   "bill": "HB 2866",
-   "title": "An Act imposing a fee on energy consumption taxpayers; providing for an energy ratepayer rebate; imposing duties on the Pennsylvania Public Utility Commission; and establishing the Energy Ratepayer Protection Fund.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Energy",
-   "latest_action_date": "2026-10-20",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/legislation/bills/2025/hb2866",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-10-21",
-   "changed_on": "2026-10-21",
-   "change": null
-  },
-  {
-   "id": "606c6a89-757d-4f61-a965-1bf0c2d101f2",
-   "state": "NJ",
-   "bill": "S 4052",
-   "title": "\"Public Utility Rate Stabilization Act\"; permits gas and electric public utilities to employ alternative ratemaking mechanisms.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Senate Budget and Appropriations Committee",
-   "latest_action_date": "2026-10-08",
-   "upcoming": false,
-   "introduced": "2026-03-23",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4052",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "first_seen": "2026-10-09",
-   "changed_on": "2026-10-09",
-   "change": null
-  },
-  {
-   "id": "4797821b-56c6-4b37-9ebc-40918f2fdbc5",
-   "state": "CA",
-   "bill": "AB 2493",
-   "title": "Electrical corporations: interconnection: Public Utilities Commission: transmission development monitor.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State - Chapter 944, Statutes of 2026.",
-   "latest_action_date": "2026-09-30",
-   "upcoming": false,
-   "introduced": "2026-03-26",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2493",
-   "category": "grid",
-   "category_name": "Grid & Energy Affordability",
-   "topics": [
-    "Grid & Energy Affordability"
-   ],
-   "change": "new",
-   "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
-  },
-  {
-   "id": "1b1f9141-96aa-4b20-98bd-be6ede590b67",
-   "state": "NJ",
-   "bill": "S 4556",
-   "title": "\"Green Building Tax Credit Act.\"",
+   "bill": "S 4766",
+   "title": "Establishes GREEN Loan Program in BPU to finance certain renewable energy and energy efficiency projects; appropriates $5 million.",
    "session": "222",
    "status": "in_committee",
    "status_label": "In committee",
    "latest_action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
-   "latest_action_date": "2026-09-28",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4556",
-   "category": "buildings",
-   "category_name": "Green & Healthy Buildings",
-   "topics": [
-    "Green & Healthy Buildings"
-   ],
-   "first_seen": "2026-10-01",
-   "changed_on": "2026-10-01",
-   "change": null
-  },
-  {
-   "id": "297789c7-03be-45f5-8803-5c5b46cd68e0",
-   "state": "NJ",
-   "bill": "S 4593",
-   "title": "Permits developer to qualify for low-interest loan from NJEDA when building a high performance green building.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
-   "latest_action_date": "2026-09-28",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4593",
-   "category": "buildings",
-   "category_name": "Green & Healthy Buildings",
-   "topics": [
-    "Green & Healthy Buildings"
-   ],
-   "first_seen": "2026-10-01",
-   "changed_on": "2026-10-01",
-   "change": null
-  },
-  {
-   "id": "10e46d70-7d9c-4786-829c-69fcf397c493",
-   "state": "CA",
-   "bill": "SB 222",
-   "title": "Residential heat pump water heater or heat pump HVAC systems.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State. Chapter 738, Statutes of 2026.",
-   "latest_action_date": "2026-09-28",
-   "upcoming": false,
-   "introduced": "2025-01-27",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB222",
-   "category": "buildings",
-   "category_name": "Green & Healthy Buildings",
-   "topics": [
-    "Green & Healthy Buildings"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
-   "id": "8604aa76-1a4e-45f1-8e54-31c6716bbb45",
-   "state": "NH",
-   "bill": "HB 1748",
-   "title": "establishing the New Hampshire energy efficiency and resource development authority.",
-   "session": "2026 Regular Session",
-   "status": "died_on_adjournment",
-   "status_label": "Died on adjournment",
-   "latest_action": "Interim Study Report: Not Recommended for Future Legislation  06/02/2026 (Vote 14-0; )",
-   "latest_action_date": "2026-09-02",
-   "upcoming": false,
-   "introduced": "2025-12-17",
-   "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1535&inflect=2",
-   "category": "buildings",
-   "category_name": "Green & Healthy Buildings",
-   "topics": [
-    "Green & Healthy Buildings"
-   ],
-   "first_seen": "2026-09-30",
-   "changed_on": "2026-09-30",
-   "change": null
-  },
-  {
-   "id": "97e77e78-0a63-4e58-bfed-5f08cc5f3e80",
-   "state": "CA",
-   "bill": "AB 196",
-   "title": "School Energy Efficiency Stimulus Program.",
-   "session": "2025-2026 Regular Session",
-   "status": "withdrawn",
-   "status_label": "Withdrawn",
-   "latest_action": "In committee: Hearing postponed by committee.",
-   "latest_action_date": "2026-08-31",
-   "upcoming": false,
-   "introduced": null,
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB196",
-   "category": "buildings",
-   "category_name": "Green & Healthy Buildings",
-   "topics": [
-    "Green & Healthy Buildings"
-   ],
-   "first_seen": "2026-09-30",
-   "changed_on": "2026-09-30",
-   "change": null
-  },
-  {
-   "id": "6addfdaa-880d-4b9d-a119-ab569dfe530a",
-   "state": "NY",
-   "bill": "A 11556",
-   "title": "Relates to energy efficiency and weatherization",
-   "session": "2025-2026 Regular Session",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "REFERRED TO RULES",
-   "latest_action_date": "2026-06-04",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11556?summary=&detail=",
-   "category": "buildings",
-   "category_name": "Green & Healthy Buildings",
-   "topics": [
-    "Green & Healthy Buildings"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
-   "id": "5d19e5f1-b135-4229-afb6-90c750d2c658",
-   "state": "OH",
-   "bill": "HB 995",
-   "title": "Prohibit state agency providing free electric vehicle charging",
-   "session": "2025-2026 Regular Session (136th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to committee",
-   "latest_action_date": "2026-11-10",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.legislature.ohio.gov/legislation/136/hb995",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
-   ],
-   "first_seen": "2026-11-12",
-   "changed_on": "2026-11-12",
-   "change": "new"
-  },
-  {
-   "id": "df47a010-f4ba-42cf-ac6d-e8c705fd7b89",
-   "state": "NH",
-   "bill": "HB 1410",
-   "title": "creating a new classification for electric vehicles.",
-   "session": "2026 Regular Session",
-   "status": "died_on_adjournment",
-   "status_label": "Died on adjournment",
-   "latest_action": "Interim Study Report: Recommended for Future Legislation  10/20/2026 (Vote 8-0; )",
-   "latest_action_date": "2026-10-21",
-   "upcoming": false,
-   "introduced": "2025-12-04",
-   "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2296&inflect=2",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
-   ],
-   "first_seen": "2026-10-16",
-   "changed_on": "2026-10-23",
-   "change": null
-  },
-  {
-   "id": "764133ad-d9e0-4849-9a2a-49ea40ac522f",
-   "state": "PA",
-   "bill": "SB 210",
-   "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in miscellaneous provisions relating to operation of vehicles, providing for the offense of interference with operation or movement of a public transit vehicle.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Re-referred to Appropriations",
-   "latest_action_date": "2026-10-20",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=19&rollcallid=42&sessYr=2025&sessInd=0",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
-   ],
-   "first_seen": "2026-10-20",
-   "changed_on": "2026-10-22",
-   "change": null
-  },
-  {
-   "id": "90a77c9d-8f14-4ad0-9755-0f4ca92527d4",
-   "state": "PA",
-   "bill": "HR 661",
-   "title": "A Resolution directing the Joint State Government Commission to conduct a study on the feasibility of implementing automated transit systems in this Commonwealth and issue a report.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Transportation",
-   "latest_action_date": "2026-10-19",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/legislation/bills/2025/hr661",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
-   ],
-   "first_seen": "2026-10-20",
-   "changed_on": "2026-10-20",
-   "change": null
-  },
-  {
-   "id": "b46b0ea1-e0c0-4f32-b986-eb594796cde0",
-   "state": "NJ",
-   "bill": "S 4750",
-   "title": "\"New Jersey Franchised Automobile Industry Retail (FAIR) Sales Act\"; repeals statute permitting Tesla and other zero emission vehicle manufacturers to sell vehicles directly to consumers; prohibits motor vehicle galleries and studios.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced in the Senate, Referred to Senate Commerce Committee",
    "latest_action_date": "2026-10-05",
    "upcoming": false,
    "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4750",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4766",
+   "category": "building-energy",
+   "category_name": "Building & Energy",
+   "categories": [
+    "building-energy",
+    "infrastructure-resilience"
    ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
+   "topics": [
+    "Building & Energy",
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
   },
   {
-   "id": "373bd02d-ec30-4491-bd50-cc9060923a41",
-   "state": "MA",
-   "bill": "SD 4278",
-   "title": "Pioneer Valley Transit Authority FY26 Annual Report",
-   "session": "2025-2026 Regular Session (194th General Court)",
-   "status": null,
-   "status_label": "In progress",
-   "latest_action": "Placed on file",
-   "latest_action_date": "2026-10-01",
+   "id": "7a84af84-5b17-43cf-a189-ed9e84f427d9",
+   "jurisdiction": "state",
+   "state": "CA",
+   "bill": "SB 913",
+   "title": "Resource adequacy: aggregated distributed energy resources.",
+   "session": "2025-2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Chaptered by Secretary of State. Chapter 987, Statutes of 2026.",
+   "latest_action_date": "2026-09-30",
+   "upcoming": false,
+   "introduced": "2026-01-27",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB913",
+   "category": "building-energy",
+   "category_name": "Building & Energy",
+   "categories": [
+    "building-energy",
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Building & Energy",
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "58c6a9f4-1bcb-457f-8995-743b85a79e11",
+   "jurisdiction": "state",
+   "state": "CA",
+   "bill": "SB 908",
+   "title": "Residential windows: retrofitting: residential window replacement projects: California Building Code compliance.",
+   "session": "2025-2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Chaptered by Secretary of State. Chapter 787, Statutes of 2026.",
+   "latest_action_date": "2026-09-29",
+   "upcoming": false,
+   "introduced": "2026-01-22",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB908",
+   "category": "building-energy",
+   "category_name": "Building & Energy",
+   "categories": [
+    "building-energy"
+   ],
+   "topics": [
+    "Building & Energy"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "2990af44-268b-4b45-92ea-55fba648fdec",
+   "jurisdiction": "state",
+   "state": "MI",
+   "bill": "HB 6408",
+   "title": "Energy: alternative sources; distributed generation, storage, and aggregation; create program for in rate cases. Amends 2008 PA 295 (MCL 460.1001 - 460.1232) by adding pt. 9.   TIE BAR WITH: HB 6410'26",
+   "session": "2025-2026 Regular Session (103rd Legislature)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "bill electronically reproduced 09/24/2026",
+   "latest_action_date": "2026-09-29",
    "upcoming": false,
    "introduced": null,
-   "url": "https://malegislature.gov/Bills/194/SD4278",
-   "category": "transportation",
-   "category_name": "Clean Transportation",
-   "topics": [
-    "Clean Transportation"
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6408",
+   "category": "building-energy",
+   "category_name": "Building & Energy",
+   "categories": [
+    "building-energy"
    ],
-   "first_seen": "2026-10-09",
-   "changed_on": "2026-10-09",
-   "change": null
+   "topics": [
+    "Building & Energy"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "d63c8eb6-6916-4153-8c59-ab6e0c48dfce",
+   "jurisdiction": "state",
+   "state": "MI",
+   "bill": "HB 6410",
+   "title": "Energy: alternative sources; distributed generation, storage, and aggregation; create program for in rate cases. Amends 2008 PA 295 (MCL 460.1001 - 460.1232) by adding secs. 243, 244, 245 & 246.   TIE BAR WITH: HB 6408'26",
+   "session": "2025-2026 Regular Session (103rd Legislature)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "bill electronically reproduced 09/24/2026",
+   "latest_action_date": "2026-09-29",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6410",
+   "category": "building-energy",
+   "category_name": "Building & Energy",
+   "categories": [
+    "building-energy"
+   ],
+   "topics": [
+    "Building & Energy"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
   },
   {
    "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
+   "jurisdiction": "state",
    "state": "MA",
    "bill": "S 3137",
    "title": "An Act providing for improved public access and climate resiliency on the Mystic River and increasing the utilization of the designated port area",
@@ -588,17 +228,24 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://malegislature.gov/Bills/194/S3137",
-   "category": "climate",
+   "category": "climate-emissions",
    "category_name": "Climate & Emissions",
-   "topics": [
-    "Climate & Emissions"
+   "categories": [
+    "climate-emissions",
+    "infrastructure-resilience"
    ],
+   "topics": [
+    "Climate & Emissions",
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
    "first_seen": "2026-11-04",
    "changed_on": "2026-11-04",
    "change": null
   },
   {
    "id": "46d55035-a500-4af6-8688-b072e1d5b3aa",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 687",
    "title": "Creates Joint Blue Ribbon Task Force on Impacts of Climate Change on Property Insurance.",
@@ -610,17 +257,22 @@
    "upcoming": false,
    "introduced": "2026-01-13",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S687",
-   "category": "climate",
+   "category": "climate-emissions",
    "category_name": "Climate & Emissions",
+   "categories": [
+    "climate-emissions"
+   ],
    "topics": [
     "Climate & Emissions"
    ],
+   "classification": "auto-title",
    "first_seen": "2026-10-30",
    "changed_on": "2026-10-30",
    "change": null
   },
   {
    "id": "f25e35ce-3c7f-49c3-955d-6de7b4e45a05",
+   "jurisdiction": "state",
    "state": "IL",
    "bill": "HB 4773",
    "title": "CLIMATE CHANGE SUPERFUND",
@@ -632,17 +284,22 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://ilga.gov/Legislation/BillStatus?DocNum=4773&GAID=18&DocTypeID=HB&LegId=165917&SessionID=114",
-   "category": "climate",
+   "category": "climate-emissions",
    "category_name": "Climate & Emissions",
+   "categories": [
+    "climate-emissions"
+   ],
    "topics": [
     "Climate & Emissions"
    ],
+   "classification": "auto-title",
    "first_seen": "2026-10-24",
    "changed_on": "2026-10-24",
    "change": null
   },
   {
    "id": "5d79b6c6-6616-410f-8d22-8fa7baac74f3",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 4214",
    "title": "Codifies finding that greenhouse gas emissions contribute to climate change and endanger public health, safety, welfare, and environment; amends \"Air Pollution Control Act (1954)\" to define greenhouse gases as air pollutants subject to regulation.",
@@ -654,17 +311,22 @@
    "upcoming": false,
    "introduced": "2026-05-11",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4214",
-   "category": "climate",
+   "category": "climate-emissions",
    "category_name": "Climate & Emissions",
+   "categories": [
+    "climate-emissions"
+   ],
    "topics": [
     "Climate & Emissions"
    ],
+   "classification": "auto-title",
    "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
    "change": null
   },
   {
    "id": "6069618a-6b1d-443d-a23f-6dd833bef749",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "AB 1486",
    "title": "Climate resiliency: research farms: grant program.",
@@ -676,17 +338,24 @@
    "upcoming": false,
    "introduced": "2025-02-21",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1486",
-   "category": "climate",
+   "category": "climate-emissions",
    "category_name": "Climate & Emissions",
-   "topics": [
-    "Climate & Emissions"
+   "categories": [
+    "climate-emissions",
+    "infrastructure-resilience"
    ],
+   "topics": [
+    "Climate & Emissions",
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
    "first_seen": "2026-10-07",
    "changed_on": "2026-10-07",
    "change": null
   },
   {
    "id": "f91a4b2b-70ad-41a0-82a6-ccb3412de557",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "SB 1048",
    "title": "State Seal of Climate Literacy.",
@@ -698,149 +367,22 @@
    "upcoming": false,
    "introduced": "2026-02-12",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1048",
-   "category": "climate",
+   "category": "climate-emissions",
    "category_name": "Climate & Emissions",
+   "categories": [
+    "climate-emissions"
+   ],
    "topics": [
     "Climate & Emissions"
    ],
+   "classification": "auto-title",
    "first_seen": "2026-10-07",
    "changed_on": "2026-10-07",
    "change": null
   },
   {
-   "id": "999ee4e5-eb9d-4dba-8a88-532db1ac4f7c",
-   "state": "IL",
-   "bill": "HJR 69",
-   "title": "RECYCLING MASCOT-LOOP THE CART",
-   "session": "104th General Assembly, 2026 Session",
-   "status": "introduced",
-   "status_label": "Introduced",
-   "latest_action": "Filed with the Clerk by Rep. Joyce Mason",
-   "latest_action_date": "2026-10-26",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=69&GAID=18&DocTypeID=HJR&LegId=168985&SessionID=114",
-   "category": "waste",
-   "category_name": "Waste & Circular Economy",
-   "topics": [
-    "Waste & Circular Economy"
-   ],
-   "first_seen": "2026-10-26",
-   "changed_on": "2026-10-26",
-   "change": null
-  },
-  {
-   "id": "8840ec5a-9aa3-438c-906e-c6f3487015a6",
-   "state": "MI",
-   "bill": "HB 6429",
-   "title": "Environmental protection: solid waste; definition of coal combustion residuals; provide for. Amends, adds & repeals (See bill).",
-   "session": "2025-2026 Regular Session (103rd Legislature)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "bill electronically reproduced 10/14/2026",
-   "latest_action_date": "2026-10-21",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6429",
-   "category": "waste",
-   "category_name": "Waste & Circular Economy",
-   "topics": [
-    "Waste & Circular Economy"
-   ],
-   "first_seen": "2026-10-15",
-   "changed_on": "2026-10-15",
-   "change": null
-  },
-  {
-   "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
-   "state": "PA",
-   "bill": "HB 2229",
-   "title": "An Act amending the act of July 7, 1980 (P.L.380, No.97), known as the Solid Waste Management Act, in general provisions, further providing for powers and duties of the department.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Environmental Resources & Energy",
-   "latest_action_date": "2026-10-13",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=70&rollcallid=1759&sessYr=2025&sessInd=0",
-   "category": "waste",
-   "category_name": "Waste & Circular Economy",
-   "topics": [
-    "Waste & Circular Economy"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-14",
-   "change": null
-  },
-  {
-   "id": "6d355509-dcef-414c-aee0-6d0de37a258f",
-   "state": "NJ",
-   "bill": "S 681",
-   "title": "\"Electronic Cigarette Extended Producer Responsibility Act.\"",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Senate Budget and Appropriations Committee",
-   "latest_action_date": "2026-10-08",
-   "upcoming": false,
-   "introduced": "2026-01-13",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S681",
-   "category": "waste",
-   "category_name": "Waste & Circular Economy",
-   "topics": [
-    "Waste & Circular Economy"
-   ],
-   "first_seen": "2026-10-09",
-   "changed_on": "2026-10-09",
-   "change": null
-  },
-  {
-   "id": "e37a42a8-1a24-4778-abd5-34bc9c6f4c8e",
-   "state": "NJ",
-   "bill": "S 4599",
-   "title": "Requires DEP to regulate scrap metal facilities as recycling facilities.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
-   "latest_action_date": "2026-09-28",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4599",
-   "category": "waste",
-   "category_name": "Waste & Circular Economy",
-   "topics": [
-    "Waste & Circular Economy"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
-   "id": "7147e8c1-f68d-42b0-bc92-f5208cddb13c",
-   "state": "CA",
-   "bill": "AB 2667",
-   "title": "Vape products: household hazardous waste: advertising.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State - Chapter 722, Statutes of 2026.",
-   "latest_action_date": "2026-09-28",
-   "upcoming": false,
-   "introduced": "2026-06-10",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2667",
-   "category": "waste",
-   "category_name": "Waste & Circular Economy",
-   "topics": [
-    "Waste & Circular Economy"
-   ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
    "id": "790698fd-bf2d-4c66-9118-418303f1c54b",
+   "jurisdiction": "state",
    "state": "MI",
    "bill": "SB 1211",
    "title": "Water supply: quality and standards; drinking water compliance information; require to be available to the public. Amends sec. 19 of 1976 PA 399 (MCL 325.1019) & adds sec. 19b.",
@@ -852,39 +394,22 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1211",
-   "category": "water-land",
-   "category_name": "Water & Land",
-   "topics": [
-    "Water & Land"
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
    ],
+   "topics": [
+    "Water Resources"
+   ],
+   "classification": "auto-title",
    "first_seen": "2026-10-15",
    "changed_on": "2026-10-15",
    "change": null
   },
   {
-   "id": "454dc1da-3f39-41f5-ad9f-291e0b41ce8b",
-   "state": "PA",
-   "bill": "HR 652",
-   "title": "A Resolution directing the Legislative Budget and Finance Committee to conduct a study and issue a report on the compensation, benefits and classification of Pennsylvania Game Commission game wardens and Pennsylvania Fish and Boat Commission waterways conservation officers.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Game & Fisheries",
-   "latest_action_date": "2026-10-09",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/legislation/bills/2025/hr652",
-   "category": "water-land",
-   "category_name": "Water & Land",
-   "topics": [
-    "Water & Land"
-   ],
-   "first_seen": "2026-10-10",
-   "changed_on": "2026-10-10",
-   "change": null
-  },
-  {
    "id": "140fe026-0552-4657-872d-3a189390ff11",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 4468",
    "title": "Requires DEP to establish maximum contaminant level for certain perfluoroalkyl and polyfluoroalkyl substances in drinking water and establish private well testing program.",
@@ -896,61 +421,105 @@
    "upcoming": false,
    "introduced": "2026-06-15",
    "url": "https://www.njleg.state.nj.us/bill-search/2026/S4468",
-   "category": "water-land",
-   "category_name": "Water & Land",
-   "topics": [
-    "Water & Land"
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
    ],
+   "topics": [
+    "Water Resources"
+   ],
+   "classification": "auto-title",
    "first_seen": "2026-10-09",
    "changed_on": "2026-10-09",
    "change": null
   },
   {
-   "id": "fc915a83-2930-4b7e-ba22-4623bbb9354e",
-   "state": "CA",
-   "bill": "AB 1666",
-   "title": "Forest management: biomass innovation parks: wood products.",
-   "session": "2025-2026 Regular Session",
-   "status": "vetoed",
-   "status_label": "Vetoed",
-   "latest_action": "Vetoed by Governor.",
-   "latest_action_date": "2026-09-30",
+   "id": "77ec71a6-3eef-4571-8785-e11c0cc12213",
+   "jurisdiction": "state",
+   "state": "NH",
+   "bill": "HB 459",
+   "title": "relative to acreage requirements and zoning regarding sewer infrastructure and single-family residential uses.",
+   "session": "2026 Regular Session",
+   "status": "died_on_adjournment",
+   "status_label": "Died on adjournment",
+   "latest_action": "Interim Study Report: Recommended for Future Legislation  10/01/2026 (Vote 9-0; )",
+   "latest_action_date": "2026-10-05",
    "upcoming": false,
-   "introduced": "2026-03-19",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1666",
-   "category": "water-land",
-   "category_name": "Water & Land",
-   "topics": [
-    "Water & Land"
+   "introduced": "2025-01-10",
+   "url": "https://gc.nh.gov/bill_Status/advanced.aspx",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources",
+    "land-use"
    ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
+   "topics": [
+    "Water Resources",
+    "Land Use & Development"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
   },
   {
-   "id": "64ec52e5-f251-4337-bc25-f1030227211e",
+   "id": "46f235b6-a0a9-4e79-99fb-24ceb14f79d7",
+   "jurisdiction": "state",
    "state": "CA",
-   "bill": "AB 1663",
-   "title": "Western Joshua Tree Conservation Act: removal: trimming.",
+   "bill": "SB 1085",
+   "title": "Water supply planning: housing developments.",
    "session": "2025-2026 Regular Session",
    "status": "enacted",
    "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State - Chapter 813, Statutes of 2026.",
-   "latest_action_date": "2026-09-29",
+   "latest_action": "Chaptered by Secretary of State. Chapter 1004, Statutes of 2026.",
+   "latest_action_date": "2026-09-30",
    "upcoming": false,
-   "introduced": "2026-03-16",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1663",
-   "category": "water-land",
-   "category_name": "Water & Land",
-   "topics": [
-    "Water & Land"
+   "introduced": "2026-02-13",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1085",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
    ],
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
+   "topics": [
+    "Water Resources"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "ce39e045-941b-4737-b8fb-f4f67c904a24",
+   "jurisdiction": "state",
+   "state": "CA",
+   "bill": "AB 2728",
+   "title": "Groundwater: de minimis extractors: fees: exemption.",
+   "session": "2025-2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Chaptered by Secretary of State - Chapter 963, Statutes of 2026.",
+   "latest_action_date": "2026-09-30",
+   "upcoming": false,
+   "introduced": "2026-03-19",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2728",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
+   ],
+   "topics": [
+    "Water Resources"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
   },
   {
    "id": "d704ebad-14d1-4854-a169-c3d21472f5eb",
+   "jurisdiction": "state",
    "state": "PA",
    "bill": "SB 1470",
    "title": "An Act amending Title 27 (Environmental Resources) of the Pennsylvania Consolidated Statutes, in water resources planning, providing for water conservation requirements for data centers.",
@@ -962,17 +531,514 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://www.palegis.us/legislation/bills/2025/sb1470",
-   "category": "water-land",
-   "category_name": "Water & Land",
-   "topics": [
-    "Water & Land"
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
    ],
+   "topics": [
+    "Water Resources"
+   ],
+   "classification": "auto-title",
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
    "change": null
   },
   {
+   "id": "3b580269-dd96-4016-8f39-9b20622d6c73",
+   "jurisdiction": "state",
+   "state": "MI",
+   "bill": "HB 6486",
+   "title": "Land use: farmland and open space; withdrawal of farmland from the farmland and open space preservation program; require for commercial solar use.",
+   "session": "2025-2026 Regular Session (103rd Legislature)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "bill electronically reproduced 11/12/2026",
+   "latest_action_date": "2026-11-17",
+   "upcoming": true,
+   "introduced": null,
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6486",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use",
+    "nature-biodiversity",
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Land Use & Development",
+    "Nature & Biodiversity",
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-13",
+   "changed_on": "2026-11-13",
+   "change": "new"
+  },
+  {
+   "id": "153a59c3-f285-4758-8a78-0fbd21972718",
+   "jurisdiction": "state",
+   "state": "OH",
+   "bill": "HB 997",
+   "title": "Regards recovery housing residences and zoning",
+   "session": "2025-2026 Regular Session (136th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to committee",
+   "latest_action_date": "2026-11-10",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb997",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use"
+   ],
+   "topics": [
+    "Land Use & Development"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "92b0698b-a2f5-4b50-9b7c-0f7fb12eb8ab",
+   "jurisdiction": "state",
+   "state": "PA",
+   "bill": "HB 2888",
+   "title": "An Act establishing reporting and information submission requirements for hyperscale computer data centers operating in this Commonwealth; providing for alternative compliance payments, for energy plans, for water plans, for regional benefits plans, for ratepayer protections, for community benefit plans and agreements, for municipal comments, for confidentiality, for records, for lists of tenants, for enforcement, for regulations and guidelines and for municipal zoning; imposing duties on the Department of Environmental Protection, the Department of Community and Economic Development and the Pennsylvania Public Utility Commission; and imposing penalties.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Energy",
+   "latest_action_date": "2026-11-04",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/legislation/bills/2025/hb2888",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use",
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Land Use & Development",
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-06",
+   "changed_on": "2026-11-06",
+   "change": null
+  },
+  {
+   "id": "659e3f89-3c1f-4c26-873e-fa3a16f2319b",
+   "jurisdiction": "state",
+   "state": "PA",
+   "bill": "HB 2629",
+   "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in zoning, further providing for enforcement notice.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Local Government",
+   "latest_action_date": "2026-10-14",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=30&rollcallid=2463&sessYr=2025&sessInd=0",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use"
+   ],
+   "topics": [
+    "Land Use & Development"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "1cda0195-e42c-41d1-8538-8a8117dd78ec",
+   "jurisdiction": "state",
+   "state": "NH",
+   "bill": "SB 84",
+   "title": "relative to zoning procedures concerning residential housing.",
+   "session": "2026 Regular Session",
+   "status": "died_on_adjournment",
+   "status_label": "Died on adjournment",
+   "latest_action": "Interim Study Report: Recommended for Future Legislation  10/01/2026 (Vote 9-0; )",
+   "latest_action_date": "2026-10-05",
+   "upcoming": false,
+   "introduced": "2025-01-22",
+   "url": "https://gc.nh.gov/bill_Status/advanced.aspx",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use"
+   ],
+   "topics": [
+    "Land Use & Development"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "f9d6c5bf-782c-4e5b-ba15-c459a2c27c69",
+   "jurisdiction": "state",
+   "state": "NH",
+   "bill": "HB 1619",
+   "title": "relative to the rights of property owners and limitations on municipal land use regulation, and repealing the workforce housing program.",
+   "session": "2026 Regular Session",
+   "status": "died_on_adjournment",
+   "status_label": "Died on adjournment",
+   "latest_action": "Interim Study Report: Recommended for Future Legislation  10/01/2026 (Vote 5-4; )",
+   "latest_action_date": "2026-10-05",
+   "upcoming": false,
+   "introduced": "2025-12-10",
+   "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1794&inflect=2",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use"
+   ],
+   "topics": [
+    "Land Use & Development"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "999ee4e5-eb9d-4dba-8a88-532db1ac4f7c",
+   "jurisdiction": "state",
+   "state": "IL",
+   "bill": "HJR 69",
+   "title": "RECYCLING MASCOT-LOOP THE CART",
+   "session": "104th General Assembly, 2026 Session",
+   "status": "introduced",
+   "status_label": "Introduced",
+   "latest_action": "Filed with the Clerk by Rep. Joyce Mason",
+   "latest_action_date": "2026-10-26",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=69&GAID=18&DocTypeID=HJR&LegId=168985&SessionID=114",
+   "category": "materials-circularity",
+   "category_name": "Materials & Circularity",
+   "categories": [
+    "materials-circularity"
+   ],
+   "topics": [
+    "Materials & Circularity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-26",
+   "changed_on": "2026-10-26",
+   "change": null
+  },
+  {
+   "id": "8840ec5a-9aa3-438c-906e-c6f3487015a6",
+   "jurisdiction": "state",
+   "state": "MI",
+   "bill": "HB 6429",
+   "title": "Environmental protection: solid waste; definition of coal combustion residuals; provide for. Amends, adds & repeals (See bill).",
+   "session": "2025-2026 Regular Session (103rd Legislature)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "bill electronically reproduced 10/14/2026",
+   "latest_action_date": "2026-10-21",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6429",
+   "category": "materials-circularity",
+   "category_name": "Materials & Circularity",
+   "categories": [
+    "materials-circularity"
+   ],
+   "topics": [
+    "Materials & Circularity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-15",
+   "changed_on": "2026-10-15",
+   "change": null
+  },
+  {
+   "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
+   "jurisdiction": "state",
+   "state": "PA",
+   "bill": "HB 2229",
+   "title": "An Act amending the act of July 7, 1980 (P.L.380, No.97), known as the Solid Waste Management Act, in general provisions, further providing for powers and duties of the department.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Environmental Resources & Energy",
+   "latest_action_date": "2026-10-13",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=70&rollcallid=1759&sessYr=2025&sessInd=0",
+   "category": "materials-circularity",
+   "category_name": "Materials & Circularity",
+   "categories": [
+    "materials-circularity"
+   ],
+   "topics": [
+    "Materials & Circularity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-08",
+   "changed_on": "2026-10-14",
+   "change": null
+  },
+  {
+   "id": "6d355509-dcef-414c-aee0-6d0de37a258f",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "S 681",
+   "title": "\"Electronic Cigarette Extended Producer Responsibility Act.\"",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Senate Budget and Appropriations Committee",
+   "latest_action_date": "2026-10-08",
+   "upcoming": false,
+   "introduced": "2026-01-13",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S681",
+   "category": "materials-circularity",
+   "category_name": "Materials & Circularity",
+   "categories": [
+    "materials-circularity"
+   ],
+   "topics": [
+    "Materials & Circularity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-09",
+   "changed_on": "2026-10-09",
+   "change": null
+  },
+  {
+   "id": "e37a42a8-1a24-4778-abd5-34bc9c6f4c8e",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "S 4599",
+   "title": "Requires DEP to regulate scrap metal facilities as recycling facilities.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
+   "latest_action_date": "2026-09-28",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4599",
+   "category": "materials-circularity",
+   "category_name": "Materials & Circularity",
+   "categories": [
+    "materials-circularity"
+   ],
+   "topics": [
+    "Materials & Circularity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-08",
+   "changed_on": "2026-10-08",
+   "change": null
+  },
+  {
+   "id": "7147e8c1-f68d-42b0-bc92-f5208cddb13c",
+   "jurisdiction": "state",
+   "state": "CA",
+   "bill": "AB 2667",
+   "title": "Vape products: household hazardous waste: advertising.",
+   "session": "2025-2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Chaptered by Secretary of State - Chapter 722, Statutes of 2026.",
+   "latest_action_date": "2026-09-28",
+   "upcoming": false,
+   "introduced": "2026-06-10",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2667",
+   "category": "materials-circularity",
+   "category_name": "Materials & Circularity",
+   "categories": [
+    "materials-circularity"
+   ],
+   "topics": [
+    "Materials & Circularity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-08",
+   "changed_on": "2026-10-08",
+   "change": null
+  },
+  {
+   "id": "fc915a83-2930-4b7e-ba22-4623bbb9354e",
+   "jurisdiction": "state",
+   "state": "CA",
+   "bill": "AB 1666",
+   "title": "Forest management: biomass innovation parks: wood products.",
+   "session": "2025-2026 Regular Session",
+   "status": "vetoed",
+   "status_label": "Vetoed",
+   "latest_action": "Vetoed by Governor.",
+   "latest_action_date": "2026-09-30",
+   "upcoming": false,
+   "introduced": "2026-03-19",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1666",
+   "category": "nature-biodiversity",
+   "category_name": "Nature & Biodiversity",
+   "categories": [
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Nature & Biodiversity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-08",
+   "changed_on": "2026-10-08",
+   "change": null
+  },
+  {
+   "id": "e780d91a-6f79-49d8-8f0f-71c1d12c6129",
+   "jurisdiction": "state",
+   "state": "CA",
+   "bill": "AB 1987",
+   "title": "Department-managed lands: wildlife areas: hunting.",
+   "session": "2025-2026 Regular Session",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Chaptered by Secretary of State - Chapter 913, Statutes of 2026.",
+   "latest_action_date": "2026-09-30",
+   "upcoming": false,
+   "introduced": "2026-03-02",
+   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1987",
+   "category": "nature-biodiversity",
+   "category_name": "Nature & Biodiversity",
+   "categories": [
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Nature & Biodiversity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "f92d4446-f26b-471f-897f-02ff2d2a644f",
+   "jurisdiction": "state",
+   "state": "MI",
+   "bill": "HB 6343",
+   "title": "Natural resources: wetlands; notification to landowners and local units of government before approval of a new wetland bank; require. Amends sec. 30311d of 1994 PA 451 (MCL 324.30311d).",
+   "session": "2025-2026 Regular Session (103rd Legislature)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "bill electronically reproduced 09/23/2026",
+   "latest_action_date": "2026-09-24",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6343",
+   "category": "nature-biodiversity",
+   "category_name": "Nature & Biodiversity",
+   "categories": [
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Nature & Biodiversity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "b4cfed0f-8f97-4e60-94e1-3b94127e57ab",
+   "jurisdiction": "state",
+   "state": "DE",
+   "bill": "HB 446",
+   "title": "AN ACT TO AMEND TITLE 3 OF THE DELAWARE CODE RELATING TO AGRICULTURE AND STATE FORESTRY.",
+   "session": "2025-2026 Regular Session (153rd General Assembly)",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Signed by Governor",
+   "latest_action_date": "2026-09-24",
+   "upcoming": false,
+   "introduced": "2026-05-21",
+   "url": "https://legis.delaware.gov/BillDetail?LegislationId=143388",
+   "category": "nature-biodiversity",
+   "category_name": "Nature & Biodiversity",
+   "categories": [
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Nature & Biodiversity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "e456079f-6cd1-4dbb-b03c-79d4483578bc",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 5497",
+   "title": "Requires forest stewardship plan for certain lands acquired for recreation and conservation purposes.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Agriculture and Natural Resources Committee",
+   "latest_action_date": "2026-09-14",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5497",
+   "category": "nature-biodiversity",
+   "category_name": "Nature & Biodiversity",
+   "categories": [
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Nature & Biodiversity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "17ae5872-6c47-45ac-bbef-71bbc1ffcc5a",
+   "jurisdiction": "state",
+   "state": "MA",
+   "bill": "S 3052",
+   "title": "An Act authorizing the town of Dighton to use a portion of conservation land for public way purposes.",
+   "session": "2025-2026 Regular Session (194th General Court)",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Signed by the Governor, Chapter 166 of the Acts of 2026",
+   "latest_action_date": "2026-08-05",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://malegislature.gov/Bills/194/S3052",
+   "category": "nature-biodiversity",
+   "category_name": "Nature & Biodiversity",
+   "categories": [
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Nature & Biodiversity"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
    "id": "afa343bb-626c-4a17-866b-d7c9267654d4",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "AB 1600",
    "title": "Disadvantaged communities: farmworker communities.",
@@ -984,17 +1050,22 @@
    "upcoming": false,
    "introduced": "2026-03-17",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1600",
-   "category": "equity",
-   "category_name": "Environmental Equity",
-   "topics": [
-    "Environmental Equity"
+   "category": "environmental-justice",
+   "category_name": "Environmental Justice",
+   "categories": [
+    "environmental-justice"
    ],
+   "topics": [
+    "Environmental Justice"
+   ],
+   "classification": "auto-title",
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
    "change": null
   },
   {
    "id": "fa39861b-c6ae-46ca-9358-81e537acd1d6",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "AB 1457",
    "title": "General plan: environmental justice element: disadvantaged communities.",
@@ -1006,17 +1077,22 @@
    "upcoming": false,
    "introduced": "2025-02-21",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1457",
-   "category": "equity",
-   "category_name": "Environmental Equity",
-   "topics": [
-    "Environmental Equity"
+   "category": "environmental-justice",
+   "category_name": "Environmental Justice",
+   "categories": [
+    "environmental-justice"
    ],
+   "topics": [
+    "Environmental Justice"
+   ],
+   "classification": "auto-title",
    "first_seen": "2026-09-30",
    "changed_on": "2026-09-30",
    "change": null
   },
   {
    "id": "51729dff-c694-4a9d-a14b-28a444cecb41",
+   "jurisdiction": "state",
    "state": "IL",
    "bill": "SB 3772",
    "title": "EPA-ENVIRONMENTAL JUSTICE",
@@ -1028,14 +1104,374 @@
    "upcoming": false,
    "introduced": "2026-04-14",
    "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3772&GAID=18&DocTypeID=SB&LegId=167086&SessionID=114",
-   "category": "equity",
-   "category_name": "Environmental Equity",
-   "topics": [
-    "Environmental Equity"
+   "category": "environmental-justice",
+   "category_name": "Environmental Justice",
+   "categories": [
+    "environmental-justice"
    ],
+   "topics": [
+    "Environmental Justice"
+   ],
+   "classification": "auto-title",
    "first_seen": "2026-10-08",
    "changed_on": "2026-10-08",
    "change": null
+  },
+  {
+   "id": "f4dce23a-755f-4094-9af7-63e8fa335ba6",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "S 1757",
+   "title": "Establishes Office of Clean Energy Equity in BPU; directs establishment of certain clean energy, energy efficiency, and energy storage programs for overburdened communities; makes change to community solar program.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Senate Budget and Appropriations Committee",
+   "latest_action_date": "2026-05-18",
+   "upcoming": false,
+   "introduced": "2026-01-13",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S1757",
+   "category": "environmental-justice",
+   "category_name": "Environmental Justice",
+   "categories": [
+    "environmental-justice",
+    "infrastructure-resilience",
+    "building-energy"
+   ],
+   "topics": [
+    "Environmental Justice",
+    "Infrastructure & Resilience",
+    "Building & Energy"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "74a95197-5c20-460c-8654-3a9d71c93159",
+   "jurisdiction": "state",
+   "state": "OH",
+   "bill": "HB 970",
+   "title": "Prevent PUCO from approving utility rate increases for 12 months",
+   "session": "2025-2026 Regular Session (136th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to committee",
+   "latest_action_date": "2026-11-10",
+   "upcoming": false,
+   "introduced": "2026-07-01",
+   "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb970/",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-11",
+   "changed_on": "2026-11-11",
+   "change": null
+  },
+  {
+   "id": "4eef0162-b6f4-473f-bb48-79f453bb404a",
+   "jurisdiction": "state",
+   "state": "DC",
+   "bill": "B 26-0602",
+   "title": "Guiding Renewable Interconnection and Distribution (GRID) Amendment Act of 2026",
+   "session": "Council Period 26 (2025-2026)",
+   "status": "introduced",
+   "status_label": "Introduced",
+   "latest_action": "First Reading",
+   "latest_action_date": "2026-11-10",
+   "upcoming": false,
+   "introduced": "2026-02-24",
+   "url": "https://lims.dccouncil.gov/Legislation/B26-0602",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-02",
+   "changed_on": "2026-11-13",
+   "change": "moved",
+   "previous_status_label": "Introduced"
+  },
+  {
+   "id": "5d19e5f1-b135-4229-afb6-90c750d2c658",
+   "jurisdiction": "state",
+   "state": "OH",
+   "bill": "HB 995",
+   "title": "Prohibit state agency providing free electric vehicle charging",
+   "session": "2025-2026 Regular Session (136th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to committee",
+   "latest_action_date": "2026-11-10",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.legislature.ohio.gov/legislation/136/hb995",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-12",
+   "changed_on": "2026-11-12",
+   "change": "new"
+  },
+  {
+   "id": "9755ce35-af7a-40d3-94cd-80f875c9309c",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 5706",
+   "title": "Requires NJT and BPU to establish railroad right-of-way solar energy pilot program.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
+   "latest_action_date": "2026-10-22",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5706",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-25",
+   "changed_on": "2026-10-25",
+   "change": null
+  },
+  {
+   "id": "77e4412f-0842-4ddc-8872-66de371e36b2",
+   "jurisdiction": "state",
+   "state": "VA",
+   "bill": "SB 4001",
+   "title": "Virginia Clean Energy & Community Flood Preparedness Act; repeal; electric utility customer credit.",
+   "session": "2026S1",
+   "status": "died_on_adjournment",
+   "status_label": "Died on adjournment",
+   "latest_action": "Referred to Committee on Agriculture, Conservation and Natural Resources",
+   "latest_action_date": "2026-10-21",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://lis.virginia.gov/bill-details/20262/SB4001",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-23",
+   "changed_on": "2026-10-23",
+   "change": null
+  },
+  {
+   "id": "df47a010-f4ba-42cf-ac6d-e8c705fd7b89",
+   "jurisdiction": "state",
+   "state": "NH",
+   "bill": "HB 1410",
+   "title": "creating a new classification for electric vehicles.",
+   "session": "2026 Regular Session",
+   "status": "died_on_adjournment",
+   "status_label": "Died on adjournment",
+   "latest_action": "Interim Study Report: Recommended for Future Legislation  10/20/2026 (Vote 8-0; )",
+   "latest_action_date": "2026-10-21",
+   "upcoming": false,
+   "introduced": "2025-12-04",
+   "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2296&inflect=2",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-16",
+   "changed_on": "2026-10-23",
+   "change": null
+  },
+  {
+   "id": "a23ceee4-c27b-4b02-9195-a2ce4054f551",
+   "jurisdiction": "state",
+   "state": "MI",
+   "bill": "HB 6431",
+   "title": "Natural resources: floodplains; predisaster flood resilience grant program; establish. Amends 1994 PA 451 (MCL 324.101 - 324.90106) by adding secs. 33709, 33710 & 33711.",
+   "session": "2025-2026 Regular Session (103rd Legislature)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "bill electronically reproduced 10/14/2026",
+   "latest_action_date": "2026-10-21",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6431",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "f7a338be-90b7-423d-9d59-9c9149dc4041",
+   "jurisdiction": "state",
+   "state": "PA",
+   "bill": "HB 2866",
+   "title": "An Act imposing a fee on energy consumption taxpayers; providing for an energy ratepayer rebate; imposing duties on the Pennsylvania Public Utility Commission; and establishing the Energy Ratepayer Protection Fund.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Energy",
+   "latest_action_date": "2026-10-20",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/legislation/bills/2025/hb2866",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-21",
+   "changed_on": "2026-10-21",
+   "change": null
+  },
+  {
+   "id": "764133ad-d9e0-4849-9a2a-49ea40ac522f",
+   "jurisdiction": "state",
+   "state": "PA",
+   "bill": "SB 210",
+   "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in miscellaneous provisions relating to operation of vehicles, providing for the offense of interference with operation or movement of a public transit vehicle.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Re-referred to Appropriations",
+   "latest_action_date": "2026-10-20",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=19&rollcallid=42&sessYr=2025&sessInd=0",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-20",
+   "changed_on": "2026-10-22",
+   "change": null
+  },
+  {
+   "id": "bfbb3075-38d3-4742-8003-52560c332951",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 5694",
+   "title": "Extends eligibility for sales and use tax exemption certificate program administered by EDA to include certain projects undertaken by clean energy product manufacturers.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Commerce and Economic Development Committee",
+   "latest_action_date": "2026-10-19",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5694",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
+  },
+  {
+   "id": "7949669a-bf51-4548-84bc-f01d35851dcb",
+   "jurisdiction": "state",
+   "state": "IL",
+   "bill": "SB 3488",
+   "title": "WIND & SOLAR AFFECT WATER FLOW",
+   "session": "104th General Assembly, 2026 Session",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Added as Co-Sponsor Sen. Chris Balkema",
+   "latest_action_date": "2026-10-15",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3488&GAID=18&DocTypeID=SB&LegId=166489&SessionID=114",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-16",
+   "changed_on": "2026-10-16",
+   "change": null
+  },
+  {
+   "id": "957af0d4-7c15-452e-8a7a-bd4ab7471380",
+   "jurisdiction": "state",
+   "state": "IL",
+   "bill": "SB 3078",
+   "title": "LOC GOV-ENERGY STORAGE SYSTEMS",
+   "session": "104th General Assembly, 2026 Session",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Added as Co-Sponsor Sen. Sally J. Turner",
+   "latest_action_date": "2026-10-13",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3078&GAID=18&DocTypeID=SB&LegId=165658&SessionID=114",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": "new"
   }
  ]
 }
