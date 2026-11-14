@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-14T04:25:51+00:00",
+ "generated_at": "2026-11-14T13:27:42+00:00",
  "states": "all",
  "categories": [
   {
@@ -48,6 +48,7 @@
  "bills": [
   {
    "id": "26515534-36f7-4dc2-a327-48db3e1b06b7",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 4729",
    "title": "Modifies geographic restrictions for solar energy projects participating in community solar program.",
@@ -76,6 +77,7 @@
   },
   {
    "id": "c98eba33-6faf-4400-b5d4-3dfd18f85d94",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 4766",
    "title": "Establishes GREEN Loan Program in BPU to finance certain renewable energy and energy efficiency projects; appropriates $5 million.",
@@ -104,6 +106,7 @@
   },
   {
    "id": "7a84af84-5b17-43cf-a189-ed9e84f427d9",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "SB 913",
    "title": "Resource adequacy: aggregated distributed energy resources.",
@@ -132,6 +135,7 @@
   },
   {
    "id": "58c6a9f4-1bcb-457f-8995-743b85a79e11",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "SB 908",
    "title": "Residential windows: retrofitting: residential window replacement projects: California Building Code compliance.",
@@ -158,6 +162,7 @@
   },
   {
    "id": "2990af44-268b-4b45-92ea-55fba648fdec",
+   "jurisdiction": "state",
    "state": "MI",
    "bill": "HB 6408",
    "title": "Energy: alternative sources; distributed generation, storage, and aggregation; create program for in rate cases. Amends 2008 PA 295 (MCL 460.1001 - 460.1232) by adding pt. 9.   TIE BAR WITH: HB 6410'26",
@@ -184,6 +189,7 @@
   },
   {
    "id": "d63c8eb6-6916-4153-8c59-ab6e0c48dfce",
+   "jurisdiction": "state",
    "state": "MI",
    "bill": "HB 6410",
    "title": "Energy: alternative sources; distributed generation, storage, and aggregation; create program for in rate cases. Amends 2008 PA 295 (MCL 460.1001 - 460.1232) by adding secs. 243, 244, 245 & 246.   TIE BAR WITH: HB 6408'26",
@@ -210,6 +216,7 @@
   },
   {
    "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
+   "jurisdiction": "state",
    "state": "MA",
    "bill": "S 3137",
    "title": "An Act providing for improved public access and climate resiliency on the Mystic River and increasing the utilization of the designated port area",
@@ -238,6 +245,7 @@
   },
   {
    "id": "46d55035-a500-4af6-8688-b072e1d5b3aa",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 687",
    "title": "Creates Joint Blue Ribbon Task Force on Impacts of Climate Change on Property Insurance.",
@@ -264,6 +272,7 @@
   },
   {
    "id": "f25e35ce-3c7f-49c3-955d-6de7b4e45a05",
+   "jurisdiction": "state",
    "state": "IL",
    "bill": "HB 4773",
    "title": "CLIMATE CHANGE SUPERFUND",
@@ -290,6 +299,7 @@
   },
   {
    "id": "5d79b6c6-6616-410f-8d22-8fa7baac74f3",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 4214",
    "title": "Codifies finding that greenhouse gas emissions contribute to climate change and endanger public health, safety, welfare, and environment; amends \"Air Pollution Control Act (1954)\" to define greenhouse gases as air pollutants subject to regulation.",
@@ -316,6 +326,7 @@
   },
   {
    "id": "6069618a-6b1d-443d-a23f-6dd833bef749",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "AB 1486",
    "title": "Climate resiliency: research farms: grant program.",
@@ -344,6 +355,7 @@
   },
   {
    "id": "f91a4b2b-70ad-41a0-82a6-ccb3412de557",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "SB 1048",
    "title": "State Seal of Climate Literacy.",
@@ -370,6 +382,7 @@
   },
   {
    "id": "790698fd-bf2d-4c66-9118-418303f1c54b",
+   "jurisdiction": "state",
    "state": "MI",
    "bill": "SB 1211",
    "title": "Water supply: quality and standards; drinking water compliance information; require to be available to the public. Amends sec. 19 of 1976 PA 399 (MCL 325.1019) & adds sec. 19b.",
@@ -396,6 +409,7 @@
   },
   {
    "id": "140fe026-0552-4657-872d-3a189390ff11",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 4468",
    "title": "Requires DEP to establish maximum contaminant level for certain perfluoroalkyl and polyfluoroalkyl substances in drinking water and establish private well testing program.",
@@ -422,6 +436,7 @@
   },
   {
    "id": "77ec71a6-3eef-4571-8785-e11c0cc12213",
+   "jurisdiction": "state",
    "state": "NH",
    "bill": "HB 459",
    "title": "relative to acreage requirements and zoning regarding sewer infrastructure and single-family residential uses.",
@@ -450,6 +465,7 @@
   },
   {
    "id": "46f235b6-a0a9-4e79-99fb-24ceb14f79d7",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "SB 1085",
    "title": "Water supply planning: housing developments.",
@@ -476,6 +492,7 @@
   },
   {
    "id": "ce39e045-941b-4737-b8fb-f4f67c904a24",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "AB 2728",
    "title": "Groundwater: de minimis extractors: fees: exemption.",
@@ -502,6 +519,7 @@
   },
   {
    "id": "d704ebad-14d1-4854-a169-c3d21472f5eb",
+   "jurisdiction": "state",
    "state": "PA",
    "bill": "SB 1470",
    "title": "An Act amending Title 27 (Environmental Resources) of the Pennsylvania Consolidated Statutes, in water resources planning, providing for water conservation requirements for data centers.",
@@ -528,6 +546,7 @@
   },
   {
    "id": "3b580269-dd96-4016-8f39-9b20622d6c73",
+   "jurisdiction": "state",
    "state": "MI",
    "bill": "HB 6486",
    "title": "Land use: farmland and open space; withdrawal of farmland from the farmland and open space preservation program; require for commercial solar use.",
@@ -558,6 +577,7 @@
   },
   {
    "id": "153a59c3-f285-4758-8a78-0fbd21972718",
+   "jurisdiction": "state",
    "state": "OH",
    "bill": "HB 997",
    "title": "Regards recovery housing residences and zoning",
@@ -584,6 +604,7 @@
   },
   {
    "id": "92b0698b-a2f5-4b50-9b7c-0f7fb12eb8ab",
+   "jurisdiction": "state",
    "state": "PA",
    "bill": "HB 2888",
    "title": "An Act establishing reporting and information submission requirements for hyperscale computer data centers operating in this Commonwealth; providing for alternative compliance payments, for energy plans, for water plans, for regional benefits plans, for ratepayer protections, for community benefit plans and agreements, for municipal comments, for confidentiality, for records, for lists of tenants, for enforcement, for regulations and guidelines and for municipal zoning; imposing duties on the Department of Environmental Protection, the Department of Community and Economic Development and the Pennsylvania Public Utility Commission; and imposing penalties.",
@@ -612,6 +633,7 @@
   },
   {
    "id": "659e3f89-3c1f-4c26-873e-fa3a16f2319b",
+   "jurisdiction": "state",
    "state": "PA",
    "bill": "HB 2629",
    "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in zoning, further providing for enforcement notice.",
@@ -638,6 +660,7 @@
   },
   {
    "id": "1cda0195-e42c-41d1-8538-8a8117dd78ec",
+   "jurisdiction": "state",
    "state": "NH",
    "bill": "SB 84",
    "title": "relative to zoning procedures concerning residential housing.",
@@ -664,6 +687,7 @@
   },
   {
    "id": "f9d6c5bf-782c-4e5b-ba15-c459a2c27c69",
+   "jurisdiction": "state",
    "state": "NH",
    "bill": "HB 1619",
    "title": "relative to the rights of property owners and limitations on municipal land use regulation, and repealing the workforce housing program.",
@@ -690,6 +714,7 @@
   },
   {
    "id": "999ee4e5-eb9d-4dba-8a88-532db1ac4f7c",
+   "jurisdiction": "state",
    "state": "IL",
    "bill": "HJR 69",
    "title": "RECYCLING MASCOT-LOOP THE CART",
@@ -716,6 +741,7 @@
   },
   {
    "id": "8840ec5a-9aa3-438c-906e-c6f3487015a6",
+   "jurisdiction": "state",
    "state": "MI",
    "bill": "HB 6429",
    "title": "Environmental protection: solid waste; definition of coal combustion residuals; provide for. Amends, adds & repeals (See bill).",
@@ -742,6 +768,7 @@
   },
   {
    "id": "e859edd8-f087-48f8-b3d4-0795da6ad0cf",
+   "jurisdiction": "state",
    "state": "PA",
    "bill": "HB 2229",
    "title": "An Act amending the act of July 7, 1980 (P.L.380, No.97), known as the Solid Waste Management Act, in general provisions, further providing for powers and duties of the department.",
@@ -768,6 +795,7 @@
   },
   {
    "id": "6d355509-dcef-414c-aee0-6d0de37a258f",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 681",
    "title": "\"Electronic Cigarette Extended Producer Responsibility Act.\"",
@@ -794,6 +822,7 @@
   },
   {
    "id": "e37a42a8-1a24-4778-abd5-34bc9c6f4c8e",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 4599",
    "title": "Requires DEP to regulate scrap metal facilities as recycling facilities.",
@@ -820,6 +849,7 @@
   },
   {
    "id": "7147e8c1-f68d-42b0-bc92-f5208cddb13c",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "AB 2667",
    "title": "Vape products: household hazardous waste: advertising.",
@@ -846,6 +876,7 @@
   },
   {
    "id": "fc915a83-2930-4b7e-ba22-4623bbb9354e",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "AB 1666",
    "title": "Forest management: biomass innovation parks: wood products.",
@@ -872,6 +903,7 @@
   },
   {
    "id": "e780d91a-6f79-49d8-8f0f-71c1d12c6129",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "AB 1987",
    "title": "Department-managed lands: wildlife areas: hunting.",
@@ -898,6 +930,7 @@
   },
   {
    "id": "f92d4446-f26b-471f-897f-02ff2d2a644f",
+   "jurisdiction": "state",
    "state": "MI",
    "bill": "HB 6343",
    "title": "Natural resources: wetlands; notification to landowners and local units of government before approval of a new wetland bank; require. Amends sec. 30311d of 1994 PA 451 (MCL 324.30311d).",
@@ -924,6 +957,7 @@
   },
   {
    "id": "b4cfed0f-8f97-4e60-94e1-3b94127e57ab",
+   "jurisdiction": "state",
    "state": "DE",
    "bill": "HB 446",
    "title": "AN ACT TO AMEND TITLE 3 OF THE DELAWARE CODE RELATING TO AGRICULTURE AND STATE FORESTRY.",
@@ -950,6 +984,7 @@
   },
   {
    "id": "e456079f-6cd1-4dbb-b03c-79d4483578bc",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "A 5497",
    "title": "Requires forest stewardship plan for certain lands acquired for recreation and conservation purposes.",
@@ -976,6 +1011,7 @@
   },
   {
    "id": "17ae5872-6c47-45ac-bbef-71bbc1ffcc5a",
+   "jurisdiction": "state",
    "state": "MA",
    "bill": "S 3052",
    "title": "An Act authorizing the town of Dighton to use a portion of conservation land for public way purposes.",
@@ -1002,6 +1038,7 @@
   },
   {
    "id": "afa343bb-626c-4a17-866b-d7c9267654d4",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "AB 1600",
    "title": "Disadvantaged communities: farmworker communities.",
@@ -1028,6 +1065,7 @@
   },
   {
    "id": "fa39861b-c6ae-46ca-9358-81e537acd1d6",
+   "jurisdiction": "state",
    "state": "CA",
    "bill": "AB 1457",
    "title": "General plan: environmental justice element: disadvantaged communities.",
@@ -1054,6 +1092,7 @@
   },
   {
    "id": "51729dff-c694-4a9d-a14b-28a444cecb41",
+   "jurisdiction": "state",
    "state": "IL",
    "bill": "SB 3772",
    "title": "EPA-ENVIRONMENTAL JUSTICE",
@@ -1080,6 +1119,7 @@
   },
   {
    "id": "f4dce23a-755f-4094-9af7-63e8fa335ba6",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "S 1757",
    "title": "Establishes Office of Clean Energy Equity in BPU; directs establishment of certain clean energy, energy efficiency, and energy storage programs for overburdened communities; makes change to community solar program.",
@@ -1110,6 +1150,7 @@
   },
   {
    "id": "74a95197-5c20-460c-8654-3a9d71c93159",
+   "jurisdiction": "state",
    "state": "OH",
    "bill": "HB 970",
    "title": "Prevent PUCO from approving utility rate increases for 12 months",
@@ -1136,6 +1177,7 @@
   },
   {
    "id": "4eef0162-b6f4-473f-bb48-79f453bb404a",
+   "jurisdiction": "state",
    "state": "DC",
    "bill": "B 26-0602",
    "title": "Guiding Renewable Interconnection and Distribution (GRID) Amendment Act of 2026",
@@ -1163,6 +1205,7 @@
   },
   {
    "id": "5d19e5f1-b135-4229-afb6-90c750d2c658",
+   "jurisdiction": "state",
    "state": "OH",
    "bill": "HB 995",
    "title": "Prohibit state agency providing free electric vehicle charging",
@@ -1189,6 +1232,7 @@
   },
   {
    "id": "9755ce35-af7a-40d3-94cd-80f875c9309c",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "A 5706",
    "title": "Requires NJT and BPU to establish railroad right-of-way solar energy pilot program.",
@@ -1215,6 +1259,7 @@
   },
   {
    "id": "77e4412f-0842-4ddc-8872-66de371e36b2",
+   "jurisdiction": "state",
    "state": "VA",
    "bill": "SB 4001",
    "title": "Virginia Clean Energy & Community Flood Preparedness Act; repeal; electric utility customer credit.",
@@ -1241,6 +1286,7 @@
   },
   {
    "id": "df47a010-f4ba-42cf-ac6d-e8c705fd7b89",
+   "jurisdiction": "state",
    "state": "NH",
    "bill": "HB 1410",
    "title": "creating a new classification for electric vehicles.",
@@ -1267,6 +1313,7 @@
   },
   {
    "id": "a23ceee4-c27b-4b02-9195-a2ce4054f551",
+   "jurisdiction": "state",
    "state": "MI",
    "bill": "HB 6431",
    "title": "Natural resources: floodplains; predisaster flood resilience grant program; establish. Amends 1994 PA 451 (MCL 324.101 - 324.90106) by adding secs. 33709, 33710 & 33711.",
@@ -1293,6 +1340,7 @@
   },
   {
    "id": "f7a338be-90b7-423d-9d59-9c9149dc4041",
+   "jurisdiction": "state",
    "state": "PA",
    "bill": "HB 2866",
    "title": "An Act imposing a fee on energy consumption taxpayers; providing for an energy ratepayer rebate; imposing duties on the Pennsylvania Public Utility Commission; and establishing the Energy Ratepayer Protection Fund.",
@@ -1319,6 +1367,7 @@
   },
   {
    "id": "764133ad-d9e0-4849-9a2a-49ea40ac522f",
+   "jurisdiction": "state",
    "state": "PA",
    "bill": "SB 210",
    "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in miscellaneous provisions relating to operation of vehicles, providing for the offense of interference with operation or movement of a public transit vehicle.",
@@ -1345,6 +1394,7 @@
   },
   {
    "id": "bfbb3075-38d3-4742-8003-52560c332951",
+   "jurisdiction": "state",
    "state": "NJ",
    "bill": "A 5694",
    "title": "Extends eligibility for sales and use tax exemption certificate program administered by EDA to include certain projects undertaken by clean energy product manufacturers.",
@@ -1371,6 +1421,7 @@
   },
   {
    "id": "7949669a-bf51-4548-84bc-f01d35851dcb",
+   "jurisdiction": "state",
    "state": "IL",
    "bill": "SB 3488",
    "title": "WIND & SOLAR AFFECT WATER FLOW",
@@ -1397,6 +1448,7 @@
   },
   {
    "id": "957af0d4-7c15-452e-8a7a-bd4ab7471380",
+   "jurisdiction": "state",
    "state": "IL",
    "bill": "SB 3078",
    "title": "LOC GOV-ENERGY STORAGE SYSTEMS",
