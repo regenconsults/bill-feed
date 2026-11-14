@@ -37,7 +37,7 @@ The old categories used the same structure, just different IDs. Mapping applied 
 | `buildings` Green & Healthy Buildings | `building-energy` | 6 |
 | `clean-energy` Clean Energy | `infrastructure-resilience` 4 · `building-energy` 1 (community solar) · `land-use` 1 (MI farmland/solar) | 6 |
 | `grid` Grid & Energy Affordability | `infrastructure-resilience` 5 · `land-use` 1 (PA data-center bill with municipal zoning, also tagged Infrastructure) | 6 |
-| `transportation` Clean Transportation | `infrastructure-resilience` 5 · `climate-emissions` 1 (NJ ZEV direct-sales repeal, also tagged Infrastructure) | 6 |
+| `transportation` Clean Transportation | `infrastructure-resilience` | 6 |
 | `climate` Climate & Emissions | `climate-emissions` | 6 |
 | `waste` Waste & Circular Economy | `materials-circularity` | 6 |
 | `water-land` Water & Land | `water-resources` 3 · `nature-biodiversity` 2 · **dropped 1** | 6 |
@@ -67,6 +67,8 @@ Every bill's tags are listed in `tests/fixtures/taxonomy_expected_2026-11-13.jso
    - "community / rooftop / residential solar" → Building & Energy
    - "solar" in general → Infrastructure & Resilience
    - `EV` matches only in capitals
+   - "zero-emission" (vehicles, buses) counts only toward Infrastructure, not Climate
+   - "community land trust" (a housing tool) → Land Use; other "land trust" → Nature
 5. A bill gets **every** category it matches. Its primary category is the one with the most distinct pattern matches; ties go to the category listed first.
 
 ## Fallback: uncategorized bills
@@ -77,6 +79,20 @@ There's no confidence score or manual-review queue. The current architecture is 
 
 ## Known edge cases needing review
 
-- **NJ S 4750**: the "zero emission vehicle" direct-sales repeal. Its primary category is Climate & Emissions because Climate is listed first and the scores tie; it's also tagged Infrastructure & Resilience.
 - **PA HB 2888**: hyperscale data centers. Primary is Land Use (municipal zoning), and it's also tagged Infrastructure (ratepayer).
 - **MA SD 4278**: "Pioneer Valley Transit Authority FY26 Annual Report". This is an existing behavior that Step 3 didn't change: the routine-report exclude only matches titles that *start* with "report". It's a candidate for a future exclude, but that needs your approval because it would remove a bill.
+
+## Live dry run (2026-11-13)
+
+This was a full Bill Commons run of the branch code. It wrote only to a scratch file; the published feed was not touched.
+
+- **Run:** 106 API calls with 0 errors. 4 rate-limit (429) waits were retried successfully.
+- **Bills:** 1,241 recent bills found, 538 categorized, **46 in the feed**, from 11 states. No duplicate IDs and no bad URLs.
+- **Multi-category:** 10 of the 46 carry more than one tag.
+- **Tag counts:** Building & Energy 7 · Climate & Emissions 6 · Water Resources 6 · Land Use & Development 7 · Materials & Circularity 6 · Nature & Biodiversity 7 · Environmental Justice 4 · Infrastructure & Resilience 15.
+
+These problems came out of the run and are fixed and tested:
+- CA AB 1944 (zero-emission transit buses) was going to Climate.
+- CA AB 672 (community land trusts) was going to Nature.
+
+**Coverage note:** Infrastructure & Resilience now absorbs three former categories (Clean Energy, Grid, Clean Transportation) plus resilience. With 6 feed slots per primary category, the feed shows about 6 bills in this area, where it showed 18 before. Whether to give it more slots is your decision; this step doesn't change it.

@@ -69,7 +69,8 @@ CATEGORIES = [
         "name": "Climate & Emissions",
         "queries": ["climate", "emissions", "greenhouse gas", "air quality", "methane",
                     "decarbonization"],
-        "patterns": [r"\bclimate\b", r"\bemissions?\b", r"greenhouse gas",
+        # "zero-emission" (vehicles, buses) is left to Infrastructure & Resilience.
+        "patterns": [r"\bclimate\b", r"(?<!zero[- ])\bemissions?\b", r"greenhouse gas",
                      r"\bcarbon (dioxide|capture|pollution|reduction|neutral|free|sequestration|intensity)",
                      r"air quality", r"air pollut", r"\bmethane\b", r"cap[- ]and[- ](trade|invest)",
                      r"short[- ]lived climate", r"decarboni[sz]",
@@ -96,7 +97,7 @@ CATEGORIES = [
                      r"comprehensive plan", r"\bbrownfield", r"accessory dwelling",
                      r"smart growth", r"\binfill\b", r"urban growth", r"\bsubdivision",
                      r"transit[- ]oriented", r"(housing|residential) density",
-                     r"farmland (and open space )?preservation"],
+                     r"farmland (and open space )?preservation", r"community land trust"],
         "exclude": [],
     },
     {
@@ -122,7 +123,7 @@ CATEGORIES = [
         "queries": ["conservation", "wetlands", "wildlife habitat", "biodiversity",
                     "forest"],
         "patterns": [r"(?<!energy )(?<!water )\bconservation\b", r"wetland", r"\bhabitat\b",
-                     r"biodiversity", r"open space", r"land trust",
+                     r"biodiversity", r"open space", r"(?<!community )land trust",
                      r"\bforest (health|management|conservation|carbon|restoration)",
                      r"\bforestry\b", r"endangered species", r"\bwildlife\b(?! (officer|crime|violation))",
                      r"pollinator", r"invasive species", r"ecosystem", r"(ecological|habitat) restoration",

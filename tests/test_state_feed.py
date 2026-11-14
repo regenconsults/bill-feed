@@ -82,6 +82,13 @@ class BaselineCategorization(unittest.TestCase):
         self.assertEqual(fb.categorize("Electric grid modernization; labor standards"),
                          "infrastructure-resilience")
 
+    def test_dry_run_fixes(self):
+        self.assertEqual([x for x, _ in fb.score_categories("Zero-emission transit buses: axle weight.")],
+                         ["infrastructure-resilience"])
+        self.assertEqual(fb.categorize("Real property tax: welfare exemption: community land trusts."),
+                         "land-use")
+        self.assertEqual(fb.categorize("Reduces methane emissions from landfills"), "climate-emissions")
+
     def test_multi_category(self):
         got = [s for s, _ in fb.score_categories(
             "Climate resiliency: stormwater and floodplain management")]
