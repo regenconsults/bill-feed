@@ -205,7 +205,9 @@ class Shape(unittest.TestCase):
         for title in ["Public Archives Resiliency Act",
                       "Health Care Cybersecurity and Resiliency Act of 2026",
                       "Critical Infrastructure Manufacturing Feasibility Act",
-                      "Nuclear REFUEL (Recycling Efficient Fuels Utilizing Expedited Licensing) Act"]:
+                      "Nuclear REFUEL (Recycling Efficient Fuels Utilizing Expedited Licensing) Act",
+                      # third live run: veterans' benefits, not chemical policy
+                      "A bill to amend title 38, United States Code, to improve presumptions of toxic exposure, and for other purposes."]:
             with self.subTest(title=title):
                 self.assertEqual(ff.classify(title, None), [])
         # ...while real resilience bills still match.
