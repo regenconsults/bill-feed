@@ -82,6 +82,15 @@ jobs:
           path: data/federal-cache.json
           key: federal-cache-${{ github.run_id }}
 
+      # Short-lived copy of the cache (public Congress.gov responses only; the key
+      # is sent as a header and never stored) for checking records by hand.
+      - uses: actions/upload-artifact@v4
+        if: ${{ always() && hashFiles('data/federal-cache.json') != '' }}
+        with:
+          name: federal-cache
+          path: data/federal-cache.json
+          retention-days: 3
+
       # Committed on success or failure: on failure federal.json keeps the last
       # good bills and records sync.status = "error".
       - name: Commit federal feed
