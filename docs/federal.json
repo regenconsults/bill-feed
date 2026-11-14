@@ -47,11 +47,11 @@
   }
  ],
  "sync": {
-  "last_attempt_at": "2026-11-14T13:27:55+00:00",
-  "status": "ok",
-  "last_error": null,
+  "last_attempt_at": "2026-11-14T14:27:58+00:00",
+  "status": "partial",
+  "last_error": "1901 bills pending; previous bills kept",
   "last_success_at": "2026-11-14T13:27:55+00:00",
-  "api_calls": 126,
+  "api_calls": 3500,
   "needs_review": 370,
   "candidates_in_window": 587
  },
