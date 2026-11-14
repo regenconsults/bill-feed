@@ -14,7 +14,7 @@ How each record was checked:
 | **S. 5653**, Bipartisan American Affordability and Jobs Act of 2026 (BAAJA) | Referred to committee | `in_committee` | Infrastructure & Resilience / Water Resources | Yes (runs 2–4) | `test_s5653_matches_official_record`, `test_s5653_classified_from_summary_not_title` |
 | **S. 465**, GRID Power Act | Reported, on Senate calendar | `reported` | Infrastructure & Resilience | Yes | Live comparison |
 | **H.R. 9340**, Ratepayer Protection Act | Passed House; Senate cloture failed | `passed_one_chamber` | Infrastructure & Resilience | Yes | Live comparison |
-| **S. 240**, Crow Tribe Water Rights Settlement Amendments Act of 2025 | **Enacted**, Public Law 119-122 | `enacted` | Water Resources | No (outranked by recency, see below) | `test_s240_enacted_law_matches_official_record` |
+| **S. 240**, Crow Tribe Water Rights Settlement Amendments Act of 2025 | **Enacted**, Public Law 119-122 | `enacted` | Water Resources | From the next run (enacted-first, see below) | `test_s240_enacted_law_matches_official_record` |
 
 ## S. 5653: BAAJA (required case)
 
@@ -99,11 +99,9 @@ Official page: https://www.congress.gov/bill/119th-congress/senate-bill/240
   - A rerun with no source changes makes only the list calls (`test_end_to_end_and_idempotent`).
   - A changed `updateDateIncludingText` re-fetches the bill and marks it moved (`test_source_update_refreshes_record`).
   - An API failure keeps the last good feed (`test_api_failure_keeps_last_good_feed_and_records_error`).
-- **Run 4's state job failed:** its `bills.json` push to the branch was rejected because I pushed fix commits during the run. The federal job and tests passed. `main` and the live feed were not affected. The same race exists on `main` if anyone pushes during the roughly 5-minute state job; a pull-and-retry like the federal job's would close it.
+- **Run 4's state job failed:** its `bills.json` push to the branch was rejected because I pushed fix commits during the run. The federal job and tests passed. `main` and the live feed were not affected. The same race exists on `main` if anyone pushes during the roughly 5-minute state job; **Fixed 2026-11-14:** the state commit step now retries with `git pull --rebase`, like the federal job.
 
 ## Open decisions
 
-1. **Enacted bills drop out fast.** Selection is recency-only, so a law signed a month ago is outranked by bills with routine actions such as technical corrections. Options:
-   - (a) Keep it as is, matching the state feed.
-   - (b) Reserve slots for, or rank first, bills enacted in the window.
+1. **Enacted bills dropped out fast.** **Decided 2026-11-14: (b), for the federal feed.** `pick(..., enacted_first=True)` puts enacted bills first within each category. Offline on the run 4 cache, the feed then holds all four environmental laws enacted in the window: S. 240, H.R. 7250 (PL 119-113), S. 629 (PL 119-102), H.R. 972 (PL 119-91). The state feed is unchanged. Test: `test_enacted_first_only_when_asked`.
 2. **Run artifact:** the federal job now uploads its cache as a 3-day artifact (`federal-cache`), used here to get S. 240 without handling the key. The repo is public, so anyone signed in to GitHub can download it. It holds only public Congress.gov data. It can be removed after validation.

@@ -451,10 +451,14 @@ def recency_key(item, today):
     return min(d, today)
 
 
-def pick(items, today):
+def pick(items, today, enacted_first=False):
     """Up to PER_CATEGORY (or the category's per_category) per primary
-    category, newest first, spread across states."""
-    items = sorted(items, key=lambda i: recency_key(i, today), reverse=True)
+    category, newest first, spread across states. With enacted_first (used by
+    the federal feed, decision 2026-11-14), enacted bills in the window come
+    before everything else, so a recent law isn't pushed out by routine actions."""
+    def key(i):
+        return (enacted_first and i.get("status") == "enacted", recency_key(i, today))
+    items = sorted(items, key=key, reverse=True)
     chosen = []
     for c in CATEGORIES:
         limit = c.get("per_category", PER_CATEGORY)
@@ -471,7 +475,7 @@ def pick(items, today):
                 break
             if i not in picked:
                 picked.append(i)
-        picked.sort(key=lambda i: recency_key(i, today), reverse=True)
+        picked.sort(key=key, reverse=True)
         chosen.extend(picked)
     return chosen
 

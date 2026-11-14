@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # State feed: unchanged from before the federal work.
+  # State feed: unchanged from before the federal work, except the push retry.
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -40,8 +40,11 @@ jobs:
           git config user.name  "bill-feed-bot"
           git config user.email "bill-feed-bot@users.noreply.github.com"
           git add docs/bills.json
-          git diff --cached --quiet || git commit -m "Refresh bill feed"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh bill feed"
+          # Retry with a rebase if someone pushed during the run (added 2026-11-14).
+          for i in 1 2 3; do git pull --rebase --quiet && git push && exit 0; sleep 5; done
+          exit 1
 
   # Federal feed (Congress.gov). Runs after the state job whether or not it
   # succeeded, and writes only docs/federal.json, so a federal failure can't

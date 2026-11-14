@@ -8,7 +8,7 @@ Step 4, 2026-11-13. Code: `fetch_federal.py`. Output: `docs/federal.json`. Tests
 - **Excluded:**
   - Simple and concurrent resolutions (H.Res., S.Res., H.Con.Res., S.Con.Res.), because they can't become law.
   - Agency rules, executive orders, and state or local actions.
-- **Coverage is automatic.** Discovery is a scan of the whole current Congress, not a curated list. The published feed is still a *selection*: up to 6 bills per primary category, 12 for Infrastructure & Resilience, the same rule as the state feed. "All environmental bills in Congress" would overstate it.
+- **Coverage is automatic.** Discovery is a scan of the whole current Congress, not a curated list. The published feed is still a *selection*: up to 6 bills per primary category, 12 for Infrastructure & Resilience, the same rule as the state feed. Within each category, **enacted bills come first**, then the most recently active (decision 2026-11-14; the state feed stays recency-only). "All environmental bills in Congress" would overstate it.
 
 ## Endpoints and fields used
 

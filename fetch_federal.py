@@ -407,7 +407,7 @@ def build_feed(cache, prev, today, congress):
             continue
         seen_titles[t] = True
         items.append(item)
-    feed = fb.pick(items, today)
+    feed = fb.pick(items, today, enacted_first=True)
     for i in feed:
         fb.mark_movement(i, prev, today)
     if not prev:

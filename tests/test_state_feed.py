@@ -203,6 +203,16 @@ class PickAndBuild(unittest.TestCase):
             items += self._items(3, slug="infrastructure-resilience", state=st)
         self.assertEqual(len(fb.pick(items, TODAY)), 12)
 
+    def test_enacted_first_only_when_asked(self):
+        # Six newer active bills and one older enacted law in one category.
+        items = self._items(6)
+        law = dict(self._items(1)[0], id="law", status="enacted", latest_action_date="2026-10-15")
+        items.append(law)
+        self.assertNotIn("law", [i["id"] for i in fb.pick(items, TODAY)])  # state feed: unchanged
+        federal = fb.pick(items, TODAY, enacted_first=True)
+        self.assertEqual(len(federal), fb.PER_CATEGORY)
+        self.assertEqual(federal[0]["id"], "law")
+
     def test_spread_across_states_when_possible(self):
         items = self._items(6, state="NJ") + self._items(3, state="CA") + self._items(3, state="PA")
         states = [i["state"] for i in fb.pick(items, TODAY)]
