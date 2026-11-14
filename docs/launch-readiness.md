@@ -35,8 +35,7 @@ Each item was checked on the live page (2026-11-14) or in the validation report.
 - **Update timing:**
   - Both feeds run on an automatic twice-daily schedule. The first scheduled federal run succeeded on 2026-11-14 (run 43617943953).
   - GitHub doesn't guarantee start times: that run was due at 11:00 UTC and started at 16:52 UTC.
-  - Safe wording: **"refreshed automatically, typically twice a day"**. Avoid exact times.
-  - The drafts leave timing out entirely. Add it only after the 23:00 UTC run is also confirmed, if you want it.
+  - **Approved wording (2026-11-14):** "updates automatically, typically twice a day". Avoid exact times. The post now says "Both update automatically, typically twice a day."
 
 ## 3. Limitations to disclose
 
@@ -63,7 +62,13 @@ The copy is from the plan.
   - Supporting line: "Explore environmental legislation across federal and state jurisdictions."
   - URL: **regenconsults.com/legislation-tracker**
   - Layout: headline and supporting line on top; the screenshot below in a rounded frame on the cream background, cropped to the tracker area; URL at the bottom.
-- **Screenshot:** genuine, captured from the live page on 2026-11-14 with the page zoomed out to 62%; the image itself is unedited.
+- **Designed slides (done 2026-11-14):**
+  - 1080×1350 PNGs and a 2-page PDF, ready to upload as a LinkedIn document carousel.
+  - Saved locally in `~/Desktop/Claude/Projects/bill-feed-launch/`, with the source HTML in `source/`. Kept out of this public repo until you post.
+  - Also inserted in the Google Doc under "Designed Carousel Slides".
+  - Built from the live site's real brand values: Jost 200 headings; `#1f3510` / `#fdfdf2` / `#89cec2`; the REGEN logo PNG from the site, recolored with a mask and not redrawn; the slanted hero edge.
+- **Slide 2 screenshot:** `docs/launch/tracker-screenshot-2026-11-14-crop.jpg`, cropped from `…-full2.jpg`. Both are genuine captures of the live page (60% zoom, cursor out of frame). The crop removes only the page margins and the site header.
+- **First screenshot:** genuine, captured from the live page on 2026-11-14 with the page zoomed out to 62%; the image itself is unedited.
   - What it shows: Climate & Emissions selected, with federal (S. 5706) and state (MA, NJ, IL) bills side by side.
   - File: `docs/launch/tracker-screenshot-2026-11-14.jpg`, 1420×693.
   - It's also inserted in the Google Doc.
@@ -85,8 +90,8 @@ It makes no claim about update frequency.
 ## 6. Items still needing your review
 
 1. **Read the announcement draft** in the Google Doc: wording, tone, hashtags.
-2. **Design the two slides** from the copy and layout notes in §4. The slides themselves aren't made, only the copy and notes.
-3. **Refresh-timing wording:** decide whether to add it. The 23:00 UTC run check is pending and will be reported.
-4. **Known data issue (cosmetic):** House/Senate companion bills whose titles differ slightly can both appear, e.g. H.R. 331 and S. 1254 (Aquifer Recharge Flexibility Act). The dedupe matches identical titles only. Fixing it means matching on a normalized title, a small pipeline change I can make if you want it.
+2. ~~Design the two slides~~: done (§4). Review them.
+3. ~~Refresh-timing wording~~: approved and added to the post.
+4. ~~Known data issue~~ **fixed 2026-11-14** (`companion_key`; live from the next run). It was: House/Senate companion bills whose titles differ slightly can both appear, e.g. H.R. 331 and S. 1254 (Aquifer Recharge Flexibility Act). The dedupe matches identical titles only. Fixing it means matching on a normalized title, a small pipeline change I can make if you want it.
 5. **Optional cleanup:** remove the 3-day `federal-cache` artifact upload from the workflow.
 6. **Posting:** posting, scheduling or sharing the announcement is yours to do. I haven't done any of it.
