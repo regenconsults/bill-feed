@@ -1,0 +1,40 @@
+{
+    "actions": [
+        {
+            "actionDate": "2026-09-30",
+            "committees": [
+                {
+                    "name": "Energy and Natural Resources Committee",
+                    "systemCode": "sseg00",
+                    "url": "https://api.congress.gov/v3/committee/senate/sseg00?format=json"
+                }
+            ],
+            "sourceSystem": {
+                "name": "Senate"
+            },
+            "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
+            "type": "IntroReferral"
+        },
+        {
+            "actionCode": "10000",
+            "actionDate": "2026-09-30",
+            "sourceSystem": {
+                "code": 9,
+                "name": "Library of Congress"
+            },
+            "text": "Introduced in Senate",
+            "type": "IntroReferral"
+        }
+    ],
+    "pagination": {
+        "count": 2
+    },
+    "request": {
+        "billNumber": "5653",
+        "billType": "s",
+        "billUrl": "https://api.congress.gov/v3/bill/119/s/5653?format=json",
+        "congress": "119",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}

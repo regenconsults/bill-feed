@@ -1,0 +1,63 @@
+{
+    "bills": [
+        {
+            "congress": 119,
+            "introducedDate": "2026-04-30",
+            "latestAction": {
+                "actionDate": "2026-11-12",
+                "actionTime": "09:46:07",
+                "text": "Motion to reconsider laid on the table Agreed to without objection."
+            },
+            "number": "1247",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Providing for consideration of the bill (H.R. 2102) to amend title 10, United States Code, to provide for concurrent receipt of veterans' disability compensation and retired pay for disability retirees with combat-related disabilities, and for other purposes.",
+            "type": "HRES",
+            "updateDate": "2026-11-14",
+            "updateDateIncludingText": "2026-11-14",
+            "url": "https://api.congress.gov/v3/bill/119/hres/1247?format=json"
+        },
+        {
+            "congress": 119,
+            "introducedDate": "2025-03-05",
+            "latestAction": {
+                "actionDate": "2026-06-15",
+                "actionTime": "10:49:25",
+                "text": "Held at the desk."
+            },
+            "number": "872",
+            "originChamber": "Senate",
+            "originChamberCode": "S",
+            "title": "Stop Secret Spending Act of 2025",
+            "type": "S",
+            "updateDate": "2026-11-14",
+            "updateDateIncludingText": "2026-11-14",
+            "url": "https://api.congress.gov/v3/bill/119/s/872?format=json"
+        },
+        {
+            "congress": 119,
+            "introducedDate": "2025-02-14",
+            "latestAction": {
+                "actionDate": "2025-02-14",
+                "text": "Referred to the Committee on the Budget, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+            },
+            "number": "1388",
+            "originChamber": "House",
+            "originChamberCode": "H",
+            "title": "Fair-Value Accounting and Budget Act",
+            "type": "HR",
+            "updateDate": "2026-11-14",
+            "updateDateIncludingText": "2026-11-14",
+            "url": "https://api.congress.gov/v3/bill/119/hr/1388?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 19964,
+        "next": "https://api.congress.gov/v3/bill/119?sort=updateDate desc&offset=3&limit=3&format=json"
+    },
+    "request": {
+        "congress": "119",
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
