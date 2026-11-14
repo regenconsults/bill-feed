@@ -67,7 +67,11 @@ The copy is from the plan.
   - Saved locally in `~/Desktop/Claude/Projects/bill-feed-launch/`, with the source HTML in `source/`. Kept out of this public repo until you post.
   - Also inserted in the Google Doc under "Designed Carousel Slides".
   - Built from the live site's real brand values: Jost 200 headings; `#1f3510` / `#fdfdf2` / `#89cec2`; the REGEN logo PNG from the site, recolored with a mask and not redrawn; the slanted hero edge.
-- **Slide 2 screenshot:** `docs/launch/tracker-screenshot-2026-11-14-crop.jpg`, cropped from `…-full2.jpg`. Both are genuine captures of the live page (60% zoom, cursor out of frame). The crop removes only the page margins and the site header.
+- **Slide 2 screenshot (updated 2026-11-14, higher resolution):**
+  - Captured from the live page in headless Chrome at 3× pixel density (3294×3245 px). The tracker is shown at normal size, with Climate & Emissions selected by clicking its chip, exactly as a visitor would.
+  - Only the page margins were trimmed; nothing on the page was edited.
+  - The capture script and image are in `bill-feed-launch/source/` (`capture.py`, `shot-hires-crop.png`).
+  - Slides are now exported at 2× (2160×2700 PNGs, and a 2-page PDF at 4:5).
 - **First screenshot:** genuine, captured from the live page on 2026-11-14 with the page zoomed out to 62%; the image itself is unedited.
   - What it shows: Climate & Emissions selected, with federal (S. 5706) and state (MA, NJ, IL) bills side by side.
   - File: `docs/launch/tracker-screenshot-2026-11-14.jpg`, 1420×693.
