@@ -37,76 +37,71 @@ OUTPUT = os.getenv("BILL_FEED_OUT", "docs/bills.json")
 
 # Each category has:
 #   queries  - search terms sent to the API
-#   patterns - regexes; a bill joins the category only if its TITLE matches one
+#   patterns - regexes; a bill gets the category if its TITLE matches one
 #   exclude  - regexes that disqualify a title for this category only
-# Order matters only for ties: a bill matching two categories equally goes to
-# the one listed first.
+# A bill gets every category it matches (shown as tags). Its primary category,
+# used to pick which bills make the feed, is the one with the most matching
+# patterns; ties go to the category listed first. List order is also the
+# order the chips appear on the site.
+#
+# Categories are an editorial suggestion made from the title only; they are
+# not a fact from the legislature. See docs/category-taxonomy.md.
 CATEGORIES = [
     {
-        "slug": "clean-energy",
-        "name": "Clean Energy",
-        "queries": ["renewable energy", "clean energy", "solar", "wind energy",
-                    "energy storage", "net metering"],
-        "patterns": [r"renewable energ", r"clean energy", r"\bsolar\b", r"photovoltaic",
-                     r"\bwind (energy|power|turbine|farm|facilit|project|generation)",
-                     r"offshore wind", r"energy storage", r"battery storage",
-                     r"net metering", r"geothermal", r"distributed (generation|energy)",
-                     r"zero[- ]carbon (electric|energy|resource)"],
-        "exclude": [],
-    },
-    {
-        "slug": "grid",
-        "name": "Grid & Energy Affordability",
-        "queries": ["electric grid", "transmission", "ratepayer", "utility rates",
-                    "interconnection"],
-        "patterns": [r"\bgrid\b", r"\btransmission (line|infrastructure|facilit|project|siting|planning|system)",
-                     r"\bratepayer", r"\b(utility|electric|electricity|energy) (rate|bill|cost)s?\b",
-                     r"energy affordab", r"energy burden", r"load forecast",
-                     r"\binterconnection\b", r"resource adequacy", r"\bmicrogrid"],
-        "exclude": [],
-    },
-    {
-        "slug": "buildings",
-        "name": "Green & Healthy Buildings",
+        "slug": "building-energy",
+        "name": "Building & Energy",
         "queries": ["green building", "energy efficiency", "energy code", "heat pump",
-                    "building electrification", "embodied carbon", "weatherization"],
+                    "building electrification", "weatherization", "net metering",
+                    "community solar"],
         "patterns": [r"green building", r"energy efficien", r"energy (conservation )?code",
-                     r"building energy", r"heat pump", r"building electrification",
+                     r"building (energy|code)", r"heat pump", r"building electrification",
                      r"\belectrification\b", r"embodied carbon", r"building performance",
                      r"weatheriz", r"healthy (building|home|housing)",
-                     r"low[- ]carbon (concrete|cement|material|building)",
-                     r"(building|construction) material.*(carbon|toxic|healthy|sustainab)",
-                     r"\bnet[- ]zero (building|home|energy)"],
+                     r"low[- ]carbon (building|construction)",
+                     r"\bnet[- ]zero (building|home|energy)",
+                     r"net metering", r"distributed (generation|energy)",
+                     r"(rooftop|residential|community) solar", r"solar (panel|energy system)s? (on|for) (home|residen|building|school)",
+                     r"benchmarking", r"residential (clean|renewable) energy"],
         "exclude": [r"tax: exemptions?; exemption for building materials"],
     },
     {
-        "slug": "transportation",
-        "name": "Clean Transportation",
-        "queries": ["electric vehicle", "zero-emission vehicle", "public transit",
-                    "transit", "electric bus"],
-        "patterns": [r"electric vehicle", r"\bEVs?\b", r"charging station",
-                     r"zero[- ]emission [a-z ]{0,20}(vehicle|bus|truck|fleet)", r"electric (school )?bus",
-                     r"public transit", r"mass transit", r"public transportation",
-                     r"\btransit (authority|agency|district|system|service|fund|capital|operat)",
-                     r"transit[- ]oriented", r"bus rapid transit", r"passenger rail",
-                     r"vehicle electrification"],
-        "exclude": [r"employee", r"\blabor\b", r"collective bargaining", r"\bpolice\b",
-                    r"commercial code"],
-    },
-    {
-        "slug": "climate",
+        "slug": "climate-emissions",
         "name": "Climate & Emissions",
-        "queries": ["climate", "emissions", "greenhouse gas", "air quality", "methane"],
+        "queries": ["climate", "emissions", "greenhouse gas", "air quality", "methane",
+                    "decarbonization"],
         "patterns": [r"\bclimate\b", r"\bemissions?\b", r"greenhouse gas",
                      r"\bcarbon (dioxide|capture|pollution|reduction|neutral|free|sequestration|intensity)",
                      r"air quality", r"air pollut", r"\bmethane\b", r"cap[- ]and[- ](trade|invest)",
-                     r"short[- ]lived climate"],
+                     r"short[- ]lived climate", r"decarboni[sz]",
+                     r"zero[- ]carbon", r"renewable portfolio", r"clean (energy|electricity) standard"],
         "exclude": [r"climate[- ]controlled", r"(campus|school|workplace|business|investment) climate",
                     r"climate survey"],
     },
     {
-        "slug": "waste",
-        "name": "Waste & Circular Economy",
+        "slug": "water-resources",
+        "name": "Water Resources",
+        "queries": ["stormwater", "water quality", "drinking water", "wastewater",
+                    "groundwater"],
+        "patterns": [r"stormwater", r"water quality", r"watershed", r"clean water",
+                     r"drinking water", r"groundwater", r"wastewater", r"\bsewer",
+                     r"\bPFAS\b", r"water (conservation|supply|infrastructure|system|utilit|reuse|recycl)",
+                     r"lead service line", r"\baquifer", r"water rights"],
+        "exclude": [],
+    },
+    {
+        "slug": "land-use",
+        "name": "Land Use & Development",
+        "queries": ["zoning", "land use", "brownfield", "accessory dwelling"],
+        "patterns": [r"\bzoning\b", r"\bland use\b", r"land[- ]use (plan|regulat|polic)",
+                     r"comprehensive plan", r"\bbrownfield", r"accessory dwelling",
+                     r"smart growth", r"\binfill\b", r"urban growth", r"\bsubdivision",
+                     r"transit[- ]oriented", r"(housing|residential) density",
+                     r"farmland (and open space )?preservation"],
+        "exclude": [],
+    },
+    {
+        "slug": "materials-circularity",
+        "name": "Materials & Circularity",
         "queries": ["solid waste", "recycling", "waste management",
                     "producer responsibility", "packaging", "compost"],
         "patterns": [r"solid waste", r"recycl", r"waste (management|reduction|diversion|disposal|hauling)",
@@ -114,29 +109,80 @@ CATEGORIES = [
                      r"packaging (waste|reduction|material|producer|recycl|stewardship)",
                      r"(plastic|sustainable|reusable|compostable) packaging",
                      r"single[- ]use plastic", r"plastic (bag|waste|pollution|product)",
-                     r"organic waste", r"food waste", r"hazardous waste", r"circular economy"],
+                     r"organic waste", r"food waste", r"hazardous waste", r"circular economy",
+                     r"product stewardship", r"right to repair", r"embodied carbon",
+                     r"low[- ]carbon (concrete|cement|material)",
+                     r"(building|construction) material.*(carbon|toxic|healthy|sustainab)",
+                     r"buy clean"],
         "exclude": [r"labor dispute"],
     },
     {
-        "slug": "water-land",
-        "name": "Water & Land",
-        "queries": ["conservation", "stormwater", "water quality", "wetlands",
-                    "drinking water"],
-        "patterns": [r"\bconservation\b", r"stormwater", r"water quality", r"wetland",
-                     r"watershed", r"clean water", r"drinking water", r"groundwater",
-                     r"\bPFAS\b", r"\bhabitat\b", r"open space", r"land trust",
-                     r"\bforest (health|management|conservation|carbon)"],
-        "exclude": [],
+        "slug": "nature-biodiversity",
+        "name": "Nature & Biodiversity",
+        "queries": ["conservation", "wetlands", "wildlife habitat", "biodiversity",
+                    "forest"],
+        "patterns": [r"(?<!energy )(?<!water )\bconservation\b", r"wetland", r"\bhabitat\b",
+                     r"biodiversity", r"open space", r"land trust",
+                     r"\bforest (health|management|conservation|carbon|restoration)",
+                     r"\bforestry\b", r"endangered species", r"\bwildlife\b(?! (officer|crime|violation))",
+                     r"pollinator", r"invasive species", r"ecosystem", r"(ecological|habitat) restoration",
+                     r"public lands"],
+        # Personnel bills for conservation officers / game wardens aren't nature policy.
+        "exclude": [r"conservation officers?", r"game wardens?"],
     },
     {
-        "slug": "equity",
-        "name": "Environmental Equity",
+        "slug": "environmental-justice",
+        "name": "Environmental Justice",
         "queries": ["environmental justice", "environmental equity", "energy equity",
                     "overburdened communities", "disadvantaged communities"],
         "patterns": [r"environmental justice", r"environmental equity", r"energy equity",
                      r"clean energy equity", r"overburdened", r"disadvantaged communit",
-                     r"frontline communit", r"climate justice", r"energy justice"],
+                     r"frontline communit", r"climate justice", r"energy justice",
+                     r"environmental health", r"cumulative impact", r"pollution burden"],
         "exclude": [],
+    },
+    {
+        "slug": "infrastructure-resilience",
+        "name": "Infrastructure & Resilience",
+        # Transportation, utilities and the grid, utility-scale clean energy,
+        # and adaptation/resilience (decision 2026-11-13: utility-scale clean
+        # energy and transmission belong here, not in Building & Energy).
+        "queries": ["renewable energy", "clean energy", "solar", "wind energy",
+                    "energy storage", "electric grid", "transmission", "ratepayer",
+                    "utility rates", "interconnection", "electric vehicle",
+                    "zero-emission vehicle", "public transit", "transit", "electric bus",
+                    "resilience", "flood", "wildfire mitigation", "climate adaptation"],
+        "patterns": [
+            # utility-scale clean energy
+            r"renewable energ", r"clean energy", r"\bsolar\b", r"photovoltaic",
+            r"\bwind (energy|power|turbine|farm|facilit|project|generation)",
+            r"offshore wind", r"energy storage", r"battery storage", r"geothermal",
+            r"zero[- ]carbon (electric|energy|resource)",
+            # grid, utilities, affordability
+            r"\bgrid\b", r"\btransmission (line|infrastructure|facilit|project|siting|planning|system)",
+            r"\bratepayer", r"\b(utility|electric|electricity|energy) (rate|bill|cost)s?\b",
+            r"energy affordab", r"energy burden", r"load forecast",
+            r"\binterconnection\b", r"resource adequacy", r"\bmicrogrid",
+            # adaptation and resilience
+            r"resilien", r"climate adaptation", r"sea[- ]level rise",
+            r"flood (control|mitigation|risk|resilien|protection|plain|prepared)", r"floodplain",
+            r"wildfire (mitigation|prevention|risk|resilien)", r"hazard mitigation",
+            r"(critical|public|green|resilient) infrastructure",
+        ],
+        "exclude": [],
+        # Transportation patterns keep their own excludes (carried over from the
+        # old Clean Transportation category) so transit-worker and police bills
+        # stay out without affecting the energy and grid patterns above.
+        "subgroups": [{
+            "patterns": [r"electric vehicle", r"\bEVs?\b", r"charging station",
+                         r"zero[- ]emission [a-z ]{0,20}(vehicle|bus|truck|fleet)", r"electric (school )?bus",
+                         r"public transit", r"mass transit", r"public transportation",
+                         r"\btransit (authority|agency|district|system|service|fund|capital|operat)",
+                         r"transit[- ]oriented", r"bus rapid transit", r"passenger rail",
+                         r"vehicle electrification"],
+            "exclude": [r"employee", r"\blabor\b", r"collective bargaining", r"\bpolice\b",
+                        r"commercial code"],
+        }],
     },
 ]
 
@@ -190,33 +236,54 @@ BADGE_DAYS = 3  # how long a "New" / "Moved" badge stays on a bill
 # ------------------------------------------------------------------ compile --
 
 _FLAGS = re.IGNORECASE
-for c in CATEGORIES:
+
+
+def _rx(p):
     # \bEVs?\b is the one pattern that must stay case-sensitive ("ev" is common).
-    c["_patterns"] = [re.compile(p) if p == r"\bEVs?\b" else re.compile(p, _FLAGS)
-                      for p in c["patterns"]]
+    return re.compile(p) if p == r"\bEVs?\b" else re.compile(p, _FLAGS)
+
+
+for c in CATEGORIES:
+    # Each rule is (pattern, excludes that cancel that pattern).
+    c["_rules"] = [(_rx(p), []) for p in c["patterns"]]
+    for g in c.get("subgroups", []):
+        gx = [re.compile(x, _FLAGS) for x in g["exclude"]]
+        c["_rules"] += [(_rx(p), gx) for p in g["patterns"]]
     c["_exclude"] = [re.compile(p, _FLAGS) for p in c["exclude"]]
 _AGENCIES = [re.compile(p, _FLAGS) for p in AGENCY_NAMES]
 _GLOBAL_EXCLUDE = [re.compile(p, _FLAGS) for p in GLOBAL_EXCLUDE]
 _BY_SLUG = {c["slug"]: c for c in CATEGORIES}
 
 
-def categorize(title):
-    """Return the best-matching category slug for a bill title, or None."""
+def score_categories(title):
+    """Return [(slug, score), ...] for every matching category, best first.
+
+    Ties keep CATEGORIES order. An empty list means the title matched nothing
+    (or is excluded), and the bill is left out of the feed.
+    """
     title = title or ""
     if any(p.search(title) for p in _GLOBAL_EXCLUDE):
-        return None
+        return []
     cleaned = title
     for p in _AGENCIES:
         cleaned = p.sub(" ", cleaned)
 
-    best, best_score = None, 0
+    scores = []
     for c in CATEGORIES:
         if any(p.search(cleaned) for p in c["_exclude"]):
             continue
-        score = sum(1 for p in c["_patterns"] if p.search(cleaned))
-        if score > best_score:  # strict ">" keeps the earlier category on ties
-            best, best_score = c["slug"], score
-    return best
+        score = sum(1 for p, ex in c["_rules"]
+                    if p.search(cleaned) and not any(x.search(cleaned) for x in ex))
+        if score:
+            scores.append((c["slug"], score))
+    scores.sort(key=lambda s: -s[1])  # stable: ties keep CATEGORIES order
+    return scores
+
+
+def categorize(title):
+    """Return the primary category slug for a bill title, or None."""
+    s = score_categories(title)
+    return s[0][0] if s else None
 
 
 # ------------------------------------------------------------------ fetch --
@@ -289,9 +356,12 @@ def status_label(bill):
     return "In progress"
 
 
-def shape(b, slug, today):
+def shape(b, slugs, today):
+    """slugs: matching category slugs, primary first (or a single slug)."""
+    if isinstance(slugs, str):
+        slugs = [slugs]
     action_date = parse_date(b.get("latest_action_date"))
-    cat = _BY_SLUG[slug]
+    cat = _BY_SLUG[slugs[0]]
     return {
         "id": b["id"],
         "state": b.get("jurisdiction_abbreviation"),
@@ -305,9 +375,11 @@ def shape(b, slug, today):
         "upcoming": bool(action_date and action_date > today),
         "introduced": b.get("introduced_date"),
         "url": b.get("source_url"),
-        "category": slug,
+        "category": cat["slug"],          # primary category
         "category_name": cat["name"],
-        "topics": [cat["name"]],  # kept so the previous embed still works
+        "categories": list(slugs),         # all matching categories, primary first
+        "topics": [_BY_SLUG[x]["name"] for x in slugs],  # what the site filters on
+        "classification": "auto-title",    # editorial suggestion, not a source fact
     }
 
 
@@ -382,15 +454,15 @@ def pick(items, today):
 def build_feed(found, prev, today):
     items, seen_titles = [], {}
     for b in sorted(found.values(), key=lambda b: b.get("latest_action_date") or "", reverse=True):
-        slug = categorize(b.get("title"))
-        if not slug:
+        scored = score_categories(b.get("title"))
+        if not scored:
             continue
         # Companion bills (same title, same state and session) show once.
         key = (b.get("jurisdiction_abbreviation"), b.get("session_identifier"), norm_title(b.get("title")))
         if key in seen_titles:
             continue
         seen_titles[key] = True
-        items.append(shape(b, slug, today))
+        items.append(shape(b, [slug for slug, _ in scored], today))
 
     feed = pick(items, today)
     for i in feed:
@@ -414,7 +486,8 @@ def main():
         found, errors, calls = collect(s, cutoff)
 
     bills, matched = build_feed(found, prev, today)
-    counts = {c["slug"]: sum(1 for b in bills if b["category"] == c["slug"]) for c in CATEGORIES}
+    # Counts are tags, so a bill with two categories counts in both.
+    counts = {c["slug"]: sum(1 for b in bills if c["slug"] in b["categories"]) for c in CATEGORIES}
     print(f"{calls} API calls, {errors} errors, {len(found)} recent bills, "
           f"{len(matched)} categorized, {len(bills)} in feed")
     for c in CATEGORIES:
