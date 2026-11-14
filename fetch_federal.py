@@ -384,6 +384,16 @@ def sync(client, cache, congress, today, now_iso):
 # ---------------------------------------------------------------- output --
 
 
+def companion_key(title):
+    """Title key that matches House/Senate companions. Senate titles often add
+    "A bill to" / "A joint resolution" where the House version starts "To" /
+    "Providing", and some end "and for other purposes"."""
+    t = fb.norm_title(title)
+    t = re.sub(r"^a (bill|joint resolution) ", "", t)
+    t = re.sub(r"^to ", "", t)
+    return re.sub(r" and for other purposes$", "", t)
+
+
 def build_feed(cache, prev, today, congress):
     cutoff = today - timedelta(days=MAX_AGE_DAYS)
     items, needs_review, seen_titles = [], [], {}
@@ -400,12 +410,16 @@ def build_feed(cache, prev, today, congress):
         if not item["categories"]:
             needs_review.append(item)
             continue
-        # Identical-title companions (House and Senate versions) show once:
-        # the most recently acted-on one.
-        t = fb.norm_title(item["title"])
+        # Companions (House and Senate versions with the same title) show
+        # once: the most recently acted-on one.
+        # once: the enacted one if either is, else the most recently acted-on.
+        t = companion_key(item["title"])
         if t in seen_titles:
+            j = seen_titles[t]
+            if item["status"] == "enacted" and items[j]["status"] != "enacted":
+                items[j] = item
             continue
-        seen_titles[t] = True
+        seen_titles[t] = len(items)
         items.append(item)
     feed = fb.pick(items, today, enacted_first=True)
     for i in feed:

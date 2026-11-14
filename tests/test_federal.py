@@ -282,6 +282,36 @@ class Shape(unittest.TestCase):
         self.assertTrue(ff.shape(e, TODAY, None)["url"].startswith("https://www.congress.gov/"))
 
 
+class Companions(unittest.TestCase):
+    def test_companion_key_matches_house_and_senate_wording(self):
+        # Real pair from the 2026-11-14 feed: H.R. 331 / S. 1254.
+        self.assertEqual(
+            ff.companion_key("To amend the Aquifer Recharge Flexibility Act to clarify a provision relating to conveyances for aquifer recharge purposes."),
+            ff.companion_key("A bill to amend the Aquifer Recharge Flexibility Act to clarify a provision relating to conveyances for aquifer recharge purposes."))
+        self.assertEqual(ff.companion_key("Providing for congressional disapproval of the rule X."),
+                         ff.companion_key("A joint resolution providing for congressional disapproval of the rule X."))
+        self.assertEqual(ff.companion_key("To designate the Y House, and for other purposes."),
+                         ff.companion_key("A bill to designate the Y House."))
+        # Different bills stay different.
+        self.assertNotEqual(ff.companion_key("Providing for congressional disapproval of the rule X."),
+                            ff.companion_key("Providing for congressional disapproval of the rule Z."))
+
+    def test_enacted_companion_wins(self):
+        base = s5653_entry()
+        def entry(btype, num, title, date_, enacted):
+            e = json.loads(json.dumps(base))
+            d = e["detail"]
+            d.update(type=btype, number=num, title=title, latestAction={"actionDate": date_, "text": "x"})
+            d["laws"] = [{"number": "119-1", "type": "Public Law"}] if enacted else []
+            return e
+        t = "Water Resources Development Act of 2026"
+        cache = {"a": entry("HR", "1", "To " + t[0].lower() + t[1:], "2026-11-10", False),
+                 "b": entry("S", "2", t, "2026-11-01", True)}
+        cache["a"]["detail"]["title"] = t      # identical after normalization
+        feed, matched, _ = ff.build_feed(cache, {}, TODAY, 119)
+        self.assertEqual([m["bill"] for m in matched], ["S. 2"])
+
+
 class Sync(unittest.TestCase):
     def run_main(self, routes, d, budget=None):
         out, cache = os.path.join(d, "federal.json"), os.path.join(d, "cache.json")
