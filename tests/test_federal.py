@@ -378,6 +378,19 @@ class Sync(unittest.TestCase):
             rc, feed, _ = self.run_main(s5653_routes(), d)  # next run finishes from cache
             self.assertEqual((rc, feed["sync"]["status"], len(feed["bills"])), (0, "ok", 1))
 
+    def test_partial_run_keeps_previous_bills(self):
+        # A cold-cache partial run must not replace a good published feed.
+        with tempfile.TemporaryDirectory() as d:
+            rc, good, _ = self.run_main(s5653_routes(), d)
+            self.assertEqual((rc, len(good["bills"])), (0, 1))
+            os.remove(os.path.join(d, "cache.json"))          # cache lost (e.g. first run on main)
+            rc, feed, _ = self.run_main(s5653_routes(), d, budget=5)
+            self.assertEqual(rc, 0)
+            self.assertEqual(feed["sync"]["status"], "partial")
+            self.assertIn("previous bills kept", feed["sync"]["last_error"])
+            self.assertEqual(feed["bills"], good["bills"])
+            self.assertEqual(feed["generated_at"], good["generated_at"])
+
 
 if __name__ == "__main__":
     unittest.main()

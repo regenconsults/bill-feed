@@ -480,6 +480,17 @@ def main(session=None):
           f"{stats['hydrated']}, pending {stats['pending']}; {len(matched)} categorized, "
           f"{len(needs_review)} need review, {len(feed)} in feed")
 
+    if not complete and previous.get("bills"):
+        # A partial run (e.g. a cold cache) would publish a thinner, newest-only
+        # selection. Keep the last published bills until a run completes.
+        sync_info.update(status="partial", api_calls=client.calls,
+                         last_error=f"{stats['pending']} bills pending; previous bills kept")
+        out = dict(previous)
+        out["sync"] = sync_info
+        write_json(OUTPUT, out)
+        print(f"Sync incomplete ({stats['pending']} pending); kept the previous {len(prev_bills)} bills")
+        return 0
+
     if not feed and not complete:
         return fail(f"incomplete sync with no publishable bills ({stats['pending']} pending)")
 

@@ -90,6 +90,7 @@ Notes:
 - **Pacing:** 0.75 s between calls, about 4,800/hr, under the 5,000/hr key limit.
 - **Per-run budget:** 3,500 calls (`FEDERAL_MAX_CALLS`). Once it's spent, the run stops cleanly. Everything already fetched is cached, and the next run continues from the cache.
   - The first run, with an empty cache, may need two or three runs to work through the backlog. Bills are processed newest-first, so the most current ones are covered first.
+  - **A partial run never replaces a published feed.** If a run ends with bills still pending and a previous feed exists, the previous bills stay, and `sync.status` is set to `partial` with "previous bills kept". `last_success_at` doesn't change. This matters on `main`'s first run, because Actions caches made on a branch can't be read from `main`.
 - **Retries:**
   - `429` or `5xx`: up to 4 retries, waiting `Retry-After` or 60/120/180/240 s.
   - Connection errors: up to 4 retries.
