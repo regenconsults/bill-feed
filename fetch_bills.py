@@ -124,7 +124,9 @@ CATEGORIES = [
                      r"\bpesticid", r"\bparaquat\b", r"\basbestos\b", r"\btoxics?\b",
                      r"chemical (safety|hazard|substance)", r"safer choice", r"toxic substances control"],
         # Nuclear fuel "recycling" is reactor fuel policy, not materials circularity.
-        "exclude": [r"labor dispute", r"recycling efficient fuels", r"nuclear fuel", r"spent (nuclear )?fuel"],
+        # "toxic exposure" bills are veterans' health benefits (PACT Act), not chemical policy.
+        "exclude": [r"labor dispute", r"recycling efficient fuels", r"nuclear fuel", r"spent (nuclear )?fuel",
+                    r"toxic exposure"],
     },
     {
         "slug": "nature-biodiversity",
