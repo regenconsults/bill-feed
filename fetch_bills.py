@@ -387,6 +387,7 @@ def shape(b, slugs, today):
     cat = _BY_SLUG[slugs[0]]
     return {
         "id": b["id"],
+        "jurisdiction": "state",   # added in Step 6; the federal feed uses "federal"
         "state": b.get("jurisdiction_abbreviation"),
         "bill": b.get("identifier"),
         "title": b.get("short_title") or b.get("title"),

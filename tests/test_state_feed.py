@@ -124,6 +124,7 @@ class Shape(unittest.TestCase):
         out = fb.shape(api_row(), slugs, TODAY)
         self.assertEqual(out, {
             "id": "3b580269-dd96-4016-8f39-9b20622d6c73",
+            "jurisdiction": "state",
             "state": "MI",
             "bill": "HB 6486",
             "title": api_row()["title"],
