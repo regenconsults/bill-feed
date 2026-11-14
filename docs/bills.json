@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-14T02:05:35+00:00",
+ "generated_at": "2026-11-14T03:16:49+00:00",
  "states": "all",
  "categories": [
   {
@@ -98,9 +98,9 @@
     "Infrastructure & Resilience"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "7a84af84-5b17-43cf-a189-ed9e84f427d9",
@@ -126,9 +126,9 @@
     "Infrastructure & Resilience"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "58c6a9f4-1bcb-457f-8995-743b85a79e11",
@@ -152,9 +152,9 @@
     "Building & Energy"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "2990af44-268b-4b45-92ea-55fba648fdec",
@@ -178,9 +178,9 @@
     "Building & Energy"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "d63c8eb6-6916-4153-8c59-ab6e0c48dfce",
@@ -204,9 +204,9 @@
     "Building & Energy"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
@@ -444,9 +444,9 @@
     "Land Use & Development"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "46f235b6-a0a9-4e79-99fb-24ceb14f79d7",
@@ -470,9 +470,9 @@
     "Water Resources"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "ce39e045-941b-4737-b8fb-f4f67c904a24",
@@ -496,9 +496,9 @@
     "Water Resources"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "d704ebad-14d1-4854-a169-c3d21472f5eb",
@@ -578,9 +578,9 @@
     "Land Use & Development"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "92b0698b-a2f5-4b50-9b7c-0f7fb12eb8ab",
@@ -632,9 +632,9 @@
     "Land Use & Development"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "1cda0195-e42c-41d1-8538-8a8117dd78ec",
@@ -658,9 +658,9 @@
     "Land Use & Development"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "f9d6c5bf-782c-4e5b-ba15-c459a2c27c69",
@@ -684,9 +684,9 @@
     "Land Use & Development"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "999ee4e5-eb9d-4dba-8a88-532db1ac4f7c",
@@ -892,9 +892,9 @@
     "Nature & Biodiversity"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "f92d4446-f26b-471f-897f-02ff2d2a644f",
@@ -918,9 +918,9 @@
     "Nature & Biodiversity"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "b4cfed0f-8f97-4e60-94e1-3b94127e57ab",
@@ -944,9 +944,9 @@
     "Nature & Biodiversity"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "e456079f-6cd1-4dbb-b03c-79d4483578bc",
@@ -970,9 +970,9 @@
     "Nature & Biodiversity"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "17ae5872-6c47-45ac-bbef-71bbc1ffcc5a",
@@ -996,9 +996,9 @@
     "Nature & Biodiversity"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "afa343bb-626c-4a17-866b-d7c9267654d4",
@@ -1104,9 +1104,9 @@
     "Building & Energy"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "74a95197-5c20-460c-8654-3a9d71c93159",
@@ -1287,9 +1287,9 @@
     "Infrastructure & Resilience"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "f7a338be-90b7-423d-9d59-9c9149dc4041",
@@ -1365,9 +1365,9 @@
     "Infrastructure & Resilience"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "7949669a-bf51-4548-84bc-f01d35851dcb",
@@ -1417,9 +1417,9 @@
     "Infrastructure & Resilience"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   }
  ]
 }
