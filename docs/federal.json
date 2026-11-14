@@ -1,7 +1,7 @@
 {
  "version": 1,
  "jurisdiction": "federal",
- "generated_at": "2026-11-14T13:27:55+00:00",
+ "generated_at": "2026-11-14T16:57:43+00:00",
  "congress": 119,
  "scope": "Bills and joint resolutions (H.R., S., H.J.Res., S.J.Res.) in the current Congress with official action in the last 180 days",
  "categories": [
@@ -47,13 +47,13 @@
   }
  ],
  "sync": {
-  "last_attempt_at": "2026-11-14T14:27:58+00:00",
-  "status": "partial",
-  "last_error": "1901 bills pending; previous bills kept",
-  "last_success_at": "2026-11-14T13:27:55+00:00",
-  "api_calls": 3500,
-  "needs_review": 370,
-  "candidates_in_window": 587
+  "last_attempt_at": "2026-11-14T16:57:43+00:00",
+  "status": "ok",
+  "last_error": null,
+  "last_success_at": "2026-11-14T16:57:43+00:00",
+  "api_calls": 2673,
+  "needs_review": 373,
+  "candidates_in_window": 590
  },
  "attribution": "Federal bill data retrieved from Congress.gov (https://www.congress.gov/), the official website for U.S. federal legislative information.",
  "bills": [
@@ -108,7 +108,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5338",
    "source_updated_at": "2026-09-18T17:19:32Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "building-energy",
    "category_name": "Building & Energy",
@@ -264,7 +264,7 @@
    "actions_total": 21,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3106",
    "source_updated_at": "2026-09-19T23:39:04Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "building-energy",
    "category_name": "Building & Energy",
@@ -324,7 +324,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4892",
    "source_updated_at": "2026-09-08T18:09:59Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "building-energy",
    "category_name": "Building & Energy",
@@ -384,7 +384,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5706",
    "source_updated_at": "2026-11-11T11:56:43Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "climate-emissions",
    "category_name": "Climate & Emissions",
@@ -449,7 +449,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10778",
    "source_updated_at": "2026-10-26T20:35:41Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "climate-emissions",
    "category_name": "Climate & Emissions",
@@ -554,7 +554,7 @@
    "actions_total": 11,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5045",
    "source_updated_at": "2026-10-07T15:57:04Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "climate-emissions",
    "category_name": "Climate & Emissions",
@@ -614,7 +614,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5668",
    "source_updated_at": "2026-10-15T20:53:03Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "climate-emissions",
    "category_name": "Climate & Emissions",
@@ -685,7 +685,7 @@
    "actions_total": 4,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10585",
    "source_updated_at": "2026-10-05T12:48:34Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "climate-emissions",
    "category_name": "Climate & Emissions",
@@ -750,7 +750,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10525",
    "source_updated_at": "2026-09-29T16:39:44Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "climate-emissions",
    "category_name": "Climate & Emissions",
@@ -935,7 +935,7 @@
    "actions_total": 27,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/240",
    "source_updated_at": "2026-10-22T13:49:19Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "water-resources",
    "category_name": "Water Resources",
@@ -945,9 +945,9 @@
    "topics": [
     "Water Resources"
    ],
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "us-congress-119-hr-7250",
@@ -1136,7 +1136,7 @@
    "actions_total": 30,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7250",
    "source_updated_at": "2026-09-30T16:47:40Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "water-resources",
    "category_name": "Water Resources",
@@ -1146,9 +1146,9 @@
    "topics": [
     "Water Resources"
    ],
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "us-congress-119-hr-331",
@@ -1297,7 +1297,87 @@
    "actions_total": 22,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/331",
    "source_updated_at": "2026-11-13T11:57:03Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
+   "classification": "auto-title-summary",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
+   ],
+   "topics": [
+    "Water Resources"
+   ],
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": null
+  },
+  {
+   "id": "us-congress-119-s-1254",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "S",
+   "bill_number": "1254",
+   "bill": "S. 1254",
+   "session": "119th Congress",
+   "origin_chamber": "Senate",
+   "title": "A bill to amend the Aquifer Recharge Flexibility Act to clarify a provision relating to conveyances for aquifer recharge purposes.",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Sen. Risch, James E. [R-ID]",
+   "cosponsors_count": 1,
+   "policy_area": "Water Resources Development",
+   "committees": [
+    "Energy and Natural Resources Committee"
+   ],
+   "status": "reported",
+   "status_label": "Reported by committee",
+   "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 700.",
+   "latest_action_date": "2026-11-12",
+   "upcoming": false,
+   "introduced": "2025-04-02",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-12",
+     "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 700.",
+     "type": "Calendars"
+    },
+    {
+     "date": "2026-11-12",
+     "text": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment in the nature of a substitute. Without written report.",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-11-12",
+     "text": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment in the nature of a substitute. Without written report.",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-09-30",
+     "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+     "type": "Committee"
+    },
+    {
+     "date": "2025-04-02",
+     "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2025-04-02",
+     "text": "Introduced in Senate",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 6,
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1254",
+   "source_updated_at": "2026-11-14T05:19:18Z",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "water-resources",
    "category_name": "Water Resources",
@@ -1382,7 +1462,7 @@
    "actions_total": 7,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5352",
    "source_updated_at": "2026-11-13T12:03:37Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "water-resources",
    "category_name": "Water Resources",
@@ -1395,86 +1475,6 @@
    "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
    "change": "new"
-  },
-  {
-   "id": "us-congress-119-s-1254",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "S",
-   "bill_number": "1254",
-   "bill": "S. 1254",
-   "session": "119th Congress",
-   "origin_chamber": "Senate",
-   "title": "A bill to amend the Aquifer Recharge Flexibility Act to clarify a provision relating to conveyances for aquifer recharge purposes.",
-   "summary": null,
-   "summary_version": null,
-   "sponsor": "Sen. Risch, James E. [R-ID]",
-   "cosponsors_count": 1,
-   "policy_area": "Water Resources Development",
-   "committees": [
-    "Energy and Natural Resources Committee"
-   ],
-   "status": "reported",
-   "status_label": "Reported by committee",
-   "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 700.",
-   "latest_action_date": "2026-11-12",
-   "upcoming": false,
-   "introduced": "2025-04-02",
-   "passed_house_date": null,
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-11-12",
-     "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 700.",
-     "type": "Calendars"
-    },
-    {
-     "date": "2026-11-12",
-     "text": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment in the nature of a substitute. Without written report.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-11-12",
-     "text": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment in the nature of a substitute. Without written report.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-09-30",
-     "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-     "type": "Committee"
-    },
-    {
-     "date": "2025-04-02",
-     "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2025-04-02",
-     "text": "Introduced in Senate",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 6,
-   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1254",
-   "source_updated_at": "2026-11-14T05:19:18Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
-   "classification": "auto-title-summary",
-   "category": "water-resources",
-   "category_name": "Water Resources",
-   "categories": [
-    "water-resources"
-   ],
-   "topics": [
-    "Water Resources"
-   ],
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
   },
   {
    "id": "us-congress-119-hr-3857",
@@ -1643,7 +1643,7 @@
    "actions_total": 26,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3857",
    "source_updated_at": "2026-11-13T07:19:36Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "water-resources",
    "category_name": "Water Resources",
@@ -1703,7 +1703,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5553",
    "source_updated_at": "2026-10-14T19:31:13Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "land-use",
    "category_name": "Land Use & Development",
@@ -1815,7 +1815,7 @@
    "actions_total": 12,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1363",
    "source_updated_at": "2026-10-08T11:38:14Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "land-use",
    "category_name": "Land Use & Development",
@@ -1880,7 +1880,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/456",
    "source_updated_at": "2026-09-17T11:03:28Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "land-use",
    "category_name": "Land Use & Development",
@@ -1950,7 +1950,7 @@
    "actions_total": 4,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9267",
    "source_updated_at": "2026-07-01T20:27:59Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "land-use",
    "category_name": "Land Use & Development",
@@ -2017,7 +2017,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10993",
    "source_updated_at": "2026-11-13T07:23:41Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2082,7 +2082,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10958",
    "source_updated_at": "2026-11-07T04:24:20Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2147,7 +2147,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10947",
    "source_updated_at": "2026-11-13T09:07:18Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2212,7 +2212,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10790",
    "source_updated_at": "2026-10-19T19:17:26Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2272,7 +2272,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5674",
    "source_updated_at": "2026-10-20T16:34:36Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2337,7 +2337,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10629",
    "source_updated_at": "2026-10-07T13:47:42Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2497,7 +2497,7 @@
    "actions_total": 22,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/629",
    "source_updated_at": "2026-07-31T13:48:32Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "nature-biodiversity",
    "category_name": "Nature & Biodiversity",
@@ -2507,9 +2507,9 @@
    "topics": [
     "Nature & Biodiversity"
    ],
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "us-congress-119-hr-972",
@@ -2683,7 +2683,7 @@
    "actions_total": 27,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/972",
    "source_updated_at": "2026-11-10T21:32:06Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "nature-biodiversity",
    "category_name": "Nature & Biodiversity",
@@ -2693,9 +2693,9 @@
    "topics": [
     "Nature & Biodiversity"
    ],
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "us-congress-119-hr-11034",
@@ -2748,7 +2748,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/11034",
    "source_updated_at": "2026-11-14T09:13:37Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "nature-biodiversity",
    "category_name": "Nature & Biodiversity",
@@ -2758,9 +2758,9 @@
    "topics": [
     "Nature & Biodiversity"
    ],
-   "change": "new",
+   "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
-   "first_seen": "2026-11-14"
+   "change": "new"
   },
   {
    "id": "us-congress-119-hr-11002",
@@ -2824,7 +2824,7 @@
    "actions_total": 5,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/11002",
    "source_updated_at": "2026-11-13T16:29:14Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "nature-biodiversity",
    "category_name": "Nature & Biodiversity",
@@ -2909,7 +2909,7 @@
    "actions_total": 7,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3527",
    "source_updated_at": "2026-11-13T12:03:36Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "nature-biodiversity",
    "category_name": "Nature & Biodiversity",
@@ -2969,7 +2969,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5711",
    "source_updated_at": "2026-11-13T07:23:41Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "nature-biodiversity",
    "category_name": "Nature & Biodiversity",
@@ -3058,7 +3058,7 @@
    "actions_total": 7,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10488",
    "source_updated_at": "2026-10-01T15:10:39Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "environmental-justice",
    "category_name": "Environmental Justice",
@@ -3129,7 +3129,7 @@
    "actions_total": 4,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10007",
    "source_updated_at": "2026-10-06T18:43:25Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "environmental-justice",
    "category_name": "Environmental Justice",
@@ -3194,7 +3194,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/11022",
    "source_updated_at": "2026-11-14T05:23:39Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3279,7 +3279,7 @@
    "actions_total": 7,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/465",
    "source_updated_at": "2026-11-13T12:03:36Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3364,72 +3364,7 @@
    "actions_total": 7,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/140",
    "source_updated_at": "2026-11-13T12:03:36Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
-   "classification": "auto-title-summary",
-   "category": "infrastructure-resilience",
-   "category_name": "Infrastructure & Resilience",
-   "categories": [
-    "infrastructure-resilience"
-   ],
-   "topics": [
-    "Infrastructure & Resilience"
-   ],
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
-   "id": "us-congress-119-hr-10989",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "HR",
-   "bill_number": "10989",
-   "bill": "H.R. 10989",
-   "session": "119th Congress",
-   "origin_chamber": "House",
-   "title": "Smart Transmission Line Placement Act",
-   "summary": null,
-   "summary_version": null,
-   "sponsor": "Rep. Vindman, Eugene Simon [D-VA-7]",
-   "cosponsors_count": null,
-   "policy_area": null,
-   "committees": [
-    "Energy and Commerce Committee"
-   ],
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to the House Committee on Energy and Commerce.",
-   "latest_action_date": "2026-11-10",
-   "upcoming": false,
-   "introduced": "2026-11-10",
-   "passed_house_date": null,
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-11-10",
-     "text": "Referred to the House Committee on Energy and Commerce.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-11-10",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-11-10",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 3,
-   "url": "https://www.congress.gov/bill/119th-congress/house-bill/10989",
-   "source_updated_at": "2026-11-12T06:23:32Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3459,7 +3394,7 @@
    "summary_version": null,
    "sponsor": "Rep. Vindman, Eugene Simon [D-VA-7]",
    "cosponsors_count": null,
-   "policy_area": null,
+   "policy_area": "Energy",
    "committees": [
     "Energy and Commerce Committee"
    ],
@@ -3493,8 +3428,73 @@
    ],
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10988",
-   "source_updated_at": "2026-11-12T06:23:32Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "source_updated_at": "2026-11-14T16:33:06Z",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
+   "classification": "auto-title-summary",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "first_seen": "2026-11-14",
+   "changed_on": "2026-11-14",
+   "change": null
+  },
+  {
+   "id": "us-congress-119-hr-10989",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "10989",
+   "bill": "H.R. 10989",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "Smart Transmission Line Placement Act",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Rep. Vindman, Eugene Simon [D-VA-7]",
+   "cosponsors_count": null,
+   "policy_area": "Energy",
+   "committees": [
+    "Energy and Commerce Committee"
+   ],
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to the House Committee on Energy and Commerce.",
+   "latest_action_date": "2026-11-10",
+   "upcoming": false,
+   "introduced": "2026-11-10",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-10",
+     "text": "Referred to the House Committee on Energy and Commerce.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-10",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-10",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 3,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/10989",
+   "source_updated_at": "2026-11-14T16:29:57Z",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3559,7 +3559,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10980",
    "source_updated_at": "2026-11-11T19:28:33Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3654,7 +3654,7 @@
    "actions_total": 9,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1564",
    "source_updated_at": "2026-10-14T19:00:47Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3719,7 +3719,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10674",
    "source_updated_at": "2026-11-10T14:14:16Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3784,7 +3784,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10667",
    "source_updated_at": "2026-10-20T17:13:51Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3979,7 +3979,7 @@
    "actions_total": 29,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9340",
    "source_updated_at": "2026-11-13T17:27:32Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -4115,7 +4115,7 @@
    "actions_total": 17,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7257",
    "source_updated_at": "2026-10-13T16:05:31Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -4175,7 +4175,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5653",
    "source_updated_at": "2026-11-12T15:27:22Z",
-   "last_verified_at": "2026-11-14T13:27:55+00:00",
+   "last_verified_at": "2026-11-14T16:57:43+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
