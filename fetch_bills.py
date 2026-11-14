@@ -119,7 +119,10 @@ CATEGORIES = [
                      r"product stewardship", r"right to repair", r"embodied carbon",
                      r"low[- ]carbon (concrete|cement|material)",
                      r"(building|construction) material.*(carbon|toxic|healthy|sustainab)",
-                     r"buy clean", r"microplastic"],
+                     r"buy clean", r"microplastic",
+                     # toxics and chemical safety (decision 2026-11-14: Materials & Circularity)
+                     r"\bpesticid", r"\bparaquat\b", r"\basbestos\b", r"\btoxics?\b",
+                     r"chemical (safety|hazard|substance)", r"safer choice", r"toxic substances control"],
         # Nuclear fuel "recycling" is reactor fuel policy, not materials circularity.
         "exclude": [r"labor dispute", r"recycling efficient fuels", r"nuclear fuel", r"spent (nuclear )?fuel"],
     },

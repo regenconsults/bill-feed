@@ -12,7 +12,7 @@ The order below is the order of the filter chips. It's also the tie-break order.
 | `climate-emissions` | Climate & Emissions | Greenhouse-gas targets, emissions accounting, carbon reduction, climate policy, decarbonization, air quality |
 | `water-resources` | Water Resources | Water quality, drinking water, wastewater, stormwater, watershed management, water conservation, water infrastructure |
 | `land-use` | Land Use & Development | Zoning, planning, density, housing and development policy, site development (brownfields), land-use regulation |
-| `materials-circularity` | Materials & Circularity | Recycling, reuse, waste reduction, product stewardship, sustainable material sourcing, embodied carbon, circular economy |
+| `materials-circularity` | Materials & Circularity | Recycling, reuse, waste reduction, product stewardship, sustainable material sourcing, embodied carbon, circular economy, **toxics and chemical safety** (pesticides, asbestos, toxic substances; your decision, 2026-11-14) |
 | `nature-biodiversity` | Nature & Biodiversity | Habitat, biodiversity, forestry, land conservation, ecosystems, public lands, ecological restoration |
 | `environmental-justice` | Environmental Justice | Environmental health, disproportionate pollution burdens, cumulative impacts, community impacts, equitable access |
 | `infrastructure-resilience` | Infrastructure & Resilience | Transportation, public infrastructure, utilities and the grid, **utility-scale clean energy and transmission** (your decision, 2026-11-13), climate adaptation, disaster and flood resilience |

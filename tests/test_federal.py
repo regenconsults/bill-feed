@@ -226,7 +226,12 @@ class Shape(unittest.TestCase):
                  "SAFE for Manatees Act": "nature-biodiversity",
                  "Tropospheric Ozone Research Act of 2026": "climate-emissions",
                  "New Source Review Permitting Improvement Act": "climate-emissions",
-                 "Monitor Microplastics Now Act": "materials-circularity"}
+                 "Monitor Microplastics Now Act": "materials-circularity",
+                 # toxics -> Materials & Circularity (decision 2026-11-14)
+                 "Paraquat Prevention Act": "materials-circularity",
+                 "Alan Reinstein Ban Asbestos Now Act of 2026": "materials-circularity",
+                 "Safer Choice Program Authorization Act of 2026": "materials-circularity",
+                 "Banning Toxics from Plastic Bottles Act of 2026": "materials-circularity"}
         for title, slug in cases.items():
             with self.subTest(title=title):
                 self.assertIn(slug, ff.classify(title, None))
