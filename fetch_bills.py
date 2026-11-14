@@ -115,7 +115,8 @@ CATEGORIES = [
                      r"low[- ]carbon (concrete|cement|material)",
                      r"(building|construction) material.*(carbon|toxic|healthy|sustainab)",
                      r"buy clean"],
-        "exclude": [r"labor dispute"],
+        # Nuclear fuel "recycling" is reactor fuel policy, not materials circularity.
+        "exclude": [r"labor dispute", r"recycling efficient fuels", r"nuclear fuel", r"spent (nuclear )?fuel"],
     },
     {
         "slug": "nature-biodiversity",
@@ -168,10 +169,17 @@ CATEGORIES = [
             r"energy affordab", r"energy burden", r"load forecast",
             r"\binterconnection\b", r"resource adequacy", r"\bmicrogrid",
             # adaptation and resilience
-            r"resilien", r"climate adaptation", r"sea[- ]level rise",
+            # "resilien" only with a climate/hazard context word nearby, so
+            # "cybersecurity resiliency" and "archives resiliency" don't count.
+            r"\b(climate|flood|disaster|coastal|community|communities|infrastructure|grid|energy|"
+            r"wildfire|water|environmental|storm|drought|hazard|weather)\W+(\w+\W+){0,2}resilien",
+            r"resilien\w*\W+(\w+\W+){0,3}(climate|flood|disaster|extreme weather|natural hazard|"
+            r"wildfire|storm|drought|sea[- ]level)",
+            r"resilient (building|infrastructure|communit|grid|coast|home|housing)",
+            r"climate adaptation", r"sea[- ]level rise",
             r"flood (control|mitigation|risk|resilien|protection|plain|prepared)", r"floodplain",
             r"wildfire (mitigation|prevention|risk|resilien)", r"hazard mitigation",
-            r"(critical|public|green|resilient) infrastructure",
+            r"(public|green|resilient) infrastructure",
         ],
         "exclude": [],
         # Transportation patterns keep their own excludes (carried over from the

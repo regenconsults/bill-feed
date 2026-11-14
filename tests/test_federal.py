@@ -200,6 +200,21 @@ class Shape(unittest.TestCase):
         self.assertEqual(ff.classify("An Act", "Recycling and composting and landfill rules."),
                          ["materials-circularity"])
 
+    def test_first_live_run_false_positives(self):
+        # Titles from the first live run (2026-11-14) that were wrongly tagged.
+        for title in ["Public Archives Resiliency Act",
+                      "Health Care Cybersecurity and Resiliency Act of 2026",
+                      "Critical Infrastructure Manufacturing Feasibility Act",
+                      "Nuclear REFUEL (Recycling Efficient Fuels Utilizing Expedited Licensing) Act"]:
+            with self.subTest(title=title):
+                self.assertEqual(ff.classify(title, None), [])
+        # ...while real resilience bills still match.
+        for title in ["Disaster Recovery and Resilience Act of 2026", "Promoting Resilient Buildings Act",
+                      "Climate resiliency: research farms: grant program.",
+                      "To establish a Floodplains and Watershed Resilience Program"]:
+            with self.subTest(title=title):
+                self.assertIn("infrastructure-resilience", ff.classify(title, None))
+
     def test_missing_optional_fields(self):
         e = {"detail": {"congress": 119, "type": "HR", "number": "9", "title": "Solar Act"},
              "actions": [], "summaries": [], "committees": []}

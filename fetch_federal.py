@@ -398,7 +398,7 @@ def build_feed(cache, prev, today, congress):
         # seen_at: the last run that confirmed this record against the API.
         item = shape(e, today, e.get("seen_at") or e.get("verified_at"))
         if not item["categories"]:
-            needs_review.append(item["id"])
+            needs_review.append(item)
             continue
         # Identical-title companions (House and Senate versions) show once:
         # the most recently acted-on one.
@@ -473,6 +473,8 @@ def main(session=None):
     write_json(CACHE, cache, indent=None)
 
     feed, matched, needs_review = build_feed(cache, prev_bills, today, congress)
+    for r in needs_review:  # public titles only; reviewed by hand to tune patterns
+        print(f"  needs review: {r['bill']} [{r['policy_area']}] {(r['title'] or '')[:100]}")
     print(f"{client.calls} API calls, {client.errors} errors; listed {stats['listed']}, "
           f"recent {stats['recent']}, details {stats['details_fetched']}, hydrated "
           f"{stats['hydrated']}, pending {stats['pending']}; {len(matched)} categorized, "
