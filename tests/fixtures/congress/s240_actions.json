@@ -1,0 +1,292 @@
+{
+ "actions": [
+  {
+   "actionCode": "E40000",
+   "actionDate": "2026-10-15",
+   "sourceSystem": {
+    "code": 9,
+    "name": "Library of Congress"
+   },
+   "text": "Became Public Law No: 119-122.",
+   "type": "President"
+  },
+  {
+   "actionCode": "36000",
+   "actionDate": "2026-10-15",
+   "sourceSystem": {
+    "code": 9,
+    "name": "Library of Congress"
+   },
+   "text": "Became Public Law No: 119-122.",
+   "type": "BecameLaw"
+  },
+  {
+   "actionCode": "E30000",
+   "actionDate": "2026-10-15",
+   "sourceSystem": {
+    "code": 9,
+    "name": "Library of Congress"
+   },
+   "text": "Signed by President.",
+   "type": "President"
+  },
+  {
+   "actionCode": "36000",
+   "actionDate": "2026-10-15",
+   "sourceSystem": {
+    "code": 9,
+    "name": "Library of Congress"
+   },
+   "text": "Signed by President.",
+   "type": "BecameLaw"
+  },
+  {
+   "actionCode": "E20000",
+   "actionDate": "2026-10-05",
+   "sourceSystem": {
+    "code": 2,
+    "name": "House floor actions"
+   },
+   "text": "Presented to President.",
+   "type": "Floor"
+  },
+  {
+   "actionCode": "28000",
+   "actionDate": "2026-10-05",
+   "sourceSystem": {
+    "code": 9,
+    "name": "Library of Congress"
+   },
+   "text": "Presented to President.",
+   "type": "President"
+  },
+  {
+   "actionDate": "2026-09-28",
+   "sourceSystem": {
+    "name": "Senate"
+   },
+   "text": "Message on Senate action sent to the House.",
+   "type": "Floor"
+  },
+  {
+   "actionDate": "2026-09-24",
+   "sourceSystem": {
+    "name": "Senate"
+   },
+   "text": "Senate agreed to the House amendment to S. 240 by Unanimous Consent. (consideration: CR S5020)",
+   "type": "ResolvingDifferences"
+  },
+  {
+   "actionCode": "20500",
+   "actionDate": "2026-09-24",
+   "sourceSystem": {
+    "code": 9,
+    "name": "Library of Congress"
+   },
+   "text": "Resolving differences -- Senate actions: Senate agreed to the House amendment to S. 240 by Unanimous Consent. (consideration: CR S5020)",
+   "type": "NotUsed"
+  },
+  {
+   "actionDate": "2026-09-15",
+   "sourceSystem": {
+    "name": "Senate"
+   },
+   "text": "Message on House action received in Senate and at desk: House amendment to Senate bill.",
+   "type": "Floor"
+  },
+  {
+   "actionCode": "H38310",
+   "actionDate": "2026-09-14",
+   "actionTime": "16:41:15",
+   "sourceSystem": {
+    "code": 2,
+    "name": "House floor actions"
+   },
+   "text": "Motion to reconsider laid on the table Agreed to without objection.",
+   "type": "Floor"
+  },
+  {
+   "actionCode": "H37300",
+   "actionDate": "2026-09-14",
+   "actionTime": "16:41:13",
+   "sourceSystem": {
+    "code": 2,
+    "name": "House floor actions"
+   },
+   "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5570)",
+   "type": "Floor"
+  },
+  {
+   "actionCode": "8000",
+   "actionDate": "2026-09-14",
+   "actionTime": "16:41:13",
+   "sourceSystem": {
+    "code": 9,
+    "name": "Library of Congress"
+   },
+   "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H5570)",
+   "type": "Floor"
+  },
+  {
+   "actionCode": "H8D000",
+   "actionDate": "2026-09-14",
+   "actionTime": "16:34:42",
+   "sourceSystem": {
+    "code": 2,
+    "name": "House floor actions"
+   },
+   "text": "DEBATE - The House proceeded with forty minutes of debate on S. 240.",
+   "type": "Floor"
+  },
+  {
+   "actionCode": "H30000",
+   "actionDate": "2026-09-14",
+   "actionTime": "16:34:40",
+   "sourceSystem": {
+    "code": 2,
+    "name": "House floor actions"
+   },
+   "text": "Considered under suspension of the rules. (consideration: CR H5570-5571)",
+   "type": "Floor"
+  },
+  {
+   "actionCode": "H30300",
+   "actionDate": "2026-09-14",
+   "actionTime": "16:34:02",
+   "sourceSystem": {
+    "code": 2,
+    "name": "House floor actions"
+   },
+   "text": "Mr. Westerman moved to suspend the rules and pass the bill, as amended.",
+   "type": "Floor"
+  },
+  {
+   "actionCode": "H15000",
+   "actionDate": "2025-12-15",
+   "actionTime": "16:18:07",
+   "sourceSystem": {
+    "code": 2,
+    "name": "House floor actions"
+   },
+   "text": "Held at the desk.",
+   "type": "Floor"
+  },
+  {
+   "actionCode": "H14000",
+   "actionDate": "2025-12-15",
+   "actionTime": "16:06:04",
+   "sourceSystem": {
+    "code": 2,
+    "name": "House floor actions"
+   },
+   "text": "Received in the House.",
+   "type": "Floor"
+  },
+  {
+   "actionDate": "2025-12-15",
+   "sourceSystem": {
+    "name": "Senate"
+   },
+   "text": "Message on Senate action sent to the House.",
+   "type": "Floor"
+  },
+  {
+   "actionDate": "2025-12-11",
+   "sourceSystem": {
+    "name": "Senate"
+   },
+   "text": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S8691-8692; text: CR S8691-8692)",
+   "type": "Floor"
+  },
+  {
+   "actionCode": "17000",
+   "actionDate": "2025-12-11",
+   "sourceSystem": {
+    "code": 9,
+    "name": "Library of Congress"
+   },
+   "text": "Passed/agreed to in Senate: Passed Senate without amendment by Unanimous Consent.",
+   "type": "Floor"
+  },
+  {
+   "actionDate": "2025-11-04",
+   "sourceSystem": {
+    "name": "Senate"
+   },
+   "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 260.",
+   "type": "Calendars"
+  },
+  {
+   "actionDate": "2025-11-04",
+   "committees": [
+    {
+     "name": "Indian Affairs Committee",
+     "systemCode": "slia00",
+     "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+    }
+   ],
+   "sourceSystem": {
+    "name": "Senate"
+   },
+   "text": "Committee on Indian Affairs. Reported by Senator Murkowski without amendment. With written report No. 119-93.",
+   "type": "Committee"
+  },
+  {
+   "actionCode": "14000",
+   "actionDate": "2025-11-04",
+   "committees": [
+    {
+     "name": "Indian Affairs Committee",
+     "systemCode": "slia00",
+     "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+    }
+   ],
+   "sourceSystem": {
+    "code": 9,
+    "name": "Library of Congress"
+   },
+   "text": "Committee on Indian Affairs. Reported by Senator Murkowski without amendment. With written report No. 119-93.",
+   "type": "Committee"
+  },
+  {
+   "actionDate": "2025-03-05",
+   "committees": [
+    {
+     "name": "Indian Affairs Committee",
+     "systemCode": "slia00",
+     "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+    }
+   ],
+   "sourceSystem": {
+    "name": "Senate"
+   },
+   "text": "Committee on Indian Affairs. Ordered to be reported without amendment favorably.",
+   "type": "Committee"
+  },
+  {
+   "actionDate": "2025-01-24",
+   "committees": [
+    {
+     "name": "Indian Affairs Committee",
+     "systemCode": "slia00",
+     "url": "https://api.congress.gov/v3/committee/senate/slia00?format=json"
+    }
+   ],
+   "sourceSystem": {
+    "name": "Senate"
+   },
+   "text": "Read twice and referred to the Committee on Indian Affairs.",
+   "type": "IntroReferral"
+  },
+  {
+   "actionCode": "10000",
+   "actionDate": "2025-01-24",
+   "sourceSystem": {
+    "code": 9,
+    "name": "Library of Congress"
+   },
+   "text": "Introduced in Senate",
+   "type": "IntroReferral"
+  }
+ ]
+}

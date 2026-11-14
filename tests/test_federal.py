@@ -2,7 +2,8 @@
 
 Fixtures in tests/fixtures/congress/ are real Congress.gov responses saved
 2026-11-13 (S. 5653 detail/actions/summaries/committees, a bill list page, a
-law list page). Action lists built inline below are synthetic and labeled.
+law list page) and S. 240 (an enacted law; detail/actions/summaries/committees,
+fetched with the repo key on 2026-11-14 and taken from the run's cache artifact). Action lists built inline below are synthetic and labeled.
 """
 
 import json
@@ -160,7 +161,35 @@ class Status(unittest.TestCase):
         self.assertNotIn("effective_date", dates)
 
 
+def s240_entry():
+    return {"detail": load("s240_detail.json")["bill"],
+            "actions": load("s240_actions.json")["actions"],
+            "summaries": load("s240_summaries.json")["summaries"],
+            "committees": load("s240_committees.json")["committees"],
+            "hydrated": True, "candidate": True, "seen_at": "2026-11-14T04:26:03+00:00"}
+
+
 class Shape(unittest.TestCase):
+    def test_s240_enacted_law_matches_official_record(self):
+        # Real enacted bill: Public Law 119-122, signed 2026-10-15.
+        item = ff.shape(s240_entry(), date(2026, 11, 14), "2026-11-14T06:00:00+00:00")
+        expect = {
+            "id": "us-congress-119-s-240", "bill": "S. 240", "origin_chamber": "Senate",
+            "title": "Crow Tribe Water Rights Settlement Amendments Act of 2025",
+            "sponsor": "Sen. Daines, Steve [R-MT]", "policy_area": "Native Americans",
+            "committees": ["Indian Affairs Committee"],
+            "status": "enacted", "status_label": "Enacted",
+            "latest_action": "Became Public Law No: 119-122.", "latest_action_date": "2026-10-15",
+            "introduced": "2025-01-24", "passed_senate_date": "2025-12-11",
+            "passed_house_date": "2026-09-14", "enacted_date": "2026-10-15",
+            "law_number": "Public Law 119-122", "effective_date": None,
+            "url": "https://www.congress.gov/bill/119th-congress/senate-bill/240",
+            "category": "water-resources",
+        }
+        for k, v in expect.items():
+            with self.subTest(field=k):
+                self.assertEqual(item[k], v)
+
     def test_s5653_matches_official_record(self):
         item = ff.shape(s5653_entry(), TODAY, "2026-11-13T12:00:00+00:00")
         expect = {
