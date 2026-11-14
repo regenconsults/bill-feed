@@ -197,6 +197,12 @@ class PickAndBuild(unittest.TestCase):
     def test_per_category_cap(self):
         self.assertEqual(len(fb.pick(self._items(10), TODAY)), fb.PER_CATEGORY)
 
+    def test_infrastructure_gets_twelve_slots(self):
+        items = []
+        for st in ["NJ", "CA", "PA", "MI", "OH", "IL", "NY"]:
+            items += self._items(3, slug="infrastructure-resilience", state=st)
+        self.assertEqual(len(fb.pick(items, TODAY)), 12)
+
     def test_spread_across_states_when_possible(self):
         items = self._items(6, state="NJ") + self._items(3, state="CA") + self._items(3, state="PA")
         states = [i["state"] for i in fb.pick(items, TODAY)]

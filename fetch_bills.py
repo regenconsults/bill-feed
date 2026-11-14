@@ -145,6 +145,9 @@ CATEGORIES = [
     {
         "slug": "infrastructure-resilience",
         "name": "Infrastructure & Resilience",
+        # Covers three former categories (clean energy, grid, transportation)
+        # plus resilience, so it gets more feed slots (approved 2026-11-13).
+        "per_category": 12,
         # Transportation, utilities and the grid, utility-scale clean energy,
         # and adaptation/resilience (decision 2026-11-13: utility-scale clean
         # energy and transmission belong here, not in Building & Energy).
@@ -430,20 +433,22 @@ def recency_key(item, today):
 
 
 def pick(items, today):
-    """Up to PER_CATEGORY per category, newest first, spread across states."""
+    """Up to PER_CATEGORY (or the category's per_category) per primary
+    category, newest first, spread across states."""
     items = sorted(items, key=lambda i: recency_key(i, today), reverse=True)
     chosen = []
     for c in CATEGORIES:
+        limit = c.get("per_category", PER_CATEGORY)
         pool = [i for i in items if i["category"] == c["slug"]]
         picked, per_state = [], {}
         for i in pool:  # first pass: respect the per-state limit
-            if len(picked) >= PER_CATEGORY:
+            if len(picked) >= limit:
                 break
             if per_state.get(i["state"], 0) < PER_STATE_IN_CATEGORY:
                 picked.append(i)
                 per_state[i["state"]] = per_state.get(i["state"], 0) + 1
         for i in pool:  # second pass: fill any open slots
-            if len(picked) >= PER_CATEGORY:
+            if len(picked) >= limit:
                 break
             if i not in picked:
                 picked.append(i)
