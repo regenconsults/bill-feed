@@ -215,6 +215,22 @@ class Shape(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertIn("infrastructure-resilience", ff.classify(title, None))
 
+    def test_second_live_run_missed_titles(self):
+        # Real environmental bills held as needs-review in the second live run
+        # (2026-11-14) that the federal-oriented patterns now place.
+        cases = {"Water Resources Development Act of 2026": "water-resources",
+                 "A bill to amend the Federal Water Pollution Control Act to provide grants": "water-resources",
+                 "Desalination Reauthorization Act": "water-resources",
+                 "Regional Great Lakes Partnership Act of 2026": "water-resources",
+                 "Improving Species Recovery Act": "nature-biodiversity",
+                 "SAFE for Manatees Act": "nature-biodiversity",
+                 "Tropospheric Ozone Research Act of 2026": "climate-emissions",
+                 "New Source Review Permitting Improvement Act": "climate-emissions",
+                 "Monitor Microplastics Now Act": "materials-circularity"}
+        for title, slug in cases.items():
+            with self.subTest(title=title):
+                self.assertIn(slug, ff.classify(title, None))
+
     def test_missing_optional_fields(self):
         e = {"detail": {"congress": 119, "type": "HR", "number": "9", "title": "Solar Act"},
              "actions": [], "summaries": [], "committees": []}

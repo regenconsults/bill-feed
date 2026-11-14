@@ -124,3 +124,25 @@ Plus the Actions run log line: `N API calls, E errors; listed …, recent …, d
 - **Effective dates** are never available.
 - **First run:** the first production run will likely end `partial` until the cache is built.
 - **Congress turnover:** after a new Congress convenes, the previous Congress's bills drop out of the feed.
+
+## Live test runs (branch `federal-expansion`, 2026-11-14 UTC)
+
+Both runs used the real `CONGRESS_API_KEY` secret through `workflow_dispatch` on the branch. Nothing was merged to `main`, and the published `bills.json` was not touched by these runs.
+
+| | Run 1 ([43543815457](https://github.com/regenconsults/bill-feed/actions/runs/43543815457)) | Run 2 ([43550101393](https://github.com/regenconsults/bill-feed/actions/runs/43550101393)) |
+|---|---|---|
+| Cache at start | empty | from run 1 |
+| API calls / errors | 3,500 (budget) / 0 | 2,655 / 0 (1 timeout, retried) |
+| Bills listed / in 180-day window | 11,401 / 4,171 | 11,401 / 4,171 |
+| Details fetched / pending | 2,258 / 1,914 | 1,913 / **0** |
+| Candidates / categorized / needs review | 379 / 124 / 255 | 585 / 174 / 411 |
+| Published | 42 | 45 (no duplicate IDs) |
+| `sync.status` | `partial` | **`ok`** |
+| Federal job time | about 62 min | about 50 min |
+
+- **The backlog clears in two runs**, as expected. Steady-state runs re-fetch only bills whose source changed.
+- **BAAJA (S. 5653)** is in the run 2 feed: primary Infrastructure & Resilience, plus Water Resources, both from its summary; status `in_committee`.
+- **Fixes after run 1:** false positives on "resiliency" (archives, cybersecurity), "critical infrastructure" and nuclear-fuel "recycling" were removed. Test: `test_first_live_run_false_positives`.
+- **Fixes after run 2:** 28 clearly environmental bills held as needs-review now match, through added patterns for federal water programs (Water Pollution Control Act, Water Resources Development Act, desalination, irrigation, reservoirs, Great Lakes, dam safety), species recovery and named species, ozone and New Source Review, and microplastics. Test: `test_second_live_run_missed_titles`. The state regression tests still pass, so no state bill changed category.
+- **Still unplaced, needs a decision:** toxics and chemical-safety bills (pesticides, paraquat, asbestos, Safer Choice, Chemical Safety Board, toxics in plastic bottles). The taxonomy has no category for them.
+- **Unplaced by design:** most of the rest are land conveyances, memorials, trails and parks, nuclear licensing, critical minerals, oil and gas, and Congressional Review Act disapproval resolutions whose titles name no subject. Many will classify once CRS publishes their summaries.

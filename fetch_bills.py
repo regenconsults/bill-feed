@@ -73,7 +73,8 @@ CATEGORIES = [
         "patterns": [r"\bclimate\b", r"(?<!zero[- ])\bemissions?\b", r"greenhouse gas",
                      r"\bcarbon (dioxide|capture|pollution|reduction|neutral|free|sequestration|intensity)",
                      r"air quality", r"air pollut", r"\bmethane\b", r"cap[- ]and[- ](trade|invest)",
-                     r"short[- ]lived climate", r"decarboni[sz]",
+                     r"short[- ]lived climate", r"decarboni[sz]", r"\bozone\b", r"new source review",
+                     r"clean air act",
                      r"zero[- ]carbon", r"renewable portfolio", r"clean (energy|electricity) standard"],
         "exclude": [r"climate[- ]controlled", r"(campus|school|workplace|business|investment) climate",
                     r"climate survey"],
@@ -86,7 +87,11 @@ CATEGORIES = [
         "patterns": [r"stormwater", r"water quality", r"watershed", r"clean water",
                      r"drinking water", r"groundwater", r"wastewater", r"\bsewer",
                      r"\bPFAS\b", r"water (conservation|supply|infrastructure|system|utilit|reuse|recycl)",
-                     r"lead service line", r"\baquifer", r"water rights"],
+                     r"lead service line", r"\baquifer", r"water rights",
+                     # federal water-program titles (added after the 2026-11-14 federal run)
+                     r"water pollution control", r"water resources development", r"desalinat",
+                     r"\birrigation\b", r"\breservoirs?\b", r"great lakes", r"rural water",
+                     r"water (security|management|project|storage)", r"dam (and hydropower )?safety"],
         "exclude": [],
     },
     {
@@ -114,7 +119,7 @@ CATEGORIES = [
                      r"product stewardship", r"right to repair", r"embodied carbon",
                      r"low[- ]carbon (concrete|cement|material)",
                      r"(building|construction) material.*(carbon|toxic|healthy|sustainab)",
-                     r"buy clean"],
+                     r"buy clean", r"microplastic"],
         # Nuclear fuel "recycling" is reactor fuel policy, not materials circularity.
         "exclude": [r"labor dispute", r"recycling efficient fuels", r"nuclear fuel", r"spent (nuclear )?fuel"],
     },
@@ -128,7 +133,8 @@ CATEGORIES = [
                      r"\bforest (health|management|conservation|carbon|restoration)",
                      r"\bforestry\b", r"endangered species", r"\bwildlife\b(?! (officer|crime|violation))",
                      r"pollinator", r"invasive species", r"ecosystem", r"(ecological|habitat) restoration",
-                     r"public lands"],
+                     r"public lands", r"species recovery",
+                     r"\b(wolf|wolves|salmon|manatees?|whales?)\b"],
         # Personnel bills for conservation officers / game wardens aren't nature policy.
         "exclude": [r"conservation officers?", r"game wardens?"],
     },

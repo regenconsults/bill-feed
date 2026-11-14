@@ -21,7 +21,7 @@ The order below is the order of the filter chips. It's also the tie-break order.
 
 All of these fields are additive. The live embed keeps working without changes.
 
-- `category`: primary ID, used to choose which bills make the feed (up to 6 per primary category).
+- `category`: primary ID, used to choose which bills make the feed (up to 6 per primary category, 12 for Infrastructure & Resilience).
 - `category_name`: primary label.
 - `categories`: every matching ID, primary first. **This is new.**
 - `topics`: every matching label, primary first. The site filters and counts on this field, so a bill shows under each of its categories.
@@ -95,4 +95,4 @@ These problems came out of the run and are fixed and tested:
 - CA AB 1944 (zero-emission transit buses) was going to Climate.
 - CA AB 672 (community land trusts) was going to Nature.
 
-**Coverage note:** Infrastructure & Resilience now absorbs three former categories (Clean Energy, Grid, Clean Transportation) plus resilience. With 6 feed slots per primary category, the feed shows about 6 bills in this area, where it showed 18 before. Whether to give it more slots is your decision; this step doesn't change it.
+**Coverage note:** Infrastructure & Resilience absorbs three former categories (Clean Energy, Grid, Clean Transportation) plus resilience, so it gets **12 feed slots** (approved 2026-11-13); every other category keeps 6.
