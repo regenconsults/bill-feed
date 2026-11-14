@@ -120,9 +120,13 @@
 
   function summaryText(b) {
     var s = (b.summary || "").trim(); if (!s) return "";
-    var lines = s.split(/\n+/);
+    var lines = s.split(/\n+/).map(function (l) { return l.trim(); }).filter(Boolean);
     if (lines.length > 1 && !/[.:;]$/.test(lines[0]) && lines[0].length < 200) lines.shift();   // first line repeats the short title
-    s = lines.join("\n");
+    // CRS list items arrive as separate lines; rejoin a line that ends mid-sentence.
+    s = lines.reduce(function (acc, l) {
+      if (acc.length && !/[.:;!?)]$/.test(acc[acc.length - 1])) acc[acc.length - 1] += " " + l; else acc.push(l);
+      return acc;
+    }, []).join("\n");
     return s.length > 900 ? s.slice(0, 897).replace(/\s+\S*$/, "") + "…" : s;
   }
 
@@ -191,12 +195,13 @@
     // Empty state names a feed outage when that's why nothing shows.
     var down = ["state", "federal"].filter(function (k) { return load[k] === "error" && (S.jur === "all" || S.jur === k); });
     var loading = ["state", "federal"].some(function (k) { return load[k] === "loading" && (S.jur === "all" || S.jur === k); });
-    emptyMsg.textContent = down.length && !f.length && scope.length === 0
+    var outage = down.length && !f.length && scope.length === 0;
+    emptyMsg.textContent = outage
       ? (down.length === 2 ? "Legislation data is temporarily unavailable." : LABEL[down[0]] + " legislation is temporarily unavailable.")
       : "No recent activity matches these filters.";
     empty.hidden = f.length !== 0 || loading;
     var downAll = ["state", "federal"].filter(function (k) { return load[k] === "error"; });
-    warn.hidden = !downAll.length || (downAll.length === 2 && !bills.length);
+    warn.hidden = !downAll.length || outage;   // the empty message already explains an outage
     warn.textContent = downAll.length === 1 ? LABEL[downAll[0]] + " legislation is temporarily unavailable; showing " + (downAll[0] === "state" ? "federal" : "state") + " bills only." : "";
     more.hidden = f.length <= S.limit;
     more.textContent = "Show more (" + (f.length - Math.min(S.limit, f.length)) + " remaining)";
