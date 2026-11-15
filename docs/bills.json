@@ -1,12 +1,12 @@
 {
  "version": 2,
- "generated_at": "2026-11-14T16:57:31+00:00",
+ "generated_at": "2026-11-15T02:31:40+00:00",
  "states": "all",
  "categories": [
   {
    "slug": "building-energy",
    "name": "Building & Energy",
-   "count": 7
+   "count": 6
   },
   {
    "slug": "climate-emissions",
@@ -36,12 +36,12 @@
   {
    "slug": "environmental-justice",
    "name": "Environmental Justice",
-   "count": 4
+   "count": 3
   },
   {
    "slug": "infrastructure-resilience",
    "name": "Infrastructure & Resilience",
-   "count": 20
+   "count": 19
   }
  ],
  "attribution": "Bill data via Bill Commons (billcommons.org), sourced from official state legislative records and Open States.",
@@ -549,7 +549,7 @@
    "jurisdiction": "state",
    "state": "MI",
    "bill": "HB 6486",
-   "title": "Land use: farmland and open space; withdrawal of farmland from the farmland and open space preservation program; require for commercial solar use.",
+   "title": "Land use: farmland and open space; withdrawal of farmland from the farmland and open space preservation program; require for commercial solar use. Amends secs. 36103, 36104e & 36110 of 1994 PA 451 (MCL 324.36103 et seq.).",
    "session": "2025-2026 Regular Session (103rd Legislature)",
    "status": "in_committee",
    "status_label": "In committee",
@@ -1118,37 +1118,6 @@
    "change": null
   },
   {
-   "id": "f4dce23a-755f-4094-9af7-63e8fa335ba6",
-   "jurisdiction": "state",
-   "state": "NJ",
-   "bill": "S 1757",
-   "title": "Establishes Office of Clean Energy Equity in BPU; directs establishment of certain clean energy, energy efficiency, and energy storage programs for overburdened communities; makes change to community solar program.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Senate Budget and Appropriations Committee",
-   "latest_action_date": "2026-05-18",
-   "upcoming": false,
-   "introduced": "2026-01-13",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S1757",
-   "category": "environmental-justice",
-   "category_name": "Environmental Justice",
-   "categories": [
-    "environmental-justice",
-    "infrastructure-resilience",
-    "building-energy"
-   ],
-   "topics": [
-    "Environmental Justice",
-    "Infrastructure & Resilience",
-    "Building & Energy"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": "new"
-  },
-  {
    "id": "74a95197-5c20-460c-8654-3a9d71c93159",
    "jurisdiction": "state",
    "state": "OH",
@@ -1228,7 +1197,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-12",
    "changed_on": "2026-11-12",
-   "change": "new"
+   "change": null
   },
   {
    "id": "9755ce35-af7a-40d3-94cd-80f875c9309c",
