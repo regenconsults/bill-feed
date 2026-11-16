@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-15T17:41:36+00:00",
+ "generated_at": "2026-11-16T02:41:31+00:00",
  "states": "all",
  "categories": [
   {
@@ -573,7 +573,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-13",
    "changed_on": "2026-11-13",
-   "change": "new"
+   "change": null
   },
   {
    "id": "153a59c3-f285-4758-8a78-0fbd21972718",
@@ -1169,8 +1169,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-02",
    "changed_on": "2026-11-13",
-   "change": "moved",
-   "previous_status_label": "Introduced"
+   "change": null
   },
   {
    "id": "5d19e5f1-b135-4229-afb6-90c750d2c658",
