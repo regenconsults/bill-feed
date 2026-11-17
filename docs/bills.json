@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-17T05:03:39+00:00",
+ "generated_at": "2026-11-17T19:44:39+00:00",
  "states": "all",
  "categories": [
   {
@@ -215,6 +215,33 @@
    "change": null
   },
   {
+   "id": "bb4da447-b4fa-48f9-a011-8b3379c242a8",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 5778",
+   "title": "Codifies finding that greenhouse gas emissions contribute to climate change and endanger public health, safety, welfare, and environment; amends \"Air Pollution Control Act (1954)\" to define greenhouse gases as air pollutants subject to regulation.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Environment and Solid Waste Committee",
+   "latest_action_date": "2026-11-16",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5778",
+   "category": "climate-emissions",
+   "category_name": "Climate & Emissions",
+   "categories": [
+    "climate-emissions"
+   ],
+   "topics": [
+    "Climate & Emissions"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-17",
+   "first_seen": "2026-11-17"
+  },
+  {
    "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
    "jurisdiction": "state",
    "state": "MA",
@@ -298,33 +325,6 @@
    "change": null
   },
   {
-   "id": "5d79b6c6-6616-410f-8d22-8fa7baac74f3",
-   "jurisdiction": "state",
-   "state": "NJ",
-   "bill": "S 4214",
-   "title": "Codifies finding that greenhouse gas emissions contribute to climate change and endanger public health, safety, welfare, and environment; amends \"Air Pollution Control Act (1954)\" to define greenhouse gases as air pollutants subject to regulation.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Senate Budget and Appropriations Committee",
-   "latest_action_date": "2026-10-08",
-   "upcoming": false,
-   "introduced": "2026-05-11",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4214",
-   "category": "climate-emissions",
-   "category_name": "Climate & Emissions",
-   "categories": [
-    "climate-emissions"
-   ],
-   "topics": [
-    "Climate & Emissions"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-10-09",
-   "changed_on": "2026-10-09",
-   "change": null
-  },
-  {
    "id": "6069618a-6b1d-443d-a23f-6dd833bef749",
    "jurisdiction": "state",
    "state": "CA",
@@ -381,6 +381,60 @@
    "change": null
   },
   {
+   "id": "ba9c7a5a-83e3-4003-8a97-9d72eb55bcb4",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 5768",
+   "title": "Requires DEP to establish maximum contaminant level for certain perfluoroalkyl and polyfluoroalkyl substances in drinking water and establish private well testing program.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Environment and Solid Waste Committee",
+   "latest_action_date": "2026-11-16",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5768",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
+   ],
+   "topics": [
+    "Water Resources"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-17",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "dc9e3ccf-1eb8-41c0-8e85-44cc5261c2c4",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 5797",
+   "title": "Requires DEP to establish online reporting system for schools and child care centers to report test results concerning lead in drinking water.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Environment and Solid Waste Committee",
+   "latest_action_date": "2026-11-16",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5797",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
+   ],
+   "topics": [
+    "Water Resources"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-17",
+   "first_seen": "2026-11-17"
+  },
+  {
    "id": "790698fd-bf2d-4c66-9118-418303f1c54b",
    "jurisdiction": "state",
    "state": "MI",
@@ -405,33 +459,6 @@
    "classification": "auto-title",
    "first_seen": "2026-10-15",
    "changed_on": "2026-10-15",
-   "change": null
-  },
-  {
-   "id": "140fe026-0552-4657-872d-3a189390ff11",
-   "jurisdiction": "state",
-   "state": "NJ",
-   "bill": "S 4468",
-   "title": "Requires DEP to establish maximum contaminant level for certain perfluoroalkyl and polyfluoroalkyl substances in drinking water and establish private well testing program.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Senate Budget and Appropriations Committee",
-   "latest_action_date": "2026-10-08",
-   "upcoming": false,
-   "introduced": "2026-06-15",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S4468",
-   "category": "water-resources",
-   "category_name": "Water Resources",
-   "categories": [
-    "water-resources"
-   ],
-   "topics": [
-    "Water Resources"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-10-09",
-   "changed_on": "2026-10-09",
    "change": null
   },
   {
@@ -518,33 +545,6 @@
    "change": null
   },
   {
-   "id": "d704ebad-14d1-4854-a169-c3d21472f5eb",
-   "jurisdiction": "state",
-   "state": "PA",
-   "bill": "SB 1470",
-   "title": "An Act amending Title 27 (Environmental Resources) of the Pennsylvania Consolidated Statutes, in water resources planning, providing for water conservation requirements for data centers.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Environmental Resources & Energy",
-   "latest_action_date": "2026-09-24",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/legislation/bills/2025/sb1470",
-   "category": "water-resources",
-   "category_name": "Water Resources",
-   "categories": [
-    "water-resources"
-   ],
-   "topics": [
-    "Water Resources"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-10-08",
-   "changed_on": "2026-10-08",
-   "change": null
-  },
-  {
    "id": "3b580269-dd96-4016-8f39-9b20622d6c73",
    "jurisdiction": "state",
    "state": "MI",
@@ -574,6 +574,33 @@
    "first_seen": "2026-11-13",
    "changed_on": "2026-11-13",
    "change": null
+  },
+  {
+   "id": "b470cb74-c59a-484a-a4cd-4aa1c6e5491d",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 5751",
+   "title": "Requires municipal zoning compliance certification for DOT issuance or renewal of heliport and helipad facility licenses; directs DOT to verify compliance with applicable municipal zoning requirements prior to license approval.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Transportation and Independent Authorities Committee",
+   "latest_action_date": "2026-11-16",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5751",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use"
+   ],
+   "topics": [
+    "Land Use & Development"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-17",
+   "first_seen": "2026-11-17"
   },
   {
    "id": "153a59c3-f285-4758-8a78-0fbd21972718",
@@ -672,33 +699,6 @@
    "upcoming": false,
    "introduced": "2025-01-22",
    "url": "https://gc.nh.gov/bill_Status/advanced.aspx",
-   "category": "land-use",
-   "category_name": "Land Use & Development",
-   "categories": [
-    "land-use"
-   ],
-   "topics": [
-    "Land Use & Development"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
-   "id": "f9d6c5bf-782c-4e5b-ba15-c459a2c27c69",
-   "jurisdiction": "state",
-   "state": "NH",
-   "bill": "HB 1619",
-   "title": "relative to the rights of property owners and limitations on municipal land use regulation, and repealing the workforce housing program.",
-   "session": "2026 Regular Session",
-   "status": "died_on_adjournment",
-   "status_label": "Died on adjournment",
-   "latest_action": "Interim Study Report: Recommended for Future Legislation  10/01/2026 (Vote 5-4; )",
-   "latest_action_date": "2026-10-05",
-   "upcoming": false,
-   "introduced": "2025-12-10",
-   "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1794&inflect=2",
    "category": "land-use",
    "category_name": "Land Use & Development",
    "categories": [
@@ -875,6 +875,33 @@
    "change": null
   },
   {
+   "id": "7076090d-cff3-43e9-8b79-d39d03f2d959",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 5740",
+   "title": "Increases amount of certain grant funds available to local governments and non-profit organizations for recreation and conservation purposes.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Agriculture and Natural Resources Committee",
+   "latest_action_date": "2026-11-16",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5740",
+   "category": "nature-biodiversity",
+   "category_name": "Nature & Biodiversity",
+   "categories": [
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Nature & Biodiversity"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-17",
+   "first_seen": "2026-11-17"
+  },
+  {
    "id": "fc915a83-2930-4b7e-ba22-4623bbb9354e",
    "jurisdiction": "state",
    "state": "CA",
@@ -1010,33 +1037,6 @@
    "change": null
   },
   {
-   "id": "17ae5872-6c47-45ac-bbef-71bbc1ffcc5a",
-   "jurisdiction": "state",
-   "state": "MA",
-   "bill": "S 3052",
-   "title": "An Act authorizing the town of Dighton to use a portion of conservation land for public way purposes.",
-   "session": "2025-2026 Regular Session (194th General Court)",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Signed by the Governor, Chapter 166 of the Acts of 2026",
-   "latest_action_date": "2026-08-05",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://malegislature.gov/Bills/194/S3052",
-   "category": "nature-biodiversity",
-   "category_name": "Nature & Biodiversity",
-   "categories": [
-    "nature-biodiversity"
-   ],
-   "topics": [
-    "Nature & Biodiversity"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
    "id": "afa343bb-626c-4a17-866b-d7c9267654d4",
    "jurisdiction": "state",
    "state": "CA",
@@ -1118,6 +1118,60 @@
    "change": null
   },
   {
+   "id": "5fdf43f0-ae2a-4c68-8656-6f2e37395a45",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 5823",
+   "title": "\"New Jersey Franchised Automobile Industry Retail (FAIR) Sales Act\"; repeals statute permitting Tesla and other zero emission vehicle manufacturers to sell vehicles directly to consumers; prohibits motor vehicle galleries and studios.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Consumer Affairs Committee",
+   "latest_action_date": "2026-11-16",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5823",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-17",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "2114b5bc-54cd-4251-93d2-ecabe36d85a7",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 5811",
+   "title": "\"Ratepayer-Indifference Act\"; establishes certain requirements for provision of electric public utility service to certain data centers.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
+   "latest_action_date": "2026-11-16",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5811",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-17",
+   "first_seen": "2026-11-17"
+  },
+  {
    "id": "74a95197-5c20-460c-8654-3a9d71c93159",
    "jurisdiction": "state",
    "state": "OH",
@@ -1196,33 +1250,6 @@
    "classification": "auto-title",
    "first_seen": "2026-11-12",
    "changed_on": "2026-11-12",
-   "change": null
-  },
-  {
-   "id": "9755ce35-af7a-40d3-94cd-80f875c9309c",
-   "jurisdiction": "state",
-   "state": "NJ",
-   "bill": "A 5706",
-   "title": "Requires NJT and BPU to establish railroad right-of-way solar energy pilot program.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
-   "latest_action_date": "2026-10-22",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5706",
-   "category": "infrastructure-resilience",
-   "category_name": "Infrastructure & Resilience",
-   "categories": [
-    "infrastructure-resilience"
-   ],
-   "topics": [
-    "Infrastructure & Resilience"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-10-25",
-   "changed_on": "2026-10-25",
    "change": null
   },
   {
@@ -1358,33 +1385,6 @@
    "classification": "auto-title",
    "first_seen": "2026-10-20",
    "changed_on": "2026-10-22",
-   "change": null
-  },
-  {
-   "id": "bfbb3075-38d3-4742-8003-52560c332951",
-   "jurisdiction": "state",
-   "state": "NJ",
-   "bill": "A 5694",
-   "title": "Extends eligibility for sales and use tax exemption certificate program administered by EDA to include certain projects undertaken by clean energy product manufacturers.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced, Referred to Assembly Commerce and Economic Development Committee",
-   "latest_action_date": "2026-10-19",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5694",
-   "category": "infrastructure-resilience",
-   "category_name": "Infrastructure & Resilience",
-   "categories": [
-    "infrastructure-resilience"
-   ],
-   "topics": [
-    "Infrastructure & Resilience"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
    "change": null
   },
   {
