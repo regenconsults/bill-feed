@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-17T19:44:39+00:00",
+ "generated_at": "2026-11-18T04:08:45+00:00",
  "states": "all",
  "categories": [
   {
@@ -237,9 +237,9 @@
     "Climate & Emissions"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "first_seen": "2026-11-17"
+   "change": "new"
   },
   {
    "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
@@ -403,9 +403,9 @@
     "Water Resources"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "first_seen": "2026-11-17"
+   "change": "new"
   },
   {
    "id": "dc9e3ccf-1eb8-41c0-8e85-44cc5261c2c4",
@@ -430,9 +430,9 @@
     "Water Resources"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "first_seen": "2026-11-17"
+   "change": "new"
   },
   {
    "id": "790698fd-bf2d-4c66-9118-418303f1c54b",
@@ -598,9 +598,9 @@
     "Land Use & Development"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "first_seen": "2026-11-17"
+   "change": "new"
   },
   {
    "id": "153a59c3-f285-4758-8a78-0fbd21972718",
@@ -897,9 +897,9 @@
     "Nature & Biodiversity"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "first_seen": "2026-11-17"
+   "change": "new"
   },
   {
    "id": "fc915a83-2930-4b7e-ba22-4623bbb9354e",
@@ -1140,9 +1140,9 @@
     "Infrastructure & Resilience"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "first_seen": "2026-11-17"
+   "change": "new"
   },
   {
    "id": "2114b5bc-54cd-4251-93d2-ecabe36d85a7",
@@ -1167,9 +1167,9 @@
     "Infrastructure & Resilience"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "first_seen": "2026-11-17"
+   "change": "new"
   },
   {
    "id": "74a95197-5c20-460c-8654-3a9d71c93159",
