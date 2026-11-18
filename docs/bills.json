@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-18T04:08:45+00:00",
+ "generated_at": "2026-11-18T19:20:55+00:00",
  "states": "all",
  "categories": [
   {
@@ -31,7 +31,7 @@
   {
    "slug": "nature-biodiversity",
    "name": "Nature & Biodiversity",
-   "count": 7
+   "count": 8
   },
   {
    "slug": "environmental-justice",
@@ -435,6 +435,35 @@
    "change": "new"
   },
   {
+   "id": "c88baecc-5663-448c-b323-2b5f8d173cb1",
+   "jurisdiction": "state",
+   "state": "PA",
+   "bill": "SR 415",
+   "title": "A Resolution recognizing the Chesapeake Bay Foundation as it celebrates 40 years of service in Pennsylvania and commending the Foundation for four decades of outstanding leadership, advocacy, education and conservation efforts dedicated to the restoration and protection of the Susquehanna River watershed, the Chesapeake Bay and the communities that depend upon these vital natural resources.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to Rules & Executive Nominations",
+   "latest_action_date": "2026-11-12",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/legislation/bills/2025/sr415",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources",
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Water Resources",
+    "Nature & Biodiversity"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-18",
+   "first_seen": "2026-11-18"
+  },
+  {
    "id": "790698fd-bf2d-4c66-9118-418303f1c54b",
    "jurisdiction": "state",
    "state": "MI",
@@ -504,33 +533,6 @@
    "upcoming": false,
    "introduced": "2026-02-13",
    "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1085",
-   "category": "water-resources",
-   "category_name": "Water Resources",
-   "categories": [
-    "water-resources"
-   ],
-   "topics": [
-    "Water Resources"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
-   "id": "ce39e045-941b-4737-b8fb-f4f67c904a24",
-   "jurisdiction": "state",
-   "state": "CA",
-   "bill": "AB 2728",
-   "title": "Groundwater: de minimis extractors: fees: exemption.",
-   "session": "2025-2026 Regular Session",
-   "status": "enacted",
-   "status_label": "Enacted",
-   "latest_action": "Chaptered by Secretary of State - Chapter 963, Statutes of 2026.",
-   "latest_action_date": "2026-09-30",
-   "upcoming": false,
-   "introduced": "2026-03-19",
-   "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2728",
    "category": "water-resources",
    "category_name": "Water Resources",
    "categories": [
