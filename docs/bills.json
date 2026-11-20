@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-20T03:58:33+00:00",
+ "generated_at": "2026-11-20T19:04:22+00:00",
  "states": "all",
  "categories": [
   {
@@ -578,6 +578,33 @@
    "change": null
   },
   {
+   "id": "95dcd51d-7d41-4a15-acf9-a238a989d633",
+   "jurisdiction": "state",
+   "state": "MA",
+   "bill": "H 5552",
+   "title": "An Act releasing certain land use restrictions held by the commonwealth in the city of Revere",
+   "session": "2025-2026 Regular Session (194th General Court)",
+   "status": "enacted",
+   "status_label": "Enacted",
+   "latest_action": "Signed by the Governor, Chapter 272 of the Acts of 2026",
+   "latest_action_date": "2026-11-17",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://malegislature.gov/Bills/194/H5552",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use"
+   ],
+   "topics": [
+    "Land Use & Development"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
+  {
    "id": "b470cb74-c59a-484a-a4cd-4aa1c6e5491d",
    "jurisdiction": "state",
    "state": "NJ",
@@ -674,33 +701,6 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=30&rollcallid=2463&sessYr=2025&sessInd=0",
-   "category": "land-use",
-   "category_name": "Land Use & Development",
-   "categories": [
-    "land-use"
-   ],
-   "topics": [
-    "Land Use & Development"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
-   "id": "1cda0195-e42c-41d1-8538-8a8117dd78ec",
-   "jurisdiction": "state",
-   "state": "NH",
-   "bill": "SB 84",
-   "title": "relative to zoning procedures concerning residential housing.",
-   "session": "2026 Regular Session",
-   "status": "died_on_adjournment",
-   "status_label": "Died on adjournment",
-   "latest_action": "Interim Study Report: Recommended for Future Legislation  10/01/2026 (Vote 9-0; )",
-   "latest_action_date": "2026-10-05",
-   "upcoming": false,
-   "introduced": "2025-01-22",
-   "url": "https://gc.nh.gov/bill_Status/advanced.aspx",
    "category": "land-use",
    "category_name": "Land Use & Development",
    "categories": [
