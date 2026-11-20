@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-19T19:28:34+00:00",
+ "generated_at": "2026-11-20T03:58:33+00:00",
  "states": "all",
  "categories": [
   {
@@ -239,7 +239,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "change": "new"
+   "change": null
   },
   {
    "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
@@ -405,7 +405,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "change": "new"
+   "change": null
   },
   {
    "id": "dc9e3ccf-1eb8-41c0-8e85-44cc5261c2c4",
@@ -432,7 +432,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "change": "new"
+   "change": null
   },
   {
    "id": "c88baecc-5663-448c-b323-2b5f8d173cb1",
@@ -602,7 +602,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "change": "new"
+   "change": null
   },
   {
    "id": "153a59c3-f285-4758-8a78-0fbd21972718",
@@ -901,7 +901,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "change": "new"
+   "change": null
   },
   {
    "id": "fc915a83-2930-4b7e-ba22-4623bbb9354e",
@@ -1144,7 +1144,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "change": "new"
+   "change": null
   },
   {
    "id": "2114b5bc-54cd-4251-93d2-ecabe36d85a7",
@@ -1171,7 +1171,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "change": "new"
+   "change": null
   },
   {
    "id": "74a95197-5c20-460c-8654-3a9d71c93159",
