@@ -1,7 +1,7 @@
 {
  "version": 1,
  "jurisdiction": "federal",
- "generated_at": "2026-11-20T03:58:44+00:00",
+ "generated_at": "2026-11-20T19:04:41+00:00",
  "congress": 119,
  "scope": "Bills and joint resolutions (H.R., S., H.J.Res., S.J.Res.) in the current Congress with official action in the last 180 days",
  "categories": [
@@ -23,7 +23,7 @@
   {
    "slug": "land-use",
    "name": "Land Use & Development",
-   "count": 4
+   "count": 6
   },
   {
    "slug": "materials-circularity",
@@ -33,7 +33,7 @@
   {
    "slug": "nature-biodiversity",
    "name": "Nature & Biodiversity",
-   "count": 6
+   "count": 7
   },
   {
    "slug": "environmental-justice",
@@ -43,17 +43,17 @@
   {
    "slug": "infrastructure-resilience",
    "name": "Infrastructure & Resilience",
-   "count": 14
+   "count": 15
   }
  ],
  "sync": {
-  "last_attempt_at": "2026-11-20T03:58:44+00:00",
+  "last_attempt_at": "2026-11-20T19:04:41+00:00",
   "status": "ok",
   "last_error": null,
-  "last_success_at": "2026-11-20T03:58:44+00:00",
-  "api_calls": 57,
-  "needs_review": 362,
-  "candidates_in_window": 566
+  "last_success_at": "2026-11-20T19:04:41+00:00",
+  "api_calls": 476,
+  "needs_review": 366,
+  "candidates_in_window": 579
  },
  "attribution": "Federal bill data retrieved from Congress.gov (https://www.congress.gov/), the official website for U.S. federal legislative information.",
  "bills": [
@@ -108,7 +108,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5338",
    "source_updated_at": "2026-09-18T17:19:32Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "building-energy",
    "category_name": "Building & Energy",
@@ -264,7 +264,7 @@
    "actions_total": 21,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3106",
    "source_updated_at": "2026-09-19T23:39:04Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "building-energy",
    "category_name": "Building & Energy",
@@ -324,7 +324,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4892",
    "source_updated_at": "2026-09-08T18:09:59Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "building-energy",
    "category_name": "Building & Energy",
@@ -337,6 +337,271 @@
    "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
    "change": null
+  },
+  {
+   "id": "us-congress-119-hr-11115",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "11115",
+   "bill": "H.R. 11115",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "To amend the Clean Air Act to provide for the phase-out and termination of the Renewable Fuel Standard, and for other purposes.",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Rep. Roy, Chip [R-TX-21]",
+   "cosponsors_count": 1,
+   "policy_area": null,
+   "committees": [
+    "Energy and Commerce Committee"
+   ],
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to the House Committee on Energy and Commerce.",
+   "latest_action_date": "2026-11-19",
+   "upcoming": false,
+   "introduced": "2026-11-19",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the House Committee on Energy and Commerce.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 3,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/11115",
+   "source_updated_at": "2026-11-20T13:13:38Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "climate-emissions",
+   "category_name": "Climate & Emissions",
+   "categories": [
+    "climate-emissions"
+   ],
+   "topics": [
+    "Climate & Emissions"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "us-congress-119-hr-11089",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "11089",
+   "bill": "H.R. 11089",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "To require the Subcommittee on Ocean Science and Technology of the National Science and Technology Council to establish the Interagency Working Group on Coastal Blue Carbon, require the Interagency Working Group to produce a national map and inventory of coastal blue carbon ecosystems, require the Administrator of the National Oceanic and Atmospheric Administration to carry out pilot programs to protect intact and restore degraded coastal blue carbon ecosystems, require the Secretary of the Smithsonian Institution to establish the Coastal Carbon Data Clearinghouse, require the Administrator to seek to enter into an agreement with the National Academies of Science, Engineering, and Medicine to conduct an assessment regarding geologic stores of carbon dioxide, require the Administrator to establish the Coastal Blue Carbon Inventory Program, and require the Administrator to conduct a national assessment to quantify the carbon sequestration potential of coastal blue carbon ecosystems.",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Rep. Bonamici, Suzanne [D-OR-1]",
+   "cosponsors_count": 1,
+   "policy_area": null,
+   "committees": [
+    "Energy and Commerce Committee",
+    "Committee on House Administration",
+    "Science, Space, and Technology Committee",
+    "Natural Resources Committee"
+   ],
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to the Committee on Natural Resources, and in addition to the Committees on Science, Space, and Technology, House Administration, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+   "latest_action_date": "2026-11-19",
+   "upcoming": false,
+   "introduced": "2026-11-19",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Science, Space, and Technology, House Administration, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Science, Space, and Technology, House Administration, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Science, Space, and Technology, House Administration, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Science, Space, and Technology, House Administration, and Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 6,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/11089",
+   "source_updated_at": "2026-11-20T13:13:38Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "climate-emissions",
+   "category_name": "Climate & Emissions",
+   "categories": [
+    "climate-emissions",
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Climate & Emissions",
+    "Nature & Biodiversity"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "us-congress-119-hr-11101",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "11101",
+   "bill": "H.R. 11101",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "To establish a climate resilience workforce, and for other purposes.",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Rep. Jayapal, Pramila [D-WA-7]",
+   "cosponsors_count": 5,
+   "policy_area": null,
+   "committees": [
+    "Financial Services Committee",
+    "Natural Resources Committee",
+    "Agriculture Committee",
+    "Ways and Means Committee",
+    "Transportation and Infrastructure Committee",
+    "Judiciary Committee",
+    "Oversight and Government Reform Committee",
+    "Energy and Commerce Committee",
+    "Education and Workforce Committee"
+   ],
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Energy and Commerce, Oversight and Government Reform, the Judiciary, Transportation and Infrastructure, Ways and Means, Agriculture, Natural Resources, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+   "latest_action_date": "2026-11-19",
+   "upcoming": false,
+   "introduced": "2026-11-19",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Energy and Commerce, Oversight and Government Reform, the Judiciary, Transportation and Infrastructure, Ways and Means, Agriculture, Natural Resources, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Energy and Commerce, Oversight and Government Reform, the Judiciary, Transportation and Infrastructure, Ways and Means, Agriculture, Natural Resources, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Energy and Commerce, Oversight and Government Reform, the Judiciary, Transportation and Infrastructure, Ways and Means, Agriculture, Natural Resources, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Energy and Commerce, Oversight and Government Reform, the Judiciary, Transportation and Infrastructure, Ways and Means, Agriculture, Natural Resources, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Energy and Commerce, Oversight and Government Reform, the Judiciary, Transportation and Infrastructure, Ways and Means, Agriculture, Natural Resources, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Energy and Commerce, Oversight and Government Reform, the Judiciary, Transportation and Infrastructure, Ways and Means, Agriculture, Natural Resources, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Energy and Commerce, Oversight and Government Reform, the Judiciary, Transportation and Infrastructure, Ways and Means, Agriculture, Natural Resources, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Energy and Commerce, Oversight and Government Reform, the Judiciary, Transportation and Infrastructure, Ways and Means, Agriculture, Natural Resources, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Energy and Commerce, Oversight and Government Reform, the Judiciary, Transportation and Infrastructure, Ways and Means, Agriculture, Natural Resources, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 11,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/11101",
+   "source_updated_at": "2026-11-20T13:13:38Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "climate-emissions",
+   "category_name": "Climate & Emissions",
+   "categories": [
+    "climate-emissions",
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Climate & Emissions",
+    "Infrastructure & Resilience"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
   },
   {
    "id": "us-congress-119-hr-10778",
@@ -389,7 +654,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10778",
    "source_updated_at": "2026-10-26T20:35:41Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "climate-emissions",
    "category_name": "Climate & Emissions",
@@ -494,7 +759,7 @@
    "actions_total": 11,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5045",
    "source_updated_at": "2026-10-07T15:57:04Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "climate-emissions",
    "category_name": "Climate & Emissions",
@@ -554,7 +819,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5668",
    "source_updated_at": "2026-10-15T20:53:03Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "climate-emissions",
    "category_name": "Climate & Emissions",
@@ -567,267 +832,6 @@
    "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
    "change": null
-  },
-  {
-   "id": "us-congress-119-hr-10585",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "HR",
-   "bill_number": "10585",
-   "bill": "H.R. 10585",
-   "session": "119th Congress",
-   "origin_chamber": "House",
-   "title": "Civilian Climate Corps for Jobs and Justice Act",
-   "summary": null,
-   "summary_version": null,
-   "sponsor": "Rep. Ocasio-Cortez, Alexandria [D-NY-14]",
-   "cosponsors_count": 36,
-   "policy_area": "Labor and Employment",
-   "committees": [
-    "Ways and Means Committee",
-    "Education and Workforce Committee"
-   ],
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-   "latest_action_date": "2026-09-24",
-   "upcoming": false,
-   "introduced": "2026-09-24",
-   "passed_house_date": null,
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-09-24",
-     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-09-24",
-     "text": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-09-24",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-09-24",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 4,
-   "url": "https://www.congress.gov/bill/119th-congress/house-bill/10585",
-   "source_updated_at": "2026-10-05T12:48:34Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
-   "classification": "auto-title-summary",
-   "category": "climate-emissions",
-   "category_name": "Climate & Emissions",
-   "categories": [
-    "climate-emissions"
-   ],
-   "topics": [
-    "Climate & Emissions"
-   ],
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
-   "id": "us-congress-119-hr-10525",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "HR",
-   "bill_number": "10525",
-   "bill": "H.R. 10525",
-   "session": "119th Congress",
-   "origin_chamber": "House",
-   "title": "Tropospheric Ozone Research Act of 2026",
-   "summary": null,
-   "summary_version": null,
-   "sponsor": "Rep. Ross, Deborah K. [D-NC-2]",
-   "cosponsors_count": 1,
-   "policy_area": "Environmental Protection",
-   "committees": [
-    "Science, Space, and Technology Committee"
-   ],
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to the House Committee on Science, Space, and Technology.",
-   "latest_action_date": "2026-09-21",
-   "upcoming": false,
-   "introduced": "2026-09-21",
-   "passed_house_date": null,
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-09-21",
-     "text": "Referred to the House Committee on Science, Space, and Technology.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-09-21",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-09-21",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 3,
-   "url": "https://www.congress.gov/bill/119th-congress/house-bill/10525",
-   "source_updated_at": "2026-09-29T16:39:44Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
-   "classification": "auto-title-summary",
-   "category": "climate-emissions",
-   "category_name": "Climate & Emissions",
-   "categories": [
-    "climate-emissions"
-   ],
-   "topics": [
-    "Climate & Emissions"
-   ],
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
-   "id": "us-congress-119-hjres-213",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "HJRES",
-   "bill_number": "213",
-   "bill": "H.J.Res. 213",
-   "session": "119th Congress",
-   "origin_chamber": "House",
-   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule issued by the Environmental Protection Agency relating to the \"California State Nonroad Engine Pollution Control Standards; Commercial Harbor Craft Regulations; Notice of Decision\".",
-   "summary": "This joint resolution revokes the partial authorization granted to the California Air Resources Board (CARB) to amend its Commercial Harbor Craft regulation. Among other elements, the amendments proposed by CARB and partially authorized by the Environmental Protection Agency (EPA) create new emission standards and compliance dates depending on vessel category and engine model year and expand the types of vessels covered by the regulation (e.g. commercial fishing boats). (Under the Clean Air Act, the EPA may authorize California to adopt and enforce standards relating to the control of emissions from nonroad vehicles or engines if those standards meet certain requirements.)\nSpecifically, the joint resolution nullifies the EPA authorization decision titled California State Nonroad Engine Pollution Control Standards; Commercial Harbor Craft Regulations; Notice of Decision.",
-   "summary_version": "Introduced in House (2026-08-10)",
-   "sponsor": "Rep. Gallagher, James [R-CA-1]",
-   "cosponsors_count": 5,
-   "policy_area": "Environmental Protection",
-   "committees": [
-    "Energy and Commerce Committee"
-   ],
-   "status": "passed_one_chamber",
-   "status_label": "Passed one chamber",
-   "latest_action": "Received in the Senate.",
-   "latest_action_date": "2026-09-17",
-   "upcoming": false,
-   "introduced": "2026-08-10",
-   "passed_house_date": "2026-09-16",
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-09-17",
-     "text": "Received in the Senate.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "Motion to reconsider laid on the table Agreed to without objection.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "On passage Passed by the Yeas and Nays: 214 - 208 (Roll no. 311). (text: CR H5953)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "Passed/agreed to in House: On passage Passed by the Yeas and Nays: 214 - 208 (Roll no. 311).",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "Considered as unfinished business. (consideration: CR H5958)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "POSTPONED PROCEEDINGS - At the conclusion of debate on H.J. Res. 213, the Chair put the question on passage of the joint resolution, and by voice vote announced that the ayes had prevailed. Mr. Pallone demanded the yeas and nays and the Chair postponed further proceedings until a time to be announced.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "The previous question was ordered pursuant to the rule.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "DEBATE - The House proceeded with one hour of debate on H.J. Res. 213.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "Rule provides for consideration of H.R. 9576, H.R. 10326, H.J. Res. 210 and H.J. Res. 213. The resolution provides for consideration of H.R. 9576, H.R. 10326, H.J.Res. 210, and H.J.Res. 213 under a closed rule with one hour of debate and one motion to recommit on each measure. The resolution provides for a motion to concur in the Senate amendments to H.R. 5334.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "Considered under the provisions of rule H. Res. 1530. (consideration: CR H5953-5956)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-15",
-     "text": "Rule H. Res. 1530 passed House.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-14",
-     "text": "Rules Committee Resolution H. Res. 1530 Reported to House. Rule provides for consideration of H.R. 9576, H.R. 10326, H.J. Res. 210 and H.J. Res. 213. The resolution provides for consideration of H.R. 9576, H.R. 10326, H.J.Res. 210, and H.J.Res. 213 under a closed rule with one hour of debate and one motion to recommit on each measure. The resolution provides for a motion to concur in the Senate amendments to H.R. 5334.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-08-10",
-     "text": "Referred to the House Committee on Energy and Commerce.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-08-10",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-08-10",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 15,
-   "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/213",
-   "source_updated_at": "2026-10-31T02:42:08Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
-   "classification": "auto-title-summary",
-   "category": "climate-emissions",
-   "category_name": "Climate & Emissions",
-   "categories": [
-    "climate-emissions"
-   ],
-   "topics": [
-    "Climate & Emissions"
-   ],
-   "first_seen": "2026-11-18",
-   "changed_on": "2026-11-18",
-   "change": "new"
   },
   {
    "id": "us-congress-119-s-240",
@@ -1000,7 +1004,7 @@
    "actions_total": 27,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/240",
    "source_updated_at": "2026-10-22T13:49:19Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "water-resources",
    "category_name": "Water Resources",
@@ -1201,7 +1205,7 @@
    "actions_total": 30,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7250",
    "source_updated_at": "2026-09-30T16:47:40Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "water-resources",
    "category_name": "Water Resources",
@@ -1216,28 +1220,248 @@
    "change": null
   },
   {
-   "id": "us-congress-119-s-3573",
+   "id": "us-congress-119-hr-11125",
    "jurisdiction": "federal",
    "legislative_body": "U.S. Congress",
    "state": null,
    "congress": 119,
-   "bill_type": "S",
-   "bill_number": "3573",
-   "bill": "S. 3573",
+   "bill_type": "HR",
+   "bill_number": "11125",
+   "bill": "H.R. 11125",
    "session": "119th Congress",
-   "origin_chamber": "Senate",
-   "title": "A bill to amend the Aamodt Litigation Settlement Act to modify a provision relating to the extension of certain dates for the completion of the Regional Water System, and for other purposes.",
+   "origin_chamber": "House",
+   "title": "To authorize the Secretary of the Interior to cooperate with the State of California and other appropriate entities in conducting a hydrogeologic characterization, mapping, and modeling program for priority transboundary aquifers, and for other purposes.",
    "summary": null,
    "summary_version": null,
-   "sponsor": "Sen. Luján, Ben Ray [D-NM]",
+   "sponsor": "Rep. Vargas, Juan [D-CA-52]",
+   "cosponsors_count": 1,
+   "policy_area": null,
+   "committees": [
+    "Natural Resources Committee"
+   ],
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to the House Committee on Natural Resources.",
+   "latest_action_date": "2026-11-19",
+   "upcoming": false,
+   "introduced": "2026-11-19",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the House Committee on Natural Resources.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 3,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/11125",
+   "source_updated_at": "2026-11-20T13:13:38Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
+   ],
+   "topics": [
+    "Water Resources"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "us-congress-119-hr-11096",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "11096",
+   "bill": "H.R. 11096",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "To amend the Public Health Service to require the Secretary to award grants, contracts, or cooperative agreements to eligible entities to establish, maintain, or improve activities related to the detection and monitoring of infectious diseases through wastewater for public health emergency preparedness and response purposes, and for other purposes.",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Rep. Fry, Russell [R-SC-7]",
+   "cosponsors_count": 2,
+   "policy_area": null,
+   "committees": [
+    "Energy and Commerce Committee"
+   ],
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to the House Committee on Energy and Commerce.",
+   "latest_action_date": "2026-11-19",
+   "upcoming": false,
+   "introduced": "2026-11-19",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the House Committee on Energy and Commerce.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 3,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/11096",
+   "source_updated_at": "2026-11-20T13:13:38Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
+   ],
+   "topics": [
+    "Water Resources"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "us-congress-119-hr-8546",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "8546",
+   "bill": "H.R. 8546",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "Pechanga Band of Indians Water Rights Settlement Technical Amendments Act",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Rep. Issa, Darrell [R-CA-48]",
    "cosponsors_count": 1,
    "policy_area": "Native Americans",
    "committees": [
-    "Indian Affairs Committee"
+    "Natural Resources Committee"
    ],
    "status": "reported",
    "status_label": "Reported by committee",
-   "latest_action": "Committee on Indian Affairs. Ordered to be reported without amendment favorably.",
+   "latest_action": "Ordered to be Reported by Unanimous Consent.",
+   "latest_action_date": "2026-11-18",
+   "upcoming": false,
+   "introduced": "2026-04-28",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-18",
+     "text": "Ordered to be Reported by Unanimous Consent.",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Committee Consideration and Mark-up Session Held",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Subcommittee on Water, Wildlife and Fisheries Discharged",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-09-16",
+     "text": "Subcommittee Hearings Held",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-09-10",
+     "text": "Referred to the Subcommittee on Water, Wildlife and Fisheries.",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-04-28",
+     "text": "Referred to the House Committee on Natural Resources.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-04-28",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-04-28",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 8,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/8546",
+   "source_updated_at": "2026-11-20T09:07:45Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources"
+   ],
+   "topics": [
+    "Water Resources"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "us-congress-119-hr-6869",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "6869",
+   "bill": "H.R. 6869",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "To amend the Aamodt Litigation Settlement Act to modify a provision relating to the extension of certain dates for the completion of the Regional Water System, and for other purposes.",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Rep. Leger Fernandez, Teresa [D-NM-3]",
+   "cosponsors_count": null,
+   "policy_area": "Native Americans",
+   "committees": [
+    "Natural Resources Committee"
+   ],
+   "status": "reported",
+   "status_label": "Reported by committee",
+   "latest_action": "Ordered to be Reported by Unanimous Consent.",
    "latest_action_date": "2026-11-18",
    "upcoming": false,
    "introduced": "2025-12-18",
@@ -1249,320 +1473,49 @@
    "actions": [
     {
      "date": "2026-11-18",
-     "text": "Committee on Indian Affairs. Ordered to be reported without amendment favorably.",
+     "text": "Ordered to be Reported by Unanimous Consent.",
      "type": "Committee"
     },
     {
-     "date": "2026-07-29",
-     "text": "Committee on Indian Affairs. Hearings held.",
+     "date": "2026-11-18",
+     "text": "Committee Consideration and Mark-up Session Held",
      "type": "Committee"
     },
     {
-     "date": "2025-12-18",
-     "text": "Read twice and referred to the Committee on Indian Affairs.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2025-12-18",
-     "text": "Introduced in Senate",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 4,
-   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3573",
-   "source_updated_at": "2026-11-19T11:57:01Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
-   "classification": "auto-title-summary",
-   "category": "water-resources",
-   "category_name": "Water Resources",
-   "categories": [
-    "water-resources"
-   ],
-   "topics": [
-    "Water Resources"
-   ],
-   "first_seen": "2026-11-19",
-   "changed_on": "2026-11-19",
-   "change": "new"
-  },
-  {
-   "id": "us-congress-119-hr-11052",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "HR",
-   "bill_number": "11052",
-   "bill": "H.R. 11052",
-   "session": "119th Congress",
-   "origin_chamber": "House",
-   "title": "To amend the Federal Water Pollution Control Act to establish a Hawaiian Islands Program, and for other purposes.",
-   "summary": null,
-   "summary_version": null,
-   "sponsor": "Rep. Tokuda, Jill N. [D-HI-2]",
-   "cosponsors_count": 1,
-   "policy_area": null,
-   "committees": [
-    "Transportation and Infrastructure Committee"
-   ],
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to the House Committee on Transportation and Infrastructure.",
-   "latest_action_date": "2026-11-17",
-   "upcoming": false,
-   "introduced": "2026-11-17",
-   "passed_house_date": null,
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-11-17",
-     "text": "Referred to the House Committee on Transportation and Infrastructure.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-11-17",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-11-17",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 3,
-   "url": "https://www.congress.gov/bill/119th-congress/house-bill/11052",
-   "source_updated_at": "2026-11-19T10:33:58Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
-   "classification": "auto-title-summary",
-   "category": "water-resources",
-   "category_name": "Water Resources",
-   "categories": [
-    "water-resources"
-   ],
-   "topics": [
-    "Water Resources"
-   ],
-   "first_seen": "2026-11-18",
-   "changed_on": "2026-11-18",
-   "change": "new"
-  },
-  {
-   "id": "us-congress-119-hr-11053",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "HR",
-   "bill_number": "11053",
-   "bill": "H.R. 11053",
-   "session": "119th Congress",
-   "origin_chamber": "House",
-   "title": "To amend the Federal Water Pollution Control Act to provide grants to upgrade or convert small-capacity cesspools for households in the State of Hawaii.",
-   "summary": null,
-   "summary_version": null,
-   "sponsor": "Rep. Tokuda, Jill N. [D-HI-2]",
-   "cosponsors_count": 1,
-   "policy_area": null,
-   "committees": [
-    "Transportation and Infrastructure Committee"
-   ],
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to the House Committee on Transportation and Infrastructure.",
-   "latest_action_date": "2026-11-17",
-   "upcoming": false,
-   "introduced": "2026-11-17",
-   "passed_house_date": null,
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-11-17",
-     "text": "Referred to the House Committee on Transportation and Infrastructure.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-11-17",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-11-17",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 3,
-   "url": "https://www.congress.gov/bill/119th-congress/house-bill/11053",
-   "source_updated_at": "2026-11-19T10:33:57Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
-   "classification": "auto-title-summary",
-   "category": "water-resources",
-   "category_name": "Water Resources",
-   "categories": [
-    "water-resources"
-   ],
-   "topics": [
-    "Water Resources"
-   ],
-   "first_seen": "2026-11-18",
-   "changed_on": "2026-11-18",
-   "change": "new"
-  },
-  {
-   "id": "us-congress-119-hr-331",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "HR",
-   "bill_number": "331",
-   "bill": "H.R. 331",
-   "session": "119th Congress",
-   "origin_chamber": "House",
-   "title": "To amend the Aquifer Recharge Flexibility Act to clarify a provision relating to conveyances for aquifer recharge purposes.",
-   "summary": "This bill modifies the Aquifer Recharge Flexibility Act to expand provisions concerning authorizations (e.g., rights-of-way) to transport water across public land administered by the Bureau of Land Management (BLM) for aquifer recharge purposes.\nUnder the Aquifer Recharge Flexibility Act, the holder of existing rights-of-way, easements, permits, or other authorizations to transport water across BLM land may transport the water for aquifer recharge purposes without additional authorization from the Department of the Interior so long as the use does not expand or modify the operation of such authorizations across public land.\nThe bill allows the holders of such authorizations to act not only on behalf of themselves, but also on behalf of states, Indian Tribes, or public entities, to use the existing authorizations for aquifer recharge without additional authorization from the Department of the Interior. Further, the bill states that this use may not be considered an expansion, modification, major federal action, or substantial deviation.\nAdditionally, the bill exempts holders from paying additional rents to the BLM for any use of such authorizations; however, the exemption does not apply to for-profit uses of aquifer recharge or for-profit entities. \nFinally, holders of rights-of-way or other authorizations must provide notice to the BLM of the intended use of authorization as specified by the bill.",
-   "summary_version": "Introduced in House (2025-01-13)",
-   "sponsor": "Rep. Fulcher, Russ [R-ID-1]",
-   "cosponsors_count": 1,
-   "policy_area": "Water Resources Development",
-   "committees": [
-    "Energy and Natural Resources Committee",
-    "Natural Resources Committee"
-   ],
-   "status": "passed_one_chamber",
-   "status_label": "Passed one chamber",
-   "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 712.",
-   "latest_action_date": "2026-11-12",
-   "upcoming": false,
-   "introduced": "2025-01-13",
-   "passed_house_date": "2025-05-13",
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-11-12",
-     "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 712.",
-     "type": "Calendars"
-    },
-    {
-     "date": "2026-11-12",
-     "text": "Committee on Energy and Natural Resources. Reported by Senator Lee without amendment. Without written report.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-11-12",
-     "text": "Committee on Energy and Natural Resources. Reported by Senator Lee without amendment. Without written report.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-09-30",
-     "text": "Committee on Energy and Natural Resources. Ordered to be reported without amendment favorably.",
-     "type": "Committee"
-    },
-    {
-     "date": "2025-05-14",
-     "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2025-05-13",
-     "text": "Motion to reconsider laid on the table Agreed to without objection.",
-     "type": "Floor"
-    },
-    {
-     "date": "2025-05-13",
-     "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H1969)",
-     "type": "Floor"
-    },
-    {
-     "date": "2025-05-13",
-     "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H1969)",
-     "type": "Floor"
-    },
-    {
-     "date": "2025-05-13",
-     "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 331.",
-     "type": "Floor"
-    },
-    {
-     "date": "2025-05-13",
-     "text": "Considered under suspension of the rules. (consideration: CR H1969-1970)",
-     "type": "Floor"
-    },
-    {
-     "date": "2025-05-13",
-     "text": "Mr. Westerman moved to suspend the rules and pass the bill, as amended.",
-     "type": "Floor"
-    },
-    {
-     "date": "2025-04-17",
-     "text": "Placed on the Union Calendar, Calendar No. 37.",
-     "type": "Calendars"
-    },
-    {
-     "date": "2025-04-17",
-     "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-60.",
-     "type": "Committee"
-    },
-    {
-     "date": "2025-04-17",
-     "text": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-60.",
-     "type": "Committee"
-    },
-    {
-     "date": "2025-02-12",
-     "text": "Ordered to be Reported (Amended) by Unanimous Consent.",
-     "type": "Committee"
-    },
-    {
-     "date": "2025-02-12",
-     "text": "Committee Consideration and Mark-up Session Held.",
-     "type": "Committee"
-    },
-    {
-     "date": "2025-02-12",
+     "date": "2026-11-18",
      "text": "Subcommittee on Water, Wildlife and Fisheries Discharged",
      "type": "Committee"
     },
     {
-     "date": "2025-01-23",
+     "date": "2026-09-16",
      "text": "Subcommittee Hearings Held",
      "type": "Committee"
     },
     {
-     "date": "2025-01-21",
+     "date": "2026-09-10",
      "text": "Referred to the Subcommittee on Water, Wildlife and Fisheries.",
      "type": "Committee"
     },
     {
-     "date": "2025-01-13",
+     "date": "2025-12-18",
      "text": "Referred to the House Committee on Natural Resources.",
      "type": "IntroReferral"
     },
     {
-     "date": "2025-01-13",
+     "date": "2025-12-18",
      "text": "Introduced in House",
      "type": "IntroReferral"
     },
     {
-     "date": "2025-01-13",
+     "date": "2025-12-18",
      "text": "Introduced in House",
      "type": "IntroReferral"
     }
    ],
-   "actions_total": 22,
-   "url": "https://www.congress.gov/bill/119th-congress/house-bill/331",
-   "source_updated_at": "2026-11-17T09:05:41Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "actions_total": 8,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/6869",
+   "source_updated_at": "2026-11-20T09:07:16Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "water-resources",
    "category_name": "Water Resources",
@@ -1572,9 +1525,230 @@
    "topics": [
     "Water Resources"
    ],
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "us-congress-119-hr-11117",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "11117",
+   "bill": "H.R. 11117",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "To amend the Public Health Service Act to authorize grants to States, Indian Tribes, Tribal organizations, and political subdivisions thereof to hire, employ, train, and dispatch mental health professionals to respond in lieu of law enforcement officers in emergencies involving one or more persons with a mental illness or an intellectual or developmental disability, and for other purposes.",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Rep. Scanlon, Mary Gay [D-PA-5]",
+   "cosponsors_count": 40,
+   "policy_area": null,
+   "committees": [
+    "Judiciary Committee",
+    "Energy and Commerce Committee"
+   ],
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+   "latest_action_date": "2026-11-19",
+   "upcoming": false,
+   "introduced": "2026-11-19",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 4,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/11117",
+   "source_updated_at": "2026-11-20T13:13:38Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use"
+   ],
+   "topics": [
+    "Land Use & Development"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "us-congress-119-s-5795",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "S",
+   "bill_number": "5795",
+   "bill": "S. 5795",
+   "session": "119th Congress",
+   "origin_chamber": "Senate",
+   "title": "A bill to amend the Public Health Service Act to authorize grants to States, Indian Tribes, Tribal organizations, and political subdivisions thereof to hire, employ, train, and dispatch mental health professionals to respond in lieu of law enforcement officers in emergences involving one or more persons with a mental illness or an intellectual or developmental disability, and for other purposes.",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Sen. Warren, Elizabeth [D-MA]",
+   "cosponsors_count": 7,
+   "policy_area": null,
+   "committees": [
+    "Health, Education, Labor, and Pensions Committee"
+   ],
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+   "latest_action_date": "2026-11-19",
+   "upcoming": false,
+   "introduced": "2026-11-19",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-19",
+     "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in Senate",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 2,
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5795",
+   "source_updated_at": "2026-11-20T11:56:59Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use"
+   ],
+   "topics": [
+    "Land Use & Development"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "us-congress-119-hr-2785",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "2785",
+   "bill": "H.R. 2785",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "New Mexico Land Grant-Mercedes Historical or Traditional Use Cooperation and Coordination Act",
+   "summary": "New Mexico Land Grant-Mercedes Historical or Traditional Use Cooperation and Coordination Act\nThis bill directs the Bureau of Land Management (BLM) and the Forest Service to enter a memorandum of understanding with the New Mexico Land Grant Council to describe existing processes that land grants-mercedes may use to obtain authorization for historical, traditional, or other uses of federal lands. \nLand grants-mercedes were created when Spain and Mexico issued grants of land to communities or individuals. When the United States acquired the land, including New Mexico, a process was created for adjudicating and recognizing these property rights. During that process, most land grants-mercedes lands became federal lands. Today, New Mexico recognizes 27 community land grants-mercedes as political subdivisions. \nWhen entering into the memorandum of understanding, the BLM and the Forest Service must consult with Indian tribes. \nThe memorandum of understanding must provide for (1) enhanced cooperation and coordination between the BLM, the Forest Service, and qualified land grants-mercedes; and (2) subsidiary agreements with certain land grants-mercedes for specific projects.\nAdditionally, the bill outlines what the memorandum of understanding must describe, such as the procedures for notice and comments on land management planning decisions.\nFinally, the BLM and the Forest Service must include in land use plans a section that evaluates the impact of other uses in the plan on historical or traditional uses by land grants-mercedes.",
+   "summary_version": "Introduced in House (2025-04-09)",
+   "sponsor": "Rep. Leger Fernandez, Teresa [D-NM-3]",
+   "cosponsors_count": 1,
+   "policy_area": "Public Lands and Natural Resources",
+   "committees": [
+    "Natural Resources Committee"
+   ],
+   "status": "reported",
+   "status_label": "Reported by committee",
+   "latest_action": "Ordered to be Reported in the Nature of a Substitute by Unanimous Consent.",
+   "latest_action_date": "2026-11-18",
+   "upcoming": false,
+   "introduced": "2025-04-09",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-18",
+     "text": "Ordered to be Reported in the Nature of a Substitute by Unanimous Consent.",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Committee Consideration and Mark-up Session Held",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Subcommittee on Federal Lands Discharged",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-05-21",
+     "text": "Subcommittee Hearings Held",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-05-12",
+     "text": "Referred to the Subcommittee on Federal Lands.",
+     "type": "Committee"
+    },
+    {
+     "date": "2025-04-09",
+     "text": "Referred to the House Committee on Natural Resources.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2025-04-09",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2025-04-09",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 8,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/2785",
+   "source_updated_at": "2026-11-20T09:07:02Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use"
+   ],
+   "topics": [
+    "Land Use & Development"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
   },
   {
    "id": "us-congress-119-s-5553",
@@ -1622,7 +1796,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5553",
    "source_updated_at": "2026-10-14T19:31:13Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "land-use",
    "category_name": "Land Use & Development",
@@ -1633,116 +1807,6 @@
    "topics": [
     "Land Use & Development",
     "Infrastructure & Resilience"
-   ],
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
-   "id": "us-congress-119-s-1363",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "S",
-   "bill_number": "1363",
-   "bill": "S. 1363",
-   "session": "119th Congress",
-   "origin_chamber": "Senate",
-   "title": "New Mexico Land Grant-Mercedes Historical or Traditional Use Cooperation and Coordination Act",
-   "summary": "New Mexico Land Grant-Mercedes Historical or Traditional Use Cooperation and Coordination Act\nThis bill directs the Bureau of Land Management (BLM) and the Forest Service to enter a memorandum of understanding with the New Mexico Land Grant Council to describe existing processes that land grants-mercedes may use to obtain authorization for historical, traditional, or other uses of federal lands. \nLand grants-mercedes were created when Spain and Mexico issued grants of land to communities or individuals. When the United States acquired the land, including New Mexico, a process was created for adjudicating and recognizing these property rights. During that process, most land grants-mercedes lands became federal lands. Today, New Mexico recognizes 27 community land grants-mercedes as political subdivisions. \nWhen entering into the memorandum of understanding, the BLM and the Forest Service must consult with Indian tribes. \nThe memorandum of understanding must provide for (1) enhanced cooperation and coordination between the BLM, the Forest Service, and qualified land grants-mercedes; and (2) subsidiary agreements with certain land grants-mercedes for specific projects.\nAdditionally, the bill outlines what the memorandum of understanding must describe, such as the procedures for notice and comments on land management planning decisions.\nFinally, the BLM and the Forest Service must include in land use plans a section that evaluates the impact of other uses in the plan on historical or traditional uses by land grants-mercedes.",
-   "summary_version": "Introduced in Senate (2025-04-09)",
-   "sponsor": "Sen. Luján, Ben Ray [D-NM]",
-   "cosponsors_count": null,
-   "policy_area": "Public Lands and Natural Resources",
-   "committees": [
-    "Energy and Natural Resources Committee"
-   ],
-   "status": "passed_one_chamber",
-   "status_label": "Passed one chamber",
-   "latest_action": "Held at the desk.",
-   "latest_action_date": "2026-09-24",
-   "upcoming": false,
-   "introduced": "2025-04-09",
-   "passed_house_date": null,
-   "passed_senate_date": "2026-09-23",
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-09-24",
-     "text": "Held at the desk.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-24",
-     "text": "Received in the House.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-24",
-     "text": "Message on Senate action sent to the House.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-23",
-     "text": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S4898-4901; text: CR S4898-4901)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-23",
-     "text": "Passed/agreed to in Senate: Passed Senate with an amendment by Unanimous Consent. (consideration: CR S4898-4901; text: CR S4898-4901)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-07-23",
-     "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 476.",
-     "type": "Calendars"
-    },
-    {
-     "date": "2026-07-23",
-     "text": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment. Without written report.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-07-23",
-     "text": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment. Without written report.",
-     "type": "Committee"
-    },
-    {
-     "date": "2025-12-17",
-     "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment favorably.",
-     "type": "Committee"
-    },
-    {
-     "date": "2025-12-02",
-     "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-237.",
-     "type": "Committee"
-    },
-    {
-     "date": "2025-04-09",
-     "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2025-04-09",
-     "text": "Introduced in Senate",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 12,
-   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1363",
-   "source_updated_at": "2026-10-08T11:38:14Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
-   "classification": "auto-title-summary",
-   "category": "land-use",
-   "category_name": "Land Use & Development",
-   "categories": [
-    "land-use"
-   ],
-   "topics": [
-    "Land Use & Development"
    ],
    "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
@@ -1799,7 +1863,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/456",
    "source_updated_at": "2026-09-17T11:03:28Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "land-use",
    "category_name": "Land Use & Development",
@@ -1869,7 +1933,7 @@
    "actions_total": 4,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9267",
    "source_updated_at": "2026-07-01T20:27:59Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "land-use",
    "category_name": "Land Use & Development",
@@ -1936,7 +2000,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10993",
    "source_updated_at": "2026-11-13T07:23:41Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2001,7 +2065,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10958",
    "source_updated_at": "2026-11-17T19:00:48Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2066,7 +2130,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10947",
    "source_updated_at": "2026-11-13T09:07:18Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2131,7 +2195,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10790",
    "source_updated_at": "2026-10-19T19:17:26Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2191,7 +2255,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5674",
    "source_updated_at": "2026-10-20T16:34:36Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2256,7 +2320,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10629",
    "source_updated_at": "2026-10-07T13:47:42Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "materials-circularity",
    "category_name": "Materials & Circularity",
@@ -2416,7 +2480,7 @@
    "actions_total": 22,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/629",
    "source_updated_at": "2026-07-31T13:48:32Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "nature-biodiversity",
    "category_name": "Nature & Biodiversity",
@@ -2429,6 +2493,156 @@
    "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
    "change": null
+  },
+  {
+   "id": "us-congress-119-s-5811",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "S",
+   "bill_number": "5811",
+   "bill": "S. 5811",
+   "session": "119th Congress",
+   "origin_chamber": "Senate",
+   "title": "A bill to reauthorize the Junior Duck Stamp Conservation and Design Program Act of 1994, and for other purposes.",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Sen. Heinrich, Martin [D-NM]",
+   "cosponsors_count": 1,
+   "policy_area": null,
+   "committees": [
+    "Environment and Public Works Committee"
+   ],
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Read twice and referred to the Committee on Environment and Public Works.",
+   "latest_action_date": "2026-11-19",
+   "upcoming": false,
+   "introduced": "2026-11-19",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-19",
+     "text": "Read twice and referred to the Committee on Environment and Public Works.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in Senate",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 2,
+   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5811",
+   "source_updated_at": "2026-11-20T11:56:56Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "nature-biodiversity",
+   "category_name": "Nature & Biodiversity",
+   "categories": [
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Nature & Biodiversity"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "us-congress-119-hr-9590",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "9590",
+   "bill": "H.R. 9590",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "SAFE for Manatees Act",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Rep. Webster, Daniel [R-FL-11]",
+   "cosponsors_count": 7,
+   "policy_area": "Environmental Protection",
+   "committees": [
+    "Natural Resources Committee"
+   ],
+   "status": "reported",
+   "status_label": "Reported by committee",
+   "latest_action": "Ordered to be Reported in the Nature of a Substitute by Unanimous Consent.",
+   "latest_action_date": "2026-11-18",
+   "upcoming": false,
+   "introduced": "2026-07-02",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-18",
+     "text": "Ordered to be Reported in the Nature of a Substitute by Unanimous Consent.",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Committee Consideration and Mark-up Session Held",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Subcommittee on Water, Wildlife and Fisheries Discharged",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-09-16",
+     "text": "Subcommittee Hearings Held",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-09-10",
+     "text": "Referred to the Subcommittee on Water, Wildlife and Fisheries.",
+     "type": "Committee"
+    },
+    {
+     "date": "2026-07-02",
+     "text": "Referred to the House Committee on Natural Resources.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-07-02",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-07-02",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 8,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/9590",
+   "source_updated_at": "2026-11-20T09:07:25Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "nature-biodiversity",
+   "category_name": "Nature & Biodiversity",
+   "categories": [
+    "nature-biodiversity"
+   ],
+   "topics": [
+    "Nature & Biodiversity"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
   },
   {
    "id": "us-congress-119-hr-11059",
@@ -2481,7 +2695,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/11059",
    "source_updated_at": "2026-11-19T13:28:45Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "nature-biodiversity",
    "category_name": "Nature & Biodiversity",
@@ -2541,7 +2755,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5740",
    "source_updated_at": "2026-11-19T11:56:47Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "nature-biodiversity",
    "category_name": "Nature & Biodiversity",
@@ -2617,152 +2831,7 @@
    "actions_total": 5,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/11002",
    "source_updated_at": "2026-11-18T09:06:27Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
-   "classification": "auto-title-summary",
-   "category": "nature-biodiversity",
-   "category_name": "Nature & Biodiversity",
-   "categories": [
-    "nature-biodiversity"
-   ],
-   "topics": [
-    "Nature & Biodiversity"
-   ],
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
-   "id": "us-congress-119-s-3527",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "S",
-   "bill_number": "3527",
-   "bill": "S. 3527",
-   "session": "119th Congress",
-   "origin_chamber": "Senate",
-   "title": "Montana Sportsmen Conservation Act",
-   "summary": null,
-   "summary_version": null,
-   "sponsor": "Sen. Daines, Steve [R-MT]",
-   "cosponsors_count": 1,
-   "policy_area": "Public Lands and Natural Resources",
-   "committees": [
-    "Energy and Natural Resources Committee"
-   ],
-   "status": "reported",
-   "status_label": "Reported by committee",
-   "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 705.",
-   "latest_action_date": "2026-11-12",
-   "upcoming": false,
-   "introduced": "2025-12-17",
-   "passed_house_date": null,
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-11-12",
-     "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 705.",
-     "type": "Calendars"
-    },
-    {
-     "date": "2026-11-12",
-     "text": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment in the nature of a substitute. Without written report.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-11-12",
-     "text": "Committee on Energy and Natural Resources. Reported by Senator Lee with an amendment in the nature of a substitute. Without written report.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-03-04",
-     "text": "Committee on Energy and Natural Resources. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-02-12",
-     "text": "Committee on Energy and Natural Resources Subcommittee on Public Lands, Forests, and Mining. Hearings held. With printed Hearing: S.Hrg. 119-305.",
-     "type": "Committee"
-    },
-    {
-     "date": "2025-12-17",
-     "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2025-12-17",
-     "text": "Introduced in Senate",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 7,
-   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3527",
-   "source_updated_at": "2026-11-17T06:23:35Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
-   "classification": "auto-title-summary",
-   "category": "nature-biodiversity",
-   "category_name": "Nature & Biodiversity",
-   "categories": [
-    "nature-biodiversity"
-   ],
-   "topics": [
-    "Nature & Biodiversity"
-   ],
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
-   "id": "us-congress-119-s-5711",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "S",
-   "bill_number": "5711",
-   "bill": "S. 5711",
-   "session": "119th Congress",
-   "origin_chamber": "Senate",
-   "title": "National Wildlife Refuge Habitat Partnership Act",
-   "summary": null,
-   "summary_version": null,
-   "sponsor": "Sen. Boozman, John [R-AR]",
-   "cosponsors_count": 1,
-   "policy_area": "Public Lands and Natural Resources",
-   "committees": [
-    "Environment and Public Works Committee"
-   ],
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Read twice and referred to the Committee on Environment and Public Works.",
-   "latest_action_date": "2026-11-10",
-   "upcoming": false,
-   "introduced": "2026-11-10",
-   "passed_house_date": null,
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-11-10",
-     "text": "Read twice and referred to the Committee on Environment and Public Works.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-11-10",
-     "text": "Introduced in Senate",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 2,
-   "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5711",
-   "source_updated_at": "2026-11-19T20:33:26Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "nature-biodiversity",
    "category_name": "Nature & Biodiversity",
@@ -2851,7 +2920,7 @@
    "actions_total": 7,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10488",
    "source_updated_at": "2026-10-01T15:10:39Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "environmental-justice",
    "category_name": "Environmental Justice",
@@ -2922,7 +2991,7 @@
    "actions_total": 4,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10007",
    "source_updated_at": "2026-10-06T18:43:25Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "environmental-justice",
    "category_name": "Environmental Justice",
@@ -2935,6 +3004,71 @@
    "first_seen": "2026-11-14",
    "changed_on": "2026-11-14",
    "change": null
+  },
+  {
+   "id": "us-congress-119-hr-11086",
+   "jurisdiction": "federal",
+   "legislative_body": "U.S. Congress",
+   "state": null,
+   "congress": 119,
+   "bill_type": "HR",
+   "bill_number": "11086",
+   "bill": "H.R. 11086",
+   "session": "119th Congress",
+   "origin_chamber": "House",
+   "title": "Plug-In Solar Savings Act of 2026",
+   "summary": null,
+   "summary_version": null,
+   "sponsor": "Rep. Barragán, Nanette Diaz [D-CA-44]",
+   "cosponsors_count": 4,
+   "policy_area": null,
+   "committees": [
+    "Energy and Commerce Committee"
+   ],
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Referred to the House Committee on Energy and Commerce.",
+   "latest_action_date": "2026-11-19",
+   "upcoming": false,
+   "introduced": "2026-11-19",
+   "passed_house_date": null,
+   "passed_senate_date": null,
+   "enacted_date": null,
+   "effective_date": null,
+   "law_number": null,
+   "actions": [
+    {
+     "date": "2026-11-19",
+     "text": "Referred to the House Committee on Energy and Commerce.",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    },
+    {
+     "date": "2026-11-19",
+     "text": "Introduced in House",
+     "type": "IntroReferral"
+    }
+   ],
+   "actions_total": 3,
+   "url": "https://www.congress.gov/bill/119th-congress/house-bill/11086",
+   "source_updated_at": "2026-11-20T13:13:38Z",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
+   "classification": "auto-title-summary",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "change": "new",
+   "changed_on": "2026-11-20",
+   "first_seen": "2026-11-20"
   },
   {
    "id": "us-congress-119-s-5733",
@@ -2982,7 +3116,7 @@
    "actions_total": 2,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5733",
    "source_updated_at": "2026-11-18T11:56:43Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3047,7 +3181,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/11034",
    "source_updated_at": "2026-11-17T06:23:36Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3112,7 +3246,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/11022",
    "source_updated_at": "2026-11-18T09:06:57Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3197,7 +3331,7 @@
    "actions_total": 7,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/465",
    "source_updated_at": "2026-11-17T09:05:41Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3282,7 +3416,7 @@
    "actions_total": 7,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/140",
    "source_updated_at": "2026-11-17T06:18:36Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3347,7 +3481,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10988",
    "source_updated_at": "2026-11-14T16:33:06Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3412,7 +3546,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10989",
    "source_updated_at": "2026-11-17T13:22:33Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3477,7 +3611,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10980",
    "source_updated_at": "2026-11-17T19:11:59Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3572,7 +3706,7 @@
    "actions_total": 9,
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1564",
    "source_updated_at": "2026-10-14T19:00:47Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3637,7 +3771,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10674",
    "source_updated_at": "2026-11-10T14:14:16Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
@@ -3702,202 +3836,7 @@
    "actions_total": 3,
    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10667",
    "source_updated_at": "2026-10-20T17:13:51Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
-   "classification": "auto-title-summary",
-   "category": "infrastructure-resilience",
-   "category_name": "Infrastructure & Resilience",
-   "categories": [
-    "infrastructure-resilience"
-   ],
-   "topics": [
-    "Infrastructure & Resilience"
-   ],
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
-   "change": null
-  },
-  {
-   "id": "us-congress-119-hr-9340",
-   "jurisdiction": "federal",
-   "legislative_body": "U.S. Congress",
-   "state": null,
-   "congress": 119,
-   "bill_type": "HR",
-   "bill_number": "9340",
-   "bill": "H.R. 9340",
-   "session": "119th Congress",
-   "origin_chamber": "House",
-   "title": "Ratepayer Protection Act",
-   "summary": "Ratepayer Protection Act\nThe bill requires state utility regulators and nonregulated utilities to consider implementing a standard to hold certain large-load customers responsible for the costs associated with any generation, transmission, or distribution upgrade of electric service necessary to serve such customers. A large-load customer means a non-residential electric consumer that enters, or requests to enter, an agreement concerning the sale of electric energy primarily to operate information technology infrastructure and related systems pertaining to data storage and computational applications and services (e.g., data centers) that have a peak electric demand of 100 megawatts or more at a single site or campus. \nSpecifically, the bill requires states to consider implementing a federal standard for large-load customers. The standard must require rates charged by electric utilities for providing electric service to a large-load customer to be designed to recover from the large-load customer the full, incremental cost of any generation, transmission, or distribution upgrade necessary to serve such customer. This rate must include the costs that would be incurred if the large-load customer terminates an agreement with the electric utility pertaining to the sale of electric energy or otherwise ceases the purchase of energy from the electric utility.\nUnder the standard, an electric utility must require the large-load customer to provide to the utility financial assurances or contributions to cover the cost of any generation, transmission, or distribution upgrade that is necessary to serve the load of a large-load customer before the utility makes any generation, transmission, or distribution upgrade.",
-   "summary_version": "Reported to House (2026-09-10)",
-   "sponsor": "Rep. Evans, Gabe [R-CO-8]",
-   "cosponsors_count": 42,
-   "policy_area": "Energy",
-   "committees": [
-    "Energy and Commerce Committee"
-   ],
-   "status": "passed_one_chamber",
-   "status_label": "Passed one chamber",
-   "latest_action": "Motion to proceed to consideration of measure withdrawn in Senate. (CR S5199)",
-   "latest_action_date": "2026-09-30",
-   "upcoming": false,
-   "introduced": "2026-06-18",
-   "passed_house_date": "2026-09-16",
-   "passed_senate_date": null,
-   "enacted_date": null,
-   "effective_date": null,
-   "law_number": null,
-   "actions": [
-    {
-     "date": "2026-09-30",
-     "text": "Motion to proceed to consideration of measure withdrawn in Senate. (CR S5199)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-30",
-     "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 57 - 43. Record Vote Number: 254.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-30",
-     "text": "Motion to proceed to consideration of measure made in Senate. (CR S5199)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-29",
-     "text": "Motion to proceed to consideration of measure made in Senate.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-28",
-     "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S5065)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-28",
-     "text": "Motion to proceed to consideration of measure made in Senate. (CR S5065)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-24",
-     "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 684.",
-     "type": "Calendars"
-    },
-    {
-     "date": "2026-09-23",
-     "text": "Read the first time. Placed on Senate Legislative Calendar under Read the First Time.",
-     "type": "Calendars"
-    },
-    {
-     "date": "2026-09-17",
-     "text": "Received in the Senate.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "Motion to reconsider laid on the table Agreed to without objection.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 417 - 3 (Roll no. 312). (text: CR H5656-5657)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by the Yeas and Nays: (2/3 required): 417 - 3 (Roll no. 312). (text: CR H5656-5657)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-16",
-     "text": "Considered as unfinished business. (consideration: CR H5958-5959)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-15",
-     "text": "At the conclusion of debate, the Yeas and Nays were demanded and ordered. Pursuant to the provisions of clause 8, rule XX, the Chair announced that further proceedings on the motion would be postponed.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-15",
-     "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 9340.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-15",
-     "text": "Considered under suspension of the rules. (consideration: CR H5656-5661)",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-15",
-     "text": "Mr. Guthrie moved to suspend the rules and pass the bill, as amended.",
-     "type": "Floor"
-    },
-    {
-     "date": "2026-09-10",
-     "text": "Placed on the Union Calendar, Calendar No. 713.",
-     "type": "Calendars"
-    },
-    {
-     "date": "2026-09-10",
-     "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-814.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-09-10",
-     "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-814.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-07-21",
-     "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 52 - 0.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-07-21",
-     "text": "Committee Consideration and Mark-up Session Held",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-07-20",
-     "text": "Committee Consideration and Mark-up Session Held",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-06-24",
-     "text": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-06-24",
-     "text": "Subcommittee Consideration and Mark-up Session Held",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-06-18",
-     "text": "Referred to the Subcommittee on Energy.",
-     "type": "Committee"
-    },
-    {
-     "date": "2026-06-18",
-     "text": "Referred to the House Committee on Energy and Commerce.",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-06-18",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    },
-    {
-     "date": "2026-06-18",
-     "text": "Introduced in House",
-     "type": "IntroReferral"
-    }
-   ],
-   "actions_total": 29,
-   "url": "https://www.congress.gov/bill/119th-congress/house-bill/9340",
-   "source_updated_at": "2026-11-13T17:27:32Z",
-   "last_verified_at": "2026-11-20T03:58:44+00:00",
+   "last_verified_at": "2026-11-20T19:04:41+00:00",
    "classification": "auto-title-summary",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
