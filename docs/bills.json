@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-20T19:04:22+00:00",
+ "generated_at": "2026-11-21T03:54:41+00:00",
  "states": "all",
  "categories": [
   {
@@ -461,7 +461,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-18",
    "changed_on": "2026-11-18",
-   "change": "new"
+   "change": null
   },
   {
    "id": "790698fd-bf2d-4c66-9118-418303f1c54b",
@@ -600,9 +600,9 @@
     "Land Use & Development"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-20",
    "changed_on": "2026-11-20",
-   "first_seen": "2026-11-20"
+   "change": "new"
   },
   {
    "id": "b470cb74-c59a-484a-a4cd-4aa1c6e5491d",
