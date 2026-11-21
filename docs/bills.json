@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-21T03:54:41+00:00",
+ "generated_at": "2026-11-21T17:59:12+00:00",
  "states": "all",
  "categories": [
   {
@@ -215,6 +215,36 @@
    "change": null
   },
   {
+   "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
+   "jurisdiction": "state",
+   "state": "MA",
+   "bill": "S 3137",
+   "title": "An Act providing for improved public access and climate resiliency on the Mystic River and increasing the utilization of the designated port area",
+   "session": "2025-2026 Regular Session (194th General Court)",
+   "status": "introduced",
+   "status_label": "Introduced",
+   "latest_action": "Read second and ordered to a third reading",
+   "latest_action_date": "2026-11-19",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://malegislature.gov/Bills/194/S3137",
+   "category": "climate-emissions",
+   "category_name": "Climate & Emissions",
+   "categories": [
+    "climate-emissions",
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Climate & Emissions",
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-11-04",
+   "change": "moved",
+   "changed_on": "2026-11-21",
+   "previous_status_label": "Passed one chamber"
+  },
+  {
    "id": "bb4da447-b4fa-48f9-a011-8b3379c242a8",
    "jurisdiction": "state",
    "state": "NJ",
@@ -239,35 +269,6 @@
    "classification": "auto-title",
    "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "change": null
-  },
-  {
-   "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
-   "jurisdiction": "state",
-   "state": "MA",
-   "bill": "S 3137",
-   "title": "An Act providing for improved public access and climate resiliency on the Mystic River and increasing the utilization of the designated port area",
-   "session": "2025-2026 Regular Session (194th General Court)",
-   "status": "passed_one_chamber",
-   "status_label": "Passed one chamber",
-   "latest_action": "Read third (title changed) and passed to be engrossed",
-   "latest_action_date": "2026-11-02",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://malegislature.gov/Bills/194/S3137",
-   "category": "climate-emissions",
-   "category_name": "Climate & Emissions",
-   "categories": [
-    "climate-emissions",
-    "infrastructure-resilience"
-   ],
-   "topics": [
-    "Climate & Emissions",
-    "Infrastructure & Resilience"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-04",
-   "changed_on": "2026-11-04",
    "change": null
   },
   {
@@ -547,6 +548,33 @@
    "change": null
   },
   {
+   "id": "38006d83-aa0a-4b9d-a359-4afe2827ed3f",
+   "jurisdiction": "state",
+   "state": "PA",
+   "bill": "SB 1346",
+   "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in general provisions, further providing for definitions; in subdivision and land development, further providing for contents of subdivision and land development ordinance; and, in zoning, further providing for ordinance provisions and providing for accessory dwelling units.",
+   "session": "2025-2026 Regular Session (209th General Assembly)",
+   "status": "introduced",
+   "status_label": "Introduced",
+   "latest_action": "Laid on the table (Pursuant to Senate Rule 9)",
+   "latest_action_date": "2026-11-17",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=35&rollcallid=997&sessYr=2025&sessInd=0",
+   "category": "land-use",
+   "category_name": "Land Use & Development",
+   "categories": [
+    "land-use"
+   ],
+   "topics": [
+    "Land Use & Development"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-21",
+   "first_seen": "2026-11-21"
+  },
+  {
    "id": "3b580269-dd96-4016-8f39-9b20622d6c73",
    "jurisdiction": "state",
    "state": "MI",
@@ -685,33 +713,6 @@
    "classification": "auto-title",
    "first_seen": "2026-11-06",
    "changed_on": "2026-11-06",
-   "change": null
-  },
-  {
-   "id": "659e3f89-3c1f-4c26-873e-fa3a16f2319b",
-   "jurisdiction": "state",
-   "state": "PA",
-   "bill": "HB 2629",
-   "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in zoning, further providing for enforcement notice.",
-   "session": "2025-2026 Regular Session (209th General Assembly)",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Referred to Local Government",
-   "latest_action_date": "2026-10-14",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=30&rollcallid=2463&sessYr=2025&sessInd=0",
-   "category": "land-use",
-   "category_name": "Land Use & Development",
-   "categories": [
-    "land-use"
-   ],
-   "topics": [
-    "Land Use & Development"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
    "change": null
   },
   {
@@ -1120,6 +1121,33 @@
    "change": null
   },
   {
+   "id": "b8c335e6-6317-44ea-b112-db137e3b195c",
+   "jurisdiction": "state",
+   "state": "NY",
+   "bill": "A 10510",
+   "title": "Prohibits gas and electric corporations from recovering costs related to labor-related legal activity or workers' compensation loss adjustment expenses from ratepayers",
+   "session": "2025-2026 Regular Session",
+   "status": "vetoed",
+   "status_label": "Vetoed",
+   "latest_action": "TABLED",
+   "latest_action_date": "2026-11-20",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10510?summary=&detail=",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-21",
+   "first_seen": "2026-11-21"
+  },
+  {
    "id": "5fdf43f0-ae2a-4c68-8656-6f2e37395a45",
    "jurisdiction": "state",
    "state": "NJ",
@@ -1414,33 +1442,6 @@
    "classification": "auto-title",
    "first_seen": "2026-10-16",
    "changed_on": "2026-10-16",
-   "change": null
-  },
-  {
-   "id": "957af0d4-7c15-452e-8a7a-bd4ab7471380",
-   "jurisdiction": "state",
-   "state": "IL",
-   "bill": "SB 3078",
-   "title": "LOC GOV-ENERGY STORAGE SYSTEMS",
-   "session": "104th General Assembly, 2026 Session",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Added as Co-Sponsor Sen. Sally J. Turner",
-   "latest_action_date": "2026-10-13",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3078&GAID=18&DocTypeID=SB&LegId=165658&SessionID=114",
-   "category": "infrastructure-resilience",
-   "category_name": "Infrastructure & Resilience",
-   "categories": [
-    "infrastructure-resilience"
-   ],
-   "topics": [
-    "Infrastructure & Resilience"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-14",
-   "changed_on": "2026-11-14",
    "change": null
   }
  ]
