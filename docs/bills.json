@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-21T17:59:12+00:00",
+ "generated_at": "2026-11-22T02:57:19+00:00",
  "states": "all",
  "categories": [
   {
@@ -240,8 +240,8 @@
    ],
    "classification": "auto-title",
    "first_seen": "2026-11-04",
-   "change": "moved",
    "changed_on": "2026-11-21",
+   "change": "moved",
    "previous_status_label": "Passed one chamber"
   },
   {
@@ -570,9 +570,9 @@
     "Land Use & Development"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-21",
    "changed_on": "2026-11-21",
-   "first_seen": "2026-11-21"
+   "change": "new"
   },
   {
    "id": "3b580269-dd96-4016-8f39-9b20622d6c73",
@@ -1143,9 +1143,9 @@
     "Infrastructure & Resilience"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-21",
    "changed_on": "2026-11-21",
-   "first_seen": "2026-11-21"
+   "change": "new"
   },
   {
    "id": "5fdf43f0-ae2a-4c68-8656-6f2e37395a45",
