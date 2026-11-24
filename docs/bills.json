@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-24T06:54:00+00:00",
+ "generated_at": "2026-11-24T21:05:49+00:00",
  "states": "all",
  "categories": [
   {
@@ -26,7 +26,7 @@
   {
    "slug": "materials-circularity",
    "name": "Materials & Circularity",
-   "count": 6
+   "count": 7
   },
   {
    "slug": "nature-biodiversity",
@@ -215,6 +215,34 @@
    "change": null
   },
   {
+   "id": "46d55035-a500-4af6-8688-b072e1d5b3aa",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "S 687",
+   "title": "Creates Joint Blue Ribbon Task Force on Impacts of Climate Change on Property Insurance.",
+   "session": "222",
+   "status": "introduced",
+   "status_label": "Introduced",
+   "latest_action": "Received in the Senate, 2nd Reading on Concurrence",
+   "latest_action_date": "2026-11-23",
+   "upcoming": false,
+   "introduced": "2026-01-13",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/S687",
+   "category": "climate-emissions",
+   "category_name": "Climate & Emissions",
+   "categories": [
+    "climate-emissions"
+   ],
+   "topics": [
+    "Climate & Emissions"
+   ],
+   "classification": "auto-title",
+   "first_seen": "2026-10-30",
+   "change": "moved",
+   "changed_on": "2026-11-24",
+   "previous_status_label": "Passed one chamber"
+  },
+  {
    "id": "cbffea9a-ee81-4f30-8f35-da9b98030a99",
    "jurisdiction": "state",
    "state": "MA",
@@ -268,33 +296,6 @@
    "classification": "auto-title",
    "first_seen": "2026-11-17",
    "changed_on": "2026-11-17",
-   "change": null
-  },
-  {
-   "id": "46d55035-a500-4af6-8688-b072e1d5b3aa",
-   "jurisdiction": "state",
-   "state": "NJ",
-   "bill": "S 687",
-   "title": "Creates Joint Blue Ribbon Task Force on Impacts of Climate Change on Property Insurance.",
-   "session": "222",
-   "status": "passed_one_chamber",
-   "status_label": "Passed one chamber",
-   "latest_action": "Passed by the Assembly (55-21-3)",
-   "latest_action_date": "2026-10-29",
-   "upcoming": false,
-   "introduced": "2026-01-13",
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/S687",
-   "category": "climate-emissions",
-   "category_name": "Climate & Emissions",
-   "categories": [
-    "climate-emissions"
-   ],
-   "topics": [
-    "Climate & Emissions"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-10-30",
-   "changed_on": "2026-10-30",
    "change": null
   },
   {
@@ -381,6 +382,35 @@
    "change": null
   },
   {
+   "id": "128e2a56-2d6e-46ac-bd88-da37da9c6930",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "SR 112",
+   "title": "Urges EPA to adopt drinking water standard for microplastics and nanoplastics.",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
+   "latest_action_date": "2026-11-23",
+   "upcoming": false,
+   "introduced": null,
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/SR112",
+   "category": "water-resources",
+   "category_name": "Water Resources",
+   "categories": [
+    "water-resources",
+    "materials-circularity"
+   ],
+   "topics": [
+    "Water Resources",
+    "Materials & Circularity"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-24",
+   "first_seen": "2026-11-24"
+  },
+  {
    "id": "ba9c7a5a-83e3-4003-8a97-9d72eb55bcb4",
    "jurisdiction": "state",
    "state": "NJ",
@@ -394,33 +424,6 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5768",
-   "category": "water-resources",
-   "category_name": "Water Resources",
-   "categories": [
-    "water-resources"
-   ],
-   "topics": [
-    "Water Resources"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-17",
-   "changed_on": "2026-11-17",
-   "change": null
-  },
-  {
-   "id": "dc9e3ccf-1eb8-41c0-8e85-44cc5261c2c4",
-   "jurisdiction": "state",
-   "state": "NJ",
-   "bill": "A 5797",
-   "title": "Requires DEP to establish online reporting system for schools and child care centers to report test results concerning lead in drinking water.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced, Referred to Assembly Environment and Solid Waste Committee",
-   "latest_action_date": "2026-11-16",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5797",
    "category": "water-resources",
    "category_name": "Water Resources",
    "categories": [
@@ -1120,6 +1123,33 @@
    "change": null
   },
   {
+   "id": "8f663709-5b3d-4732-a403-ea40f2c2bdbb",
+   "jurisdiction": "state",
+   "state": "NJ",
+   "bill": "A 4688",
+   "title": "Excludes biomass, solar, and wind energy systems located on rooftops or exception areas from certain size restrictions and approval requirements applicable to preserved farmland.*",
+   "session": "222",
+   "status": "in_committee",
+   "status_label": "In committee",
+   "latest_action": "Received in the Senate, Referred to Senate Environment and Energy Committee",
+   "latest_action_date": "2026-11-23",
+   "upcoming": false,
+   "introduced": "2026-03-16",
+   "url": "https://www.njleg.state.nj.us/bill-search/2026/A4688",
+   "category": "infrastructure-resilience",
+   "category_name": "Infrastructure & Resilience",
+   "categories": [
+    "infrastructure-resilience"
+   ],
+   "topics": [
+    "Infrastructure & Resilience"
+   ],
+   "classification": "auto-title",
+   "change": "new",
+   "changed_on": "2026-11-24",
+   "first_seen": "2026-11-24"
+  },
+  {
    "id": "b8c335e6-6317-44ea-b112-db137e3b195c",
    "jurisdiction": "state",
    "state": "NY",
@@ -1160,33 +1190,6 @@
    "upcoming": false,
    "introduced": null,
    "url": "https://www.njleg.state.nj.us/bill-search/2026/A5823",
-   "category": "infrastructure-resilience",
-   "category_name": "Infrastructure & Resilience",
-   "categories": [
-    "infrastructure-resilience"
-   ],
-   "topics": [
-    "Infrastructure & Resilience"
-   ],
-   "classification": "auto-title",
-   "first_seen": "2026-11-17",
-   "changed_on": "2026-11-17",
-   "change": null
-  },
-  {
-   "id": "2114b5bc-54cd-4251-93d2-ecabe36d85a7",
-   "jurisdiction": "state",
-   "state": "NJ",
-   "bill": "A 5811",
-   "title": "\"Ratepayer-Indifference Act\"; establishes certain requirements for provision of electric public utility service to certain data centers.",
-   "session": "222",
-   "status": "in_committee",
-   "status_label": "In committee",
-   "latest_action": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
-   "latest_action_date": "2026-11-16",
-   "upcoming": false,
-   "introduced": null,
-   "url": "https://www.njleg.state.nj.us/bill-search/2026/A5811",
    "category": "infrastructure-resilience",
    "category_name": "Infrastructure & Resilience",
    "categories": [
