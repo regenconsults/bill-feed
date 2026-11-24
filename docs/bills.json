@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-23T22:33:35+00:00",
+ "generated_at": "2026-11-24T06:54:00+00:00",
  "states": "all",
  "categories": [
   {
@@ -241,8 +241,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-04",
    "changed_on": "2026-11-21",
-   "change": "moved",
-   "previous_status_label": "Passed one chamber"
+   "change": null
   },
   {
    "id": "bb4da447-b4fa-48f9-a011-8b3379c242a8",
@@ -572,7 +571,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-21",
    "changed_on": "2026-11-21",
-   "change": "new"
+   "change": null
   },
   {
    "id": "3b580269-dd96-4016-8f39-9b20622d6c73",
@@ -1145,7 +1144,7 @@
    "classification": "auto-title",
    "first_seen": "2026-11-21",
    "changed_on": "2026-11-21",
-   "change": "new"
+   "change": null
   },
   {
    "id": "5fdf43f0-ae2a-4c68-8656-6f2e37395a45",
