@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-24T21:05:49+00:00",
+ "generated_at": "2026-11-25T05:21:07+00:00",
  "states": "all",
  "categories": [
   {
@@ -238,8 +238,8 @@
    ],
    "classification": "auto-title",
    "first_seen": "2026-10-30",
-   "change": "moved",
    "changed_on": "2026-11-24",
+   "change": "moved",
    "previous_status_label": "Passed one chamber"
   },
   {
@@ -406,9 +406,9 @@
     "Materials & Circularity"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-24",
    "changed_on": "2026-11-24",
-   "first_seen": "2026-11-24"
+   "change": "new"
   },
   {
    "id": "ba9c7a5a-83e3-4003-8a97-9d72eb55bcb4",
@@ -1145,9 +1145,9 @@
     "Infrastructure & Resilience"
    ],
    "classification": "auto-title",
-   "change": "new",
+   "first_seen": "2026-11-24",
    "changed_on": "2026-11-24",
-   "first_seen": "2026-11-24"
+   "change": "new"
   },
   {
    "id": "b8c335e6-6317-44ea-b112-db137e3b195c",
